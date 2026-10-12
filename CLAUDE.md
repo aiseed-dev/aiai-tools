@@ -36,9 +36,11 @@ OSS と AI で自分の側に置くためのスキルを置くリポジトリで
   出す物なので、「渡さない」と決めつけない
 - Web サイトは aiai の `website/` のスキルを使い、ここでは作り直さない。officework も aiai と
   同じく、公開された版を使うだけにする
-- ERPNext は、ERP とは何かと、自分の PC で動かせる環境を作ることだけを書く。移るかどうかは、
-  使えると分かってから考える。GPL と「自社利用限定」の
-  関係は `erpnext/README.md` に書いてあり、法律の助言ではないと明記する
+- ERP は Tryton(8.0 LTS、PostgreSQL)にする(2026-10-12 に決めた)。全部がファイルに書かれ、
+  日本の分を本体に手を入れずにモジュールとして置けるから。ERPNext は、設計を読む元として残す。
+  ERP とは何かと、自分の PC で動かせる環境を作ることと、日本で使うための訳と会計のモジュールを書く。
+  移るかどうかは、使えると分かってから考える。GPL と「自社利用限定」の関係は `erpnext/README.md`
+  に書いてあり、法律の助言ではないと明記する
 
 ## 作業の進め方(aiai と違う所)
 
@@ -57,7 +59,8 @@ OSS と AI で自分の側に置くためのスキルを置くリポジトリで
 | `server/`、`dodai/`、`ninshou/`、`code/`、`bunsho/`、`mail/`、`kaigi/`、`web/`、`api/`、`jouhou/`、`ai/` | aiseed.dev の自立編の順のスキル。見本の設定と `api/sample/main.py` |
 | `bunseki/` | 表のデータから予測する(Polars、scikit-learn、LightGBM、SHAP)。`yosoku.py` |
 | `kaiin/`、`tsuuchi/`、`renraku/`、`honnin/`、`kagi/`、`minpaku/`、`kanshi/`、`kaiseki/`、`network/` | 事業用のアプリの部品(会員、通知、メッセージ、本人確認、鍵、民泊の受付、VLM 監視、解析、ネットワーク)。`kaiseki/` に解析の受け口(Python、SQLite)とページのスクリプトとテスト。`kaiseki/d1/` は先に作った Cloudflare D1 の広告の見本。認証は `ninshou/` に書き足した |
-| `erpnext/` | ERP とは何かと、ERPNext を自分の PC で動かす手順。`aiai_ja/` は訳の追加と修正の Frappe アプリ。`README.md` にライセンスの決まり |
+| `tryton/` | ERP とは何かと、Tryton 8.0 を自分の PC で動かす手順と、日本の訳(`aiai_ja`)と会計(`account_jp`)の計画 |
+| `erpnext/` | ERPNext を自分の PC で動かした手順(設計を読む元)。`aiai_ja/` は訳の追加と修正の Frappe アプリ。`README.md` にライセンスの決まり |
 | `tools/kakunin.py` | 出典の URL と確かめた日を集め、確かめ直す物を出す。aiai と同じ |
 | `HOUKOKU.md`、`.github/ISSUE_TEMPLATE/` | 報告のしかたと Issue のひな形 |
 
@@ -69,6 +72,8 @@ OSS と AI で自分の側に置くためのスキルを置くリポジトリで
   scikit-learn など)が入っていない。conda で入れて動かすには、発注者の許しが要る
 - Cal.com の自分で置く版は cal.diy(MIT)に分かれ、「個人の、本番でない利用に強く勧める」と
   書いてある。使うかどうかは会社が決める形にした
+- Tryton は、まだ動かしていない。手順は 8.0 の説明書とソースで確かめた(2026-10-12)。日本語の訳と
+  日本の勘定科目、消費税のモジュールは、公式に無いので作る。ダウンロードは、発注者の許しを得てから
 - ERPNext は、Docker を使わずに(MariaDB 10.11、conda、bench)この PC で動かして確かめた
   (2026-10-06)。訳は `erpnext/aiai_ja/` で足して直す(用語集 `yougo.csv` にそろえる)。帳票の
   ひな形に英語が直に書かれた所は、日本の帳票を作るときに直す。Docker の見本は動かしていない。

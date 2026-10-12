@@ -27,6 +27,9 @@ aiai tools のスキルで使う物の、確かめた版とライセンスです
 | AnythingLLM | v1.16.2 | MIT | https://github.com/Mintplex-Labs/anything-llm/releases |
 | North Mini Code 1.0(Cohere) | 30B(3B が動く)MoE | Apache-2.0 | https://docs.cohere.com/docs/north-mini-code-1.0 |
 | scikit-learn、LightGBM、SHAP | 1.9.1、4.7.0、0.52.0(conda-forge) | BSD-3-Clause、MIT、MIT | https://anaconda.org/conda-forge/ |
+| Tryton(trytond と各モジュール) | 8.0 LTS(8.0.11) | GPL-3.0-or-later | https://pypi.org/project/trytond/ 、https://www.tryton.org/download |
+| sao(Tryton の Web の画面) | 8.0.12 | GPL-3.0-or-later | https://downloads.tryton.org/8.0/ |
+| PostgreSQL(Tryton の DB、Debian 13 の物) | 17 | PostgreSQL License | https://packages.debian.org/trixie/postgresql |
 | ERPNext、Frappe Framework | v16.36.1、v16.35.0(2026-10-06 にこの組で動かした) | GPL-3.0、MIT | https://github.com/frappe/erpnext/releases 、https://github.com/frappe/frappe/releases |
 | frappe-bench(ERPNext を組んで動かす道具) | 5.31.0 | GPL-3.0 | https://pypi.org/project/frappe-bench/ |
 | MariaDB(ERPNext の DB、Ubuntu 24.04 の物) | 10.11.14 | GPL-2.0 | https://packages.ubuntu.com/noble/mariadb-server |
