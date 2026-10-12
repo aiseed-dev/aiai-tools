@@ -1,0 +1,486 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:res.group,buttons:"
+msgid "Buttons"
+msgstr "ボタン"
+
+msgctxt "field:res.group,field_access:"
+msgid "Access Field"
+msgstr "項目のアクセス"
+
+msgctxt "field:res.group,menu_access:"
+msgid "Access Menu"
+msgstr "メニューのアクセス"
+
+msgctxt "field:res.group,model_access:"
+msgid "Access Model"
+msgstr "モデルのアクセス"
+
+msgctxt "field:res.group,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:res.group,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:res.group,rule_groups:"
+msgid "Rules"
+msgstr "規則"
+
+msgctxt "field:res.group,users:"
+msgid "Users"
+msgstr "利用者"
+
+msgctxt "field:res.notification,action:"
+msgid "Action"
+msgstr "操作"
+
+msgctxt "field:res.notification,action_value:"
+msgid "Action Value"
+msgstr "操作の値"
+
+msgctxt "field:res.notification,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:res.notification,icon:"
+msgid "Icon"
+msgstr "アイコン"
+
+msgctxt "field:res.notification,label:"
+msgid "Label"
+msgstr "ラベル"
+
+msgctxt "field:res.notification,model:"
+msgid "Model"
+msgstr "モデル"
+
+msgctxt "field:res.notification,model_ref:"
+msgid "Model"
+msgstr "モデル"
+
+msgctxt "field:res.notification,records:"
+msgid "Records"
+msgstr "レコード"
+
+msgctxt "field:res.notification,unread:"
+msgid "Unread"
+msgstr "未読"
+
+msgctxt "field:res.notification,user:"
+msgid "User"
+msgstr "利用者"
+
+msgctxt "field:res.user,actions:"
+msgid "Actions"
+msgstr "操作"
+
+msgctxt "field:res.user,applications:"
+msgid "Applications"
+msgstr "アプリケーション"
+
+msgctxt "field:res.user,avatar_badge_url:"
+msgid "Avatar Badge URL"
+msgstr "アバターのバッジの URL"
+
+msgctxt "field:res.user,email:"
+msgid "Email"
+msgstr "メール"
+
+msgctxt "field:res.user,groups:"
+msgid "Groups"
+msgstr "グループ"
+
+msgctxt "field:res.user,language:"
+msgid "Language"
+msgstr "言語"
+
+msgctxt "field:res.user,language_direction:"
+msgid "Language Direction"
+msgstr "言語の書字方向"
+
+msgctxt "field:res.user,login:"
+msgid "Login"
+msgstr "ログイン名"
+
+msgctxt "field:res.user,menu:"
+msgid "Menu"
+msgstr "メニュー"
+
+msgctxt "field:res.user,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:res.user,notifications:"
+msgid "Notifications"
+msgstr "通知"
+
+msgctxt "field:res.user,password:"
+msgid "Password"
+msgstr "パスワード"
+
+msgctxt "field:res.user,password_hash:"
+msgid "Password Hash"
+msgstr "パスワードのハッシュ"
+
+msgctxt "field:res.user,password_reset:"
+msgid "Reset Password"
+msgstr "パスワードの再設定"
+
+msgctxt "field:res.user,password_reset_expire:"
+msgid "Reset Password Expire"
+msgstr "パスワードの再設定の期限"
+
+msgctxt "field:res.user,pyson_menu:"
+msgid "PySON Menu"
+msgstr "PySON メニュー"
+
+msgctxt "field:res.user,sessions:"
+msgid "Sessions"
+msgstr "セッション"
+
+msgctxt "field:res.user,signature:"
+msgid "Signature"
+msgstr "署名"
+
+msgctxt "field:res.user,status_bar:"
+msgid "Status Bar"
+msgstr "ステータスバー"
+
+msgctxt "field:res.user,warnings:"
+msgid "Warnings"
+msgstr "警告"
+
+msgctxt "field:res.user-ir.action,action:"
+msgid "Action"
+msgstr "操作"
+
+msgctxt "field:res.user-ir.action,user:"
+msgid "User"
+msgstr "利用者"
+
+msgctxt "field:res.user-res.group,group:"
+msgid "Group"
+msgstr "グループ"
+
+msgctxt "field:res.user-res.group,user:"
+msgid "User"
+msgstr "利用者"
+
+msgctxt "field:res.user.application,application:"
+msgid "Application"
+msgstr "アプリケーション"
+
+msgctxt "field:res.user.application,key:"
+msgid "Key"
+msgstr "キー"
+
+msgctxt "field:res.user.application,state:"
+msgid "State"
+msgstr "状態"
+
+msgctxt "field:res.user.application,user:"
+msgid "User"
+msgstr "利用者"
+
+msgctxt "field:res.user.device,cookie:"
+msgid "Cookie"
+msgstr "Cookie"
+
+msgctxt "field:res.user.device,login:"
+msgid "Login"
+msgstr "ログイン名"
+
+msgctxt "field:res.user.login.attempt,device_cookie:"
+msgid "Device Cookie"
+msgstr "端末の Cookie"
+
+msgctxt "field:res.user.login.attempt,ip_address:"
+msgid "IP Address"
+msgstr "IP アドレス"
+
+msgctxt "field:res.user.login.attempt,ip_network:"
+msgid "IP Network"
+msgstr "IP ネットワーク"
+
+msgctxt "field:res.user.login.attempt,login:"
+msgid "Login"
+msgstr "ログイン名"
+
+msgctxt "field:res.user.warning,always:"
+msgid "Always"
+msgstr "常に"
+
+msgctxt "field:res.user.warning,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:res.user.warning,user:"
+msgid "User"
+msgstr "利用者"
+
+msgctxt "help:res.group,parent:"
+msgid "The group to inherit accesses from."
+msgstr "アクセスを引き継ぐ元のグループです。"
+
+msgctxt "help:res.user,actions:"
+msgid "Actions that will be run at login."
+msgstr "ログインのときに実行する操作です。"
+
+msgctxt "help:res.user,notifications:"
+msgid "Notifications to subscribe to."
+msgstr "受け取る通知です。"
+
+msgctxt "model:ir.action,name:act_group_form"
+msgid "Groups"
+msgstr "グループ"
+
+msgctxt "model:ir.action,name:act_notification"
+msgid "Notifications"
+msgstr "通知"
+
+msgctxt "model:ir.action,name:act_user_config"
+msgid "Configure Users"
+msgstr "利用者の設定"
+
+msgctxt "model:ir.action,name:act_user_form"
+msgid "Users"
+msgstr "利用者"
+
+msgctxt "model:ir.action,name:report_email_reset_password"
+msgid "Reset Password"
+msgstr "パスワードの再設定"
+
+msgctxt "model:ir.message,text:msg_email_invalid"
+msgid "The email address \"%(email)s\" for \"%(user)s\" is not valid."
+msgstr "「%(user)s」のメールアドレス「%(email)s」が正しくありません。"
+
+msgctxt "model:ir.message,text:msg_notification_silenced"
+msgid "%(number)s notification silenced."
+msgid_plural "%(number)s notifications silenced."
+msgstr[0] "%(number)s 件の通知を止めました。"
+
+msgctxt "model:ir.message,text:msg_password_email"
+msgid "The password cannot be the same as user's email address."
+msgstr "パスワードを利用者のメールアドレスと同じにはできません。"
+
+msgctxt "model:ir.message,text:msg_password_forbidden"
+msgid "The password is forbidden."
+msgstr "このパスワードは使えません。"
+
+msgctxt "model:ir.message,text:msg_password_length"
+msgid "The password must have at least %(length)i character."
+msgid_plural "The password must have at least %(length)i characters."
+msgstr[0] "パスワードは %(length)i 文字以上にしてください。"
+
+msgctxt "model:ir.message,text:msg_password_login"
+msgid "The password cannot be the same as user's login."
+msgstr "パスワードを利用者のログイン名と同じにはできません。"
+
+msgctxt "model:ir.message,text:msg_password_name"
+msgid "The password cannot be the same as user's name."
+msgstr "パスワードを利用者の名前と同じにはできません。"
+
+msgctxt "model:ir.message,text:msg_user_delete_forbidden"
+msgid ""
+"For logging purposes users cannot be deleted, instead they should be "
+"deactivated."
+msgstr "記録を残すため、利用者は削除できません。代わりに無効にしてください。"
+
+msgctxt "model:ir.message,text:msg_user_password"
+msgid "Password for %(login)s"
+msgstr "%(login)s のパスワード"
+
+msgctxt "model:ir.model.button,help:user_reset_password_button"
+msgid "Send by email a new temporary password to the user"
+msgstr "新しい仮のパスワードを利用者にメールで送ります"
+
+msgctxt "model:ir.model.button,string:user_application_cancel_button"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "model:ir.model.button,string:user_application_validate_button"
+msgid "Validate"
+msgstr "確認"
+
+msgctxt "model:ir.model.button,string:user_reset_password_button"
+msgid "Reset Password"
+msgstr "パスワードの再設定"
+
+msgctxt "model:ir.rule.group,name:rule_group_notification"
+msgid "Own notification"
+msgstr "自分の通知"
+
+msgctxt "model:ir.rule.group,name:rule_group_notification_admin"
+msgid "Any notification"
+msgstr "すべての通知"
+
+msgctxt "model:ir.rule.group,name:rule_group_user_application"
+msgid "Own user application"
+msgstr "自分の利用者アプリケーション"
+
+msgctxt "model:ir.rule.group,name:rule_group_user_application_admin"
+msgid "Any user application"
+msgstr "すべての利用者アプリケーション"
+
+msgctxt "model:ir.rule.group,name:rule_group_user_warning"
+msgid "Own warning"
+msgstr "自分の警告"
+
+msgctxt "model:ir.ui.menu,name:menu_group_form"
+msgid "Groups"
+msgstr "グループ"
+
+msgctxt "model:ir.ui.menu,name:menu_notification_form"
+msgid "Notifications"
+msgstr "通知"
+
+msgctxt "model:ir.ui.menu,name:menu_res"
+msgid "Users"
+msgstr "利用者"
+
+msgctxt "model:ir.ui.menu,name:menu_user_form"
+msgid "Users"
+msgstr "利用者"
+
+msgctxt "model:res.group,string:"
+msgid "Group"
+msgstr "グループ"
+
+msgctxt "model:res.notification,string:"
+msgid "Notification"
+msgstr "通知"
+
+msgctxt "model:res.user,string:"
+msgid "User"
+msgstr "利用者"
+
+msgctxt "model:res.user-ir.action,string:"
+msgid "User - Action"
+msgstr "利用者 - 操作"
+
+msgctxt "model:res.user-res.group,string:"
+msgid "User - Group"
+msgstr "利用者 - グループ"
+
+msgctxt "model:res.user.application,string:"
+msgid "User Application"
+msgstr "利用者アプリケーション"
+
+msgctxt "model:res.user.config.start,string:"
+msgid "User Config Start"
+msgstr "利用者の設定の開始"
+
+msgctxt "model:res.user.device,string:"
+msgid "User Device"
+msgstr "利用者の端末"
+
+msgctxt "model:res.user.login.attempt,string:"
+msgid "User Login Attempt"
+msgstr "利用者のログインの試み"
+
+msgctxt "model:res.user.warning,string:"
+msgid "User Warning"
+msgstr "利用者の警告"
+
+msgctxt "report:res.user.email_reset_password:"
+msgid ""
+"Hello,\n"
+"                we have received a request to reset the password for the account associated with [1:%(login)s]. No changes have been made to your account yet.[2:]\n"
+"                You can connect with this temporary password [3:%(password)s] to[4:]\n"
+"                [5:tryton://%(host)s/%(database)s][6:]\n"
+"                [7:%(http_host)s/#%(database)s][8:]\n"
+"                You must set a new one from the user's preferences.[9:]"
+msgstr ""
+"こんにちは。\n"
+"                [1:%(login)s] のアカウントのパスワードを再設定する依頼を受け付けました。アカウントはまだ変更されていません。[2:]\n"
+"                次の仮のパスワード [3:%(password)s] で接続できます。[4:]\n"
+"                [5:tryton://%(host)s/%(database)s][6:]\n"
+"                [7:%(http_host)s/#%(database)s][8:]\n"
+"                利用者の個人設定で、新しいパスワードを設定してください。[9:]"
+
+msgctxt "report:res.user.email_reset_password:"
+msgid "If you didn't make this request, you can safely ignore this email."
+msgstr "この依頼に心当たりがないときは、このメールを無視してください。"
+
+msgctxt "report:res.user.email_reset_password:"
+msgid "Reset Password"
+msgstr "パスワードの再設定"
+
+msgctxt "report:res.user.email_reset_password:"
+msgid "The password will expire in [1:%(datetime)s]."
+msgstr "パスワードの期限は [1:%(datetime)s] です。"
+
+msgctxt "selection:res.user.application,application:"
+msgid "REST API"
+msgstr "REST API"
+
+msgctxt "selection:res.user.application,state:"
+msgid "Cancelled"
+msgstr "取消済み"
+
+msgctxt "selection:res.user.application,state:"
+msgid "Requested"
+msgstr "依頼済み"
+
+msgctxt "selection:res.user.application,state:"
+msgid "Validated"
+msgstr "確認済み"
+
+msgctxt "view:res.group:"
+msgid "Access Permissions"
+msgstr "アクセス権"
+
+msgctxt "view:res.group:"
+msgid "Members"
+msgstr "加盟国"
+
+msgctxt "view:res.user.config.start:"
+msgid "Be careful that the login must be unique."
+msgstr "ログイン名は重複しないようにしてください。"
+
+msgctxt "view:res.user.config.start:"
+msgid "You can now add some users into the system."
+msgstr "システムに利用者を追加できます。"
+
+msgctxt "view:res.user:"
+msgid "Access Permissions"
+msgstr "アクセス権"
+
+msgctxt "view:res.user:"
+msgid "Actions"
+msgstr "操作"
+
+msgctxt "view:res.user:"
+msgid "Group Membership"
+msgstr "グループの所属"
+
+msgctxt "view:res.user:"
+msgid "Preferences"
+msgstr "個人設定"
+
+msgctxt "view:res.user:"
+msgid "User"
+msgstr "利用者"
+
+msgctxt "wizard_button:res.user.config,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:res.user.config,start,user:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:res.user.config,user,add:"
+msgid "Add"
+msgstr "追加"
+
+msgctxt "wizard_button:res.user.config,user,end:"
+msgid "End"
+msgstr "終了"

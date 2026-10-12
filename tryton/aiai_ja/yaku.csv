@@ -1,0 +1,3293 @@
+module,en,ja
+,Action,操作
+,Groups,グループ
+,Icon,アイコン
+,Keywords,キーワード
+,Name,名前
+,Records,レコード
+,Type,種類
+,Usage,用途
+,Group,グループ
+,Domains,ドメイン
+,Views,画面
+,Context Value,コンテキストの値
+,Context Domain,コンテキストのドメイン
+,Context Model,コンテキストのモデル
+,Domain Value,ドメインの値
+,Limit,件数の上限
+,Order Value,並び順の値
+,PySON Context,PySON コンテキスト
+,PySON Domain,PySON ドメイン
+,PySON Order,PySON 並び順
+,PySON Search Criteria,PySON 検索条件
+,Model,モデル
+,Search Criteria,検索条件
+,Count,件数
+,Domain,ドメイン
+,View,画面
+,Keyword,キーワード
+,Direct Print,直接印刷
+,Extension,拡張子
+,Is Custom,カスタム
+,Module,モジュール
+,Record Name,レコード名
+,Path,パス
+,Content,内容
+,Content HTML,内容 (HTML)
+,Content Name,内容の名前
+,Internal Name,内部名
+,Single,単一
+,Template Extension,ひな形の拡張子
+,Translatable,翻訳可能
+,Action Url,操作の URL
+,Window,ウィンドウ
+,Wizard name,ウィザード名
+,Copy to Resources,リソースにコピー
+,Copy to Resources Visible,リソースにコピーを表示
+,Data,データ
+,Data size,データの大きさ
+,Description,説明
+,File ID,ファイル ID
+,Last Modification,最終更新
+,Last User,最終更新者
+,Link,リンク
+,Resource,リソース
+,Summary,概要
+,Cache,キャッシュ
+,Image,画像
+,Image ID,画像 ID
+,UUID,UUID
+,Avatar,アバター
+,Size,大きさ
+,Timestamp,タイムスタンプ
+,Abbreviation,略称
+,Index,番号
+,Followers,フォロワー
+,Identifier,識別子
+,Author,作成者
+,Channel,チャンネル
+,Email,メール
+,User,利用者
+,Audience,公開範囲
+,Reference,参照
+,Hostname,ホスト名
+,language,言語
+,Series,シリーズ
+,Day,日
+,Hour,時
+,Interval Number,間隔の数
+,Interval Type,間隔の単位
+,Logs,ログ
+,Method,メソッド
+,Minute,分
+,Next Call,次回の実行
+,Running,実行中
+,Timezone,タイムゾーン
+,Day of Week,曜日
+,Cron,定期実行
+,Duration,所要時間
+,Ended,終了
+,Started,開始
+,Addresses,宛先
+,At,日時
+,Body,本文
+,Message-ID,Message-ID
+,Recipients,宛先
+,Hidden Recipients,BCC
+,Secondary Recipients,CC
+,Subject,件名
+,Address,住所
+,Model Name,モデル名
+,Reports,帳票
+,Report,帳票
+,Template,ひな形
+,Message,メッセージ
+,Origin,発生元
+,Processed by,処理者
+,Solved by,解決者
+,State,状態
+,Fields,項目
+,Header,見出し行
+,Ignore Search Limit,検索の上限を無視
+,Modification Groups,変更できるグループ
+,Export,エクスポート
+,Field,項目
+,Prefix,接頭辞
+,AM,午前
+,Code,コード
+,Date,日付
+,Decimal Separator,小数点の記号
+,Direction,文字の向き
+,Grouping,桁区切り
+,Thousands Separator,千の位の区切り
+,Negative Currency Symbol Precedes,負の金額で通貨記号を前に置く
+,Negative Separate by Space,負の金額で空白を入れる
+,Negative Sign Position,負の符号の位置
+,Negative Sign,負の符号
+,Number of plurals,複数形の数
+,Positive Currency Symbol Precedes,正の金額で通貨記号を前に置く
+,Positive Separate by Space,正の金額で空白を入れる
+,Positive Sign Position,正の符号の位置
+,Parent Code,親のコード
+,PostgreSQL Text Search Configuration,PostgreSQL 全文検索の設定
+,Plural,複数形
+,PM,午後
+,Positive Sign,正の符号
+,Languages,言語
+,Text,テキスト
+,Text Plural,テキスト (複数形)
+,Global Search,全体検索
+,String,文字列
+,Create Access,作成の権限
+,Delete Access,削除の権限
+,Read Access,読み取りの権限
+,Write Access,書き込みの権限
+,Clicks,クリック
+,Confirm,確定
+,Help,ヘルプ
+,Reset,リセット
+,Reset by,リセットするボタン
+,Rules,規則
+,Label,ラベル
+,Button,ボタン
+,Button Ruled,規則のあるボタン
+,Record ID,レコード ID
+,Condition,条件
+,Number of User,利用者の数
+,Resource ID,リソース ID
+,Field Names,項目名
+,Identifier on File System,ファイルシステム上の識別子
+,No Update,更新しない
+,Access,アクセス
+,Model Relation,関連のモデル
+,Relation,関連
+,Field Type,項目の種類
+,Event,イベント
+,Target,対象
+,Filter,フィルター
+,Level,階層
+,Children,子
+,Dependencies,依存
+,Parents,親
+,Version,版
+,Modules to update,更新するモジュール
+,Modules,モジュール
+,Percentage,割合
+,Unread,未読
+,Note,メモ
+,Dequeued at,取り出した日時
+,Enqueued at,登録した日時
+,Expected at,予定の完了日時
+,Finished at,完了した日時
+,Scheduled at,予定の開始日時
+,Default,既定
+,Global,全体
+,Tests,テスト
+,Rule Group,規則のグループ
+,Last Timestamp,最後のタイムスタンプ
+,Sequence Name,連番の名前
+,Increment Number,増分
+,Next Number,次の番号
+,Number padding,番号の桁数
+,Preview,プレビュー
+,Sequence Type,連番の種類
+,Suffix,接尾辞
+,Timestamp Offset,タイムスタンプのずれ
+,Timestamp Rounding,タイムスタンプの丸め
+,IP Address,IP アドレス
+,Key,キー
+,Fuzzy,要確認
+,Language,言語
+,Overriding Module,上書きするモジュール
+,Source,原文
+,Source Plural,原文 (複数形)
+,Translation Value,訳
+,Translation Value 1,訳 1
+,Translation Value 2,訳 2
+,Translation Value 3,訳 3
+,File,ファイル
+,Filename,ファイル名
+,Limit Number,上限回数
+,Minimum Delay,最小の間隔
+,On Create,作成時
+,On Delete,削除時
+,On Time,指定時刻
+,On Write,書き込み時
+,Trigger,トリガー
+,SVG Path,SVG パス
+,Action Keywords,操作のキーワード
+,Complete Name,完全な名前
+,Favorite,お気に入り
+,Favorites,お気に入り
+,Menu,メニュー
+,Parent Menu,親メニュー
+,View Architecture,画面の構成
+,Basis,基本
+,Extensions,拡張
+,Children Field,子の項目
+,Inherited View,継承する画面
+,Priority,優先度
+,View Type,画面の種類
+,Value,値
+,Child Field,子の項目
+,Child Name,子の名前
+,Expanded Nodes,展開したノード
+,Selected Nodes,選択したノード
+,Occurrence,出現
+,Screen Width,画面の幅
+,Width,幅
+,The records on which the action runs.,操作を実行するレコードです。
+,Part of the domain that will be evaluated on each refresh.,更新のたびに評価されるドメインの一部です。
+,Default limit for the list view.,一覧画面の既定の件数の上限です。
+,Default search criteria for the list view.,一覧画面の既定の検索条件です。
+,"Leave empty for the same as template, see LibreOffice documentation for compatible format.",空欄にするとひな形と同じになります。使える形式は LibreOffice の説明書を見てください。
+,"A Genshi expression to compute the name using 'record'.
+Leave empty for the default name.","'record' を使って名前を計算する Genshi の式です。
+空欄にすると既定の名前になります。"
+,Check if the template works only for one record.,ひな形が 1 件のレコードにだけ使えるときに、チェックを入れます。
+,Uncheck to disable translations for this report.,この帳票の翻訳を使わないときは、チェックを外します。
+,Run wizard in a new window.,新しいウィンドウでウィザードを実行します。
+,The field that contains the recipient(s).,宛先を持つ項目です。
+,The field that contains the hidden recipient(s).,BCC の宛先を持つ項目です。
+,"A PYSON expression that generates a list of hidden recipients with the record represented by ""self"".","""self"" で表されるレコードから BCC の宛先の一覧を作る PYSON の式です。"
+,"A PYSON expression that generates a list of recipients with the record represented by ""self"".","""self"" で表されるレコードから宛先の一覧を作る PYSON の式です。"
+,The field that contains the secondary recipient(s).,CC の宛先を持つ項目です。
+,"A PYSON expression that generates a list of secondary recipients with the record represented by ""self"".","""self"" で表されるレコードから CC の宛先の一覧を作る PYSON の式です。"
+,The user groups that can use the export.,エクスポートを使える利用者のグループです。
+,Check to include field names on the export.,エクスポートに項目名を含めるときに、チェックを入れます。
+,The records on which the export runs.,エクスポートを実行するレコードです。
+,The user groups that can modify the export.,エクスポートを変更できる利用者のグループです。
+,RFC 4646 tag.,RFC 4646 のタグです。
+,Code of the exceptional parent,例外となる親のコード
+,Python expression that returns the plural form for 'n'.,'n' に対する複数形を返す Python の式です。
+,Module in which this model is defined.,このモデルを定義しているモジュールです。
+,Text to ask user confirmation when clicking the button.,ボタンを押したときに、利用者に確認を求める文です。
+,Button that should reset the rules.,規則をリセットするボタンです。
+,"A PYSON statement evaluated with the record represented by ""self""
+It activate the rule if true.","""self"" で表されるレコードで評価される PYSON の文です。
+真のときに規則を有効にします。"
+,The id of the record in the database.,データベースでのレコードの ID です。
+,The id of the record as known on the file system.,ファイルシステム上でのレコードの ID です。
+,"If checked, the access right on the model of the field is also tested against the relation of the field.",チェックを入れると、項目のモデルのアクセス権を、項目の関連先に対しても確かめます。
+,Module in which this field is defined.,この項目を定義しているモジュールです。
+,Entering a Python Regular Expression will exclude matching models from the graph.,Python の正規表現を入れると、一致するモデルをグラフから除きます。
+,When the task should be done.,作業を終えるべき日時です。
+,When the task can start.,作業を始められる日時です。
+,"Domain is evaluated with a PYSON context containing:
+- ""groups"" as list of ids from the current user","ドメインは、次を含む PYSON のコンテキストで評価されます:
+- ""groups"": 今の利用者のグループの ID の一覧"
+,Add this rule to all users by default.,既定ですべての利用者にこの規則を加えます。
+,"Make the rule global 
+so every users must follow this rule.","規則を全体に適用し、
+すべての利用者がこの規則に従うようにします。"
+,Displayed to users when access error is raised for this rule.,この規則でアクセスのエラーが起きたときに、利用者に表示します。
+,"The rule is satisfied if at least one test is True.
+If there is no test defined, the rule is always satisfied if not global.","テストのうち 1 つでも真なら、規則を満たします。
+テストがないときは、全体の規則でなければ常に満たします。"
+,The current date can be used formatted using strftime format suffixed with underscores: i.e: ${date_Y},今日の日付を、strftime の書式に下線を付けて使えます。例: ${date_Y}
+,Groups allowed to edit the sequences of this type.,この種類の連番を編集できるグループです。
+,"A PYSON statement evaluated with record represented by ""self""
+It triggers the action if true.","""self"" で表されるレコードで評価される PYSON の文です。
+真のときに操作を実行します。"
+,"Limit the number of call to ""Action Function"" by records.
+0 for no limit.","レコードごとに ""Action Function"" を呼ぶ回数の上限です。
+0 で上限なしです。"
+,"Set a minimum time delay between call to ""Action Function"" for the same record.
+empty for no delay.","同じレコードで ""Action Function"" を呼ぶ間の最小の間隔です。
+空欄で間隔なしです。"
+,The PYSON domain.,PYSON のドメインです。
+,Window Actions,ウィンドウ操作
+,Actions,操作
+,URLs,URL
+,Wizards,ウィザード
+,Attachments,添付ファイル
+,Channels,チャンネル
+,Messages,メッセージ
+,Config Wizard Items,設定ウィザードの項目
+,Emails,メール
+,Email Archives,メールの保管
+,Email Templates,メールのひな形
+,Errors,エラー
+,Exports,エクスポート
+,Icons,アイコン
+,Configure Languages,言語の設定
+,Models Access,モデルのアクセス
+,Buttons,ボタン
+,Fields Access,項目のアクセス
+,Models,モデル
+,Perform Pending Activation/Upgrade,保留中の有効化と更新を実行
+,Configure Modules,モジュールの設定
+,Module Configuration,モジュールの設定
+,Notes,メモ
+,Record Rules,レコードの規則
+,Sequences,連番
+,Sequences Strict,厳密な連番
+,Types,種類
+,Clean Translations,翻訳の整理
+,Export Translations,翻訳のエクスポート
+,Translations,翻訳
+,Set Translations,翻訳を設定
+,Synchronize Translations,翻訳の同期
+,Triggers,トリガー
+,View Search,画面の検索
+,Show View,画面を表示
+,View Tree Optional,ツリー画面の任意表示
+,View Tree State,ツリー画面の状態
+,View Tree Width,ツリー画面の幅
+,Graph,グラフ
+,Workflow Graph,ワークフローのグラフ
+,Refresh Data,データの再読み込み
+,Action - Group,操作 - グループ
+,Action Act Window,ウィンドウ操作
+,All,すべて
+,Open,未処理
+,Processing,処理中
+,Local,ローカル
+,Action Act Window Domain,ウィンドウ操作のドメイン
+,Action Act Window View,ウィンドウ操作の画面
+,Action Keyword,操作のキーワード
+,Action Report,帳票の操作
+,Action Wizard,ウィザードの操作
+,Attachment,添付ファイル
+,Avatar Cache,アバターのキャッシュ
+,Fri,金
+,Mon,月
+,Sat,土
+,Sun,日
+,Thu,木
+,Tue,火
+,Wed,水
+,Friday,金曜日
+,Monday,月曜日
+,Saturday,土曜日
+,Sunday,日曜日
+,Thursday,木曜日
+,Tuesday,火曜日
+,Wednesday,水曜日
+,Calendar Day,曜日
+,Apr,4月
+,Aug,8月
+,Dec,12月
+,Feb,2月
+,Jan,1月
+,Jul,7月
+,Jun,6月
+,Mar,3月
+,May,5月
+,Nov,11月
+,Oct,10月
+,Sep,9月
+,April,4月
+,August,8月
+,December,12月
+,February,2月
+,January,1月
+,July,7月
+,June,6月
+,March,3月
+,November,11月
+,October,10月
+,September,9月
+,Calendar Month,暦の月
+,Chat Channel,チャットのチャンネル
+,Chat Follower,チャットのフォロワー
+,Chat Message,チャットのメッセージ
+,Configuration,設定
+,Cron Log,定期実行のログ
+,Email Address,メールアドレス
+,Email Template,メールのひな形
+,Email Template - Action Report,メールのひな形 - 帳票の操作
+,Error,エラー
+,Export - Group,エクスポート - グループ
+,Export - Write - Group,エクスポート - 書き込み - グループ
+,Export Line,エクスポートの行
+,Filestore Queue,ファイル保存の待ち行列
+,Bulgarian,ブルガリア語
+,Català,カタルーニャ語
+,Czech,チェコ語
+,German,ドイツ語
+,English,英語
+,Spanish,スペイン語
+,Spanish (Latin American),スペイン語(中南米)
+,Estonian,エストニア語
+,Persian,ペルシア語
+,Finnish,フィンランド語
+,French,フランス語
+,Hungarian,ハンガリー語
+,Indonesian,インドネシア語
+,Italian,イタリア語
+,Lao,ラオ語
+,Lithuanian,リトアニア語
+,Dutch,オランダ語
+,Polish,ポーランド語
+,Portuguese,ポルトガル語
+,Romanian,ルーマニア語
+,Russian,ロシア語
+,Slovenian,スロベニア語
+,Turkish,トルコ語
+,Ukrainian,ウクライナ語
+,Chinese Simplified,中国語(簡体字)
+,Lang Config Start,言語設定の開始
+,ID,ID
+,"Calling button ""%(button)s on ""%(model)s"" is not allowed.",「%(model)s」のボタン「%(button)s」は呼び出せません。
+,"You are not allowed to execute report ""%(report)s"".",帳票「%(report)s」を実行する権限がありません。
+,"You are not allowed to access ""%(model)s"".",「%(model)s」にアクセスする権限がありません。
+,"You are not allowed to access ""%(model)s.%(field)s"".",「%(model)s.%(field)s」にアクセスする権限がありません。
+,"You are not allowed to execute wizard ""%(wizard)s"".",ウィザード「%(wizard)s」を実行する権限がありません。
+,"You are not allowed to execute wizard ""%(wizard)s"" on ""%(model)s"".",「%(model)s」でウィザード「%(wizard)s」を実行する権限がありません。
+,"Invalid context ""%(context)s"" for action ""%(action)s"".",操作「%(action)s」のコンテキスト「%(context)s」が正しくありません。
+,"Invalid domain or search criteria ""%(domain)s"" for action ""%(action)s"".",操作「%(action)s」のドメインまたは検索条件「%(domain)s」が正しくありません。
+,"Invalid view ""%(view)s"" for action ""%(action)s"".",操作「%(action)s」の画面「%(view)s」が正しくありません。
+,"Wrong wizard model in keyword action ""%(name)s"".",キーワード操作「%(name)s」のウィザードのモデルが正しくありません。
+,Active,有効
+,Uncheck to exclude from future use.,今後使わない場合はチェックを外してください。
+,Can not open or identify the image set as avatar.,アバターに設定した画像を開けないか、識別できません。
+,Only one avatar is allowed per resource.,アバターは1つのリソースに1つだけです。
+,The size of an avatar must be unique.,アバターのサイズは重複できません。
+,Avatar URL,アバターのURL
+,Avatars,アバター
+,This record is part of the base configuration.,このレコードは基本設定の一部です。
+,The name of the button must be unique per model.,ボタンの名前はモデルごとに重複できません。
+,"You can not call ""%(button)s"" on ""%(record)s"" of ""%(model)s"".",「%(model)s」の「%(record)s」で「%(button)s」は呼び出せません。
+,The name of cache must be unique.,キャッシュの名前は重複できません。
+,"The email address ""%(email)s"" is not valid.",メールアドレス「%(email)s」は正しくありません。
+,Identifier must be unique per channel.,識別子はチャンネルごとに重複できません。
+,Only one channel per resource is allowed.,チャンネルは1つのリソースに1つだけです。
+,An email can follow a channel only once.,1つのメールがフォローできるチャンネルは1回だけです。
+,A user can follow a channel only once.,1人の利用者がフォローできるチャンネルは1回だけです。
+,"""%(name)s"" joined",「%(name)s」が参加しました
+,"""%(name)s"" left",「%(name)s」が退出しました
+,%(channel)s: %(author)s left a message,%(channel)s: %(author)s がメッセージを残しました
+,Only user or email can be filled.,利用者かメールのどちらか一方だけを入力してください。
+,At date/time: %(datetime)s,日時: %(datetime)s
+,Within groups: %(groups)s,グループ: %(groups)s
+,"You are not allowed to create records of ""%(model)s"" because they fail on at least one of these rules:
+%(rules)s","次の規則の少なくとも1つに合わないため、「%(model)s」のレコードを作成できません:
+%(rules)s"
+,Created at,作成日時
+,Created by,作成者
+,"You are not allowed to delete records ""%(ids)s"" of ""%(model)s"" because of at lease one of those rules:
+%(rules)s","次の規則の少なくとも1つにより、「%(model)s」のレコード「%(ids)s」を削除できません:
+%(rules)s"
+,"You are not allowed to delete the record ""%(record)s"" of ""%(model)s"".",「%(model)s」のレコード「%(record)s」を削除する権限がありません。
+,No,いいえ
+,Boolean,真偽値
+,Char,文字列
+,Color,色
+,DateTime,日時
+,Digits,桁数
+,Float,浮動小数点数
+,Help Selection,選択肢の説明
+,"The key followed by the help text separated by a "":"", one per line.",キーと説明を「:」で区切り、1行に1つずつ書きます。
+,Help Selection JSON,選択肢の説明(JSON)
+,Integer,整数
+,"Invalid domain in schema ""%(schema)s"".",スキーマ「%(schema)s」のドメインが正しくありません。
+,"Invalid help selection in schema ""%(schema)s"".",スキーマ「%(schema)s」の選択肢の説明が正しくありません。
+,"Invalid selection in schema ""%(schema)s"".",スキーマ「%(schema)s」の選択肢が正しくありません。
+,MultiSelection,複数選択
+,Numeric,数値
+,Selection,選択
+,"A couple of key and label separated by "":"" per line.",キーとラベルを「:」で区切り、1行に1組ずつ書きます。
+,Selection JSON,選択肢(JSON)
+,Selection Sorted,選択肢の並べ替え
+,If the selection must be sorted on label.,選択肢をラベルで並べ替える場合にチェックします。
+,Yes,はい
+,"The number of digits in the value ""%(value)r"" for field ""%(field)s"" in record ""%(record)s"" of ""%(model)s"" exceeds the limit of ""%(digits)r"".",「%(model)s」のレコード「%(record)s」の項目「%(field)s」の値「%(value)r」の桁数が上限「%(digits)r」を超えています。
+,"The value ""%(value)s"" for field ""%(field)s"" in record ""%(record)s"" of ""%(model)s"" is not valid according to its domain.",「%(model)s」のレコード「%(record)s」の項目「%(field)s」の値「%(value)s」は、ドメインに合いません。
+,Edited at,編集日時
+,Edited by,編集者
+,"Invalid body in email template ""%(template)s"" with exception ""%(exception)s"".",メールのひな形「%(template)s」の本文が正しくありません(例外「%(exception)s」)。
+,"Invalid PYSON %(field)s in email template ""%(template)s"" with exception ""%(exception)s"".",メールのひな形「%(template)s」の PYSON %(field)s が正しくありません(例外「%(exception)s」)。
+,"The PYSON %(field)s in email template ""%(template)s"" must generate a list.",メールのひな形「%(template)s」の PYSON %(field)s はリストを返す必要があります。
+,"Invalid subject in email template ""%(template)s"" with exception ""%(exception)s"".",メールのひな形「%(template)s」の件名が正しくありません(例外「%(exception)s」)。
+,%(field)s (model name),%(field)s(モデル名)
+,%(field)s (string),%(field)s(文字列)
+,"The value ""%(value)s"" for field ""%(field)s"" in record ""%(record)s"" of ""%(model)s"" contains some invalid chars ""%(chars)s"".",「%(model)s」のレコード「%(record)s」の項目「%(field)s」の値「%(value)s」に、使えない文字「%(chars)s」が含まれています。
+,"The records could not be deleted because they are used by field ""%(field)s"" of ""%(model)s"".",「%(model)s」の項目「%(field)s」で使われているため、レコードを削除できません。
+,"The value ""%(value)s"" for field ""%(field)s"" in ""%(model)s"" does not exist.",「%(model)s」の項目「%(field)s」の値「%(value)s」は存在しません。
+,"Failed to save, please retry.",保存できませんでした。もう一度お試しください。
+,ID must be positive.,ID は正の数にしてください。
+,Missing values for last column at row %(row)d.,%(row)d 行目の最後の列の値がありません。
+,Missing values for %(n)s last columns at row %(row)d.,%(row)d 行目の最後の %(n)s 列の値がありません。
+,The code on language must be unique.,言語のコードは重複できません。
+,"The default language ""%(language)s"" must be translatable.",既定の言語「%(language)s」は翻訳可能にしてください。
+,"The default language ""%(language)s"" can not be deleted.",既定の言語「%(language)s」は削除できません。
+,"Invalid date format ""%(format)s"" for language ""%(language)s"".",言語「%(language)s」の日付の書式「%(format)s」が正しくありません。
+,"Invalid grouping ""%(grouping)s"" for language ""%(language)s"".",言語「%(language)s」の桁区切り「%(grouping)s」が正しくありません。
+,"Invalid plural ""%(plural)s"" for language ""%(language)s"" with exception ""%(exception)s"" and n %(n)r.",言語「%(language)s」の複数形「%(plural)s」が正しくありません(例外「%(exception)s」、n は %(n)r)。
+,Last Modified at,最終更新日時
+,The database ID must be unique per model.,データベースの ID はモデルごとに重複できません。
+,The XML ID must be unique per module.,XML ID はモジュールごとに重複できません。
+,"The condition ""%(condition)s"" is not a valid PYSON expression for button rule ""%(rule)s"".",ボタンの規則「%(rule)s」の条件「%(condition)s」は正しい PYSON 式ではありません。
+,Some activated modules depend on the ones you are trying to deactivate:,無効にしようとしているモジュールに、有効なモジュールが依存しています:
+,You can not remove a module that is activated or that is about to be activated.,有効なモジュールや、有効にする予定のモジュールは削除できません。
+,"Missing order function for field ""%(field)s"" in ""%(model)s"".",「%(model)s」の項目「%(field)s」の並べ替えの関数がありません。
+,"You are trying to read records ""%(ids)s"" of ""%(model)s"" that don't exist.",存在しない「%(model)s」のレコード「%(ids)s」を読み込もうとしています。
+,"You are not allowed to read records ""%(ids)s"" of ""%(model)s"" because of at least one of these rules:
+%(rules)s","次の規則の少なくとも1つにより、「%(model)s」のレコード「%(ids)s」を読み込めません:
+%(rules)s"
+,"Recursion error: Record ""%(rec_name)s"" with parent ""%(parent_rec_name)s"" was configured as ancestor of itself.",再帰エラー: レコード「%(rec_name)s」(親「%(parent_rec_name)s」)が自分自身の祖先に設定されています。
+,"Syntax error for %(value)r in ""%(field)s"" of ""%(model)s"" at row %(row)d and column %(column)d.",「%(model)s」の「%(field)s」の %(value)r に構文エラーがあります(%(row)d 行目、%(column)d 列目)。
+,"Could not find relation for %(value)r in ""%(model)s"" at row %(row)d and column %(column)d.",「%(model)s」で %(value)r の関連先が見つかりません(%(row)d 行目、%(column)d 列目)。
+,"Invalid email definition for report ""%(name)s"".",帳票「%(name)s」のメールの定義が正しくありません。
+,"Invalid record name definition for report ""%(report)s"" with exception ""%(exception)s"".",帳票「%(report)s」のレコード名の定義が正しくありません(例外「%(exception)s」)。
+,"A value is required for field ""%(field)s"" in ""%(model)s"".",「%(model)s」の項目「%(field)s」は入力が必要です。
+,"A value is required for field ""%(field)s"" in record ""%(record)s"" of ""%(model)s"".",「%(model)s」のレコード「%(record)s」の項目「%(field)s」は入力が必要です。
+,The resources to which this record must be copied.,このレコードのコピー先のリソースです。
+,"Invalid domain in rule ""%(name)s"".",規則「%(name)s」のドメインが正しくありません。
+,"Missing search function for field ""%(field)s"" in ""%(model)s"".",「%(model)s」の項目「%(field)s」の検索の関数がありません。
+,"The value ""%(value)s"" for field ""%(field)s"" in record ""%(record)s"" of ""%(model)s"" is not one of the allowed options.",「%(model)s」のレコード「%(record)s」の項目「%(field)s」の値「%(value)s」は、選べる値ではありません。
+,Sequence,連番
+,You cannot change the sequence type of a sequence instead create a new sequence.,連番の種類は変更できません。新しい連番を作成してください。
+,"Invalid ""Increment Number"" (%(number_increment)s) or ""Next Number"" (%(number_next)s) with exception ""%(exception)s"".",「増分」(%(number_increment)s)または「次の番号」(%(number_next)s)が正しくありません(例外「%(exception)s」)。
+,"Invalid prefix ""%(affix)s"" for sequence ""%(sequence)s"".",連番「%(sequence)s」の接頭辞「%(affix)s」が正しくありません。
+,"Invalid suffix ""%(affix)s"" for sequence ""%(sequence)s"".",連番「%(sequence)s」の接尾辞「%(affix)s」が正しくありません。
+,"The ""Last Timestamp"" cannot be in the future for sequence ""%s"".",連番「%s」の「最後のタイムスタンプ」を未来にすることはできません。
+,"Missing setter function for field ""%(field)s"" in ""%(model)s"".",「%(model)s」の項目「%(field)s」の設定の関数がありません。
+,Only one singleton can be created.,シングルトンは1つだけ作成できます。
+,"The value ""%(value)s"" for field ""%(field)s"" in ""%(model)s"" is too long (%(size)i > %(max_size)i).",「%(model)s」の項目「%(field)s」の値「%(value)s」が長すぎます(%(size)i > %(max_size)i)。
+,"The value ""%(value)s"" for field ""%(field)s"" in record ""%(record)s"" of ""%(model)s"" is too long (%(size)i > %(max_size)i).",「%(model)s」のレコード「%(record)s」の項目「%(field)s」の値「%(value)s」が長すぎます(%(size)i > %(max_size)i)。
+,"The time value ""%(value)s"" for field ""%(field)s"" in record ""%(record)s"" of ""%(model)s"" is not valid.",「%(model)s」のレコード「%(record)s」の項目「%(field)s」の時刻「%(value)s」は正しくありません。
+,M,月
+,Y,年
+,d,日
+,h,時
+,m,分
+,s,秒
+,w,週
+,"Found too many relation for %(value)r in ""%(model)s"" at row %(row)d and column %(column)d.",「%(model)s」で %(value)r の関連先が多すぎます(%(row)d 行目、%(column)d 列目)。
+,"To export translations, the default language must be ""English"".",翻訳をエクスポートするには、既定の言語を「英語」にしてください。
+,"You can not export translation ""%(name)s"" because it has been overridden by module ""%(overriding_module)s"".",翻訳「%(name)s」はモジュール「%(overriding_module)s」で上書きされているため、エクスポートできません。
+,"To set translations, the default language must be ""English"".",翻訳を設定するには、既定の言語を「英語」にしてください。
+,"You can not select ""On Time"" and any other on the same time, they are mutually exclusive.",「定刻」はほかの条件と同時に選べません。
+,"Condition ""%(condition)s"" is not a valid PYSON expression for trigger ""%(trigger)s"".",トリガー「%(trigger)s」の条件「%(condition)s」は正しい PYSON 式ではありません。
+,"Invalid XML for view ""%(name)s"".",画面「%(name)s」の XML が正しくありません。
+,"Invalid domain or search criteria ""%(domain)s"" for search ""%(search)s"".",検索「%(search)s」のドメインまたは検索条件「%(domain)s」が正しくありません。
+,"You cannot store optional on view ""%(view)s"".",画面「%(view)s」には表示の選択を保存できません。
+,A user can set only one width per occurrence of field.,利用者が設定できる幅は、項目ごとに1つだけです。
+,"You are trying to write to records ""%(ids)s"" of ""%(model)s"" that don't exist.",存在しない「%(model)s」のレコード「%(ids)s」に書き込もうとしています。
+,"You are not allowed to write to records ""%(ids)s"" of ""%(model)s"" because of at least one of these rules:
+%(rules)s","次の規則の少なくとも1つにより、「%(model)s」のレコード「%(ids)s」に書き込めません:
+%(rules)s"
+,"You are not allowed to modify the field ""%(field)s"" in record ""%(record)s"" of ""%(model)s"".",「%(model)s」のレコード「%(record)s」の項目「%(field)s」を変更する権限がありません。
+,XML ID,XML ID
+,Model Access,モデルのアクセス
+,This action will make previous entry point unusable. Do you want to continue?,これまでの入口は使えなくなります。続けますか?
+,Are you sure you want to load languages' translations?,言語の翻訳を読み込みますか?
+,Are you sure you want to remove languages' translations?,言語の翻訳を削除しますか?
+,Model Button,モデルのボタン
+,Reset Identifier,識別子のリセット
+,Run Once,1回実行
+,Process,処理
+,Solve,解決
+,Load translations,翻訳を読み込む
+,Unload translations,翻訳を外す
+,Activate,有効にする
+,Apply,適用
+,Cancel,取消
+,Deactivate (beta),無効にする(ベータ)
+,Upgrade,アップグレード
+,Show,表示
+,Model Button - Button Reset,モデルのボタン - ボタンのリセット
+,Model Button - Group,モデルのボタン - グループ
+,Model Button Click,モデルのボタンのクリック
+,Model Button Rule,モデルのボタンの規則
+,Model Data,モデルのデータ
+,Model Field,モデルの項目
+,Model Field Access,モデルの項目のアクセス
+,Model Log,モデルのログ
+,Model Print Model Graph Start,モデル図の印刷の開始
+,Module Activate Upgrade Done,モジュールの有効化・アップグレードの完了
+,Module Activate Upgrade Start,モジュールの有効化・アップグレードの開始
+,Module Config Start,モジュール設定の開始
+,Module Config Wizard Done,モジュール設定ウィザードの完了
+,Module Config Wizard First,モジュール設定ウィザードの最初
+,Module Config Wizard Item,モジュール設定ウィザードの項目
+,Module Config Wizard Other,モジュール設定ウィザードのその他
+,Module Dependency,モジュールの依存関係
+,Note Read,メモの既読
+,Queue,待ち行列
+,Rule,規則
+,User in groups,グループに属する利用者
+,Rule Group - Group,規則グループ - グループ
+,Sequence Strict,厳密な連番
+,Sequence Type - Group,連番の種類 - グループ
+,Session,セッション
+,Session Wizard,セッションのウィザード
+,Translation,翻訳
+,Translation Clean Start,翻訳の整理の開始
+,Translation Clean Succeed,翻訳の整理の成功
+,Translation Export Result,翻訳のエクスポートの結果
+,Translation Export Start,翻訳のエクスポートの開始
+,Translation Set Start,翻訳の設定の開始
+,Translation Set Succeed,翻訳の設定の成功
+,Translation Update Start,翻訳の更新の開始
+,Trigger Log,トリガーのログ
+,Ui Icon,UI のアイコン
+,Administration,管理
+,Localization,地域化
+,Scheduler,スケジューラー
+,User Interface,ユーザーインターフェース
+,Ui Menu,UI のメニュー
+,Ui Menu - Group,UI のメニュー - グループ
+,Ui Menu Favorite,UI のメニューのお気に入り
+,Ui View,UI の画面
+,Ui View Show Start,UI の画面の表示の開始
+,Ui View Search,UI の画面の検索
+,Ui View Tree Optional,UI のツリー画面の表示の選択
+,Ui View Tree State,UI のツリー画面の状態
+,Ui View Tree Width,UI のツリー画面の幅
+,URL,URL
+,Wizard,ウィザード
+,Listed,一覧の全件
+,Selected,選択した件
+,Action form,フォームの操作
+,Form relate,フォームの関連
+,Open Graph,グラフを開く
+,Open tree,ツリーを開く
+,Print form,フォームの印刷
+,Internal,社内
+,Public,公開
+,Days,日
+,Hours,時間
+,Minutes,分
+,Months,月
+,Weeks,週
+,Clean Cron Logs,定期実行のログを整理
+,Clean Errors,エラーを整理
+,Clean Task Queue,タスクの待ち行列を整理
+,Refresh Materialized Models,マテリアライズドモデルを更新
+,Remove Deleted Binaries,削除したバイナリを消去
+,Run On Time Triggers,定刻のトリガーを実行
+,Task,タスク
+,Solved,解決済み
+,Left-to-right,左から右
+,Right-to-left,右から左
+,Clicked on,クリック
+,Deleted,削除
+,Launched,起動
+,Modified,変更
+,Transitioned to,状態の変更先
+,Activated,有効
+,Not Activated,無効
+,To be activated,有効にする予定
+,To be removed,削除する予定
+,To be upgraded,アップグレードする予定
+,Done,完了
+,Unknown,不明
+,Decimal Timestamp,10進タイムスタンプ
+,Hexadecimal Timestamp,16進タイムスタンプ
+,Incremental,連続番号
+,Wizard Button,ウィザードのボタン
+,Board,ボード
+,Calendar,カレンダー
+,Form,フォーム
+,List Form,一覧フォーム
+,Tree,ツリー
+,Edit,編集
+,General,全般
+,Document,文書
+,Last Modification Time,最終更新時刻
+,Every,間隔
+,Next Call Date,次回の実行日
+,Next Call Time,次回の実行時刻
+,Hidden Recipients:,BCC:
+,Recipients:,宛先:
+,Secondary Recipients:,CC:
+,Time,時刻
+,You can now load additional translations to the system.,追加の翻訳を読み込めます。
+,Date Formatting,日付の書式
+,Monetary Formatting,通貨の書式
+,Numbers Formatting,数値の書式
+,at,日時
+,The modules have been upgraded / activated.,モジュールをアップグレード・有効化しました。
+,Note that this operation may take a few minutes.,この処理には数分かかることがあります。
+,Your system will be upgraded.,システムをアップグレードします。
+,You can now activate additional modules to the system.,追加のモジュールを有効にできます。
+,The configuration is done.,設定が完了しました。
+,You will be able to configure your installation depending on the modules you have installed.,有効にしたモジュールに合わせて、設定を進められます。
+,Clean Translations?,翻訳を整理しますか?
+,Translations cleaned successfully.,翻訳を整理しました。
+,Synchronize Translations?,翻訳を同期しますか?
+,Translations set successfully.,翻訳を設定しました。
+,Load,読み込む
+,Print,印刷
+,OK,OK
+,Start Upgrade,アップグレード開始
+,Next,次へ
+,Clean,整理
+,Close,閉じる
+,Set,設定
+,Update,更新
+,Amount Second Currency,第2通貨の金額
+,Balance,残高
+,Closed,閉鎖
+,Company,会社
+,Context Company,コンテキストの会社
+,Credit,貸方
+,Credit Type,貸方の種類
+,Currency,通貨
+,Debit,借方
+,Debit Type,借方の種類
+,Deferral,繰越
+,Deferrals,繰越
+,End Date,終了日
+,General Ledger Balance,総勘定元帳の残高
+,Left,左
+,Line Count,行数
+,Parent,親
+,Party Required,取引先が必要
+,Reconcile,消し込み
+,Replaced By,置き換え先
+,Right,右
+,Second Currency,第2通貨
+,Start Date,開始日
+,Default Taxes,既定の税
+,Override Template,ひな形を上書き
+,Account,勘定科目
+,Tax,税
+,Fiscal Year,会計年度
+,Posted Moves,記帳済みの仕訳
+,Party,取引先
+,Secondary Currency,第二通貨
+,Account Template,勘定科目のひな形
+,Tax Template,税のひな形
+,Amount,金額
+,Assets,資産
+,Debt,負債
+,Expense,費用
+,Payable,買掛金
+,Receivable,売掛金
+,Revenue,収益
+,Statement,財務諸表
+,Stock,在庫
+,Now,現在
+,First Term,第1期間
+,Second Term,第2期間
+,Third Term,第3期間
+,Posted Move,記帳済みの仕訳
+,Unit,単位
+,Comparison,比較
+,Currency Exchange Credit Account,為替差益の勘定科目
+,Currency Exchange Debit Account,為替差損の勘定科目
+,Currency Exchange Journal,為替差損益の仕訳帳
+,Default Account Payable,既定の買掛金勘定
+,Default Account Receivable,既定の売掛金勘定
+,Default Customer Tax Rule,既定の顧客の税の規則
+,Default Supplier Tax Rule,既定の仕入先の税の規則
+,Reconciliation Sequence,消し込みの連番
+,Tax Rounding,税の端数処理
+,Default Payable Account,既定の買掛金勘定
+,Default Receivable Account,既定の売掛金勘定
+,Move Sequence,仕訳の連番
+,Periods,期間
+,Credit Account,貸方の勘定科目
+,Debit Account,借方の勘定科目
+,Journal,仕訳帳
+,Period,期間
+,End Day,締め日
+,Frequency,頻度
+,Interval,間隔
+,Previous Fiscalyear,前の会計年度
+,Reset Sequences,連番を初期化
+,End Balance,期末残高
+,End Credit,期末貸方
+,End Debit,期末借方
+,Lines,行
+,Start Balance,期首残高
+,Start Credit,期首貸方
+,Start Debit,期首借方
+,End Period,終了期間
+,From Date,開始日
+,Start Period,開始期間
+,To Date,終了日
+,Account Party,勘定科目の取引先
+,Internal Balance,内部残高
+,Move,仕訳
+,Reconciliation,消し込み
+,Cumulate per Party,取引先ごとに累計
+,Matching Sequence,照合の連番
+,Effective Date,計上日
+,Number,番号
+,Post Date,記帳日
+,Reversal,反対仕訳
+,Amount Currency,外貨金額
+,Delegated Amount,委任した金額
+,Has Maturity Date,期日あり
+,Maturity Date,期日
+,Move Description,仕訳の説明
+,Move Origin,仕訳の元
+,Move State,仕訳の状態
+,Payable/Receivable Balance,売掛金・買掛金の残高
+,Payable/Receivable Date,売掛金・買掛金の日付
+,Reconciliations Delegated,委任した消し込み
+,Second Currency Required,第二通貨が必須
+,Tax Lines,税の行
+,Reconciled,消し込み済み
+,Terms,分割条件
+,Total Amount,合計
+,Operation,操作
+,Taxes,税
+,Write Off,差額処理
+,Delegate To,委任先
+,Required,必須
+,Currencies,通貨
+,Parties,取引先
+,Automatic,自動
+,Only Balanced,貸借一致のみ
+,Credit Base Amount,貸方の課税標準額
+,Credit Note Account,請求取消書の勘定科目
+,Credit Tax Amount,貸方の税額
+,Invoice Account,請求書の勘定科目
+,Invoice Base Amount,請求書の課税標準額
+,Invoice Tax Amount,請求書の税額
+,Legal Notice,法定表示
+,Rate,税率
+,Update Unit Price,単価を更新
+,Operator,演算子
+,Kind,区分
+,Move Line,仕訳の行
+,Line,行
+,Tax Group,税のグループ
+,Keep Origin,元の税を残す
+,Original Tax,元の税
+,Substitution Tax,置き換える税
+,Quantity,数量
+,Result,結果
+,Unit Price,単価
+,Base,課税標準額
+,Root Account,最上位の勘定科目
+,Payable Today,本日の買掛金
+,Receivable Today,本日の売掛金
+,Account Payable,買掛金勘定
+,Account Receivable,売掛金勘定
+,Accounts,勘定科目
+,Customer Tax Rule,顧客の税の規則
+,Supplier Tax Rule,仕入先の税の規則
+,Check to prevent posting move on the account.,この勘定科目への記帳を止めるときにチェックします。
+,The type used if not empty and debit < credit.,空でなく、借方 < 貸方のときに使う種類です。
+,The type used if not empty and debit > credit.,空でなく、借方 > 貸方のときに使う種類です。
+,Display only the balance in the general ledger report.,総勘定元帳には残高だけを表示します。
+,Allow move lines of this account to be reconciled.,この勘定科目の仕訳の行を消し込めるようにします。
+,Force all moves for this account to have this second currency.,この勘定科目のすべての仕訳に、この第二通貨を使わせます。
+,Default taxes for documents to be applied when there is no other source.,ほかに元がないときに書類に使う、既定の税です。
+,Check to override template definition,ひな形の定義を上書きするときにチェックします
+,Leave empty for all open fiscal year.,空のときは、開いているすべての会計年度が対象です。
+,Only include posted moves.,記帳済みの仕訳だけを含めます。
+,Check to allow booking debt via supplier invoice.,仕入請求書で負債を計上できるようにするときにチェックします。
+,Default customer tax rule for new parties.,新しい取引先に使う、既定の顧客の税の規則です。
+,Default supplier tax rule for new parties.,新しい取引先に使う、既定の仕入先の税の規則です。
+,Used to generate the move number when posting if the period has no sequence.,期間に連番がないとき、記帳時に仕訳の番号を作るのに使います。
+,"The day of the month on which periods end.
+Months with fewer days will end on the last day.","期間が終わる、月の日です。
+日数が少ない月は、月末で終わります。"
+,"The length of each period, in months.",各期間の長さ(月数)です。
+,Used as reference for fiscalyear configuration.,会計年度の設定の参考にします。
+,"If checked, new sequences will be created.",チェックすると、新しい連番を作ります。
+,Only include moves from the journal.,この仕訳帳の仕訳だけを含めます。
+,Also known as Folio Number.,仕訳番号とも呼びます。
+,Reverse debit and credit.,借方と貸方を入れ替えます。
+,The amount expressed in a second currency.,第二通貨で表した金額です。
+,Set a date to make the line payable or receivable.,日付を入れると、その行が売掛金・買掛金になります。
+,The second currency.,第二通貨です。
+,A python expression that will be evaluated with the keywords.,キーワードを使って評価する Python の式です。
+,Keyword value substitutions are identified by braces ('{' and '}').,キーワードの値を置き換える所は、波かっこ({ と })で示します。
+,The name of the 'Party' keyword.,「取引先」のキーワードの名前です。
+,Highest date of the reconciled lines.,消し込んだ行の最も新しい日付です。
+,The line to which the reconciliation status is delegated.,消し込みの状態を委任する行です。
+,"Used to generate the move number when posting.
+Leave empty to use the fiscal year sequence.","記帳時に仕訳の番号を作るのに使います。
+空のときは、会計年度の連番を使います。"
+,Automatically reconcile suggestions.,候補を自動で消し込みます。
+,Skip suggestion with write-off.,差額処理が要る候補を飛ばします。
+,In company's currency.,会社の通貨での額です。
+,The name that will be used in reports.,帳票で使う名前です。
+,If checked then the unit price for further tax computation will be modified by this tax.,チェックすると、この税で、後の税の計算に使う単価を変えます。
+,Check to append the original tax to substituted tax.,置き換えた税に、元の税を加えるときにチェックします。
+,"If the original tax is filled, the rule will be applied only for this tax.",元の税を入れると、この税にだけ規則を当てはめます。
+,"If the original tax template is filled, the rule will be applied only for this tax template.",元の税のひな形を入れると、この税のひな形にだけ規則を当てはめます。
+,Apply this rule on taxes when party is customer.,取引先が顧客のとき、この規則を税に当てはめます。
+,Apply this rule on taxes when party is supplier.,取引先が仕入先のとき、この規則を税に当てはめます。
+,Account - Account Tax,勘定科目 - 勘定科目の税
+,Account Context,勘定科目のコンテキスト
+,Account Deferral,勘定科目の繰越
+,Account Template - Account Tax Template,勘定科目のひな形 - 税のひな形
+,Account Type,勘定科目の種類
+,Account Type Template,勘定科目の種類のひな形
+,Account Aged Balance,年齢別残高
+,Account Aged Balance Context,年齢別残高のコンテキスト
+,Account Balance Sheet Comparison Context,貸借対照表の比較のコンテキスト
+,Account Balance Sheet Context,貸借対照表のコンテキスト
+,Account Configuration,会計の設定
+,Account Configuration Default Account,会計の設定 既定の勘定科目
+,Account Configuration Default Tax Rule,会計の設定 既定の税の規則
+,Account Configuration Journal,会計の設定 仕訳帳
+,Account Configuration Sequence,会計の設定 連番
+,Account Configuration Tax Rounding,会計の設定 税の端数処理
+,Account Create Chart Account,勘定科目表の作成 勘定科目
+,Account Create Chart Properties,勘定科目表の作成 プロパティ
+,Account Create Chart Start,勘定科目表の作成 開始
+,Account Fiscalyear,会計年度
+,Account Fiscalyear Balance Non Deferral Start,会計年度 繰り越さない残高の振替 開始
+,Account Fiscalyear Create Periods Start,会計年度 期間の作成 開始
+,Account Fiscalyear Renew Start,会計年度 更新 開始
+,Account General Ledger Account,総勘定元帳 勘定科目
+,Account General Ledger Account Context,総勘定元帳 勘定科目のコンテキスト
+,Account General Ledger Account Party,総勘定元帳 勘定科目の取引先
+,Account General Ledger Line,総勘定元帳の行
+,Account General Ledger Line Context,総勘定元帳の行のコンテキスト
+,Account Income Statement Context,損益計算書のコンテキスト
+,Cash,現金
+,Currency Exchange,為替差損益
+,Miscellaneous,雑
+,Account Journal,仕訳帳
+,Account Journal Open Cash Context,仕訳帳 現金を開く コンテキスト
+,Account Journal Period,仕訳帳の期間
+,Account Move,仕訳
+,Account Move Cancel Default,仕訳の取消 既定値
+,Account Move Context,仕訳のコンテキスト
+,Account Move Line,仕訳の行
+,Account Move Line Delegate Start,仕訳の行の委任 開始
+,Account Move Line Group Start,仕訳の行のまとめ 開始
+,Account Move Line Receivable Payable Context,仕訳の行 売掛金・買掛金のコンテキスト
+,Account Move Line Reschedule Preview,仕訳の行の分割 プレビュー
+,Account Move Line Reschedule Start,仕訳の行の分割 開始
+,Account Move Line Reschedule Term,仕訳の行の分割 条件
+,Account Move Line Template,仕訳の行のひな形
+,Account Move Open Journal Ask,仕訳 仕訳帳を開く 確認
+,Account Move Reconcile Write Off,仕訳の消し込み 差額処理
+,Account Move Reconcile Lines Writeoff,仕訳の行の消し込み 差額処理
+,Account Move Reconciliation,仕訳の消し込み
+,Account Move Template,仕訳のひな形
+,Account Move Template Create Keywords,仕訳のひな形から作成 キーワード
+,Account Move Template Create Template,仕訳のひな形から作成 ひな形
+,Account Move Template Keyword,仕訳のひな形のキーワード
+,Account Period,会計期間
+,Account Reconcile Show,消し込み 表示
+,Account Reconcile Start,消し込み 開始
+,Account Tax,税
+,Account Tax Code,税コード
+,Account Tax Code Context,税コードのコンテキスト
+,Account Tax Code Line,税コードの行
+,Account Tax Code Line Template,税コードの行のひな形
+,Account Tax Code Template,税コードのひな形
+,Account Tax Group,税のグループ
+,Account Tax Line,税の行
+,Account Tax Line Template,税の行のひな形
+,Account Tax Rule,税の規則
+,Account Tax Rule Line,税の規則の行
+,Account Tax Rule Line Template,税の規則の行のひな形
+,Account Tax Rule Template,税の規則のひな形
+,Account Tax Template,税のひな形
+,Account Tax Test,税の試算
+,Account Tax Test Result,税の試算の結果
+,Account Update Chart Start,勘定科目表の更新 開始
+,Account Update Chart Succeed,勘定科目表の更新 完了
+,Balance Sheet,貸借対照表
+,Income Statement,損益計算書
+,Chart of Accounts,勘定科目表
+,Account Types,勘定科目の種類
+,Aged Balance,年齢別残高
+,Balance Non-Deferral,繰り越さない残高の振替
+,Cancel Moves,仕訳を取消
+,Create Periods,期間を作成
+,Delegate Lines,行を委任
+,Fiscal Years,会計年度
+,Close Fiscal Years,会計年度を締める
+,General Ledger - Accounts,総勘定元帳 - 勘定科目
+,General Ledger - Account Parties,総勘定元帳 - 勘定科目の取引先
+,Open General Ledger Account Parties,総勘定元帳の勘定科目の取引先を開く
+,General Ledger - Lines,総勘定元帳 - 行
+,Group Lines,行をまとめる
+,Journals,仕訳帳
+,Journals Cash,現金の仕訳帳
+,Close Journals - Periods,仕訳帳の期間を締める
+,Journals - Periods,仕訳帳 - 期間
+,Account Moves,仕訳
+,Delegate Account Move,仕訳を委任
+,Grouped Account Move,仕訳をまとめる
+,Reschedule Account Move,仕訳を分割
+,Account Move Lines,仕訳の行
+,Payable/Receivable Lines,売掛金・買掛金の行
+,Reconciliation Lines,消し込みの行
+,Create Move from Template,ひな形から仕訳を作成
+,Moves,仕訳
+,Open Move Account,仕訳の勘定科目を開く
+,Open Journal,仕訳帳を開く
+,Open Tax Code,税コードを開く
+,Open Type,種類を開く
+,Close Periods,期間を締める
+,Reconcile Accounts,勘定科目を消し込む
+,Reconcile Lines,行を消し込む
+,Write-off Methods,差額処理の方法
+,Renew Fiscal Year,会計年度を更新
+,Reschedule Lines,行を分割
+,Codes,コード
+,Tax Codes,税コード
+,Chart of Tax Codes,税コード表
+,Tax Rules,税の規則
+,Unreconcile Lines,行の消し込みを解除
+,General Journal,仕訳日記帳
+,General Ledger,総勘定元帳
+,Trial Balance,試算表
+,Create Chart of Accounts from Template,ひな形から勘定科目表を作成
+,Test Tax,税を試算
+,Update Chart of Accounts from Template,ひな形から勘定科目表を更新
+,"A chart of accounts already exists for company ""%(company)s"".",会社「%(company)s」の勘定科目表はすでにあります。
+,"You cannot close account ""%(account)s"" because it has move lines.",勘定科目「%(account)s」には仕訳の行があるので、閉じられません。
+,"To set a second currency for account ""%(account)s"", it must be deferral.",勘定科目「%(account)s」に第二通貨を設定するには、繰越にする必要があります。
+,"To set a second currency for account ""%(account)s"", its lines must have the same second currency ""%(currency)s"".",勘定科目「%(account)s」に第二通貨を設定するには、その行の第二通貨がすべて「%(currency)s」である必要があります。
+,"To set a second currency for account ""%(account)s"", it must not have a type ""payable"", ""revenue"", ""receivable"" nor ""expense"".",勘定科目「%(account)s」に第二通貨を設定するには、種類が「買掛金」「収益」「売掛金」「費用」のどれでもない必要があります。
+,"You cannot remove type of account ""%(account)s"" because it has move lines.",勘定科目「%(account)s」には仕訳の行があるので、種類を外せません。
+,"The moves ""%(moves)s"" contain grouped lines, cancelling them will ungroup the lines.",仕訳「%(moves)s」にはまとめた行があります。取り消すと、行のまとめも解除されます。
+,"You cannot change the move sequence on fiscal year ""%(fiscalyear)s"" because it contains posted moves.",会計年度「%(fiscalyear)s」には記帳済みの仕訳があるので、仕訳の連番を変えられません。
+,"You cannot change the move sequence in period ""%(period)s"" because it has posted moves.",期間「%(period)s」には記帳済みの仕訳があるので、仕訳の連番を変えられません。
+,"To close the fiscal year, the balance of account ""%(account)s"" must be zero.",会計年度を締めるには、勘定科目「%(account)s」の残高が 0 である必要があります。
+,"To close fiscal year ""%(fiscalyear)s"", you must close all earlier fiscal years.",会計年度「%(fiscalyear)s」を締めるには、それより前の会計年度をすべて締めてください。
+,"To close period ""%(period)s"", you must balance the inactive account ""%(account)s"".",期間「%(period)s」を締めるには、無効の勘定科目「%(account)s」の残高を 0 にしてください。
+,"To close period ""%(period)s"" you must post the moves ""%(moves)s"".",期間「%(period)s」を締めるには、仕訳「%(moves)s」を記帳してください。
+,You cannot change the currency of a company which is associated with account moves.,仕訳がある会社の通貨は変えられません。
+,"You cannot create a journal-period in closed period ""%(period)s"".",締めた期間「%(period)s」には、仕訳帳の期間を作れません。
+,"You cannot create a period in fiscal year ""%(fiscalyear)s"" because it is closed.",会計年度「%(fiscalyear)s」は締めてあるので、期間を作れません。
+,Deferral must be unique by account and fiscal year.,繰越は、勘定科目と会計年度ごとに 1 つだけです。
+,You cannot delegate together lines of different companies.,会社の違う行をまとめて委任することはできません。
+,You cannot delegate together lines with different origins.,元の違う行をまとめて委任することはできません。
+,"In order to delete the reconciled line ""%(line)s"", you must first unreconcile it.",消し込んだ行「%(line)s」を削除するには、先に消し込みを解除してください。
+,"You cannot erase party ""%(party)s"" while they have pending receivable/payable with company ""%(company)s"".",取引先「%(party)s」は会社「%(company)s」との売掛金・買掛金が残っているので、消去できません。
+,The move sequence of fiscal years must be unique.,会計年度の仕訳の連番は、重複できません。
+,The dates of fiscal years of the same company can not overlap.,同じ会社の会計年度の日付は、重ねられません。
+,"Line ""%(line)s"" can not be grouped.",行「%(line)s」はまとめられません。
+,You cannot group lines with different parties.,取引先の違う行はまとめられません。
+,You cannot group lines from more than 2 different accounts.,3 つ以上の勘定科目の行はまとめられません。
+,You cannot group lines of different companies.,会社の違う行はまとめられません。
+,You cannot group lines of different second currencies.,第二通貨の違う行はまとめられません。
+,You cannot group a single line.,1 行だけではまとめられません。
+,"You cannot change the type of journal ""%(journal)s"" because it has posted moves.",仕訳帳「%(journal)s」には記帳済みの仕訳があるので、種類を変えられません。
+,You can create only one journal per period.,仕訳帳は、期間ごとに 1 つだけ作れます。
+,"You cannot reconcile already reconciled line ""%(line)s"".",行「%(line)s」はすでに消し込んであります。
+,"To create a line on account ""%(account)s"", you must set a type or unclose it.",勘定科目「%(account)s」に行を作るには、種類を設定するか、閉じた状態を解除してください。
+,You cannot set both debit and credit on the line.,1 つの行に借方と貸方の両方は入れられません。
+,"To create a line on account ""%(account)s"", you must set a party on line ""%(line)s"".",勘定科目「%(account)s」に行を作るには、行「%(line)s」に取引先を設定してください。
+,"To create a line on account ""%(account)s"", you must remove the party on line ""%(line)s"".",勘定科目「%(account)s」に行を作るには、行「%(line)s」から取引先を外してください。
+,You must set the sign for second currency to match the sign of debit - credit.,第二通貨の符号は、借方 - 貸方の符号に合わせてください。
+,"You cannot modify or delete journal-period ""%(journal_period)s"" because it contains moves.",仕訳帳の期間「%(journal_period)s」には仕訳があるので、変更も削除もできません。
+,"You cannot add/modify/delete lines on closed journal-period ""%(journal_period)s"".",締めた仕訳帳の期間「%(journal_period)s」では、行の追加、変更、削除はできません。
+,"You cannot modify line ""%(line)s"" from posted move ""%(move)s"".",記帳済みの仕訳「%(move)s」の行「%(line)s」は変更できません。
+,"In order to modify the reconciled line ""%(line)s"", you must first unreconcile it.",消し込んだ行「%(line)s」を変更するには、先に消し込みを解除してください。
+,"You cannot modify posted move ""%(move)s"".",記帳済みの仕訳「%(move)s」は変更できません。
+,"You cannot add/modify/delete tax lines in closed period ""%(period)s"".",締めた期間「%(period)s」では、税の行の追加、変更、削除はできません。
+,"The period of move ""%(move)s"" is closed.
+If you cancel the move, the current period will be used.","仕訳「%(move)s」の期間は締めてあります。
+仕訳を取り消すと、今の期間を使います。"
+,"The period of move ""%(move)s"" is closed.
+If you copy the move, the current period will be used.","仕訳「%(move)s」の期間は締めてあります。
+仕訳を複製すると、今の期間を使います。"
+,"The value ""%(value)s"" of ""%(expression)s"" from template ""%(template)s"" is not a number.",ひな形「%(template)s」の「%(expression)s」の値「%(value)s」は数ではありません。
+,"Failed to evaluate the description ""%(description)s"" from template ""%(template)s"" with error: ""%(error)s""",ひな形「%(template)s」の説明「%(description)s」を評価できませんでした。エラー: 「%(error)s」
+,"Failed to evaluate expression ""%(expression)s"" from template ""%(template)s"" with error:
+""%(error)s""","ひな形「%(template)s」の式「%(expression)s」を評価できませんでした。エラー:
+「%(error)s」"
+,"The keyword name ""%(name)s"" is not a valid identifier.",キーワードの名前「%(name)s」は、識別子として使えません。
+,"To continue, you must create a fiscal year for the date ""%(date)s"" and company ""%(company)s"".",続けるには、日付「%(date)s」と会社「%(company)s」の会計年度を作ってください。
+,"To continue, you must reopen the fiscal year ""%(fiscalyear)s"" of company ""%(company)s"" for the date ""%(date)s"".",続けるには、日付「%(date)s」のために、会社「%(company)s」の会計年度「%(fiscalyear)s」を開き直してください。
+,"To continue, you must reopen the period ""%(period)s"" of company ""%(company)s"" for the date ""%(date)s"".",続けるには、日付「%(date)s」のために、会社「%(company)s」の期間「%(period)s」を開き直してください。
+,"To continue, you must create a period for the date ""%(date)s"" and company ""%(company)s"".",続けるには、日付「%(date)s」と会社「%(company)s」の期間を作ってください。
+,Account can have only one of the debit or credit type set.,勘定科目に設定できるのは、借方の種類か貸方の種類のどちらか 1 つだけです。
+,Open fiscal years can not be before closed fiscal years.,開いている会計年度は、締めた会計年度より前にできません。
+,"You cannot reopen journal-period ""%(journal_period)s"" in closed period ""%(period)s"".",締めた期間「%(period)s」の仕訳帳の期間「%(journal_period)s」は、開き直せません。
+,"You cannot reopen period ""%(period)s"" because its fiscal year ""%(fiscalyear)s"" is closed.",期間「%(period)s」は、会計年度「%(fiscalyear)s」が締めてあるので、開き直せません。
+,"To continue, you must define a payable account for party ""%(party)s"".",続けるには、取引先「%(party)s」の買掛金勘定を設定してください。
+,"To continue, you must define a receivable account for party ""%(party)s"".",続けるには、取引先「%(party)s」の売掛金勘定を設定してください。
+,"The dates for period ""%(period)s"" must be between the dates of its fiscal year ""%(fiscalyear)s"".",期間「%(period)s」の日付は、その会計年度「%(fiscalyear)s」の日付の中にしてください。
+,"The dates for period ""%(period)s"" must include the date ""%(move_date)s"" of move ""%(move)s"".",期間「%(period)s」の日付には、仕訳「%(move)s」の日付「%(move_date)s」を含めてください。
+,A move sequence can be reused only by periods in the same fiscal year.,仕訳の連番を使い回せるのは、同じ会計年度の期間だけです。
+,The dates of standard period of the same fiscal year can not overlap.,同じ会計年度の通常の期間の日付は、重ねられません。
+,"To post move ""%(move)s"", you must fill in its lines.",仕訳「%(move)s」を記帳するには、行を入れてください。
+,"To post move ""%(move)s"", you must balance all its lines debits and credits.",仕訳「%(move)s」を記帳するには、すべての行の借方と貸方を一致させてください。
+,"To reconcile line ""%(line)s"", you must set its account ""%(account)s"" as reconcilable.",行「%(line)s」を消し込むには、勘定科目「%(account)s」を消し込み可能にしてください。
+,"To reconcile lines, you must define a currency exchange credit account for ""%(company)s"".",行を消し込むには、「%(company)s」の為替差益の勘定科目を設定してください。
+,"To reconcile lines, you must define a currency exchange debit account for ""%(company)s"".",行を消し込むには、「%(company)s」の為替差損の勘定科目を設定してください。
+,"To reconcile lines, you must define a currency exchange journal for ""%(company)s"".",行を消し込むには、「%(company)s」の為替差損益の仕訳帳を設定してください。
+,"The reconciliation ""%(reconciliation)s"" is delegated to the line ""%(line)s"".
+You may need to cancel its move ""%(move)s"".","消し込み「%(reconciliation)s」は、行「%(line)s」に委任されています。
+その仕訳「%(move)s」を取り消す必要があるかもしれません。"
+,"The reconciliation ""%(reconciliation)s"" is linked to the write-off line ""%(line)s"".
+You may need to cancel its move ""%(move)s"".","消し込み「%(reconciliation)s」は、差額処理の行「%(line)s」とつながっています。
+その仕訳「%(move)s」を取り消す必要があるかもしれません。"
+,"You cannot reconcile line ""%(line)s"" with others because its account ""%(account1)s"" is different from ""%(account2)s"".",行「%(line)s」は勘定科目「%(account1)s」が「%(account2)s」と異なるため、他の行と消し込みできません。
+,"You cannot reconcile line ""%(line)s"" with others because its party ""%(party1)s"" is different from ""%(party2)s"".",行「%(line)s」は取引先「%(party1)s」が「%(party2)s」と異なるため、他の行と消し込みできません。
+,"You cannot reconcile non-valid line ""%(line)s"".",有効でない行「%(line)s」は消し込みできません。
+,"To reconcile lines, they must have the same debit ""%(debit)s"" and credit ""%(credit)s"".",行を消し込むには、借方「%(debit)s」と貸方「%(credit)s」が同じである必要があります。
+,"To reconcile lines with ""%(amount)s"" write-off, you must select a write-off method.",差額「%(amount)s」を処理して行を消し込むには、差額処理の方法を選んでください。
+,"You cannot reconcile lines using the write-off ""%(write_off)s"" with the same ""%(account)s"".",差額処理「%(write_off)s」を使って、同じ「%(account)s」の行を消し込むことはできません。
+,"To reopen fiscal year ""%(fiscalyear)s"", you must reopen all later fiscal years.",会計年度「%(fiscalyear)s」を再開するには、それより後の会計年度をすべて再開してください。
+,You cannot reschedule lines with different accounts.,勘定科目が異なる行の支払予定は変更できません。
+,You cannot reschedule lines with different currencies.,通貨が異なる行の支払予定は変更できません。
+,You cannot reschedule lines with different origins.,元が異なる行の支払予定は変更できません。
+,You cannot reschedule lines with different parties.,取引先が異なる行の支払予定は変更できません。
+,To reschedule the lines you must change the terms to have a total amount of %(total_amount)s instead of %(amount)s.,行の支払予定を変更するには、条件の合計を %(amount)s ではなく %(total_amount)s にしてください。
+,"You cannot set ""Update Unit Price"" on child tax ""%(tax)s"".",子の税「%(tax)s」に「単価を更新」は設定できません。
+,You cannot modify any account deferrals.,勘定科目の繰延は変更できません。
+,You cannot modify any reconciliation.,消し込みは変更できません。
+,Are you sure you want to lock the fiscal year?,会計年度をロックしてよろしいですか?
+,Are you sure you want to lock the period?,期間をロックしてよろしいですか?
+,Lock,ロック
+,Reopen,再開
+,Post,記帳
+,User in companies,所属する会社の利用者
+,Default Account Move Reconciliation,既定の仕訳の消し込み
+,Financial,財務
+,Entries,仕訳
+,General Account,総勘定
+,Reporting,帳票
+,Templates,ひな形
+,Party Account,取引先の勘定科目
+,Accounting,会計
+,Accounting Administration,会計の管理
+,/,/
+,:,:
+,Company:,会社:
+,Date:,日付:
+,Fiscal Year:,会計年度:
+,From Date:,開始日:
+,From Period,開始期間
+,Print Date:,印刷日:
+,To,終了
+,User:,利用者:
+,+,+
+,Aged Balance for,年齢別残高:
+,Total,合計
+,Draft,下書き
+,Journal Entry:,仕訳:
+,Origin:,元:
+,Posted,記帳済み
+,From Period:,開始期間:
+,Income,損益
+,Off-Balance,オフバランス
+,Customers,顧客
+,Customers and Suppliers,顧客と仕入先
+,Suppliers,仕入先
+,Years,年
+,Per Document,書類ごと
+,Per Line,行ごと
+,Locked,ロック済み
+,Monthly,毎月
+,Other,その他
+,Quarterly,四半期ごと
+,Situation,開始残高
+,Write-Off,差額処理
+,Valid,有効
+,Adjustment,調整
+,Standard,標準
+,Fixed,固定
+,None,なし
+,By Fiscal Year,会計年度ごと
+,By Period,期間ごと
+,Over Periods,期間の範囲
+,-,-
+,Invoice,請求書
+,Both,両方
+,Purchase,購買
+,Sale,販売
+,Reconcile Move Lines Automatically,仕訳の行を自動で消し込む
+,General Information,基本情報
+,You can now create a chart of account for your company by selecting a chart of account template.,勘定科目表のひな形を選んで、会社の勘定科目表を作成できます。
+,every,間隔
+,months,か月
+,Other Info,その他の情報
+,%,%
+,Chart of accounts updated successfully.,勘定科目表を更新しました。
+,Create,作成
+,Delegate,移管
+,Reschedule,予定変更
+,Skip,飛ばす
+,Customer Payment Reference Number,顧客の支払参照番号
+,Default Customer Payment Term,既定の顧客の支払条件
+,Invoice Sequences,請求書の連番
+,Supplier Credit Note Sequence,仕入先の請求取消書の連番
+,Supplier Invoice Sequence,仕入請求書の連番
+,Customer Credit Note Sequence,顧客の請求取消書の連番
+,Customer Invoice Sequence,顧客の請求書の連番
+,Accounting Date,計上日
+,Additional Moves,追加の仕訳
+,Allow Cancel Invoice,請求書の取消を許可
+,Alternative Payee,別の受取人
+,Amount to Pay,支払額
+,Amount to Pay Today,今日の支払額
+,Cancel Move,取消の仕訳
+,Comment,コメント
+,Company Party,会社の取引先
+,Currency Date,為替の日付
+,Customer Payment Reference,顧客の支払参照
+,Has Account Move,仕訳あり
+,Has Payment Method,支払方法あり
+,Has Report Cached,帳票のキャッシュあり
+,Invoice Address,請求先住所
+,Invoice Date,請求日
+,Invoice Report,請求書の帳票
+,Invoice Report ID,請求書の帳票 ID
+,Invoice Report Format,請求書の帳票の形式
+,Invoice Report Revisions,請求書の帳票の改訂
+,Line - Lines,行 - 行
+,Lines to Pay,支払う行
+,Number Alphanumeric,番号(英数字)
+,Number Digit,番号(数字)
+,Origin Invoices,元の請求書
+,Origins,元
+,Party Language,取引先の言語
+,Party Tax Identifier,取引先の税番号
+,Payment Lines,支払の行
+,Payment Means,支払手段
+,Payment Term,支払条件
+,Payment Term Date,支払条件の基準日
+,Posted By,記帳した人
+,Sequence Type Cache,連番の種類のキャッシュ
+,Source Tax,元の税額
+,Source Total,元の合計
+,Source Untaxed,元の税抜金額
+,Payment Reference,支払参照
+,Payment Reference Type,支払参照の種類
+,Tax Cache,税額のキャッシュ
+,Tax Identifier,税番号
+,Total Cache,合計のキャッシュ
+,Untaxed,税抜金額
+,Untaxed Cache,税抜金額のキャッシュ
+,Validated By,確認した人
+,Invoice Alternative Payees,請求書の別の受取人
+,Invoice Party,請求書の取引先
+,Payment Line,支払の行
+,Additional Move,追加の仕訳
+,Payee,受取人
+,With Refund,返金あり
+,With Refund Allowed,返金を許可
+,File Name,ファイル名
+,Format,形式
+,Invoice Description,請求書の説明
+,Invoice State,請求書の状態
+,Invoice Taxes,請求書の税
+,Invoice Type,請求書の種類
+,Product,品目
+,Product UoM Category,品目の単位の分類
+,Taxes Date,税の基準日
+,Taxes Deductible Rate,税の控除率
+,Invoice Line,請求書の行
+,Payment Amount,支払額
+,Write-Off Amount,差額処理の金額
+,Payees,受取人
+,Payment Method,支払方法
+,Instrument,手段
+,Payers,支払人
+,Divisor,除数
+,Ratio,比率
+,Deltas,差分
+,Day of Month,日
+,Number of Days,日数
+,Payment Term Line,支払条件の行
+,Month,月
+,Number of Months,月数
+,Number of Weeks,週数
+,Manual,手動
+,Sequence Number,連番
+,Invoice Payment,請求書の支払
+,Invoice Payments,請求書の支払
+,Cancel Customer Invoice,顧客の請求書の取消
+,Purchase Taxes as Expense,購買の税を費用にする
+,Customer Payment Term,顧客の支払条件
+,Payment Terms,支払条件
+,Supplier Payment Term,仕入先の支払条件
+,The number used to generate the customer payment reference.,顧客の支払参照を作るときに使う番号です。
+,"The date from which the payment term is calculated.
+Leave empty to use the invoice date.","支払条件を計算する基準の日付です。
+空なら請求日を使います。"
+,"If true, the current invoice(s) will be cancelled.",有効にすると、この請求書を取り消します。
+,The category of Unit of Measure for the product.,品目の単位の分類です。
+,"The date at which the taxes are computed.
+Leave empty for the accounting date.","税を計算する日付です。
+空なら計上日を使います。"
+,Allow cancelling move of customer invoice.,顧客の請求書の仕訳を取り消せるようにします。
+,Check to book purchase taxes as expense.,購買の税を費用として計上するときに有効にします。
+,Account Configuration Default Payment Term,会計の設定 既定の支払条件
+,Account Configuration Payment Reference,会計の設定 支払参照
+,Account Fiscalyear Invoice Sequence,会計年度の請求書の連番
+,Account Invoice,請求書
+,Account Invoice - Account Move Line,請求書 - 仕訳の行
+,Account Invoice - Additional - Account Move,請求書 - 追加 - 仕訳
+,Account Invoice Alternative Payee,請求書の別の受取人
+,Account Invoice Credit Start,請求取消書の作成 開始
+,Account Invoice Edocument Result,電子書類 結果
+,Account Invoice Edocument Start,電子書類 開始
+,Account Invoice Line,請求書の行
+,Account Invoice Line - Account Tax,請求書の行 - 税
+,Account Invoice Pay Ask,請求書の支払 確認
+,Account Invoice Pay Start,請求書の支払 開始
+,Account Invoice Payment Mean,請求書の支払手段
+,Account Invoice Payment Mean Rule,請求書の支払手段の規則
+,Account Invoice Payment Method,請求書の支払方法
+,Upon Receipt,受領時
+,Net 30 days End of Month,月末締め30日
+,Net 60 days End of Month,月末締め60日
+,End of Month,月末
+,End of Month Following,翌月末
+,Net 10 days,10日以内
+,Net 15 days,15日以内
+,Net 30 days,30日以内
+,Net 60 days,60日以内
+,Account Invoice Payment Term,請求書の支払条件
+,Account Invoice Payment Term Line,請求書の支払条件の行
+,Account Invoice Payment Term Line Delta,請求書の支払条件の行の差分
+,Account Invoice Payment Term Test,請求書の支払条件のテスト
+,Account Invoice Payment Term Test Result,請求書の支払条件のテスト結果
+,Account Invoice Report Revision,請求書の帳票の改訂
+,Account Invoice Tax,請求書の税
+,Delegate Lines to Pay,支払う行の移管
+,Invoices,請求書
+,Supplier Invoices,仕入請求書
+,Customer Invoices,顧客の請求書
+,Payment Means Rules,支払手段の規則
+,Invoice Payment Methods,請求書の支払方法
+,Reschedule Lines to Pay,支払う行の予定変更
+,E-document,電子書類
+,Invoice (revised),請求書(改訂)
+,Pay Invoice,請求書の支払
+,Test Payment Term,支払条件のテスト
+,Validated,確認済み
+,Paid,支払済み
+,Pending,未完了
+,"The moves ""%(moves)s"" have the posted invoices ""%(invoices)s"" as origin.",仕訳「%(moves)s」は、記帳済みの請求書「%(invoices)s」を元にしています。
+,Cancelling them will reconcile the move lines thus paying the invoices. You might want to cancel the invoices first.,取り消すと仕訳の行が消し込まれ、請求書が支払済みになります。先に請求書を取り消すことをお勧めします。
+,"To close the periods you must post the invoices ""%(invoices)s"".",期間を締めるには、請求書「%(invoices)s」を記帳してください。
+,"You cannot erase party ""%(party)s"" while they have pending invoices with company ""%(company)s"".",取引先「%(party)s」は会社「%(company)s」に未完了の請求書があるため、消去できません。
+,"You cannot refund invoice ""%(invoice)s"" because it is not posted.",請求書「%(invoice)s」は記帳されていないため、請求取消書を作れません。
+,"To post invoice ""%(invoice)s"", you must define a currency exchange credit account for ""%(company)s"".",請求書「%(invoice)s」を記帳するには、「%(company)s」に為替差益の貸方の勘定科目を設定してください。
+,"To post invoice ""%(invoice)s"", you must define a currency exchange debit account for ""%(company)s"".",請求書「%(invoice)s」を記帳するには、「%(company)s」に為替差損の借方の勘定科目を設定してください。
+,"You cannot cancel customer invoice ""%(invoice)s"" because it is posted and company setup does not allow it.",顧客の請求書「%(invoice)s」は記帳済みで、会社の設定で許されていないため、取り消せません。
+,"The invoices ""%(invoices)s"" have an invoice date in the future.",請求書「%(invoices)s」の請求日が未来になっています。
+,"The invoice ""%(invoice)s"" does not have the default taxes for %(lines)s.",請求書「%(invoice)s」の %(lines)s に既定の税がありません。
+,"To delete invoice ""%(invoice)s"" you must cancel it.",請求書「%(invoice)s」を削除するには、先に取り消してください。
+,"You cannot delete invoice ""%(invoice)s"" because it has a number.",請求書「%(invoice)s」は番号があるため、削除できません。
+,"You cannot add lines to invoice ""%(invoice)s"" because it is no longer in a draft state.",請求書「%(invoice)s」はもう下書きではないため、行を追加できません。
+,"You cannot modify line ""%(line)s"" because its invoice ""%(invoice)s"" is posted, paid or cancelled.",行「%(line)s」の請求書「%(invoice)s」は記帳済み、支払済み、または取消済みのため、変更できません。
+,A tax can be added only once to an invoice line.,1 つの税は、請求書の行に 1 回だけ追加できます。
+,"You cannot modify invoice ""%(invoice)s"" because it is posted, paid or cancelled.",請求書「%(invoice)s」は記帳済み、支払済み、または取消済みのため、変更できません。
+,"To post invoice ""%(invoice)s"", you must define a sequence on fiscal year ""%(fiscalyear)s"".",請求書「%(invoice)s」を記帳するには、会計年度「%(fiscalyear)s」に連番を設定してください。
+,"To number the invoice ""%(invoice)s"", you must set an invoice date after ""%(date)s"" because the sequence ""%(sequence)s"" has already been used for invoice ""%(after_invoice)s"".",連番「%(sequence)s」はすでに請求書「%(after_invoice)s」で使われているため、請求書「%(invoice)s」に番号を付けるには、請求日を「%(date)s」より後にしてください。
+,"You cannot overpay invoice ""%(invoice)s"" because there is no more left to pay.",請求書「%(invoice)s」は残りの支払額がないため、過払いにできません。
+,"You cannot add a partial payment on invoice ""%(invoice)s"" with an amount greater than the amount to pay ""%(amount_to_pay)s"".",請求書「%(invoice)s」に、支払額「%(amount_to_pay)s」より大きい一部支払は追加できません。
+,A payment line can be linked to only one invoice.,支払の行は、1 つの請求書にだけ結び付けられます。
+,"You cannot add/remove payment lines on paid invoice ""%(invoice)s"".",支払済みの請求書「%(invoice)s」の支払の行は、追加も削除もできません。
+,"Payment lines amount on invoice ""%(invoice)s"" can not be greater than the invoice amount.",請求書「%(invoice)s」の支払の行の金額は、請求書の金額より大きくできません。
+,"The invoice ""%(invoice)s"" generates a payment date ""%(date)s"" in the past.",請求書「%(invoice)s」の支払日「%(date)s」が過去になっています。
+,"The invoice ""%(invoice)s"" is similar to invoice ""%(similar)s"".",請求書「%(invoice)s」は請求書「%(similar)s」と似ています。
+,"The ""%(field)s"" value of the invoice ""%(invoice)s"", %(value)s, must equal the source value, %(source)s.",請求書「%(invoice)s」の「%(field)s」の値 %(value)s は、元の値 %(source)s と同じである必要があります。
+,"The %(type)s ""%(reference)s"" on invoice ""%(invoice)s"" is not valid.",請求書「%(invoice)s」の %(type)s「%(reference)s」は正しくありません。
+,"You cannot add taxes to invoice ""%(invoice)s"" because it is no longer in a draft state.",請求書「%(invoice)s」はもう下書きではないため、税を追加できません。
+,"The taxes on invoice ""%(invoice)s"" are not valid, you must save it again to force them to be recalculated.",請求書「%(invoice)s」の税が正しくありません。もう一度保存して計算し直してください。
+,"You cannot modify tax ""%(tax)s"" because its invoice ""%(invoice)s"" is posted, paid or cancelled.",税「%(tax)s」の請求書「%(invoice)s」は記帳済み、支払済み、または取消済みのため、変更できません。
+,"The ratio and divisor are not consistent on line ""%(line)s"".",行「%(line)s」の比率と除数が合っていません。
+,"To save payment term ""%(payment_term)s"", you must append a last remainder line.",支払条件「%(payment_term)s」を保存するには、最後に残額の行を追加してください。
+,"To compute terms, you must append a remainder line on payment term ""%(payment_term)s"".",条件を計算するには、支払条件「%(payment_term)s」に残額の行を追加してください。
+,The ratio and divisor can not be both equal to zero.,比率と除数を両方 0 にはできません。
+,Are you sure you want to cancel the invoices?,請求書を取り消してよろしいですか?
+,Are you sure you want to post the invoices?,請求書を記帳してよろしいですか?
+,Cancel the invoice,請求書を取り消します
+,Also known as Pro Forma,見積請求書(プロフォーマ)とも言います
+,Modify Payee,受取人を変更
+,Pay,支払
+,Validate,確認
+,Party Payment Term,取引先の支払条件
+,Description:,説明:
+,Draft Invoice,請求書(下書き)
+,Invoice No:,請求書番号:
+,Pro forma Invoice,見積請求書(プロフォーマ)
+,Reference:,参照:
+,Supplier Invoice No:,仕入先の請求書番号:
+,Taxes:,税:
+,Total (excl. taxes):,合計(税抜):
+,Total:,合計:
+,Credit Note,請求取消書
+,Cancelled,取消済み
+,Creditor Reference,債権者参照
+,Customer,顧客
+,Supplier,仕入先
+,Subtotal,小計
+,Title,見出し
+,Overpayment,過払い
+,Partial Payment,一部支払
+,Percentage on Remainder,残額に対する割合
+,Percentage on Total,合計に対する割合
+,Remainder,残額
+,Are you sure to credit these/this invoice(s)?,この請求書の請求取消書を作成してよろしいですか?
+,Operations are applied in this displayed order.,操作は表示された順に適用されます。
+,Payment,支払
+,Tax Identifier:,税番号:
+,expected,予定
+,Render,作成
+,Shipments,出荷
+,Correction,訂正
+,Stock Moves,在庫の移動
+,Warehouse,倉庫
+,Stock Move,在庫の移動
+,Invoice Lines,請求書の行
+,Invoice Types,請求書の種類
+,Check to correct price of already posted invoice.,記帳済みの請求書の価格を訂正するときに有効にします。
+,Account Invoice Line - Stock Move,請求書の行 - 在庫の移動
+,Default Account Expense,既定の費用の勘定科目
+,Default Account Revenue,既定の収益の勘定科目
+,Default Expense Account,既定の費用の勘定科目
+,Default Revenue Account,既定の収益の勘定科目
+,Product Category,品目の分類
+,Account Expense,費用の勘定科目
+,Use Parent's accounts,親の勘定科目を使う
+,Account Revenue,収益の勘定科目
+,Accounting Products,会計の品目
+,Customer Taxes,顧客の税
+,Customer Taxes Used,使われる顧客の税
+,Supplier Taxes,仕入先の税
+,Supplier Taxes Deductible Rate,仕入先の税の控除率
+,Supplier Taxes Used,使われる仕入先の税
+,Use the Parent's Taxes,親の税を使う
+,Category,分類
+,Account Category,会計の分類
+,Use the accounts defined on the parent category.,親の分類に設定した勘定科目を使います。
+,Check to indicate the category is used for accounting.,この分類を会計に使うときに有効にします。
+,The products for which the accounting category applies.,この会計の分類を適用する品目です。
+,The taxes to apply when selling products of this category.,この分類の品目を販売するときにかける税です。
+,The taxes to apply when purchasing products of this category.,この分類の品目を購買するときにかける税です。
+,Use the taxes defined on the parent category.,親の分類に設定した税を使います。
+,"There is no ""%(field)s"" defined for ""%(name)s"".",「%(name)s」に「%(field)s」が設定されていません。
+,"There is no account category defined on product ""%(name)s"".",品目「%(name)s」に会計の分類が設定されていません。
+,Any category,すべての分類
+,Not accounting category,会計以外の分類
+,Product Category - Customer - Account Tax,品目の分類 - 顧客 - 税
+,Product Category - Supplier - Account Tax,品目の分類 - 仕入先 - 税
+,Product Category Account,品目の分類の勘定科目
+,Product Template - Product Category Account,品目のひな形 - 品目の分類の勘定科目
+,Account Product Administration,会計の品目の管理
+,Employees,従業員
+,Footer,フッター
+,Logo,ロゴ
+,Tax Identifiers,税番号
+,Height,高さ
+,Country,国
+,Organization,組織
+,Subordinates,部下
+,Supervisor,上司
+,Companies,会社
+,Current Company,現在の会社
+,Company Filter,会社の絞り込み
+,Current Employee,現在の従業員
+,Employee,従業員
+,The main currency for the company.,会社の主な通貨です。
+,Add employees to the company.,会社に従業員を追加します。
+,"The text to display on report footers.
+The following placeholders can be used:
+- ${name}
+- ${phone}
+- ${mobile}
+- ${fax}
+- ${email}
+- ${website}
+- ${address}
+- ${tax_identifier}
+","帳票のフッターに表示する文です。
+次のプレースホルダーを使えます:
+- ${name}
+- ${phone}
+- ${mobile}
+- ${fax}
+- ${email}
+- ${website}
+- ${address}
+- ${tax_identifier}
+"
+,"The text to display on report headers.
+The following placeholders can be used:
+- ${name}
+- ${phone}
+- ${mobile}
+- ${fax}
+- ${email}
+- ${website}
+- ${address}
+- ${tax_identifier}
+","帳票のヘッダーに表示する文です。
+次のプレースホルダーを使えます:
+- ${name}
+- ${phone}
+- ${mobile}
+- ${fax}
+- ${email}
+- ${website}
+- ${address}
+- ${tax_identifier}
+"
+,"Uses the first identifier that matches the criteria.
+If none match, uses the party's tax identifier.","条件に合う最初の識別子を使います。
+どれも合わないときは、取引先の税の識別子を使います。"
+,Used to compute the today date.,今日の日付を求めるのに使います。
+,Applies only to addresses in this country.,この国の住所にだけ適用します。
+,Applies only to addresses in this organization.,この組織の住所にだけ適用します。
+,The identifier used for tax report.,税の報告に使う識別子です。
+,The company to which the employee belongs.,従業員が所属する会社です。
+,When the employee leaves the company.,従業員が会社を離れる日です。
+,The party which represents the employee.,従業員を表す取引先です。
+,When the employee joins the company.,従業員が会社に入る日です。
+,The employees to be overseen by this employee.,この従業員が監督する従業員です。
+,The employee who oversees this employee.,この従業員を監督する従業員です。
+,Companies registered for this cron.,この定期実行に登録された会社です。
+,"
+- ""companies"" as list of ids from the current user","
+- ""companies"" は現在の利用者の会社の ID の一覧"
+,Restricts the sequence usage to the company.,連番を使えるのをこの会社に限ります。
+,The companies that the user has access to.,利用者がアクセスできる会社です。
+,Select the company to work for.,作業する会社を選びます。
+,Define records of which companies are shown.,どの会社の記録を表示するかを決めます。
+,Select the employee to make the user behave as such.,利用者をその従業員として扱うために、従業員を選びます。
+,Add employees to grant the user access to them.,利用者にアクセスを許す従業員を追加します。
+,Company Config Start,会社の設定の開始
+,Company Logo Cache,会社のロゴのキャッシュ
+,Company Tax Identifier,会社の税の識別子
+,Company Employee,会社の従業員
+,Configure Company,会社の設定
+,Supervised by,監督者
+,Letter,レター
+,Cron - Company,定期実行 - 会社
+,The size of cached company logo must be unique.,会社のロゴのキャッシュの大きさは重複できません。
+,Can not open or identify the image set for the company logo.,会社のロゴに設定した画像を開けないか、識別できません。
+,A party can only be assigned to one company.,取引先は 1 つの会社にだけ割り当てられます。
+,Company Administration,会社の管理
+,Employee Administration,従業員の管理
+,User - Company,利用者 - 会社
+,User - Company Employee,利用者 - 会社の従業員
+,"Best Regards,",敬具
+,"Dear Madams and Sirs,",拝啓
+,Subject:,件名:
+,Current,現在
+,You can now add your company into the system.,会社をシステムに追加できます。
+,Add,追加
+,3-letters Code,3 文字のコード
+,Numeric Code,数字のコード
+,Flag,国旗
+,Members,加盟国
+,Organizations,組織
+,Region,地方
+,Subdivisions,地域
+,Countries,国
+,City,市区町村
+,Postal Code,郵便番号
+,Subdivision,地域
+,Subregions,下位の地方
+,The 3 chars ISO country code.,ISO の 3 文字の国コードです。
+,The 2 chars ISO country code.,ISO の 2 文字の国コードです。
+,The ISO numeric country code.,ISO の数字の国コードです。
+,The main identifier of the country.,国の主な識別名です。
+,The city associated with the postal code.,郵便番号に対応する市区町村です。
+,The country that contains the postal code.,郵便番号がある国です。
+,The subdivision where the postal code is.,郵便番号がある地域です。
+,UN M49 region code.,国連 M49 の地方コードです。
+,The ISO code of the subdivision.,地域の ISO コードです。
+,The country where this subdivision is.,この地域がある国です。
+,The main identifier of the subdivision.,地域の主な識別名です。
+,Add subdivision below the parent.,親の下に地域を追加します。
+,Arab Maghreb Union,アラブ・マグレブ連合
+,Asia-Pacific Economic Cooperation,アジア太平洋経済協力
+,Association of Southeast Asian Nations,東南アジア諸国連合
+,Benelux Union,ベネルクス連合
+,Andean Community,アンデス共同体
+,Caribbean Community,カリブ共同体
+,Economic and Monetary Community of Central Africa,中部アフリカ経済通貨共同体
+,Community of Sahel–Saharan States,サヘル・サハラ諸国共同体
+,Common Market for Eastern and Southern Africa,東南部アフリカ市場共同体
+,East African Community,東アフリカ共同体
+,Economic Community of Central African States,中部アフリカ諸国経済共同体
+,Economic Community of West African States,西アフリカ諸国経済共同体
+,European Union,欧州連合
+,Cooperation Council for the Arab States of the Gulf,湾岸協力会議
+,Intergovernmental Authority on Development,政府間開発機構
+,Southern Common Market,南米南部共同市場
+,North American Free Trade Agreement,北米自由貿易協定
+,Southern African Development Community,南部アフリカ開発共同体
+,South Asian Free Trade Area,南アジア自由貿易地域
+,Country Organization,国の組織
+,Country Organization Member,国の組織の加盟国
+,Country Postal Code,国の郵便番号
+,Africa,アフリカ
+,Americas,アメリカ大陸
+,Antarctica,南極
+,Asia,アジア
+,Australia and New Zealand,オーストラリア・ニュージーランド
+,Caribbean,カリブ海
+,Central America,中央アメリカ
+,Central Asia,中央アジア
+,Channel Islands,チャンネル諸島
+,Eastern Africa,東アフリカ
+,Eastern Asia,東アジア
+,Eastern Europe,東ヨーロッパ
+,Europe,ヨーロッパ
+,Latin America and the Caribbean,ラテンアメリカ・カリブ海
+,Melanesia,メラネシア
+,Micronesia,ミクロネシア
+,Middle Africa,中部アフリカ
+,North America,北アメリカ
+,Northern Africa,北アフリカ
+,Northern America,北部アメリカ
+,Northern Europe,北ヨーロッパ
+,Oceania,オセアニア
+,Polynesia,ポリネシア
+,South-eastern Asia,東南アジア
+,South America,南アメリカ
+,Southern Africa,南部アフリカ
+,Southern Asia,南アジア
+,Southern Europe,南ヨーロッパ
+,Sub-Saharan Africa,サブサハラ・アフリカ
+,Western Africa,西アフリカ
+,Western Asia,西アジア
+,Western Europe,西ヨーロッパ
+,World,世界
+,Country Region,国の地方
+,Country Subdivision,国の地域
+,Countries by Region,地方別の国
+,Postal Codes,郵便番号
+,Regions,地方
+,Areas,地域
+,Administrative Region,行政地域
+,Administrative Territory,行政領域
+,Administrative area,行政区域
+,Administrative atoll,行政環礁
+,Administrative precinct,行政管区
+,Arctic Region,北極地域
+,Area,区域
+,Atoll,環礁
+,Autonomous City,自治市
+,Autonomous Commune,自治コミューン
+,Autonomous District,自治区
+,Autonomous Province,自治州
+,Autonomous Region,自治地域
+,Autonomous city in north africa,北アフリカの自治市
+,Autonomous communities,自治州
+,Autonomous community,自治州
+,Autonomous island,自治島
+,Autonomous monastic state,自治修道院国家
+,Autonomous municipality,自治自治体
+,Autonomous republic,自治共和国
+,Autonomous sector,自治セクター
+,Autonomous territorial unit,自治領域単位
+,Autonomous territory,自治領
+,Borough,区
+,Canton,カントン
+,Capital,首都
+,Capital District,首都区
+,Capital Metropolitan City,首都広域市
+,Capital Territory,首都特別地域
+,Capital city,首都
+,Chain (of islands),列島
+,Chains (of islands),列島
+,City corporation,市法人
+,City municipality,市自治体
+,City with county rights,郡の権限を持つ市
+,Commune,コミューン
+,Constitutional province,憲法上の州
+,Council area,カウンシル・エリア
+,County,郡
+,Decentralized regional entity,地方分権地域
+,Department,県
+,Dependency,属領
+,Development region,開発地域
+,District,地区
+,District council area,地区議会地域
+,District municipality,地区自治体
+,District with special status,特別地位の地区
+,Districts under republic administration,共和国直轄地区
+,Division,管区
+,Economic Prefecture,経済県
+,Economic region,経済地域
+,Emirate,首長国
+,Entity,構成体
+,European collectivity,欧州自治体
+,Federal Dependency,連邦属領
+,Federal District,連邦区
+,Federal Territories,連邦直轄領
+,Federal Territory,連邦直轄領
+,Federal capital territory,連邦首都特別地域
+,Federal entity,連邦構成主体
+,Free municipal consortium,自由自治体連合
+,Geographical entity,地理的構成体
+,Geographical region,地理的地域
+,Geographical unit,地理的単位
+,Governorate,県
+,Group of islands (20 inhabited islands),諸島(有人島 20)
+,Included for completeness,完全を期すため掲載
+,Indigenous region,先住民地域
+,Island,島
+,Island council,島議会
+,Island group,諸島
+,"Islands, groups of islands",島、諸島
+,Land,州
+,Local council,地方議会
+,London borough,ロンドン特別区
+,Metropolitan administration,都市行政区
+,Metropolitan cities,大都市
+,Metropolitan city,大都市
+,Metropolitan collectivity with special status,特別地位の大都市自治体
+,Metropolitan department,本土の県
+,Metropolitan district,大都市圏地区
+,Metropolitan region,大都市圏地域
+,Municipalities,自治体
+,Municipality,自治体
+,Nation,国
+,Oblast,州
+,Outlying area,離島地域
+,Overseas collectivity,海外自治体
+,Overseas collectivity with special status,特別地位の海外自治体
+,Overseas department,海外県
+,Overseas departmental collectivity,海外県自治体
+,Overseas region,海外地域圏
+,Overseas region/department,海外地域圏・県
+,Overseas territorial collectivity,海外領域自治体
+,Overseas territory,海外領土
+,Overseas unique territorial collectivity,海外単一領域自治体
+,Pakistan administered area,パキスタン管理地域
+,Parish,教区
+,Popularate,人民委員会
+,Popularates,人民委員会
+,Prefecture,県
+,Principality,公国
+,Province,州
+,Quarter,地区
+,Rayon,地区
+,Regional council,地域議会
+,Regional state,地域州
+,Republic,共和国
+,Republican City,共和国直轄市
+,Rural municipality,農村自治体
+,Self-governed part,自治領域
+,Special District,特別区
+,Special Municipality,特別市
+,Special Region,特別地域
+,Special administrative city,特別行政市
+,Special administrative region,特別行政区
+,Special city,特別市
+,Special island authority,特別島嶼当局
+,Special self-governing city,特別自治市
+,Special self-governing province,特別自治道
+,Special zone,特別区域
+,State city,国家市
+,Territorial unit,領域単位
+,Territory,準州
+,Town,町
+,Town council,町議会
+,Two-tier county,二層制の郡
+,Union territory,連邦直轄領
+,Unitary authority,単一自治体
+,Unitary authority (england),単一自治体(イングランド)
+,Unitary authority (wales),単一自治体(ウェールズ)
+,Urban community,都市共同体
+,Urban municipality,都市自治体
+,Voivodship,県
+,Ward,区
+,zone,区域
+,Last Update,最終更新
+,Current rate,現在のレート
+,Rates,レート
+,Rounding factor,端数処理の単位
+,Symbol,記号
+,The currencies to update the rate.,レートを更新する通貨です。
+,The base currency to fetch rate.,レートを取得する基準の通貨です。
+,How frequently rates must be updated.,レートを更新する頻度です。
+,The external source for rates.,レートを取得する外部の提供元です。
+,The 3 chars ISO currency code.,ISO の 3 文字の通貨コードです。
+,The number of digits to display after the decimal separator.,小数点以下に表示する桁数です。
+,The main identifier of the currency.,通貨の主な識別名です。
+,The 3 digits ISO currency code.,ISO の 3 桁の数字の通貨コードです。
+,Add floating exchange rates for the currency.,通貨の変動為替レートを追加します。
+,The minimum amount which can be represented in this currency.,この通貨で表せる最小の金額です。
+,The symbol used for currency formating.,通貨の表示に使う記号です。
+,The currency on which the rate applies.,レートを適用する通貨です。
+,From when the rate applies.,レートを適用し始める日です。
+,The floating exchange rate used to convert the currency.,通貨の換算に使う変動為替レートです。
+,Currency Cron,通貨の定期実行
+,Currency Cron - Currency,通貨の定期実行 - 通貨
+,Currency Rate,為替レート
+,Scheduled Rate Updates,レートの定期更新
+,A currency can only have one rate by date.,通貨のレートは 1 日に 1 つだけです。
+,"No rate found for currency ""%(currency)s"" on ""%(date)s"".",通貨「%(currency)s」の「%(date)s」のレートが見つかりません。
+,Run,実行
+,Currency Administration,通貨の管理
+,Daily,毎日
+,Weekly,毎週
+,European Central Bank,欧州中央銀行
+,Update Currency Rates,為替レートの更新
+,Contact Mechanism,連絡先
+,Attn,宛名
+,Building Name,建物名
+,Building Number,番地
+,Contact Mechanisms,連絡先
+,Floor Number,階
+,Full Address,住所全体
+,Identifiers,識別子
+,Party Name,取引先名
+,Post Box,私書箱
+,Post Office,郵便局
+,Private Bag,郵便袋
+,Room Number,部屋番号
+,Street,番地
+,Street Name,通り名
+,Subdivision Types,地域の種類
+,Unit Number,ユニット番号
+,Building Number Format,番地の書式
+,Country Code,国コード
+,Floor Number Format,階の書式
+,Language Code,言語コード
+,Post Box Format,私書箱の書式
+,Post Office Format,郵便局の書式
+,Private Bag Format,郵便袋の書式
+,Room Number Format,部屋番号の書式
+,Street Format,番地の書式
+,Unit Number Format,ユニット番号の書式
+,Parties Failed,失敗した取引先
+,Parties Succeed,成功した取引先
+,Identifier Types,識別子の種類
+,Party Sequence,取引先の連番
+,SIP,SIP
+,Skype,Skype
+,Value Compact,値(詰めた形)
+,Website,Web サイト
+,Code Compact,コード(詰めた形)
+,Type of Address,住所の種類
+,Categories,分類
+,Code Alphanumeric,英数字のコード
+,Code Digit,数字のコード
+,Code Readonly,コード(読み取り専用)
+,Distance,距離
+,Fax,FAX
+,Full Name,正式名
+,Mobile,携帯電話
+,Phone,電話
+,Destination,置き換え先
+,Define which email address to use from the party's contact mechanisms.,取引先の連絡先から、どのメールアドレスを使うかを決めます。
+,"If filled, replace the name of the party for address formatting",入力すると、住所の書式で取引先の名前の代わりに使います
+,Use {} as placeholder for the building number.,番地のプレースホルダーには {} を使います。
+,Use {} as placeholder for the floor number.,階のプレースホルダーには {} を使います。
+,"Available variables (also in upper case and street variables):
+- ${party_name}
+- ${attn}
+- ${street}
+- ${postal_code}
+- ${city}
+- ${subdivision}
+- ${subdivision_code}
+- ${country}
+- ${country_code}","使える変数(大文字と番地の変数も使えます):
+- ${party_name}
+- ${attn}
+- ${street}
+- ${postal_code}
+- ${city}
+- ${subdivision}
+- ${subdivision_code}
+- ${country}
+- ${country_code}"
+,Use {} as placeholder for the post box.,私書箱のプレースホルダーには {} を使います。
+,Use {} as placeholder for the post office.,郵便局のプレースホルダーには {} を使います。
+,Use {} as placeholder for the private bag.,郵便袋のプレースホルダーには {} を使います。
+,Use {} as placeholder for the room number.,部屋番号のプレースホルダーには {} を使います。
+,"Available variables (also in upper case):
+- ${street_name}
+- ${building_name}
+- ${building_number}
+- ${unit_number}
+- ${floor_number}
+- ${room_number}
+- ${post_box}
+- ${private_bag}
+- ${post_office}
+","使える変数(大文字も使えます):
+- ${street_name}
+- ${building_name}
+- ${building_number}
+- ${unit_number}
+- ${floor_number}
+- ${room_number}
+- ${post_box}
+- ${private_bag}
+- ${post_office}
+"
+,Use {} as placeholder for the unit number.,ユニット番号のプレースホルダーには {} を使います。
+,Add children below the category.,この分類の下に子を追加します。
+,The main identifier of the category.,分類の主な識別名です。
+,Add the category below the parent.,親の下に分類を追加します。
+,"Defines which identifier types are available.
+Leave empty for all of them.","使える識別子の種類を決めます。
+空にすると、すべて使えます。"
+,The default language for new parties.,新しい取引先の既定の言語です。
+,Used to generate the party code.,取引先コードの作成に使います。
+,"Used to translate communication made using the contact mechanism.
+Leave empty for the party language.","この連絡先でのやり取りの翻訳に使います。
+空欄にすると取引先の言語を使います。"
+,The party to be erased.,消去する取引先です。
+,The address identified by this record.,この記録が示す住所です。
+,The party identified by this record.,この記録が示す取引先です。
+,The categories the party belongs to.,取引先が属する分類です。
+,The unique identifier of the party.,取引先を一意に示す識別子です。
+,Add other identifiers of the party.,取引先のほかの識別子を追加します。
+,Used to translate communications with the party.,取引先とのやり取りの翻訳に使います。
+,The main identifier of the party.,取引先の主な識別子です。
+,The party replacing this one.,この取引先に代わる取引先です。
+,The party that replaces.,置き換え先の取引先です。
+,The party to be replaced.,置き換えられる取引先です。
+,Address Formats,住所の書式
+,Address Subdivision Types,住所の地域の種類
+,Parties by Category,分類別の取引先
+,Labels,ラベル
+,Check VIES,VIES で確認
+,Erase,消去
+,Replace,置き換え
+,"You cannot change the party of address ""%(address)s"".",住所「%(address)s」の取引先は変更できません。
+,The country code on subdivision type must be unique.,地域の種類の国コードは一意にしてください。
+,The name of party category must be unique by parent.,取引先の分類の名前は、同じ親の中で一意にしてください。
+,"You cannot change the party of contact mechanism ""%(contact)s"".",連絡先「%(contact)s」の取引先は変更できません。
+,"Parties have different names: ""%(source_name)s"" vs ""%(destination_name)s"".",取引先の名前が違います:「%(source_name)s」と「%(destination_name)s」。
+,"Parties have different tax identifiers: ""%(source_code)s"" vs ""%(destination_code)s"".",取引先の税の識別子が違います:「%(source_code)s」と「%(destination_code)s」。
+,"The email address ""%(email)s"" for party ""%(party)s"" is not valid.",取引先「%(party)s」のメールアドレス「%(email)s」は正しくありません。
+,"Party ""%(party)s"" cannot be erased because they are still active.",取引先「%(party)s」はまだ有効なので消去できません。
+,"To remove the identifier type ""%(type)s"" from the configuration, you must change it on ""%(identifier)s"".",識別子の種類「%(type)s」を設定から外すには、「%(identifier)s」の種類を変えてください。
+,"The %(type)s ""%(code)s"" for party ""%(party)s"" is not valid.",取引先「%(party)s」の%(type)s「%(code)s」は正しくありません。
+,"Invalid format ""%(format)s"" with exception ""%(exception)s"".",書式「%(format)s」が正しくありません(例外「%(exception)s」)。
+,"The phone number ""%(phone)s"" for party ""%(party)s"" is not valid.",取引先「%(party)s」の電話番号「%(phone)s」は正しくありません。
+,The code on party must be unique.,取引先のコードは一意にしてください。
+,"The party ""%(party)s"" has the same %(type)s ""%(value)s"".",取引先「%(party)s」に同じ%(type)s「%(value)s」があります。
+,"The party ""%(party)s"" has the same %(type)s ""%(code)s"".",取引先「%(party)s」に同じ%(type)s「%(code)s」があります。
+,"To change the ""%(field)s"" for party ""%(party)s"", you must edit their contact mechanisms.",取引先「%(party)s」の「%(field)s」を変えるには、連絡先を編集してください。
+,"The VIES service is unavailable, try again later.",VIES のサービスが使えません。後でもう一度試してください。
+,Party Address,取引先の住所
+,Party Address Format,取引先の住所の書式
+,Party Address Subdivision Type,取引先の住所の地域の種類
+,Party Category,取引先の分類
+,Party Check Vies Result,取引先の VIES 確認の結果
+,Party Configuration,取引先の設定
+,Party Configuration Party Lang,取引先の設定(取引先の言語)
+,Party Configuration Party Sequence,取引先の設定(取引先の連番)
+,Party Contact Mechanism,取引先の連絡先
+,Party Contact Mechanism Language,取引先の連絡先の言語
+,Party Erase Ask,取引先の消去の確認
+,Party Identifier,取引先の識別子
+,Party - Party Category,取引先 - 取引先の分類
+,Party Lang,取引先の言語
+,Party Replace Ask,取引先の置き換えの確認
+,Party Administration,取引先の管理
+,Albanian VAT Number,アルバニアの VAT 番号
+,Algerian Tax Number,アルジェリアの納税者番号
+,Andorra Tax Number,アンドラの納税者番号
+,Argentinian National Identity Number,アルゼンチンの国民識別番号
+,Argentinian Tax Number,アルゼンチンの納税者番号
+,Australian Business Number,オーストラリアの事業者番号(ABN)
+,Australian Company Number,オーストラリアの会社番号(ACN)
+,Australian Tax File Number,オーストラリアの納税者番号(TFN)
+,Austrian Company Register,オーストリアの商業登記番号
+,Austrian Social Security Number,オーストリアの社会保障番号
+,Austrian Tax Identification,オーストリアの納税者番号
+,Austrian Umsatzsteuer-Identifikationsnummer,オーストリアの付加価値税識別番号(UID)
+,Azerbaijan Tax Number,アゼルバイジャンの納税者番号
+,Belarus VAT Number,ベラルーシの VAT 番号
+,Belgian BIS Number,ベルギーの BIS 番号
+,Belgian Company Number,ベルギーの企業番号
+,Belgian National Number,ベルギーの国民番号
+,Belgian Social Security Number,ベルギーの社会保障番号
+,Belgian VAT Number,ベルギーの VAT 番号
+,Brazillian Company Identifier,ブラジルの法人番号(CNPJ)
+,Brazillian National Identifier,ブラジルの個人番号(CPF)
+,Bulgarian Number of a Foreigner,ブルガリアの外国人番号
+,Bulgarian Personal Identity Codes,ブルガリアの個人識別番号
+,Bulgarian VAT Number,ブルガリアの VAT 番号
+,Canadian Business Number,カナダの事業者番号
+,Canadian Social Insurance Number,カナダの社会保険番号
+,Chilean National Tax Number,チリの納税者番号
+,Chinese Resident Identity Card Number,中国の居民身分証番号
+,Chinese Unified Social Credit Code,中国の統一社会信用コード
+,Colombian Identity Code,コロンビアの身分証番号
+,Costa Rica Foreigners ID Number,コスタリカの外国人 ID 番号
+,Costa Rica Physical Person ID Number,コスタリカの個人 ID 番号
+,Costa Rica Tax Number,コスタリカの納税者番号
+,Croatian Identification Number,クロアチアの識別番号(OIB)
+,Cuban Identity Card Number,キューバの身分証番号
+,Cypriot VAT Number,キプロスの VAT 番号
+,Czech National Identifier,チェコの国民識別番号
+,Czech VAT Number,チェコの VAT 番号
+,Danish Citizen Number,デンマークの個人番号(CPR)
+,Danish VAT Number,デンマークの VAT 番号
+,Dominican Republic National Identification Number,ドミニカ共和国の国民識別番号
+,Dominican Republic Tax,ドミニカ共和国の納税者番号
+,Dutch Citizen Identification Number,オランダの市民識別番号(BSN)
+,Dutch School Identification Number,オランダの学校識別番号
+,Dutch Student Identification Number,オランダの学生識別番号
+,Dutch VAT Number,オランダの VAT 番号
+,Ecuadorian Personal Identity Code,エクアドルの個人識別番号
+,Ecuadorian Tax Identification,エクアドルの納税者番号
+,Egyptian Tax Registration Number,エジプトの税務登録番号
+,El Salvador Tax Number,エルサルバドルの納税者番号
+,English Unique Pupil Number,イングランドの生徒番号(UPN)
+,Estonian Organisation Registration Code,エストニアの法人登録番号
+,Estonian Personal ID Number,エストニアの個人 ID 番号
+,Estonian VAT Number,エストニアの VAT 番号
+,European VAT Number,欧州の VAT 番号
+,European VAT on e-Commerce - One Stop Shop,欧州の電子商取引 VAT(ワンストップショップ)
+,Faroese Tax Number,フェロー諸島の納税者番号
+,Finnish Association Identifier,フィンランドの団体識別番号
+,Finnish Business Identifier,フィンランドの事業者識別番号
+,Finnish Individual Tax Number,フィンランドの個人納税者番号
+,Finnish Personal Identity Code,フィンランドの個人識別番号
+,Finnish VAT Number,フィンランドの VAT 番号
+,French Company Establishment Identification Number,フランスの事業所識別番号(SIRET)
+,French Company Identification Number,フランスの企業識別番号(SIREN)
+,French Personal Identification Number,フランスの個人識別番号
+,French Tax Identification Number,フランスの納税者番号
+,French Trade Registration Number,フランスの商業登記番号
+,French VAT Number,フランスの VAT 番号
+,German Company Register Number,ドイツの商業登記番号
+,German Personal Tax Number,ドイツの個人納税者番号
+,German Tax Number,ドイツの納税者番号
+,German VAT Number,ドイツの VAT 番号
+,Ghanaian Taxpayer Identification Number,ガーナの納税者番号
+,Greek Social Security Number,ギリシャの社会保障番号
+,Greek VAT Number,ギリシャの VAT 番号
+,Guatemala Tax Number,グアテマラの納税者番号
+,Guinean Tax Number,ギニアの納税者番号
+,Hungarian VAT Number,ハンガリーの VAT 番号
+,Icelandic Personal and Organisation Identity Code,アイスランドの個人・法人識別番号
+,Icelandic VAT Number,アイスランドの VAT 番号
+,Indian Digital Resident Personal Identity Number,インドの個人識別番号(Aadhaar)
+,Indian Income Tax Identifier,インドの所得税識別番号(PAN)
+,Indian VAT number,インドの VAT 番号
+,Indian Voter ID,インドの有権者 ID
+,Indonesian VAT Number,インドネシアの VAT 番号
+,Irish Personal Number,アイルランドの個人番号
+,Irish VAT Number,アイルランドの VAT 番号
+,Israeli Company Number,イスラエルの会社番号
+,Israeli Identity Number,イスラエルの身分証番号
+,Italian Tax Code for Individuals,イタリアの個人の納税者コード
+,Italian VAT Number,イタリアの VAT 番号
+,Japanese Corporate Number,日本の法人番号
+,Kenya Tax Number,ケニアの納税者番号
+,Latvian VAT Number,ラトビアの VAT 番号
+,Lithuanian Legal Entities,リトアニアの法人番号
+,Lithuanian Personal Number,リトアニアの個人番号
+,Lithuanian VAT Number,リトアニアの VAT 番号
+,Luxembourgian VAT Number,ルクセンブルクの VAT 番号
+,Macedonian Tax Number,北マケドニアの納税者番号
+,Malaysian National Registration Identity Card Number,マレーシアの国民登録身分証番号
+,Maltese VAT Number,マルタの VAT 番号
+,Mauritian National Identifier,モーリシャスの国民識別番号
+,Mexican Tax Number,メキシコの納税者番号
+,Moldavian Company Identification Number,モルドバの企業識別番号
+,Monacan VAT Number,モナコの VAT 番号
+,Montenegro Tax Number,モンテネグロの納税者番号
+,Moroccan Tax Number,モロッコの納税者番号
+,Mozambique Tax Number,モザンビークの納税者番号
+,New Zealand Inland Revenue Department Number,ニュージーランドの内国歳入庁番号(IRD)
+,"Norwegian Birth Number, the National Identity Number",ノルウェーの出生番号(国民識別番号)
+,Norwegian Organisation Number,ノルウェーの組織番号
+,Norwegian VAT Number,ノルウェーの VAT 番号
+,Pakistani Computerised National Identity Card Number,パキスタンの国民身分証番号(CNIC)
+,Paraguay Tax Number,パラグアイの納税者番号
+,Peruvian Company Tax Number,ペルーの法人納税者番号
+,Peruvian Identity Number,ペルーの身分証番号
+,Polish National Identification Number,ポーランドの国民識別番号(PESEL)
+,Polish Register of Economic Units,ポーランドの経済単位登録番号(REGON)
+,Polish VAT Number,ポーランドの VAT 番号
+,Portuguese Identity Number,ポルトガルの身分証番号
+,Portuguese VAT Number,ポルトガルの VAT 番号
+,Romanian Numerical Personal Code,ルーマニアの個人番号(CNP)
+,Romanian ONRC Number,ルーマニアの ONRC 番号
+,Romanian VAT Number,ルーマニアの VAT 番号
+,Russian Primary State Registration Number,ロシアの主国家登録番号(OGRN)
+,Russian Tax identifier,ロシアの納税者番号(INN)
+,SEPA Identifier of the Creditor (AT-02),SEPA の債権者識別子(AT-02)
+,San Marino National Tax Number,サンマリノの納税者番号
+,Senegal Tax Number,セネガルの納税者番号
+,Serbian Tax Identification,セルビアの納税者番号
+,Singapore's Unique Entity Number,シンガポールの固有事業体番号(UEN)
+,Slovak Birth Number,スロバキアの出生番号
+,Slovak VAT Number,スロバキアの VAT 番号
+,Slovenian Corporate Registration Number,スロベニアの法人登録番号
+,Slovenian Unique Master Citizen Number,スロベニアの個人番号(EMŠO)
+,Slovenian VAT Number,スロベニアの VAT 番号
+,South African Identity Document Number,南アフリカの身分証番号
+,South African Tax Identification Number,南アフリカの納税者番号
+,South Korea Business Registration Number,韓国の事業者登録番号
+,South Korean Resident Registration Number,韓国の住民登録番号
+,Spanish Activity Establishment Code,スペインの事業所コード(CAE)
+,Spanish Company Tax,スペインの法人納税者番号
+,Spanish Foreigner Number,スペインの外国人番号(NIE)
+,Spanish Personal Identity Codes,スペインの個人識別番号
+,Spanish VAT Number,スペインの VAT 番号
+,Swedish Company Number,スウェーデンの会社番号
+,Swedish Personal Number,スウェーデンの個人番号
+,Swedish VAT Number,スウェーデンの VAT 番号
+,Swiss Business Identifier,スイスの事業者識別番号(UID)
+,Swiss Social Security Number,スイスの社会保障番号
+,Swiss VAT Number,スイスの VAT 番号
+,Taiwanese Tax Number,台湾の納税者番号
+,Thai Memorandum of Association Number,タイの基本定款番号
+,Thai Personal Identification Number,タイの個人識別番号
+,Thai Taxpayer Identification Number,タイの納税者番号
+,Tunisian Tax Number,チュニジアの納税者番号
+,Turkish Personal Identification Number,トルコの個人識別番号
+,Turkish Tax Identification Number,トルコの納税者番号
+,U.S. Adoption Taxpayer Identification Number,米国の養子用納税者番号(ATIN)
+,U.S. Employer Identification Number,米国の雇用者番号(EIN)
+,U.S. Individual Taxpayer Identification Number,米国の個人納税者番号(ITIN)
+,U.S. Preparer Tax Identification Number,米国の税務申告代理人番号(PTIN)
+,U.S. Social Security Number,米国の社会保障番号(SSN)
+,U.S. Taxpayer Identification Number,米国の納税者番号(TIN)
+,Ukrainian Identifier for Enterprises and Organizations,ウクライナの企業・団体識別番号
+,Ukrainian Individual Taxpayer Registration Number,ウクライナの個人納税者登録番号
+,United Kingdom (and Isle of Man) VAT Number,英国(マン島を含む)の VAT 番号
+,United Kingdom National Health Service Patient Identifier,英国の NHS 患者番号
+,United Kingdom Unique Taxpayer Reference,英国の納税者番号(UTR)
+,Uruguay Tax Number,ウルグアイの納税者番号
+,Venezuelan VAT Number,ベネズエラの VAT 番号
+,Vietnam Tax Number,ベトナムの納税者番号
+,IRC,IRC
+,Jabber,Jabber
+,Product Price Decimal,品目の価格の小数桁数
+,Products,品目
+,Category Sequence,分類の連番
+,Default Cost Method,既定の原価の計算方法
+,Variant Sequence,バリエーションの連番
+,Product Sequence,品目の連番
+,Cost Price,原価
+,Cost Price Method,原価の計算方法
+,List Price,定価
+,Consumable,消耗品
+,Cost Price Methods,原価の計算方法
+,Cost Prices,原価
+,Default UoM,既定の単位
+,Default UoM Category,既定の単位の分類
+,List Prices,定価
+,Position,並び順
+,Prefix Code,前の部分のコード
+,Replacing,置き換え元
+,Suffix Code,後ろの部分のコード
+,Product Template,品目のひな形
+,Source Default UoM Category,置き換え元の既定の単位の分類
+,Source Type,置き換え元の種類
+,Variants,バリエーション
+,Display Digits,表示の桁数
+,Factor,係数
+,Rounding Precision,丸めの精度
+,Units of Measure,単位
+,Used to add structure below the category.,この分類の下に階層を作るときに使います。
+,Used to add structure above the category.,この分類の上に階層を作るときに使います。
+,Used to generate the category code.,分類のコードの作成に使います。
+,The default cost price method for new products.,新しい品目の既定の原価の計算方法です。
+,Used to generate the last part of the product code.,品目コードの後ろの部分の作成に使います。
+,Used to generate the first part of the product code.,品目コードの前の部分の作成に使います。
+,The product identified by the code.,このコードが示す品目です。
+,"The categories that the product is in.
+Used to group similar products together.","品目が属する分類です。
+似た品目をまとめるのに使います。"
+,A unique identifier for the variant.,バリエーションを一意に示す識別子です。
+,Check to allow stock moves to be assigned regardless of stock level.,在庫の量にかかわらず、在庫の移動を割り当てられるようにするときに選びます。
+,"The amount it costs to purchase or make the variant, or carry out the service.",バリエーションの仕入れや製造、またはサービスの提供にかかる金額です。
+,The method used to calculate the cost price.,原価の計算に使う方法です。
+,"The standard Unit of Measure for the product.
+Used internally when calculating the stock levels of goods and assets.","品目の標準の単位です。
+品物や資産の在庫量の計算に内部で使います。"
+,The category of the default Unit of Measure.,既定の単位の分類です。
+,Other identifiers associated with the variant.,バリエーションに関連するほかの識別子です。
+,"The standard price the variant is sold at.
+Leave empty to use the list price of the product.","バリエーションの標準の販売価格です。
+空欄にすると品目の定価を使います。"
+,The standard price the variant is sold at.,バリエーションの標準の販売価格です。
+,The order of the variant in the list of variants on product.,品目のバリエーションの一覧での、このバリエーションの順番です。
+,The product replacing this one.,この品目に代わる品目です。
+,The products that this one is replacing.,この品目が置き換える品目です。
+,The unique identifier for the product (aka SKU).,品目を一意に示す識別子(SKU)です。
+,The product that defines the common properties inherited by the variant.,バリエーションが受け継ぐ共通の属性を決める品目です。
+,The product that replaces.,置き換え先の品目です。
+,The product to be replaced.,置き換えられる品目です。
+,"The amount it costs to purchase or make the product, or carry out the service.",品目の仕入れや製造、またはサービスの提供にかかる金額です。
+,The standard price the product is sold at.,品目の標準の販売価格です。
+,The different variants the product comes in.,この品目のバリエーションです。
+,"The category that contains the unit of measure.
+Conversions between different units of measure can be done if they are in the same category.","この単位が属する分類です。
+同じ分類の単位どうしで換算できます。"
+,"The coefficient for the formula:
+coefficient (base unit) = 1 (this unit)","次の式の係数です:
+係数(基準の単位) = 1(この単位)"
+,"The coefficient for the formula:
+1 (base unit) = coef (this unit)","次の式の係数です:
+1(基準の単位) = 係数(この単位)"
+,The accuracy to which values are rounded.,値を丸めるときの精度です。
+,The symbol that represents the unit of measure.,単位を表す記号です。
+,Add products,品目を追加
+,Product by Category,分類別の品目
+,The code on product category must be unique.,品目の分類のコードは一意にしてください。
+,"The %(type)s ""%(code)s"" for product ""%(product)s"" is not valid.",品目「%(product)s」の%(type)s「%(code)s」は正しくありません。
+,"You cannot change the template of the product ""%(product)s"".",品目「%(product)s」のひな形は変更できません。
+,Code of active product must be unique.,有効な品目のコードは一意にしてください。
+,"You cannot decrease the digits of the unit of measure ""%(uom)s"".",単位「%(uom)s」の桁数は減らせません。
+,"Incompatible factor and rate values on unit of measure""%(uom)s"".",単位「%(uom)s」の係数と比率の値が合いません。
+,"You cannot modify the category of the unit of measure ""%(uom)s"".",単位「%(uom)s」の分類は変更できません。
+,"You cannot modify the factor of the unit of measure ""%(uom)s"".",単位「%(uom)s」の係数は変更できません。
+,"If the unit of measure is still not used, you can delete it otherwise you can deactivate it and create a new one.",単位がまだ使われていなければ削除できます。使われているときは無効にして、新しい単位を作ってください。
+,"You cannot modify the rate of the unit of measure""%(uom)s"".",単位「%(uom)s」の比率は変更できません。
+,Rate and factor can not be both equal to zero.,比率と係数の両方を 0 にはできません。
+,Variant,バリエーション
+,Product Configuration,品目の設定
+,Product Configuration Default Cost Price Method,品目の設定(既定の原価の計算方法)
+,Product Cost Price,品目の原価
+,Product Cost Price Method,品目の原価の計算方法
+,Product Identifier,品目の識別子
+,Product List Price,品目の定価
+,Product Replace Ask,品目の置き換えの確認
+,Product Template - Product Category,品目のひな形 - 品目の分類
+,Product Template - Product Category All,品目のひな形 - 品目の分類(すべて)
+,Are,アール
+,Carat,カラット
+,Centimeter,センチメートル
+,Cubic centimeter,立方センチメートル
+,Cubic foot,立方フィート
+,Cubic inch,立方インチ
+,Cubic meter,立方メートル
+,Joule,ジュール
+,Kilowatt-hour,キロワット時
+,Megajoule,メガジュール
+,Megawatt-hour,メガワット時
+,Foot,フィート
+,Gallon,ガロン
+,Gram,グラム
+,Hectare,ヘクタール
+,Inch,インチ
+,Kilogram,キログラム
+,Kilometer,キロメートル
+,Liter,リットル
+,Meter,メートル
+,Mile,マイル
+,Millimeter,ミリメートル
+,Ounce,オンス
+,Pound,ポンド
+,Second,秒
+,Square centimeter,平方センチメートル
+,Square foot,平方フィート
+,Square inch,平方インチ
+,Square meter,平方メートル
+,Square yard,平方ヤード
+,Yard,ヤード
+,Product Uom,品目の単位
+,a,a
+,c,c
+,cm,cm
+,cm³,cm³
+,ft³,ft³
+,in³,in³
+,m³,m³
+,J,J
+,kW⋅h,kW⋅h
+,MJ,MJ
+,MW⋅h,MW⋅h
+,ft,ft
+,gal,gal
+,g,g
+,ha,ha
+,in,in
+,kg,kg
+,km,km
+,l,l
+,mi,mi
+,mm,mm
+,min,min
+,oz,oz
+,lb,lb
+,cm²,cm²
+,ft²,ft²
+,in²,in²
+,m²,m²
+,yd²,yd²
+,u,u
+,yd,yd
+,Energy,エネルギー
+,Length,長さ
+,Surface,面積
+,Units,個数
+,Volume,体積
+,Weight,重さ
+,Product Uom Category,品目の単位の分類
+,Product Administration,品目の管理
+,Deactivate Replaced Products,置き換えた品目を無効にする
+,Brand,ブランド
+,International Article Number,JAN/EAN コード
+,International Securities Identification Number,国際証券識別番号(ISIN)
+,International Standard Audiovisual Number,国際標準視聴覚資料番号(ISAN)
+,International Standard Book Number,国際標準図書番号(ISBN)
+,International Standard Identifier for Libraries,国際標準図書館識別番号(ISIL)
+,International Standard Music Number,国際標準楽譜番号(ISMN)
+,Manufacturer Part Number,製造元の品番
+,Average,平均
+,Goods,物品
+,Service,サービス
+,Exception State,例外の状態
+,Purchases,購買
+,Customer Code,顧客コード
+,Customer Codes,顧客コード
+,Supplier Currencies,仕入先の通貨
+,Supplier Currency,仕入先の通貨
+,Lead Time,リードタイム
+,Lead Times,リードタイム
+,Last Purchase Price,前回の購買価格
+,Purchasable,購買可
+,Purchase Price,購買価格
+,Purchase UoM,購買の単位
+,Invoice Method,請求の方法
+,Process Purchase after,購買を処理するまでの時間
+,Purchase Sequence,購買の連番
+,Domain Invoices,対象の請求書
+,Invoices to Ignore,無視する請求書
+,Invoices to Recreate,作り直す請求書
+,Domain Stock Moves,対象の在庫移動
+,Stock Moves to Ignore,無視する在庫移動
+,Stock Moves to Recreate,作り直す在庫移動
+,Actual Quantity,実際の数量
+,Delivery Date,納期
+,Edit Delivery Date,納期を編集
+,From Location,移動元
+,Invoice Progress,請求の進み具合
+,Movable,移動可
+,Moves Exception,移動の例外
+,Ignored Stock Moves,無視した在庫移動
+,Moves Progress,移動の進み具合
+,Recreated Moves,作り直した移動
+,Supplier's Product,仕入先の品目
+,Purchase Date,購買日
+,Purchase State,購買の状態
+,Quantity to Invoice,請求する数量
+,To Location,移動先
+,Purchase Line,購買の行
+,Prices,価格
+,Confirmed By,確定した人
+,Contact,担当者
+,Ignored Invoices,無視した請求書
+,Recreated Invoices,作り直した請求書
+,Quotation Expire,見積の有効期限
+,Quoted By,見積した人
+,Shipment Returns,返品
+,Shipment State,出荷の状態
+,To Invoice,請求する
+,Product - Currency,品目 - 通貨
+,Supplier - Currency,仕入先 - 通貨
+,Supplier Return,仕入先への返品
+,The code the party as supplier has assigned to the company as customer.,仕入先としての取引先が、顧客としての自社に付けたコードです。
+,Default currency for purchases from this party.,この取引先からの購買の既定の通貨です。
+,"The time from confirming the purchase order to receiving the goods from the party when used as a supplier.
+Used if no lead time is set on the product supplier.","仕入先としての取引先について、発注を確定してから品物を受け取るまでの時間です。
+品目の仕入先にリードタイムがないときに使います。"
+,The default Unit of Measure for purchases.,購買の既定の単位です。
+,"The grace period during which confirmed purchase can still be reset to draft.
+Applied only if a worker queue is activated.","確定した購買を、まだ下書きに戻せる猶予の時間です。
+ワーカーのキューが有効なときだけ使います。"
+,The selected cancelled invoices will be ignored.,選んだ取消済みの請求書は無視します。
+,The selected cancelled invoices will be recreated.,選んだ取消済みの請求書は作り直します。
+,The selected cancelled stock moves will be ignored.,選んだ取消済みの在庫移動は無視します。
+,The selected cancelled stock moves will be recreated.,選んだ取消済みの在庫移動は作り直します。
+,Check to edit the delivery date.,納期を編集するときはチェックします。
+,"The time from confirming the purchase order to receiving the products.
+If empty the lead time of the supplier is used.","発注を確定してから品目を受け取るまでの時間です。
+空のときは仕入先のリードタイムを使います。"
+,"Add price for different criteria.
+The last matching line is used.","条件ごとの価格を追加します。
+最後に当てはまった行を使います。"
+,Minimal quantity.,最小の数量です。
+,The unit in which the quantity is specified.,数量を表す単位です。
+,The default delivery date for each line.,各行の既定の納期です。
+,If empty the Storage location is used.,空のときは保管の場所を使います。
+,Purchase Lines,購買の行
+,Purchases per Product,品目別の購買
+,Purchases per Supplier,仕入先別の購買
+,Returns,返品
+,Handle Invoice Exception,請求書の例外を処理
+,Modify Header,見出しを変更
+,Return Purchase,購買を返品
+,Handle Shipment Exception,出荷の例外を処理
+,Confirmed,確定
+,Exception,例外
+,Quotation,見積
+,You are trying to change the purchase unit of measure on which the purchase prices are based.,購買価格のもとになる購買の単位を変えようとしています。
+,"You cannot erase party ""%(party)s"" while they have pending purchases with company ""%(company)s"".",取引先「%(party)s」は、会社「%(company)s」との未完了の購買があるため、消去できません。
+,"To delete purchase ""%(purchase)s"" you must cancel it.",購買「%(purchase)s」を削除するには、取り消してください。
+,"You cannot reset invoice ""%(invoice)s"" to draft because it was generated by a purchase.",請求書「%(invoice)s」は購買から作られたため、下書きに戻せません。
+,"You cannot add lines to purchase ""%(purchase)s"" because it is no longer in a draft state.",購買「%(purchase)s」はもう下書きではないため、行を追加できません。
+,"To delete line ""%(line)s"" you must cancel or reset to draft purchase ""%(purchase)s"".",行「%(line)s」を削除するには、購買「%(purchase)s」を取り消すか下書きに戻してください。
+,"The purchase line ""%(line)s"" is moving %(extra)s in addition to the %(quantity)s ordered.",購買の行「%(line)s」は、発注した %(quantity)s に加えて %(extra)s を移動しています。
+,A tax can be added only once to a purchase line.,税は購買の行に 1 度だけ追加できます。
+,"To invoice purchase ""%(purchase)s"" you must configure a default account expense.",購買「%(purchase)s」の請求をするには、既定の費用の勘定科目を設定してください。
+,"To modify the header of purchase ""%(purchase)s"", it must be in draft state.",購買「%(purchase)s」の見出しを変更するには、下書きの状態にしてください。
+,"You cannot reset move ""%(move)s"" to draft because it was generated by a purchase.",移動「%(move)s」は購買から作られたため、下書きに戻せません。
+,"To invoice purchase ""%(purchase)s"" you must define an account expense for product ""%(product)s"".",購買「%(purchase)s」の請求をするには、品目「%(product)s」に費用の勘定科目を設定してください。
+,Expense Trend,費用の推移
+,#,#
+,Number of purchases.,購買の件数です。
+,Time Series,時系列
+,"To process purchase ""%(purchase)s"" you must set a supplier location on party ""%(party)s"".",購買「%(purchase)s」を処理するには、取引先「%(party)s」に仕入先の場所を設定してください。
+,"To get a quote for the purchase ""%(purchase)s"" you must enter a warehouse for the line ""%(line)s"".",購買「%(purchase)s」の見積をとるには、行「%(line)s」に倉庫を入力してください。
+,Create Invoice,請求書を作成
+,Quote,見積
+,Party Customer Code,取引先の顧客コード
+,Party Supplier Currency,取引先の仕入先の通貨
+,Party Supplier Lead Time,取引先の仕入先のリードタイム
+,Purchase Configuration,購買の設定
+,Purchase Configuration Purchase Method,購買の設定 - 購買の方法
+,Purchase Configuration Sequence,購買の設定 - 連番
+,Purchase Handle Invoice Exception Ask,購買 - 請求書の例外の処理
+,Purchase Handle Shipment Exception Ask,購買 - 出荷の例外の処理
+,Purchase Line - Account Tax,購買の行 - 税
+,Purchase Line - Ignored - Stock Move,購買の行 - 無視した在庫移動
+,Purchase Line - Recreated - Stock Move,購買の行 - 作り直した在庫移動
+,Purchase Product Supplier,購買の品目の仕入先
+,Purchase Product Supplier Price,購買の品目の仕入先の価格
+,Purchase - Ignored - Account Invoice,購買 - 無視した請求書
+,Purchase - Recreated - Account Invoice,購買 - 作り直した請求書
+,Purchase Reporting Context,購買の集計の条件
+,Purchase Reporting Main,購買の集計
+,Purchase Reporting Main Time Series,購買の集計の時系列
+,Purchase Reporting Product,品目別の購買の集計
+,Purchase Reporting Product Time Series,品目別の購買の集計の時系列
+,Purchase Reporting Supplier,仕入先別の購買の集計
+,Purchase Reporting Supplier Time Series,仕入先別の購買の集計の時系列
+,Purchase Return Purchase Start,購買の返品の開始
+,Purchase Administrator,購買の管理者
+,Customer Code:,顧客コード:
+,Delivery Address:,納入先の住所:
+,Draft Purchase Order,発注書(下書き)
+,Purchase Order No:,発注番号:
+,Request for Quotation No:,見積依頼番号:
+,Ignored,無視
+,Recreated,作り直し
+,On Fulfillment,納品のとき
+,On Order,発注のとき
+,Awaiting Payment,支払待ち
+,Partially Paid,一部支払済み
+,Partially Shipped,一部出荷済み
+,Received,受領済み
+,Waiting,待機中
+,Year,年
+,Choose cancelled invoices to ignore or recreate:,無視するか作り直す取消済みの請求書を選んでください:
+,Choose cancelled stock moves to ignore or recreate:,無視するか作り直す取消済みの在庫移動を選んでください:
+,Delivery Date:,納期:
+,Invoicing,請求
+,Shipping,出荷
+,Are you sure to return these/this purchase(s)?,この購買を返品してよろしいですか?
+,Modify,変更
+,Return,返品
+,Sales,販売
+,Customer Currencies,顧客の通貨
+,Customer Currency,顧客の通貨
+,Sale Methods,販売の方法
+,Shipment Method,出荷の方法
+,Sale Invoice Method,販売の請求の方法
+,Sale Shipment Method,販売の出荷の方法
+,Default Lead Time,既定のリードタイム
+,Salable,販売可
+,Sale Price,販売価格
+,Sale UoM,販売の単位
+,Warehouses,倉庫
+,Sale Date,販売日
+,Stock End Date,在庫の終了日
+,Process Sale after,販売を処理するまでの時間
+,Sale Quotation Validity,販売の見積の有効期間
+,Sale Sequence,販売の連番
+,Quantity to Ship,出荷する数量
+,Sale State,販売の状態
+,Shipping Date,出荷日
+,Sale Line,販売の行
+,Quotation Date,見積日
+,Quotation Validity,見積の有効期間
+,Shipment Address,出荷先の住所
+,Shipment Party,出荷先の取引先
+,To Ship,出荷する
+,Default currency for sales to this party.,この取引先への販売の既定の通貨です。
+,"The default sale invoice method for the customer.
+Leave empty to use the default value from the configuration.","顧客の既定の販売の請求の方法です。
+空のときは設定の既定値を使います。"
+,"The default sale shipment method for the customer.
+Leave empty to use the default value from the configuration.","顧客の既定の販売の出荷の方法です。
+空のときは設定の既定値を使います。"
+,"The time from confirming the sales order to sending the products.
+Used for products without a lead time.","受注を確定してから品目を送るまでの時間です。
+リードタイムのない品目に使います。"
+,"The time from confirming the sales order to sending the products.
+If empty the default lead time from the configuration is used.","受注を確定してから品目を送るまでの時間です。
+空のときは設定の既定のリードタイムを使います。"
+,The default Unit of Measure for sales.,販売の既定の単位です。
+,"The grace period during which confirmed sale can still be reset to draft.
+Applied if a worker queue is activated.","確定した販売を、まだ下書きに戻せる猶予の時間です。
+ワーカーのキューが有効なときに使います。"
+,When the quotation was edited.,見積を編集した日です。
+,Until when the quotation is still valid.,見積が有効な期限です。
+,How much time the quotation is valid.,見積が有効な期間です。
+,When the shipping of goods should start.,品物の出荷を始める日です。
+,Sales per Subdivision,地域別の販売
+,Sales per Country,国別の販売
+,Sales per Customer,顧客別の販売
+,Sales per Customer Category,顧客の分類別の販売
+,Sales per Party Category,取引先の分類別の販売
+,Sales per Product,品目別の販売
+,Sales per Product Category,品目の分類別の販売
+,Sales per Region,地方別の販売
+,Sale Lines,販売の行
+,Open Region,地方を開く
+,Return Sale,販売を返品
+,"You cannot erase party ""%(party)s"" while they have pending sales with company ""%(company)s"".",取引先「%(party)s」は、会社「%(company)s」との未完了の販売があるため、消去できません。
+,"To process sale ""%(sale)s"" you must set a customer location on party ""%(party)s"".",販売「%(sale)s」を処理するには、取引先「%(party)s」に顧客の場所を設定してください。
+,"To delete sale ""%(sale)s"" you must cancel it.",販売「%(sale)s」を削除するには、取り消してください。
+,"You cannot use together invoice ""%(invoice_method)s"" and shipment ""%(shipment_method)s"" on sale ""%(sale)s"".",販売「%(sale)s」では、請求「%(invoice_method)s」と出荷「%(shipment_method)s」を一緒に使えません。
+,"To get a quote for sale ""%(sale)s"" you must enter an invoice address.",販売「%(sale)s」の見積をとるには、請求先の住所を入力してください。
+,"You cannot reset invoice ""%(invoice)s"" to draft because it was generated by a sale.",請求書「%(invoice)s」は販売から作られたため、下書きに戻せません。
+,"You cannot add lines to sale ""%(sale)s"" because it is no longer in a draft state.",販売「%(sale)s」はもう下書きではないため、行を追加できません。
+,"To delete line ""%(line)s"" you must cancel or reset to draft sale ""%(sale)s"".",行「%(line)s」を削除するには、販売「%(sale)s」を取り消すか下書きに戻してください。
+,"The sale line ""%(line)s"" is moving %(extra)s in addition to the %(quantity)s ordered.",販売の行「%(line)s」は、注文の %(quantity)s に加えて %(extra)s を移動しています。
+,A tax can be added only once to a sale line.,税は販売の行に 1 度だけ追加できます。
+,"To invoice sale ""%(sale)s"" you must configure a default account revenue.",販売「%(sale)s」の請求をするには、既定の収益の勘定科目を設定してください。
+,"To modify the header of sale ""%(sale)s"", it must be in ""draft"" state.",販売「%(sale)s」の見出しを変更するには、「下書き」の状態にしてください。
+,"You cannot reset move ""%(move)s"" to draft because it was generated by a sale.",移動「%(move)s」は販売から作られたため、下書きに戻せません。
+,"To invoice sale ""%(sale)s"" you must define an account revenue for product ""%(product)s"".",販売「%(sale)s」の請求をするには、品目「%(product)s」に収益の勘定科目を設定してください。
+,Number of sales,販売の件数
+,Revenue Trend,収益の推移
+,"To get a quote for sale ""%(sale)s"" you must enter a shipment address.",販売「%(sale)s」の見積をとるには、出荷先の住所を入力してください。
+,"To get a quote for sale ""%(sale)s"" you must enter a warehouse for the line ""%(line)s"".",販売「%(sale)s」の見積をとるには、行「%(line)s」に倉庫を入力してください。
+,Create Shipment,出荷を作成
+,Party Customer Currency,取引先の顧客の通貨
+,Party Sale Method,取引先の販売の方法
+,Product Configuration Default Lead Time,品目の設定 - 既定のリードタイム
+,Product Lead Time,品目のリードタイム
+,Product Sale Context,品目の販売の条件
+,Sales Administrator,販売の管理者
+,Sale Configuration,販売の設定
+,Sale Configuration Quotation,販売の設定 - 見積
+,Sale Configuration Sale Method,販売の設定 - 販売の方法
+,Sale Configuration Sequence,販売の設定 - 連番
+,Sale Handle Invoice Exception Ask,販売 - 請求書の例外の処理
+,Sale Handle Shipment Exception Ask,販売 - 出荷の例外の処理
+,Sale Line - Account Tax,販売の行 - 税
+,Sale Line - Ignored - Stock Move,販売の行 - 無視した在庫移動
+,Sale Line - Recreated - Stock Move,販売の行 - 作り直した在庫移動
+,Sale Reporting Context,販売の集計の条件
+,Sale Reporting Country,国別の販売の集計
+,Sale Reporting Country Subdivision,地域別の販売の集計
+,Sale Reporting Country Subdivision Time Series,地域別の販売の集計の時系列
+,Sale Reporting Country Time Series,国別の販売の集計の時系列
+,Sale Reporting Country Tree,国別の販売の集計の階層
+,Sale Reporting Customer,顧客別の販売の集計
+,Sale Reporting Customer Category,顧客の分類別の販売の集計
+,Sale Reporting Customer Category Time Series,顧客の分類別の販売の集計の時系列
+,Sale Reporting Customer Category Tree,顧客の分類別の販売の集計の階層
+,Sale Reporting Customer Time Series,顧客別の販売の集計の時系列
+,Sale Reporting Main,販売の集計
+,Sale Reporting Main Time Series,販売の集計の時系列
+,Sale Reporting Product,品目別の販売の集計
+,Sale Reporting Product Category,品目の分類別の販売の集計
+,Sale Reporting Product Category Time Series,品目の分類別の販売の集計の時系列
+,Sale Reporting Product Category Tree,品目の分類別の販売の集計の階層
+,Sale Reporting Product Time Series,品目別の販売の集計の時系列
+,Sale Reporting Region Tree,地方別の販売の集計の階層
+,Sale Return Sale Start,販売の返品の開始
+,Sale - Ignored - Account Invoice,販売 - 無視した請求書
+,Sale - Recreated - Account Invoice,販売 - 作り直した請求書
+,Draft Sale Order,注文書(下書き)
+,Expiration Date:,有効期限:
+,Quotation No:,見積番号:
+,Sale Order No:,受注番号:
+,Cancel Expired Sale Quotation,期限切れの販売の見積を取り消す
+,On Order Processed,注文の処理のとき
+,On Invoice Paid,請求書の支払のとき
+,Sent,送付済み
+,Are you sure to return these/this sale(s)?,この販売を返品してよろしいですか?
+,Delivery,配送先
+,Customer Location,顧客の場所
+,Delivered to Warehouses,納入先の倉庫
+,Locations,場所
+,Supplier Location,仕入先の場所
+,Location,場所
+,At Date,日付
+,New Cost Price,新しい原価
+,Cost Value,原価の金額
+,Forecast Quantity,予測の数量
+,From,開始
+,Current Warehouse,今の倉庫
+,Inventory Sequence,棚卸の連番
+,Supplier Return Shipment Sequence,仕入先への返品の連番
+,Supplier Shipment Sequence,仕入先からの入荷の連番
+,Internal Shipment Sequence,内部移動の連番
+,Internal Shipment Transit,内部移動の輸送中
+,Customer Return Shipment Sequence,顧客からの返品の連番
+,Customer Shipment Sequence,顧客への出荷の連番
+,Empty Quantity,空の数量
+,Total Quantity,合計の数量
+,Search,検索
+,Expected Quantity,予定の数量
+,Inventory,棚卸
+,Inventory State,棚卸の状態
+,Allow Pickup,受け取りを許す
+,Flat Children,下位の場所(すべて)
+,Input,入庫
+,Lost and Found,遺失物
+,Output,出庫
+,Picking,ピッキング
+,Quantity UoM,数量の単位
+,Storage,保管
+,Waste Locations,廃棄の場所
+,Waste Warehouses,廃棄の倉庫
+,Warehouse From,移動元の倉庫
+,Warehouse To,移動先の倉庫
+,Waste Location,廃棄の場所
+,Assignation Required,引当が必要
+,Cost Price Required,原価が必要
+,Delay,遅れ
+,Internal Quantity,内部の数量
+,Origin Planned Date,元の予定日
+,Outcome Moves,結果の移動
+,Planned Date,予定日
+,Shipment,出荷
+,Unit Price Required,単価が必要
+,Unit Price Updated,単価を更新済み
+,Caches,キャッシュ
+,Only storage zone,保管の区域だけ
+,Cumulative Quantity Delta,累計の数量の増減
+,Cumulative Quantity End,累計の数量(終了)
+,Cumulative Quantity Start,累計の数量(開始)
+,Input Quantity,入庫の数量
+,Output Quantity,出庫の数量
+,Product Reference,品目の参照
+,Product Type,品目の種類
+,Average Quantity,平均の数量
+,Turnover,回転率
+,Include Lost,遺失を含める
+,Contact Address,連絡先の住所
+,Done By,完了した人
+,Incoming Moves,入荷の移動
+,Inventory Moves,棚卸の移動
+,Received By,受領した人
+,Warehouse Input,倉庫の入庫
+,Warehouse Storage,倉庫の保管
+,Assigned By,引当した人
+,Delivery Address,納入先の住所
+,Partially Assigned,一部引当済み
+,Effective Start Date,実際の開始日
+,Internal Transit Location,内部移動の輸送中の場所
+,Outgoing Moves,出庫の移動
+,Packed By,梱包者
+,Planned Start Date,予定の開始日
+,Shipped By,発送者
+,To Warehouse,移動先の倉庫
+,Transit Location,輸送中の場所
+,Picked By,ピッキング者
+,Warehouse Output,倉庫の出庫
+,Check to send deliveries to the address.,この住所に配送するときはチェックします。
+,Check to use for delivery.,配送に使うときはチェックします。
+,The default destination location for stock sent to the party.,取引先に送る在庫の、既定の送り先の場所です。
+,The default source location for stock received from the party.,取引先から受け取る在庫の、既定の送り元の場所です。
+,"The date for which the stock quantity is calculated.
+* An empty value calculates as far ahead as possible.
+* A date in the past will provide historical values.","在庫数量を計算する日付です。
+* 空のときは、できるだけ先まで計算します。
+* 過去の日付のときは、その時点の値を出します。"
+,"Python expression that will be evaluated with:
+- cost_price: the current cost price of the product","次の値で評価する Python の式です:
+- cost_price: 品目の現在の原価"
+,The value of the stock in the location.,この場所の在庫の金額です。
+,The amount of stock expected to be in the location.,この場所にある見込みの在庫の量です。
+,The amount of stock in the location.,この場所の在庫の量です。
+,The warehouse that the user works at.,利用者が働く倉庫です。
+,Used to generate the number given to inventories.,棚卸の番号を作るのに使います。
+,Used to generate the number given to supplier return shipments.,仕入先への返品の番号を作るのに使います。
+,Used to generate the number given to supplier shipments.,仕入先からの入荷の番号を作るのに使います。
+,Used to generate the number given to internal shipments.,内部移動の番号を作るのに使います。
+,The default location used for stock that is in transit between warehouses.,倉庫の間を輸送中の在庫に使う、既定の場所です。
+,Used to generate the number given to customer return shipments.,顧客からの返品の番号を作るのに使います。
+,Used to generate the number given to customer shipments.,顧客への出荷の番号を作るのに使います。
+,The company the inventory is associated with.,棚卸が属する会社です。
+,The date of the stock count.,在庫を数えた日付です。
+,How lines without a quantity are handled.,数量のない行の扱い方です。
+,The location inventoried.,棚卸をする場所です。
+,The main identifier for the inventory.,棚卸の主な識別子です。
+,The current state of the inventory.,棚卸の現在の状態です。
+,The quantity to add to the existing count.,今の数に足す数量です。
+,The total amount of the line counted so far.,この行でこれまでに数えた合計の量です。
+,The unit in which the quantities are specified.,数量の単位です。
+,The item that's counted.,数える品目です。
+,The quantity the system calculated should be in the location.,この場所にあるはずだとシステムが計算した数量です。
+,The inventory the line belongs to.,この行が属する棚卸です。
+,The actual quantity found in the location.,この場所で実際に見つかった数量です。
+,Used to add structure below the location.,この場所の下に階層を作るのに使います。
+,The internal identifier used for the location.,この場所の内部の識別子です。
+,Check to enforce a single level of children with no grandchildren.,子を 1 段だけにし、孫を持たせないときはチェックします。
+,Where incoming stock is received.,入ってくる在庫を受け取る場所です。
+,"Used, by inventories, when correcting stock levels in the warehouse.",棚卸で、倉庫の在庫の量を直すときに使います。
+,Where outgoing stock is sent from.,出ていく在庫を送り出す場所です。
+,Used to add structure above the location.,この場所の上に階層を作るのに使います。
+,"Where stock is picked from.
+Leave empty to use the storage location.","在庫をピッキングする場所です。
+空のときは保管の場所を使います。"
+,The Unit of Measure for the quantities.,数量の単位です。
+,The top level location where stock is stored.,在庫を保管する最上位の場所です。
+,Group locations logically.,場所を論理的にまとめます。
+,Regroup storage locations under a logistics warehouse.,保管の場所を物流の倉庫の下にまとめます。
+,Used as the destination for stock sent to customers.,顧客に送る在庫の送り先として使います。
+,Used as the destination of components and the source of finished products.,部品の送り先と、完成品の送り元として使います。
+,Used as the source of stock received from suppliers.,仕入先から受け取る在庫の送り元として使います。
+,Used during the drop shipping process.,直送の処理で使います。
+,"Used for damages, discrepancies and wastage.",破損、差異、廃棄に使います。
+,Used to physically store goods.,品物を実際に保管するのに使います。
+,The locations used for waste products from the warehouse.,倉庫の廃棄品に使う場所です。
+,The warehouses that use the location for waste products.,この場所を廃棄品に使う倉庫です。
+,The time it takes to move stock between the warehouses.,倉庫の間で在庫を移すのにかかる時間です。
+,The company the stock move is associated with.,在庫の移動が属する会社です。
+,The currency in which the unit price is specified.,単価の通貨です。
+,When the stock was actually moved.,在庫を実際に移した日です。
+,Where the stock is moved from.,在庫の移動元です。
+,The source of the stock move.,在庫の移動の元です。
+,When the stock was expected to be moved originally.,在庫を移す予定だった最初の日です。
+,When the stock is expected to be moved.,在庫を移す予定の日です。
+,The product that the move is associated with.,移動の対象の品目です。
+,The cost price of the product when different from the cost price of the move.,移動の原価と違うときの、品目の原価です。
+,The amount of stock moved.,移した在庫の量です。
+,Used to group several stock moves together.,いくつかの在庫の移動をまとめるのに使います。
+,The current state of the stock move.,在庫の移動の現在の状態です。
+,Where the stock is moved to.,在庫の移動先です。
+,Unit price in company currency.,会社の通貨での単価です。
+,The company the stock period is associated with.,在庫の期間が属する会社です。
+,When the stock period ends.,在庫の期間が終わる日です。
+,The current state of the stock period.,在庫の期間の現在の状態です。
+,Check to use only the quantity of the storage zone.,保管の区域の数量だけを使うときはチェックします。
+,The warehouse for which the quantities will be calculated.,数量を計算する倉庫です。
+,The default Unit of Measure.,既定の単位です。
+,"If checked, the cost of product moved to a lost and found location is included.",チェックすると、遺失物の場所に移した品目の原価を含めます。
+,The moves that were not assigned.,引当できなかった移動です。
+,The company the shipment is associated with.,出荷が属する会社です。
+,The address at which the supplier can be contacted.,仕入先と連絡を取る住所です。
+,The moves that bring the stock into the warehouse.,在庫を倉庫に入れる移動です。
+,The moves that put the stock away into the storage area.,在庫を保管の区域にしまう移動です。
+,The main identifier for the shipment.,出荷の主な識別子です。
+,The external identifier for the shipment.,出荷の外部の識別子です。
+,The current state of the shipment.,出荷の現在の状態です。
+,The party that supplied the stock.,在庫を納めた取引先です。
+,Where the stock is received.,在庫を受け取る場所です。
+,Where the stock is sent to.,在庫の送り先です。
+,The moves that return the stock to the supplier.,在庫を仕入先に返す移動です。
+,When the stock was actually sent.,在庫を実際に送った日です。
+,The moves that receive the stock in.,在庫を受け入れる移動です。
+,The moves that perform the shipment.,出荷を行う移動です。
+,The moves that send the stock out.,在庫を送り出す移動です。
+,When the stock is expected to be sent.,在庫を送る予定の日です。
+,Where the stock is located while it is in transit between the warehouses.,倉庫の間を輸送中の在庫がある場所です。
+,Where the stock is sent from.,在庫の送り元です。
+,The party that purchased the stock.,在庫を買った取引先です。
+,The moves that pick the stock from the storage area.,保管の区域から在庫をピッキングする移動です。
+,The moves that send the stock to the customer.,在庫を顧客に送る移動です。
+,The address the customer can be contacted at.,顧客と連絡を取る住所です。
+,Where the stock is returned.,在庫を返す先です。
+,Inventories,棚卸
+,Inventory Lines,棚卸の行
+,Location Lead Times,場所の間のリードタイム
+,Stock Locations List,在庫の場所の一覧
+,Stock Locations Tree,在庫の場所の階層
+,Cost Price Revision,原価の改定
+,Stock Quantities By Warehouse,倉庫ごとの在庫数量
+,Stock Moves By Warehouse,倉庫ごとの在庫の移動
+,Stock Inventory Daily,日ごとの在庫
+,Stock Inventory Moves,在庫の移動の履歴
+,Inventory Turnover,在庫回転率
+,Margins per Category,分類ごとの利益率
+,Margins,利益率
+,Margins per Product,品目ごとの利益率
+,Supplier Shipments,仕入先からの入荷
+,Supplier Returns,仕入先への返品
+,Internal Shipments,内部移動
+,Customer Shipments,顧客への出荷
+,Customer Returns,顧客からの返品
+,Restocking List,入庫リスト
+,Internal Shipment,内部移動
+,Delivery Note,納品書
+,Picking List,ピッキングリスト
+,Products Quantities By Warehouse,倉庫ごとの品目の数量
+,Modify Cost Price,原価の変更
+,Recompute Cost Price,原価の再計算
+,Assign Supplier Return Shipment,仕入先への返品の引当
+,Assign Internal Shipment,内部移動の引当
+,Assign Customer Shipment,顧客への出荷の引当
+,From Suppliers,仕入先から
+,From Suppliers Waiting,仕入先から(待ち)
+,To Customers,顧客へ
+,Assigned,引当済み
+,Packed,梱包済み
+,Requests,依頼
+,Shipped,発送済み
+,Picked,ピッキング済み
+,"You cannot erase party ""%(party)s"" while they have pending shipments with company ""%(company)s"".",取引先「%(party)s」は会社「%(company)s」との未完了の出荷があるため、消去できません。
+,"Invalid cost price ""%(cost_price)s"" for product ""%(product)s"" with exception ""%(exception)s"".",品目「%(product)s」の原価「%(cost_price)s」が正しくありません。例外「%(exception)s」が出ました。
+,"The value ""%(value)s"" of ""%(cost_price)s"" for product ""%(product)s"" is not a number.",品目「%(product)s」の「%(cost_price)s」の値「%(value)s」が数値ではありません。
+,"No existing line found for ""%(search)s"".",「%(search)s」の行が見つかりません。
+,"To delete inventory ""%(inventory)s"" you must cancel it.",棚卸「%(inventory)s」を削除するには、取消してください。
+,"To delete inventory line ""%(line)s"" you must cancel inventory ""%(inventory)s"".",棚卸の行「%(line)s」を削除するには、棚卸「%(inventory)s」を取消してください。
+,Inventory line quantity must be positive.,棚卸の行の数量は正の数にしてください。
+,"Inventory line ""%(line)s"" is not unique on inventory ""%(inventory)s"".",棚卸の行「%(line)s」が棚卸「%(inventory)s」の中で重複しています。
+,"To confirm the inventory ""%(inventory)s"" you must set a lost and found on a parent of location ""%(location)s"".",棚卸「%(inventory)s」を確定するには、場所「%(location)s」の親に遺失物の場所を設定してください。
+,"To confirm the inventory ""%(inventory)s"" you must select an option for empty quantity.",棚卸「%(inventory)s」を確定するには、空の数量の扱いを選んでください。
+,"To inactivate location ""%(location)s"", you must empty it.",場所「%(location)s」を無効にするには、空にしてください。
+,"You cannot change the type of location ""%(location)s"" to ""%(type)s""
+because the type does not support moves and location has existing moves.","場所「%(location)s」の種類を「%(type)s」に変えられません。
+この種類は移動に対応しておらず、この場所には移動があるためです。"
+,"To delete stock move ""%(move)s"" you must cancel it or reset its state to draft.",在庫の移動「%(move)s」を削除するには、取消するか、下書きに戻してください。
+,"The moves ""%(moves)s"" have effective dates in the future.",移動「%(moves)s」の実際の日付が未来になっています。
+,The source and destination of stock move must be different.,在庫の移動の移動元と移動先は別にしてください。
+,Internal move quantity must be positive.,内部の移動の数量は正の数にしてください。
+,"To modify stock move ""%(move)s"" you must reset its state to draft.",在庫の移動「%(move)s」を変更するには、下書きに戻してください。
+,"You cannot modify stock move ""%(move)s"" because it is cancelled.",在庫の移動「%(move)s」は取消済みのため、変更できません。
+,"You cannot modify stock move ""%(move)s"" because it is done.",在庫の移動「%(move)s」は完了しているため、変更できません。
+,"To modify stock move ""%(move)s"" you must reopen period ""%(period)s"".",在庫の移動「%(move)s」を変更するには、期間「%(period)s」を再開してください。
+,"Stock moves ""%(moves)s"" have no origin.",在庫の移動「%(moves)s」に元がありません。
+,Move quantity must be positive.,移動の数量は正の数にしてください。
+,"To close the period ""%(period)s"", the assigned moves ""%(moves)s"" must be done or cancelled.",期間「%(period)s」を締めるには、引当済みの移動「%(moves)s」を完了するか取消してください。
+,You cannot close periods with a date in the future or today.,日付が今日または未来の期間は締められません。
+,"You cannot change the cost price of a product which is associated with stock moves.
+You must use the ""Modify Cost Price"" wizard.","在庫の移動がある品目の原価は変更できません。
+「原価の変更」ウィザードを使ってください。"
+,You cannot change the default unit of measure of a product which is associated with stock moves.,在庫の移動がある品目の既定の単位は変更できません。
+,You cannot change the type of a product which is associated with stock moves.,在庫の移動がある品目の種類は変更できません。
+,"The product ""%(product)s"" has still some quantities in locations ""%(locations)s"" for company ""%(company)s"".",品目「%(product)s」には、会社「%(company)s」の場所「%(locations)s」にまだ数量があります。
+,It is recommended to clear the stock from the storage locations before deactivating the product.,品目を無効にする前に、保管の場所の在庫をなくすことをお勧めします。
+,"The quantities of shipment ""%(shipment)s"" are different by %(quantities)s.",出荷「%(shipment)s」の数量が %(quantities)s 違います。
+,"To delete shipment ""%(shipment)s"" you must cancel it.",出荷「%(shipment)s」を削除するには、取消してください。
+,When the stock operation was actually completed.,在庫の作業を実際に終えた日です。
+,When the stock operation was initially expected to be completed.,在庫の作業を終える予定だった最初の日です。
+,"To pack shipment ""%(shipment)s"" you must do the inventory moves.",出荷「%(shipment)s」を梱包するには、在庫の移動を行ってください。
+,When the stock operation is expected to be completed.,在庫の作業を終える予定の日です。
+,Cost,原価
+,Margin,利益率
+,Margin Trend,利益率の推移
+,Profit,利益
+,Are you sure you want to cancel the inventory?,棚卸を取消してよろしいですか?
+,Are you sure you want to confirm the inventory?,棚卸を確定してよろしいですか?
+,Are you sure you want to cancel the move?,移動を取消してよろしいですか?
+,Are you sure you want to complete the move?,移動を完了してよろしいですか?
+,Are you sure you want to cancel the shipment?,出荷を取消してよろしいですか?
+,Are you sure you want to receive the shipment?,入荷を受け取ってよろしいですか?
+,Are you sure you want to complete the shipment?,出荷を完了してよろしいですか?
+,Are you sure you want to ship the shipment?,出荷を発送してよろしいですか?
+,Add an inventory line for each missing products,足りない品目ごとに棚卸の行を足します
+,Launch the wizard to count products,品目を数えるウィザードを開きます
+,Complete,完了
+,Do,実行
+,Reset to Draft,下書きに戻す
+,Receive,受取
+,Assign,引当
+,Wait,待機
+,Pack,梱包
+,Ship,発送
+,Pick,ピッキング
+,Supplier Shipment,仕入先からの入荷
+,Supplier Return Shipment,仕入先への返品
+,Customer Shipment,顧客への出荷
+,Customer Return Shipment,顧客からの返品
+,Inventory & Stock,在庫と棚卸
+,Party - Delivered To - Stock Location,取引先 - 配送先 - 在庫の場所
+,Party Location,取引先の場所
+,Product By Location Context,場所ごとの品目の条件
+,Product Cost Price Revision,品目の原価の改定
+,Product Modify Cost Price Start,品目の原価の変更の開始
+,Product Recompute Cost Price Start,品目の原価の再計算の開始
+,Stock Administration,在庫の管理
+,Stock Cancellation,在庫の取消
+,Stock Force Assignment,在庫の強制引当
+,Stock Configuration,在庫の設定
+,Stock Configuration Location,在庫の場所の設定
+,Stock Configuration Sequence,在庫の連番の設定
+,Stock Inventory,在庫の棚卸
+,Stock Inventory Count Quantity,在庫の棚卸の数量の入力
+,Stock Inventory Count Search,在庫の棚卸の検索
+,Stock Inventory Line,在庫の棚卸の行
+,Input Zone,入庫の区域
+,Output Zone,出庫の区域
+,Storage Zone,保管の区域
+,Transit,輸送中
+,Stock Location,在庫の場所
+,Stock Location Lead Time,在庫の場所のリードタイム
+,Stock Location Waste,在庫の場所の廃棄
+,Stock Period,在庫の期間
+,Stock Period Cache,在庫の期間のキャッシュ
+,Stock Product Quantities Warehouse,倉庫ごとの在庫数量
+,Stock Product Quantities Warehouse Context,倉庫ごとの在庫数量の条件
+,Stock Product Quantities Warehouse Move,倉庫ごとの在庫数量の移動
+,Stock Products By Locations,場所ごとの在庫品目
+,Stock Products By Locations Context,場所ごとの在庫品目の条件
+,Stock Reporting Inventory,在庫の報告
+,Stock Reporting Inventory Context,在庫の報告の条件
+,Stock Reporting Inventory Daily,日ごとの在庫の報告
+,Stock Reporting Inventory Move,在庫の移動の報告
+,Stock Reporting Inventory Range Context,在庫の報告の期間の条件
+,Stock Reporting Inventory Turnover,在庫回転率の報告
+,Stock Reporting Inventory Turnover Context,在庫回転率の報告の条件
+,Stock Reporting Margin Category,分類ごとの利益率の報告
+,Stock Reporting Margin Category Time Series,分類ごとの利益率の推移
+,Stock Reporting Margin Category Tree,分類ごとの利益率の階層
+,Stock Reporting Margin Context,利益率の報告の条件
+,Stock Reporting Margin Main,利益率の報告
+,Stock Reporting Margin Main Time Series,利益率の推移
+,Stock Reporting Margin Product,品目ごとの利益率の報告
+,Stock Reporting Margin Product Time Series,品目ごとの利益率の推移
+,Stock Shipment Assign Partial,出荷の一部引当
+,Stock Shipment In,仕入先からの入荷
+,Stock Shipment In Return,仕入先への返品
+,Stock Shipment Internal,内部移動
+,Stock Shipment Out,顧客への出荷
+,Stock Shipment Out Return,顧客からの返品
+,Planned Date:,予定日:
+,Restocking List No:,入庫リスト番号:
+,Supplier:,仕入先:
+,Warehouse:,倉庫:
+,From Location:,移動元:
+,Internal Shipment No:,内部移動番号:
+,To Location:,移動先:
+,Delivery Note No:,納品書番号:
+,Location:,場所:
+,Customer:,顧客:
+,Picking List No:,ピッキングリスト番号:
+,Assign Shipments,出荷の引当
+,Recompute Cost Price from Moves,移動から原価を再計算
+,Reschedule Customer Shipments,顧客への出荷の日程を変更
+,Reschedule Internal Shipments,内部移動の日程を変更
+,Reschedule Supplier Return Shipments,仕入先への返品の日程を変更
+,Empty,空にする
+,Keep,残す
+,Drop,直送
+,Production,生産
+,Rental,レンタル
+,Staging,準備中
+,Request,依頼
+,The warehouse that you work at.,あなたが働く倉庫です。
+,Customer Return Sequence,顧客からの返品の連番
+,Customer Sequence,顧客への出荷の連番
+,Internal Sequence,内部移動の連番
+,Internal Transit,内部移動の輸送中
+,Supplier Return Sequence,仕入先への返品の連番
+,Supplier Sequence,仕入先からの入荷の連番
+,Unable to assign these products:,次の品目を引当できません:
+,Recompute,再計算
+,End,終了
+,Select,選択
+,Force,強制
+,Ignore,無視
+,Access Field,項目のアクセス
+,Access Menu,メニューのアクセス
+,Access Model,モデルのアクセス
+,Users,利用者
+,Action Value,操作の値
+,Applications,アプリケーション
+,Avatar Badge URL,アバターのバッジの URL
+,Language Direction,言語の書字方向
+,Login,ログイン名
+,Notifications,通知
+,Password,パスワード
+,Password Hash,パスワードのハッシュ
+,Reset Password,パスワードの再設定
+,Reset Password Expire,パスワードの再設定の期限
+,PySON Menu,PySON メニュー
+,Sessions,セッション
+,Signature,署名
+,Status Bar,ステータスバー
+,Warnings,警告
+,Application,アプリケーション
+,Cookie,Cookie
+,Device Cookie,端末の Cookie
+,IP Network,IP ネットワーク
+,Always,常に
+,The group to inherit accesses from.,アクセスを引き継ぐ元のグループです。
+,Actions that will be run at login.,ログインのときに実行する操作です。
+,Notifications to subscribe to.,受け取る通知です。
+,Configure Users,利用者の設定
+,"The email address ""%(email)s"" for ""%(user)s"" is not valid.",「%(user)s」のメールアドレス「%(email)s」が正しくありません。
+,%(number)s notification silenced.,%(number)s 件の通知を止めました。
+,The password cannot be the same as user's email address.,パスワードを利用者のメールアドレスと同じにはできません。
+,The password is forbidden.,このパスワードは使えません。
+,The password must have at least %(length)i character.,パスワードは %(length)i 文字以上にしてください。
+,The password cannot be the same as user's login.,パスワードを利用者のログイン名と同じにはできません。
+,The password cannot be the same as user's name.,パスワードを利用者の名前と同じにはできません。
+,"For logging purposes users cannot be deleted, instead they should be deactivated.",記録を残すため、利用者は削除できません。代わりに無効にしてください。
+,Password for %(login)s,%(login)s のパスワード
+,Send by email a new temporary password to the user,新しい仮のパスワードを利用者にメールで送ります
+,Own notification,自分の通知
+,Any notification,すべての通知
+,Own user application,自分の利用者アプリケーション
+,Any user application,すべての利用者アプリケーション
+,Own warning,自分の警告
+,Notification,通知
+,User - Action,利用者 - 操作
+,User - Group,利用者 - グループ
+,User Application,利用者アプリケーション
+,User Config Start,利用者の設定の開始
+,User Device,利用者の端末
+,User Login Attempt,利用者のログインの試み
+,User Warning,利用者の警告
+,"Hello,
+                we have received a request to reset the password for the account associated with [1:%(login)s]. No changes have been made to your account yet.[2:]
+                You can connect with this temporary password [3:%(password)s] to[4:]
+                [5:tryton://%(host)s/%(database)s][6:]
+                [7:%(http_host)s/#%(database)s][8:]
+                You must set a new one from the user's preferences.[9:]","こんにちは。
+                [1:%(login)s] のアカウントのパスワードを再設定する依頼を受け付けました。アカウントはまだ変更されていません。[2:]
+                次の仮のパスワード [3:%(password)s] で接続できます。[4:]
+                [5:tryton://%(host)s/%(database)s][6:]
+                [7:%(http_host)s/#%(database)s][8:]
+                利用者の個人設定で、新しいパスワードを設定してください。[9:]"
+,"If you didn't make this request, you can safely ignore this email.",この依頼に心当たりがないときは、このメールを無視してください。
+,The password will expire in [1:%(datetime)s].,パスワードの期限は [1:%(datetime)s] です。
+,REST API,REST API
+,Requested,依頼済み
+,Access Permissions,アクセス権
+,Be careful that the login must be unique.,ログイン名は重複しないようにしてください。
+,You can now add some users into the system.,システムに利用者を追加できます。
+,Group Membership,グループの所属
+,Preferences,個人設定
+sao,Are your sure to leave?,ページを離れてよろしいですか?
+sao,Incompatible version of the server.,サーバーの版が合いません。
+sao,Version mismatch,版の不一致
+sao,Could not connect to the server.,サーバーに接続できませんでした。
+sao,Connection error,接続エラー
+sao,Check menu entries to add favorites,メニューの項目に印を付けるとお気に入りに追加できます
+sao,Add to favorites,お気に入りに追加
+sao,Remove from favorites,お気に入りから外す
+sao,New,新規
+sao,Save,保存
+sao,Switch,切り替え
+sao,Reload/Undo,再読み込み/元に戻す
+sao,Duplicate,複製
+sao,Delete,削除
+sao,Previous,前へ
+sao,Close Tab,タブを閉じる
+sao,Attachment,添付
+sao,Relate,関連
+sao,Previous tab,前のタブ
+sao,Next tab,次のタブ
+sao,Global search,全体検索
+sao,Show this help,このヘルプを表示
+sao,Show/Hide access keys,アクセスキーの表示/非表示
+sao,Documentation...,説明書...
+sao,Keyboard shortcuts,キーボードショートカット
+sao,Global shortcuts,全体のショートカット
+sao,Tab shortcuts,タブのショートカット
+sao,Unable to reach the server.,サーバーに届きません。
+sao,"Error: ""%1"". Try again later.","エラー: ""%1""。しばらくしてからやり直してください。"
+sao,Login,ログイン
+sao,Database,データベース
+sao,User name,利用者名
+sao,Login with,ログイン方法
+sao,Too many requests. Try again later.,要求が多すぎます。しばらくしてからやり直してください。
+sao,Not found.,見つかりません。
+sao,Send you an email to reset your password.,パスワードを再設定するメールを送ります。
+sao,Reset forgotten password,パスワードを忘れたときの再設定
+sao,"A request to reset your password has been sent.
+Please check your mailbox.","パスワード再設定の依頼を送りました。
+メールを確認してください。"
+sao,Your selection:,選んだもの:
+sao,Y,Y
+sao,M,M
+sao,w,w
+sao,d,d
+sao,h,h
+sao,m,m
+sao,s,s
+sao,By: ,担当: 
+sao,", ",、
+sao,y,y
+sao,True,真
+sao,t,t
+sao,False,偽
+sao,Always ignore this warning.,この警告を今後は無視する。
+sao,Do you want to proceed?,続けますか?
+sao,Concurrency Warning,同時編集の警告
+sao,This record has been modified while you were editing it.,編集中に、このレコードがほかで変更されました。
+sao,Choose:,選んでください:
+sao,"""Cancel"" to cancel saving;",「取消」で保存をやめます。
+sao,"""Compare"" to see the modified version;",「比較」で変更された版を見ます。
+sao,"""Write Anyway"" to save your current version.",「上書き保存」で今の版を保存します。
+sao,Compare,比較
+sao,Compare: %1,比較: %1
+sao,Write Anyway,上書き保存
+sao,Application Error,アプリケーションエラー
+sao,Details,詳細
+sao,Report Bug,不具合を報告
+sao,Search...,検索...
+sao,Create...,作成...
+sao,"Create ""%1""...","""%1"" を作成..."
+sao,Download,ダウンロード
+sao,...,...
+sao,Bold,太字
+sao,Italic,斜体
+sao,Underline,下線
+sao,Font,フォント
+sao,Size,サイズ
+sao,Justify Right,右揃え
+sao,Justify Left,左揃え
+sao,Justify Center,中央揃え
+sao,Justify Full,両端揃え
+sao,Switch view,画面の切り替え
+sao,Previous Record,前のレコード
+sao,Next Record,次のレコード
+sao,Create a new record,新しいレコードを作成
+sao,Save this record,このレコードを保存
+sao,Reload,再読み込み
+sao,View Logs...,ログを表示...
+sao,Show revisions...,改訂を表示...
+sao,Add an attachment to the record,レコードに添付を追加
+sao,Add a note to the record,レコードにメモを追加
+sao,Chat,チャット
+sao,Chat on the record,レコードについてチャット
+sao,Email...,メール...
+sao,Send an email using the record,レコードを使ってメールを送る
+sao,Import,インポート
+sao,"The following action requires to close all tabs.
+Do you want to continue?","この操作には、すべてのタブを閉じる必要があります。
+続けますか?"
+sao,Launch action,操作を実行
+sao,Open related records,関連するレコードを開く
+sao,Print report,帳票を印刷
+sao,"This record has been modified
+do you want to save it?","このレコードは変更されています。
+保存しますか?"
+sao,Record saved.,レコードを保存しました。
+sao,Working now on the duplicated record(s).,複製したレコードで作業しています。
+sao,Are you sure to remove this record?,このレコードを削除してよろしいですか?
+sao,Are you sure to remove those records?,これらのレコードを削除してよろしいですか?
+sao,Records removed.,レコードを削除しました。
+sao,Records not removed.,レコードは削除されませんでした。
+sao,You have to select one record.,レコードを 1 件選んでください。
+sao,Add...,追加...
+sao,Manage...,管理...
+sao,Attachment (%1),添付 (%1)
+sao,Note (%1/%2),メモ (%1/%2)
+sao,Filters,絞り込み
+sao,Clear Search,検索をクリア
+sao,Bookmarks,ブックマーク
+sao,Remove this bookmark,このブックマークを削除
+sao,Bookmark this filter,この絞り込みをブックマーク
+sao,Bookmark Name:,ブックマーク名:
+sao,Show active records,有効なレコードを表示
+sao,Show inactive records,無効なレコードを表示
+sao,Find,検索
+sao,From,から
+sao,To,まで
+sao,Open the calendar,カレンダーを開く
+sao,Modified by,更新者
+sao,Modified at,更新日時
+sao,"""%1"" is required.","""%1"" は必須です。"
+sao,"""%1"" is not valid according to its domain.","""%1"" は範囲の条件に合いません。"
+sao,"The values of ""%1"" are not valid.","""%1"" の値が正しくありません。"
+sao,Pre-validation,事前確認
+sao,Scan,スキャン
+sao,Translate,翻訳
+sao,Fuzzy,未確定
+sao,You need to save the record before adding translations.,翻訳を追加する前に、レコードを保存してください。
+sao,No other language available.,ほかに使える言語はありません。
+sao,Hide,隠す
+sao,"Select a color for ""%1""","""%1"" の色を選ぶ"
+sao,Open the record,レコードを開く
+sao,Clear the field,項目をクリア
+sao,Search a record,レコードを検索
+sao,Remove,削除
+sao,Open,開く
+sao,Undelete,削除を取り消す
+sao,Restore,復元
+sao,Save As,名前を付けて保存
+sao,Save As...,名前を付けて保存...
+sao,Select...,選択...
+sao,Clear,クリア
+sao,Open...,開く...
+sao,Choose a language,言語を選ぶ
+sao,%1%,%1%
+sao,Copy Selected Rows,選択した行をコピー
+sao,Reset Column Widths,列の幅を元に戻す
+sao,#ERROR,#エラー
+sao,Failed to copy text to clipboard: %1,クリップボードにコピーできませんでした: %1
+sao,More,その他
+sao,: ,: 
+sao,Today,今日
+sao,Week,週
+sao,",...",",..."
+sao,%1 (%2),%1 (%2)
+sao,Select your action,操作を選んでください
+sao,No action defined.,操作が定義されていません。
+sao,Discard changes,変更を破棄
+sao,Save and New,保存して新規
+sao,Add and New,追加して新規
+sao,Apply changes,変更を適用
+sao,Attachments (%1),添付 (%1)
+sao,Notes (%1),メモ (%1)
+sao,Logs (%1),ログ (%1)
+sao,Model:,モデル:
+sao,ID:,ID:
+sao,Module:,モジュール:
+sao,XML ID:,XML ID:
+sao,Created by:,作成者:
+sao,Created at:,作成日時:
+sao,Last Modified by:,最終更新者:
+sao,Last Modified at:,最終更新日時:
+sao,Search %1,%1 を検索
+sao,Revision,改訂
+sao,All Fields,すべての項目
+sao,Fields Selected,選んだ項目
+sao,CSV Parameters,CSV の設定
+sao,Delimiter:,区切り文字:
+sao,Quote Char:,引用符:
+sao,CSV Import: %1,CSV インポート: %1
+sao,Auto-Detect,自動検出
+sao,File to Import,インポートするファイル
+sao,Encoding:,文字コード:
+sao,Lines to Skip:,飛ばす行数:
+sao,You must select an import file first.,先にインポートするファイルを選んでください。
+sao,Detection failed,検出できませんでした
+sao,"Unknown column header ""%1""","不明な列見出し ""%1"""
+sao,Import failed,インポートできませんでした
+sao,%1 record imported,%1 件のレコードをインポートしました
+sao,CSV Export: %1,CSV エクスポート: %1
+sao,Save Export,エクスポートを保存
+sao,URL Export,URL エクスポート
+sao,Delete Export,エクスポートを削除
+sao,Predefined Exports,登録済みのエクスポート
+sao,Selected Records,選んだレコード
+sao,Listed Records,一覧のレコード
+sao,Export:,エクスポート:
+sao,Ignore search limit,検索の件数制限を無視
+sao,Use locale format,地域の書式を使う
+sao,Add Field Names,項目名を付ける
+sao,%1 (string),%1 (文字列)
+sao,%1 (model name),%1 (モデル名)
+sao,%1/Record Name,%1/レコード名
+sao,What is the name of this export?,このエクスポートの名前は何にしますか?
+sao,Override %1 definition?,%1 の定義を上書きしますか?
+sao,%1 record saved,%1 件のレコードを保存しました
+sao,Email %1,メール %1
+sao,To:,宛先:
+sao,Cc:,Cc:
+sao,Bcc:,Bcc:
+sao,Attachments,添付
+sao,Files,ファイル
+sao,Send,送信
+sao,Remove File,ファイルを外す
+sao,Code Scanner,コードスキャナー
+sao,Toggle Sound,音の切り替え
+sao,Add a follower,フォロワーを追加
+sao,Subscribe a follower to this channel,このチャンネルにフォロワーを登録
+sao,Show followers,フォロワーを表示
+sao,Unsubscribe,登録解除
+sao,Subscribe,登録
+sao,"Are you sure to unsubscribe ""%1"" from this channel?","""%1"" をこのチャンネルから登録解除してよろしいですか?"
+sao,Enter a message,メッセージを入力
+sao,Submit the message,メッセージを送信
+sao,Make this an internal message,社内向けのメッセージにする
+sao,No notifications at this time,今は通知はありません
+sao,All Notifications...,すべての通知...
+sao,Preferences...,個人設定...
+sao,Help...,ヘルプ...
+sao,Logout,ログアウト
+sao,Translate view,画面を翻訳
+stock,Move,移動
+stock,Moves,移動

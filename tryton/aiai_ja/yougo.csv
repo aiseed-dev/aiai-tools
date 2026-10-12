@@ -1,0 +1,104 @@
+英語,日本語
+Party,取引先
+Parties,取引先
+Customer,顧客
+Supplier,仕入先
+Sale,販売
+Sales,販売
+Purchase,購買
+Purchases,購買
+Quotation,見積
+Confirmed,確定
+Confirm,確定
+Processing,処理中
+Process,処理
+Done,完了
+Draft,下書き
+Cancelled,取消済み
+Cancel,取消
+Shipment,出荷
+Customer Shipment,顧客への出荷
+Supplier Shipment,仕入先からの入荷
+Internal Shipment,内部移動
+Shipment Return,返品
+Move,移動
+Account Move,仕訳
+Journal Entry,仕訳
+Move Line,仕訳の行
+Journal,仕訳帳
+Post,記帳
+Posted,記帳済み
+Validate,確認
+Validated,確認済み
+Paid,支払済み
+Invoice,請求書
+Credit Note,請求取消書
+Supplier Invoice,仕入請求書
+Product,品目
+Product Category,品目の分類
+Template,ひな形
+Variant,バリエーション
+Unit of Measure,単位
+UoM,単位
+Unit Price,単価
+List Price,定価
+Cost Price,原価
+Amount,金額
+Quantity,数量
+Total Amount,合計
+Untaxed Amount,税抜金額
+Tax Amount,税額
+Tax,税
+Taxes,税
+Tax Code,税コード
+Tax Rule,税の規則
+Payment Term,支払条件
+Payment,支払
+Reconcile,消し込み
+Reconciliation,消し込み
+Fiscal Year,会計年度
+Period,期間
+Account,勘定科目
+Chart of Accounts,勘定科目表
+Account Type,勘定科目の種類
+Receivable,売掛金
+Payable,買掛金
+Revenue,収益
+Expense,費用
+Debit,借方
+Credit,貸方
+Balance,残高
+Company,会社
+Employee,従業員
+Warehouse,倉庫
+Location,場所
+Lot,ロット
+Inventory,棚卸
+Stock,在庫
+Currency,通貨
+Country,国
+Subdivision,地域
+Address,住所
+Contact Mechanism,連絡先
+User,利用者
+Group,グループ
+Access,アクセス
+Model,モデル
+Field,項目
+View,画面
+Wizard,ウィザード
+Report,帳票
+Action,操作
+Menu,メニュー
+Sequence,連番
+Language,言語
+Configuration,設定
+Reference,参照
+Description,説明
+Name,名前
+Code,コード
+Date,日付
+Note,メモ
+Comment,コメント
+Active,有効
+State,状態

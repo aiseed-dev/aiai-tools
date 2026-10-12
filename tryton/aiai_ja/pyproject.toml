@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiai-ja-tryton"
+version = "8.0.0"
+description = "Japanese translation for Tryton 8.0"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.10"
+dependencies = ["trytond>=8.0,<8.1"]
+
+[project.scripts]
+trytond_import_ja = "aiai_ja.load:run"
+
+[tool.setuptools]
+packages = ["aiai_ja"]
+
+[tool.setuptools.package-data]
+aiai_ja = ["locale/*.po", "locale/sao/*.json"]

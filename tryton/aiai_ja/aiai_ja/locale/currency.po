@@ -1,0 +1,218 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:currency.cron,currencies:"
+msgid "Currencies"
+msgstr "通貨"
+
+msgctxt "field:currency.cron,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:currency.cron,day:"
+msgid "Day of Month"
+msgstr "日"
+
+msgctxt "field:currency.cron,frequency:"
+msgid "Frequency"
+msgstr "頻度"
+
+msgctxt "field:currency.cron,last_update:"
+msgid "Last Update"
+msgstr "最終更新"
+
+msgctxt "field:currency.cron,source:"
+msgid "Source"
+msgstr "原文"
+
+msgctxt "field:currency.cron,weekday:"
+msgid "Day of Week"
+msgstr "曜日"
+
+msgctxt "field:currency.cron-currency.currency,cron:"
+msgid "Cron"
+msgstr "定期実行"
+
+msgctxt "field:currency.cron-currency.currency,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:currency.currency,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:currency.currency,digits:"
+msgid "Digits"
+msgstr "桁数"
+
+msgctxt "field:currency.currency,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:currency.currency,numeric_code:"
+msgid "Numeric Code"
+msgstr "数字のコード"
+
+msgctxt "field:currency.currency,rate:"
+msgid "Current rate"
+msgstr "現在のレート"
+
+msgctxt "field:currency.currency,rates:"
+msgid "Rates"
+msgstr "レート"
+
+msgctxt "field:currency.currency,rounding:"
+msgid "Rounding factor"
+msgstr "端数処理の単位"
+
+msgctxt "field:currency.currency,symbol:"
+msgid "Symbol"
+msgstr "記号"
+
+msgctxt "field:currency.currency.rate,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:currency.currency.rate,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:currency.currency.rate,rate:"
+msgid "Rate"
+msgstr "税率"
+
+msgctxt "help:currency.cron,currencies:"
+msgid "The currencies to update the rate."
+msgstr "レートを更新する通貨です。"
+
+msgctxt "help:currency.cron,currency:"
+msgid "The base currency to fetch rate."
+msgstr "レートを取得する基準の通貨です。"
+
+msgctxt "help:currency.cron,frequency:"
+msgid "How frequently rates must be updated."
+msgstr "レートを更新する頻度です。"
+
+msgctxt "help:currency.cron,source:"
+msgid "The external source for rates."
+msgstr "レートを取得する外部の提供元です。"
+
+msgctxt "help:currency.currency,code:"
+msgid "The 3 chars ISO currency code."
+msgstr "ISO の 3 文字の通貨コードです。"
+
+msgctxt "help:currency.currency,digits:"
+msgid "The number of digits to display after the decimal separator."
+msgstr "小数点以下に表示する桁数です。"
+
+msgctxt "help:currency.currency,name:"
+msgid "The main identifier of the currency."
+msgstr "通貨の主な識別名です。"
+
+msgctxt "help:currency.currency,numeric_code:"
+msgid "The 3 digits ISO currency code."
+msgstr "ISO の 3 桁の数字の通貨コードです。"
+
+msgctxt "help:currency.currency,rates:"
+msgid "Add floating exchange rates for the currency."
+msgstr "通貨の変動為替レートを追加します。"
+
+msgctxt "help:currency.currency,rounding:"
+msgid "The minimum amount which can be represented in this currency."
+msgstr "この通貨で表せる最小の金額です。"
+
+msgctxt "help:currency.currency,symbol:"
+msgid "The symbol used for currency formating."
+msgstr "通貨の表示に使う記号です。"
+
+msgctxt "help:currency.currency.rate,currency:"
+msgid "The currency on which the rate applies."
+msgstr "レートを適用する通貨です。"
+
+msgctxt "help:currency.currency.rate,date:"
+msgid "From when the rate applies."
+msgstr "レートを適用し始める日です。"
+
+msgctxt "help:currency.currency.rate,rate:"
+msgid "The floating exchange rate used to convert the currency."
+msgstr "通貨の換算に使う変動為替レートです。"
+
+msgctxt "model:currency.cron,string:"
+msgid "Currency Cron"
+msgstr "通貨の定期実行"
+
+msgctxt "model:currency.cron-currency.currency,string:"
+msgid "Currency Cron - Currency"
+msgstr "通貨の定期実行 - 通貨"
+
+msgctxt "model:currency.currency,string:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "model:currency.currency.rate,string:"
+msgid "Currency Rate"
+msgstr "為替レート"
+
+msgctxt "model:ir.action,name:act_cron_form"
+msgid "Scheduled Rate Updates"
+msgstr "レートの定期更新"
+
+msgctxt "model:ir.action,name:act_currency_form"
+msgid "Currencies"
+msgstr "通貨"
+
+msgctxt "model:ir.message,text:msg_currency_unique_rate_date"
+msgid "A currency can only have one rate by date."
+msgstr "通貨のレートは 1 日に 1 つだけです。"
+
+msgctxt "model:ir.message,text:msg_no_rate"
+msgid "No rate found for currency \"%(currency)s\" on \"%(date)s\"."
+msgstr "通貨「%(currency)s」の「%(date)s」のレートが見つかりません。"
+
+msgctxt "model:ir.model.button,string:cron_run_button"
+msgid "Run"
+msgstr "実行"
+
+msgctxt "model:ir.ui.menu,name:menu_cron_form"
+msgid "Scheduled Rate Updates"
+msgstr "レートの定期更新"
+
+msgctxt "model:ir.ui.menu,name:menu_currency"
+msgid "Currencies"
+msgstr "通貨"
+
+msgctxt "model:ir.ui.menu,name:menu_currency_form"
+msgid "Currencies"
+msgstr "通貨"
+
+msgctxt "model:res.group,name:group_currency_admin"
+msgid "Currency Administration"
+msgstr "通貨の管理"
+
+msgctxt "selection:currency.cron,frequency:"
+msgid "Daily"
+msgstr "毎日"
+
+msgctxt "selection:currency.cron,frequency:"
+msgid "Monthly"
+msgstr "毎月"
+
+msgctxt "selection:currency.cron,frequency:"
+msgid "Weekly"
+msgstr "毎週"
+
+msgctxt "selection:currency.cron,source:"
+msgid "European Central Bank"
+msgstr "欧州中央銀行"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Update Currency Rates"
+msgstr "為替レートの更新"
+
+msgctxt "view:currency.currency:"
+msgid "Rates"
+msgstr "レート"

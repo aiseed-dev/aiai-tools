@@ -1,0 +1,1710 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:account.invoice,sale_exception_state:"
+msgid "Exception State"
+msgstr "例外の状態"
+
+msgctxt "field:account.invoice,sales:"
+msgid "Sales"
+msgstr "販売"
+
+msgctxt "field:party.party,customer_currencies:"
+msgid "Customer Currencies"
+msgstr "顧客の通貨"
+
+msgctxt "field:party.party,customer_currency:"
+msgid "Customer Currency"
+msgstr "顧客の通貨"
+
+msgctxt "field:party.party,sale_invoice_method:"
+msgid "Invoice Method"
+msgstr "請求の方法"
+
+msgctxt "field:party.party,sale_methods:"
+msgid "Sale Methods"
+msgstr "販売の方法"
+
+msgctxt "field:party.party,sale_shipment_method:"
+msgid "Shipment Method"
+msgstr "出荷の方法"
+
+msgctxt "field:party.party.customer_currency,customer_currency:"
+msgid "Customer Currency"
+msgstr "顧客の通貨"
+
+msgctxt "field:party.party.customer_currency,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.party.sale_method,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:party.party.sale_method,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.party.sale_method,sale_invoice_method:"
+msgid "Sale Invoice Method"
+msgstr "販売の請求の方法"
+
+msgctxt "field:party.party.sale_method,sale_shipment_method:"
+msgid "Sale Shipment Method"
+msgstr "販売の出荷の方法"
+
+msgctxt "field:product.configuration,default_lead_time:"
+msgid "Default Lead Time"
+msgstr "既定のリードタイム"
+
+msgctxt "field:product.configuration.default_lead_time,default_lead_time:"
+msgid "Default Lead Time"
+msgstr "既定のリードタイム"
+
+msgctxt "field:product.lead_time,lead_time:"
+msgid "Lead Time"
+msgstr "リードタイム"
+
+msgctxt "field:product.lead_time,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:product.product,lead_time:"
+msgid "Lead Time"
+msgstr "リードタイム"
+
+msgctxt "field:product.product,lead_times:"
+msgid "Lead Times"
+msgstr "リードタイム"
+
+msgctxt "field:product.product,salable:"
+msgid "Salable"
+msgstr "販売可"
+
+msgctxt "field:product.product,sale_price_uom:"
+msgid "Sale Price"
+msgstr "販売価格"
+
+msgctxt "field:product.product,sale_uom:"
+msgid "Sale UoM"
+msgstr "販売の単位"
+
+msgctxt "field:product.sale.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:product.sale.context,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:product.sale.context,customer:"
+msgid "Customer"
+msgstr "顧客"
+
+msgctxt "field:product.sale.context,locations:"
+msgid "Warehouses"
+msgstr "倉庫"
+
+msgctxt "field:product.sale.context,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:product.sale.context,sale_date:"
+msgid "Sale Date"
+msgstr "販売日"
+
+msgctxt "field:product.sale.context,stock_date_end:"
+msgid "Stock End Date"
+msgstr "在庫の終了日"
+
+msgctxt "field:product.template,lead_time:"
+msgid "Lead Time"
+msgstr "リードタイム"
+
+msgctxt "field:product.template,lead_times:"
+msgid "Lead Times"
+msgstr "リードタイム"
+
+msgctxt "field:product.template,salable:"
+msgid "Salable"
+msgstr "販売可"
+
+msgctxt "field:product.template,sale_uom:"
+msgid "Sale UoM"
+msgstr "販売の単位"
+
+msgctxt "field:sale.configuration,sale_invoice_method:"
+msgid "Sale Invoice Method"
+msgstr "販売の請求の方法"
+
+msgctxt "field:sale.configuration,sale_process_after:"
+msgid "Process Sale after"
+msgstr "販売を処理するまでの時間"
+
+msgctxt "field:sale.configuration,sale_quotation_validity:"
+msgid "Sale Quotation Validity"
+msgstr "販売の見積の有効期間"
+
+msgctxt "field:sale.configuration,sale_sequence:"
+msgid "Sale Sequence"
+msgstr "販売の連番"
+
+msgctxt "field:sale.configuration,sale_shipment_method:"
+msgid "Sale Shipment Method"
+msgstr "販売の出荷の方法"
+
+msgctxt "field:sale.configuration.quotation,sale_quotation_validity:"
+msgid "Sale Quotation Validity"
+msgstr "販売の見積の有効期間"
+
+msgctxt "field:sale.configuration.sale_method,sale_invoice_method:"
+msgid "Sale Invoice Method"
+msgstr "販売の請求の方法"
+
+msgctxt "field:sale.configuration.sale_method,sale_shipment_method:"
+msgid "Sale Shipment Method"
+msgstr "販売の出荷の方法"
+
+msgctxt "field:sale.configuration.sequence,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:sale.configuration.sequence,sale_sequence:"
+msgid "Sale Sequence"
+msgstr "販売の連番"
+
+msgctxt "field:sale.handle.invoice.exception.ask,domain_invoices:"
+msgid "Domain Invoices"
+msgstr "対象の請求書"
+
+msgctxt "field:sale.handle.invoice.exception.ask,ignore_invoices:"
+msgid "Invoices to Ignore"
+msgstr "無視する請求書"
+
+msgctxt "field:sale.handle.invoice.exception.ask,recreate_invoices:"
+msgid "Invoices to Recreate"
+msgstr "作り直す請求書"
+
+msgctxt "field:sale.handle.shipment.exception.ask,domain_moves:"
+msgid "Domain Stock Moves"
+msgstr "対象の在庫移動"
+
+msgctxt "field:sale.handle.shipment.exception.ask,ignore_moves:"
+msgid "Stock Moves to Ignore"
+msgstr "無視する在庫移動"
+
+msgctxt "field:sale.handle.shipment.exception.ask,recreate_moves:"
+msgid "Stock Moves to Recreate"
+msgstr "作り直す在庫移動"
+
+msgctxt "field:sale.line,actual_quantity:"
+msgid "Actual Quantity"
+msgstr "実際の数量"
+
+msgctxt "field:sale.line,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:sale.line,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:sale.line,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:sale.line,customer:"
+msgid "Customer"
+msgstr "顧客"
+
+msgctxt "field:sale.line,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:sale.line,from_location:"
+msgid "From Location"
+msgstr "移動元"
+
+msgctxt "field:sale.line,invoice_lines:"
+msgid "Invoice Lines"
+msgstr "請求書の行"
+
+msgctxt "field:sale.line,invoice_progress:"
+msgid "Invoice Progress"
+msgstr "請求の進み具合"
+
+msgctxt "field:sale.line,movable:"
+msgid "Movable"
+msgstr "移動可"
+
+msgctxt "field:sale.line,moves:"
+msgid "Stock Moves"
+msgstr "在庫の移動"
+
+msgctxt "field:sale.line,moves_exception:"
+msgid "Moves Exception"
+msgstr "移動の例外"
+
+msgctxt "field:sale.line,moves_ignored:"
+msgid "Ignored Stock Moves"
+msgstr "無視した在庫移動"
+
+msgctxt "field:sale.line,moves_progress:"
+msgid "Moves Progress"
+msgstr "移動の進み具合"
+
+msgctxt "field:sale.line,moves_recreated:"
+msgid "Recreated Moves"
+msgstr "作り直した移動"
+
+msgctxt "field:sale.line,note:"
+msgid "Note"
+msgstr "メモ"
+
+msgctxt "field:sale.line,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:sale.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "品目の単位の分類"
+
+msgctxt "field:sale.line,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:sale.line,quantity_to_invoice:"
+msgid "Quantity to Invoice"
+msgstr "請求する数量"
+
+msgctxt "field:sale.line,quantity_to_ship:"
+msgid "Quantity to Ship"
+msgstr "出荷する数量"
+
+msgctxt "field:sale.line,sale:"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "field:sale.line,sale_date:"
+msgid "Sale Date"
+msgstr "販売日"
+
+msgctxt "field:sale.line,sale_state:"
+msgid "Sale State"
+msgstr "販売の状態"
+
+msgctxt "field:sale.line,shipping_date:"
+msgid "Shipping Date"
+msgstr "出荷日"
+
+msgctxt "field:sale.line,summary:"
+msgid "Summary"
+msgstr "概要"
+
+msgctxt "field:sale.line,taxes:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "field:sale.line,to_location:"
+msgid "To Location"
+msgstr "移動先"
+
+msgctxt "field:sale.line,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:sale.line,unit:"
+msgid "Unit"
+msgstr "単位"
+
+msgctxt "field:sale.line,unit_price:"
+msgid "Unit Price"
+msgstr "単価"
+
+msgctxt "field:sale.line,warehouse:"
+msgid "Warehouse"
+msgstr "倉庫"
+
+msgctxt "field:sale.line-account.tax,line:"
+msgid "Sale Line"
+msgstr "販売の行"
+
+msgctxt "field:sale.line-account.tax,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:sale.line-ignored-stock.move,move:"
+msgid "Stock Move"
+msgstr "在庫の移動"
+
+msgctxt "field:sale.line-ignored-stock.move,sale_line:"
+msgid "Sale Line"
+msgstr "販売の行"
+
+msgctxt "field:sale.line-recreated-stock.move,move:"
+msgid "Stock Move"
+msgstr "在庫の移動"
+
+msgctxt "field:sale.line-recreated-stock.move,sale_line:"
+msgid "Sale Line"
+msgstr "販売の行"
+
+msgctxt "field:sale.reporting.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:sale.reporting.context,from_date:"
+msgid "From Date"
+msgstr "開始日"
+
+msgctxt "field:sale.reporting.context,period:"
+msgid "Period"
+msgstr "期間"
+
+msgctxt "field:sale.reporting.context,to_date:"
+msgid "To Date"
+msgstr "終了日"
+
+msgctxt "field:sale.reporting.context,warehouse:"
+msgid "Warehouse"
+msgstr "倉庫"
+
+msgctxt "field:sale.reporting.country,country:"
+msgid "Country"
+msgstr "国"
+
+msgctxt "field:sale.reporting.country.subdivision,country:"
+msgid "Country"
+msgstr "国"
+
+msgctxt "field:sale.reporting.country.subdivision,subdivision:"
+msgid "Subdivision"
+msgstr "地域"
+
+msgctxt "field:sale.reporting.country.subdivision.time_series,country:"
+msgid "Country"
+msgstr "国"
+
+msgctxt "field:sale.reporting.country.subdivision.time_series,subdivision:"
+msgid "Subdivision"
+msgstr "地域"
+
+msgctxt "field:sale.reporting.country.time_series,country:"
+msgid "Country"
+msgstr "国"
+
+msgctxt "field:sale.reporting.country.tree,children:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:sale.reporting.country.tree,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:sale.reporting.country.tree,region:"
+msgid "Region"
+msgstr "地方"
+
+msgctxt "field:sale.reporting.customer,customer:"
+msgid "Customer"
+msgstr "顧客"
+
+msgctxt "field:sale.reporting.customer.category,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:sale.reporting.customer.category.time_series,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:sale.reporting.customer.category.tree,children:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:sale.reporting.customer.category.tree,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:sale.reporting.customer.category.tree,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:sale.reporting.customer.category.tree,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:sale.reporting.customer.category.tree,revenue:"
+msgid "Revenue"
+msgstr "収益"
+
+msgctxt "field:sale.reporting.customer.time_series,customer:"
+msgid "Customer"
+msgstr "顧客"
+
+msgctxt "field:sale.reporting.product,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:sale.reporting.product.category,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:sale.reporting.product.category.time_series,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:sale.reporting.product.category.tree,children:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:sale.reporting.product.category.tree,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:sale.reporting.product.category.tree,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:sale.reporting.product.category.tree,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:sale.reporting.product.category.tree,revenue:"
+msgid "Revenue"
+msgstr "収益"
+
+msgctxt "field:sale.reporting.product.time_series,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:sale.reporting.region.tree,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:sale.reporting.region.tree,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:sale.reporting.region.tree,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:sale.reporting.region.tree,revenue:"
+msgid "Revenue"
+msgstr "収益"
+
+msgctxt "field:sale.reporting.region.tree,subregions:"
+msgid "Subregions"
+msgstr "下位の地方"
+
+msgctxt "field:sale.sale,comment:"
+msgid "Comment"
+msgstr "コメント"
+
+msgctxt "field:sale.sale,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:sale.sale,confirmed_by:"
+msgid "Confirmed By"
+msgstr "確定した人"
+
+msgctxt "field:sale.sale,contact:"
+msgid "Contact"
+msgstr "担当者"
+
+msgctxt "field:sale.sale,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:sale.sale,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:sale.sale,invoice_address:"
+msgid "Invoice Address"
+msgstr "請求先住所"
+
+msgctxt "field:sale.sale,invoice_method:"
+msgid "Invoice Method"
+msgstr "請求の方法"
+
+msgctxt "field:sale.sale,invoice_party:"
+msgid "Invoice Party"
+msgstr "請求書の取引先"
+
+msgctxt "field:sale.sale,invoice_state:"
+msgid "Invoice State"
+msgstr "請求書の状態"
+
+msgctxt "field:sale.sale,invoices:"
+msgid "Invoices"
+msgstr "請求書"
+
+msgctxt "field:sale.sale,invoices_ignored:"
+msgid "Ignored Invoices"
+msgstr "無視した請求書"
+
+msgctxt "field:sale.sale,invoices_recreated:"
+msgid "Recreated Invoices"
+msgstr "作り直した請求書"
+
+msgctxt "field:sale.sale,line_lines:"
+msgid "Line - Lines"
+msgstr "行 - 行"
+
+msgctxt "field:sale.sale,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:sale.sale,moves:"
+msgid "Stock Moves"
+msgstr "在庫の移動"
+
+msgctxt "field:sale.sale,number:"
+msgid "Number"
+msgstr "番号"
+
+msgctxt "field:sale.sale,origin:"
+msgid "Origin"
+msgstr "発生元"
+
+msgctxt "field:sale.sale,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:sale.sale,party_lang:"
+msgid "Party Language"
+msgstr "取引先の言語"
+
+msgctxt "field:sale.sale,payment_term:"
+msgid "Payment Term"
+msgstr "支払条件"
+
+msgctxt "field:sale.sale,quotation_date:"
+msgid "Quotation Date"
+msgstr "見積日"
+
+msgctxt "field:sale.sale,quotation_expire:"
+msgid "Quotation Expire"
+msgstr "見積の有効期限"
+
+msgctxt "field:sale.sale,quotation_validity:"
+msgid "Quotation Validity"
+msgstr "見積の有効期間"
+
+msgctxt "field:sale.sale,quoted_by:"
+msgid "Quoted By"
+msgstr "見積した人"
+
+msgctxt "field:sale.sale,reference:"
+msgid "Reference"
+msgstr "参照"
+
+msgctxt "field:sale.sale,sale_date:"
+msgid "Sale Date"
+msgstr "販売日"
+
+msgctxt "field:sale.sale,shipment_address:"
+msgid "Shipment Address"
+msgstr "出荷先の住所"
+
+msgctxt "field:sale.sale,shipment_method:"
+msgid "Shipment Method"
+msgstr "出荷の方法"
+
+msgctxt "field:sale.sale,shipment_party:"
+msgid "Shipment Party"
+msgstr "出荷先の取引先"
+
+msgctxt "field:sale.sale,shipment_returns:"
+msgid "Shipment Returns"
+msgstr "返品"
+
+msgctxt "field:sale.sale,shipment_state:"
+msgid "Shipment State"
+msgstr "出荷の状態"
+
+msgctxt "field:sale.sale,shipments:"
+msgid "Shipments"
+msgstr "出荷"
+
+msgctxt "field:sale.sale,shipping_date:"
+msgid "Shipping Date"
+msgstr "出荷日"
+
+msgctxt "field:sale.sale,state:"
+msgid "State"
+msgstr "状態"
+
+msgctxt "field:sale.sale,tax_amount:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:sale.sale,tax_amount_cache:"
+msgid "Tax Cache"
+msgstr "税額のキャッシュ"
+
+msgctxt "field:sale.sale,to_invoice:"
+msgid "To Invoice"
+msgstr "請求する"
+
+msgctxt "field:sale.sale,to_ship:"
+msgid "To Ship"
+msgstr "出荷する"
+
+msgctxt "field:sale.sale,total_amount:"
+msgid "Total"
+msgstr "合計"
+
+msgctxt "field:sale.sale,total_amount_cache:"
+msgid "Total Cache"
+msgstr "合計のキャッシュ"
+
+msgctxt "field:sale.sale,untaxed_amount:"
+msgid "Untaxed"
+msgstr "税抜金額"
+
+msgctxt "field:sale.sale,untaxed_amount_cache:"
+msgid "Untaxed Cache"
+msgstr "税抜金額のキャッシュ"
+
+msgctxt "field:sale.sale,warehouse:"
+msgid "Warehouse"
+msgstr "倉庫"
+
+msgctxt "field:sale.sale-ignored-account.invoice,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:sale.sale-ignored-account.invoice,sale:"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "field:sale.sale-recreated-account.invoice,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:sale.sale-recreated-account.invoice,sale:"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "field:stock.move,sale:"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "field:stock.move,sale_exception_state:"
+msgid "Exception State"
+msgstr "例外の状態"
+
+msgctxt "help:party.party,customer_currency:"
+msgid "Default currency for sales to this party."
+msgstr "この取引先への販売の既定の通貨です。"
+
+msgctxt "help:party.party,sale_invoice_method:"
+msgid ""
+"The default sale invoice method for the customer.\n"
+"Leave empty to use the default value from the configuration."
+msgstr ""
+"顧客の既定の販売の請求の方法です。\n"
+"空のときは設定の既定値を使います。"
+
+msgctxt "help:party.party,sale_shipment_method:"
+msgid ""
+"The default sale shipment method for the customer.\n"
+"Leave empty to use the default value from the configuration."
+msgstr ""
+"顧客の既定の販売の出荷の方法です。\n"
+"空のときは設定の既定値を使います。"
+
+msgctxt "help:party.party.customer_currency,customer_currency:"
+msgid "Default currency for sales to this party."
+msgstr "この取引先への販売の既定の通貨です。"
+
+msgctxt "help:product.configuration,default_lead_time:"
+msgid ""
+"The time from confirming the sales order to sending the products.\n"
+"Used for products without a lead time."
+msgstr ""
+"受注を確定してから品目を送るまでの時間です。\n"
+"リードタイムのない品目に使います。"
+
+msgctxt "help:product.configuration.default_lead_time,default_lead_time:"
+msgid ""
+"The time from confirming the sales order to sending the products.\n"
+"Used for products without a lead time."
+msgstr ""
+"受注を確定してから品目を送るまでの時間です。\n"
+"リードタイムのない品目に使います。"
+
+msgctxt "help:product.product,lead_time:"
+msgid ""
+"The time from confirming the sales order to sending the products.\n"
+"If empty the default lead time from the configuration is used."
+msgstr ""
+"受注を確定してから品目を送るまでの時間です。\n"
+"空のときは設定の既定のリードタイムを使います。"
+
+msgctxt "help:product.product,sale_uom:"
+msgid "The default Unit of Measure for sales."
+msgstr "販売の既定の単位です。"
+
+msgctxt "help:product.template,lead_time:"
+msgid ""
+"The time from confirming the sales order to sending the products.\n"
+"If empty the default lead time from the configuration is used."
+msgstr ""
+"受注を確定してから品目を送るまでの時間です。\n"
+"空のときは設定の既定のリードタイムを使います。"
+
+msgctxt "help:product.template,sale_uom:"
+msgid "The default Unit of Measure for sales."
+msgstr "販売の既定の単位です。"
+
+msgctxt "help:sale.configuration,sale_process_after:"
+msgid ""
+"The grace period during which confirmed sale can still be reset to draft.\n"
+"Applied if a worker queue is activated."
+msgstr ""
+"確定した販売を、まだ下書きに戻せる猶予の時間です。\n"
+"ワーカーのキューが有効なときに使います。"
+
+msgctxt "help:sale.handle.invoice.exception.ask,ignore_invoices:"
+msgid "The selected cancelled invoices will be ignored."
+msgstr "選んだ取消済みの請求書は無視します。"
+
+msgctxt "help:sale.handle.invoice.exception.ask,recreate_invoices:"
+msgid "The selected cancelled invoices will be recreated."
+msgstr "選んだ取消済みの請求書は作り直します。"
+
+msgctxt "help:sale.handle.shipment.exception.ask,ignore_moves:"
+msgid "The selected cancelled stock moves will be ignored."
+msgstr "選んだ取消済みの在庫移動は無視します。"
+
+msgctxt "help:sale.handle.shipment.exception.ask,recreate_moves:"
+msgid "The selected cancelled stock moves will be recreated."
+msgstr "選んだ取消済みの在庫移動は作り直します。"
+
+msgctxt "help:sale.line,product_uom_category:"
+msgid "The category of Unit of Measure for the product."
+msgstr "品目の単位の分類です。"
+
+msgctxt "help:sale.sale,quotation_date:"
+msgid "When the quotation was edited."
+msgstr "見積を編集した日です。"
+
+msgctxt "help:sale.sale,quotation_expire:"
+msgid "Until when the quotation is still valid."
+msgstr "見積が有効な期限です。"
+
+msgctxt "help:sale.sale,quotation_validity:"
+msgid "How much time the quotation is valid."
+msgstr "見積が有効な期間です。"
+
+msgctxt "help:sale.sale,shipping_date:"
+msgid "When the shipping of goods should start."
+msgstr "品物の出荷を始める日です。"
+
+msgctxt "model:ir.action,name:act_invoice_form"
+msgid "Invoices"
+msgstr "請求書"
+
+msgctxt "model:ir.action,name:act_invoice_line_form"
+msgid "Invoice Lines"
+msgstr "請求書の行"
+
+msgctxt "model:ir.action,name:act_product"
+msgid "Products"
+msgstr "品目"
+
+msgctxt "model:ir.action,name:act_reporting_country_subdivision_time_series"
+msgid "Sales per Subdivision"
+msgstr "地域別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_country_time_series"
+msgid "Sales per Country"
+msgstr "国別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_country_tree"
+msgid "Sales per Country"
+msgstr "国別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_customer"
+msgid "Sales per Customer"
+msgstr "顧客別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_customer_category"
+msgid "Sales per Customer Category"
+msgstr "顧客の分類別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_customer_category_time_series"
+msgid "Sales per Party Category"
+msgstr "取引先の分類別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_customer_category_tree"
+msgid "Sales per Customer Category"
+msgstr "顧客の分類別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_customer_time_series"
+msgid "Sales per Customer"
+msgstr "顧客別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_main"
+msgid "Sales"
+msgstr "販売"
+
+msgctxt "model:ir.action,name:act_reporting_main_time_series"
+msgid "Sales"
+msgstr "販売"
+
+msgctxt "model:ir.action,name:act_reporting_product"
+msgid "Sales per Product"
+msgstr "品目別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_product_category"
+msgid "Sales per Product Category"
+msgstr "品目の分類別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_product_category_time_series"
+msgid "Sales per Product Category"
+msgstr "品目の分類別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_product_category_tree"
+msgid "Sales per Product Category"
+msgstr "品目の分類別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_product_time_series"
+msgid "Sales per Product"
+msgstr "品目別の販売"
+
+msgctxt "model:ir.action,name:act_reporting_region_tree"
+msgid "Sales per Region"
+msgstr "地方別の販売"
+
+msgctxt "model:ir.action,name:act_return_form"
+msgid "Returns"
+msgstr "返品"
+
+msgctxt "model:ir.action,name:act_sale_configuration_form"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.action,name:act_sale_form"
+msgid "Sales"
+msgstr "販売"
+
+msgctxt "model:ir.action,name:act_sale_line_relate"
+msgid "Sale Lines"
+msgstr "販売の行"
+
+msgctxt "model:ir.action,name:act_sale_move_relate"
+msgid "Stock Moves"
+msgstr "在庫の移動"
+
+msgctxt "model:ir.action,name:act_sale_relate"
+msgid "Sales"
+msgstr "販売"
+
+msgctxt "model:ir.action,name:act_sale_relate_simple"
+msgid "Sales"
+msgstr "販売"
+
+msgctxt "model:ir.action,name:act_shipment_form"
+msgid "Shipments"
+msgstr "出荷"
+
+msgctxt "model:ir.action,name:report_sale"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "model:ir.action,name:wizard_invoice_handle_exception"
+msgid "Handle Invoice Exception"
+msgstr "請求書の例外を処理"
+
+msgctxt "model:ir.action,name:wizard_modify_header"
+msgid "Modify Header"
+msgstr "見出しを変更"
+
+msgctxt "model:ir.action,name:wizard_reporting_country_tree_open"
+msgid "Open Region"
+msgstr "地方を開く"
+
+msgctxt "model:ir.action,name:wizard_reporting_region_tree_open"
+msgid "Open Region"
+msgstr "地方を開く"
+
+msgctxt "model:ir.action,name:wizard_return_sale"
+msgid "Return Sale"
+msgstr "販売を返品"
+
+msgctxt "model:ir.action,name:wizard_sale_open_product"
+msgid "Products"
+msgstr "品目"
+
+msgctxt "model:ir.action,name:wizard_shipment_handle_exception"
+msgid "Handle Shipment Exception"
+msgstr "出荷の例外を処理"
+
+msgctxt "model:ir.action.act_window.domain,name:act_sale_form_domain_all"
+msgid "All"
+msgstr "すべて"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_form_domain_confirmed"
+msgid "Confirmed"
+msgstr "確定"
+
+msgctxt "model:ir.action.act_window.domain,name:act_sale_form_domain_draft"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_form_domain_exception"
+msgid "Exception"
+msgstr "例外"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_form_domain_processing"
+msgid "Processing"
+msgstr "処理中"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_form_domain_quotation"
+msgid "Quotation"
+msgstr "見積"
+
+msgctxt "model:ir.action.act_window.domain,name:act_sale_line_relate_all"
+msgid "All"
+msgstr "すべて"
+
+msgctxt "model:ir.action.act_window.domain,name:act_sale_line_relate_done"
+msgid "Done"
+msgstr "完了"
+
+msgctxt "model:ir.action.act_window.domain,name:act_sale_line_relate_pending"
+msgid "Pending"
+msgstr "未完了"
+
+msgctxt "model:ir.action.act_window.domain,name:act_sale_relate_all"
+msgid "All"
+msgstr "すべて"
+
+msgctxt "model:ir.action.act_window.domain,name:act_sale_relate_done"
+msgid "Done"
+msgstr "完了"
+
+msgctxt "model:ir.action.act_window.domain,name:act_sale_relate_pending"
+msgid "Pending"
+msgstr "未完了"
+
+msgctxt "model:ir.message,text:msg_erase_party_pending_sale"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have pending sales with "
+"company \"%(company)s\"."
+msgstr "取引先「%(party)s」は、会社「%(company)s」との未完了の販売があるため、消去できません。"
+
+msgctxt "model:ir.message,text:msg_sale_customer_location_required"
+msgid ""
+"To process sale \"%(sale)s\" you must set a customer location on party "
+"\"%(party)s\"."
+msgstr "販売「%(sale)s」を処理するには、取引先「%(party)s」に顧客の場所を設定してください。"
+
+msgctxt "model:ir.message,text:msg_sale_delete_cancel"
+msgid "To delete sale \"%(sale)s\" you must cancel it."
+msgstr "販売「%(sale)s」を削除するには、取り消してください。"
+
+msgctxt "model:ir.message,text:msg_sale_invalid_method"
+msgid ""
+"You cannot use together invoice \"%(invoice_method)s\" and shipment "
+"\"%(shipment_method)s\" on sale \"%(sale)s\"."
+msgstr ""
+"販売「%(sale)s」では、請求「%(invoice_method)s」と出荷「%(shipment_method)s」を一緒に使えません。"
+
+msgctxt ""
+"model:ir.message,text:msg_sale_invoice_address_required_for_quotation"
+msgid "To get a quote for sale \"%(sale)s\" you must enter an invoice address."
+msgstr "販売「%(sale)s」の見積をとるには、請求先の住所を入力してください。"
+
+msgctxt "model:ir.message,text:msg_sale_invoice_reset_draft"
+msgid ""
+"You cannot reset invoice \"%(invoice)s\" to draft because it was generated "
+"by a sale."
+msgstr "請求書「%(invoice)s」は販売から作られたため、下書きに戻せません。"
+
+msgctxt "model:ir.message,text:msg_sale_line_create_draft"
+msgid ""
+"You cannot add lines to sale \"%(sale)s\" because it is no longer in a draft"
+" state."
+msgstr "販売「%(sale)s」はもう下書きではないため、行を追加できません。"
+
+msgctxt "model:ir.message,text:msg_sale_line_delete_cancel_draft"
+msgid ""
+"To delete line \"%(line)s\" you must cancel or reset to draft sale "
+"\"%(sale)s\"."
+msgstr "行「%(line)s」を削除するには、販売「%(sale)s」を取り消すか下書きに戻してください。"
+
+msgctxt "model:ir.message,text:msg_sale_line_move_quantity"
+msgid ""
+"The sale line \"%(line)s\" is moving %(extra)s in addition to the "
+"%(quantity)s ordered."
+msgstr "販売の行「%(line)s」は、注文の %(quantity)s に加えて %(extra)s を移動しています。"
+
+msgctxt "model:ir.message,text:msg_sale_line_tax_unique"
+msgid "A tax can be added only once to a sale line."
+msgstr "税は販売の行に 1 度だけ追加できます。"
+
+msgctxt "model:ir.message,text:msg_sale_missing_account_revenue"
+msgid "To invoice sale \"%(sale)s\" you must configure a default account revenue."
+msgstr "販売「%(sale)s」の請求をするには、既定の収益の勘定科目を設定してください。"
+
+msgctxt "model:ir.message,text:msg_sale_modify_header_draft"
+msgid "To modify the header of sale \"%(sale)s\", it must be in \"draft\" state."
+msgstr "販売「%(sale)s」の見出しを変更するには、「下書き」の状態にしてください。"
+
+msgctxt "model:ir.message,text:msg_sale_move_reset_draft"
+msgid ""
+"You cannot reset move \"%(move)s\" to draft because it was generated by a "
+"sale."
+msgstr "移動「%(move)s」は販売から作られたため、下書きに戻せません。"
+
+msgctxt "model:ir.message,text:msg_sale_product_missing_account_revenue"
+msgid ""
+"To invoice sale \"%(sale)s\" you must define an account revenue for product "
+"\"%(product)s\"."
+msgstr "販売「%(sale)s」の請求をするには、品目「%(product)s」に収益の勘定科目を設定してください。"
+
+msgctxt "model:ir.message,text:msg_sale_reporting_company"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "model:ir.message,text:msg_sale_reporting_currency"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "model:ir.message,text:msg_sale_reporting_date"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "model:ir.message,text:msg_sale_reporting_number"
+msgid "#"
+msgstr "#"
+
+msgctxt "model:ir.message,text:msg_sale_reporting_number_help"
+msgid "Number of sales"
+msgstr "販売の件数"
+
+msgctxt "model:ir.message,text:msg_sale_reporting_revenue"
+msgid "Revenue"
+msgstr "収益"
+
+msgctxt "model:ir.message,text:msg_sale_reporting_revenue_trend"
+msgid "Revenue Trend"
+msgstr "収益の推移"
+
+msgctxt "model:ir.message,text:msg_sale_reporting_time_series"
+msgid "Time Series"
+msgstr "時系列"
+
+msgctxt ""
+"model:ir.message,text:msg_sale_shipment_address_required_for_quotation"
+msgid "To get a quote for sale \"%(sale)s\" you must enter a shipment address."
+msgstr "販売「%(sale)s」の見積をとるには、出荷先の住所を入力してください。"
+
+msgctxt "model:ir.message,text:msg_sale_warehouse_required_for_quotation"
+msgid ""
+"To get a quote for sale \"%(sale)s\" you must enter a warehouse for the line"
+" \"%(line)s\"."
+msgstr "販売「%(sale)s」の見積をとるには、行「%(line)s」に倉庫を入力してください。"
+
+msgctxt "model:ir.model.button,string:sale_cancel_button"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "model:ir.model.button,string:sale_confirm_button"
+msgid "Confirm"
+msgstr "確定"
+
+msgctxt "model:ir.model.button,string:sale_draft_button"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "model:ir.model.button,string:sale_handle_invoice_exception_button"
+msgid "Handle Invoice Exception"
+msgstr "請求書の例外を処理"
+
+msgctxt "model:ir.model.button,string:sale_handle_shipment_exception_button"
+msgid "Handle Shipment Exception"
+msgstr "出荷の例外を処理"
+
+msgctxt "model:ir.model.button,string:sale_manual_invoice_button"
+msgid "Create Invoice"
+msgstr "請求書を作成"
+
+msgctxt "model:ir.model.button,string:sale_manual_shipment_button"
+msgid "Create Shipment"
+msgstr "出荷を作成"
+
+msgctxt "model:ir.model.button,string:sale_modify_header_button"
+msgid "Modify Header"
+msgstr "見出しを変更"
+
+msgctxt "model:ir.model.button,string:sale_process_button"
+msgid "Process"
+msgstr "処理"
+
+msgctxt "model:ir.model.button,string:sale_quote_button"
+msgid "Quote"
+msgstr "見積"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_country_subdivision_time_series_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_country_time_series_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_country_tree_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_customer_category_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_customer_category_time_series_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_customer_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_customer_time_series_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_main_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_main_time_series_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_product_category_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_product_category_time_series_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_product_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_product_time_series_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_sale_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.sequence,name:sequence_sale"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_sale"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.ui.menu,name:menu_product"
+msgid "Products"
+msgstr "品目"
+
+msgctxt "model:ir.ui.menu,name:menu_reporting"
+msgid "Reporting"
+msgstr "帳票"
+
+msgctxt "model:ir.ui.menu,name:menu_reporting_sale"
+msgid "Sales"
+msgstr "販売"
+
+msgctxt "model:ir.ui.menu,name:menu_sale"
+msgid "Sales"
+msgstr "販売"
+
+msgctxt "model:ir.ui.menu,name:menu_sale_configuration"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.ui.menu,name:menu_sale_form"
+msgid "Sales"
+msgstr "販売"
+
+msgctxt "model:party.party.customer_currency,string:"
+msgid "Party Customer Currency"
+msgstr "取引先の顧客の通貨"
+
+msgctxt "model:party.party.sale_method,string:"
+msgid "Party Sale Method"
+msgstr "取引先の販売の方法"
+
+msgctxt "model:product.configuration.default_lead_time,string:"
+msgid "Product Configuration Default Lead Time"
+msgstr "品目の設定 - 既定のリードタイム"
+
+msgctxt "model:product.lead_time,string:"
+msgid "Product Lead Time"
+msgstr "品目のリードタイム"
+
+msgctxt "model:product.sale.context,string:"
+msgid "Product Sale Context"
+msgstr "品目の販売の条件"
+
+msgctxt "model:res.group,name:group_sale"
+msgid "Sales"
+msgstr "販売"
+
+msgctxt "model:res.group,name:group_sale_admin"
+msgid "Sales Administrator"
+msgstr "販売の管理者"
+
+msgctxt "model:sale.configuration,string:"
+msgid "Sale Configuration"
+msgstr "販売の設定"
+
+msgctxt "model:sale.configuration.quotation,string:"
+msgid "Sale Configuration Quotation"
+msgstr "販売の設定 - 見積"
+
+msgctxt "model:sale.configuration.sale_method,string:"
+msgid "Sale Configuration Sale Method"
+msgstr "販売の設定 - 販売の方法"
+
+msgctxt "model:sale.configuration.sequence,string:"
+msgid "Sale Configuration Sequence"
+msgstr "販売の設定 - 連番"
+
+msgctxt "model:sale.handle.invoice.exception.ask,string:"
+msgid "Sale Handle Invoice Exception Ask"
+msgstr "販売 - 請求書の例外の処理"
+
+msgctxt "model:sale.handle.shipment.exception.ask,string:"
+msgid "Sale Handle Shipment Exception Ask"
+msgstr "販売 - 出荷の例外の処理"
+
+msgctxt "model:sale.line,string:"
+msgid "Sale Line"
+msgstr "販売の行"
+
+msgctxt "model:sale.line-account.tax,string:"
+msgid "Sale Line - Account Tax"
+msgstr "販売の行 - 税"
+
+msgctxt "model:sale.line-ignored-stock.move,string:"
+msgid "Sale Line - Ignored - Stock Move"
+msgstr "販売の行 - 無視した在庫移動"
+
+msgctxt "model:sale.line-recreated-stock.move,string:"
+msgid "Sale Line - Recreated - Stock Move"
+msgstr "販売の行 - 作り直した在庫移動"
+
+msgctxt "model:sale.reporting.context,string:"
+msgid "Sale Reporting Context"
+msgstr "販売の集計の条件"
+
+msgctxt "model:sale.reporting.country,string:"
+msgid "Sale Reporting Country"
+msgstr "国別の販売の集計"
+
+msgctxt "model:sale.reporting.country.subdivision,string:"
+msgid "Sale Reporting Country Subdivision"
+msgstr "地域別の販売の集計"
+
+msgctxt "model:sale.reporting.country.subdivision.time_series,string:"
+msgid "Sale Reporting Country Subdivision Time Series"
+msgstr "地域別の販売の集計の時系列"
+
+msgctxt "model:sale.reporting.country.time_series,string:"
+msgid "Sale Reporting Country Time Series"
+msgstr "国別の販売の集計の時系列"
+
+msgctxt "model:sale.reporting.country.tree,string:"
+msgid "Sale Reporting Country Tree"
+msgstr "国別の販売の集計の階層"
+
+msgctxt "model:sale.reporting.customer,string:"
+msgid "Sale Reporting Customer"
+msgstr "顧客別の販売の集計"
+
+msgctxt "model:sale.reporting.customer.category,string:"
+msgid "Sale Reporting Customer Category"
+msgstr "顧客の分類別の販売の集計"
+
+msgctxt "model:sale.reporting.customer.category.time_series,string:"
+msgid "Sale Reporting Customer Category Time Series"
+msgstr "顧客の分類別の販売の集計の時系列"
+
+msgctxt "model:sale.reporting.customer.category.tree,string:"
+msgid "Sale Reporting Customer Category Tree"
+msgstr "顧客の分類別の販売の集計の階層"
+
+msgctxt "model:sale.reporting.customer.time_series,string:"
+msgid "Sale Reporting Customer Time Series"
+msgstr "顧客別の販売の集計の時系列"
+
+msgctxt "model:sale.reporting.main,string:"
+msgid "Sale Reporting Main"
+msgstr "販売の集計"
+
+msgctxt "model:sale.reporting.main.time_series,string:"
+msgid "Sale Reporting Main Time Series"
+msgstr "販売の集計の時系列"
+
+msgctxt "model:sale.reporting.product,string:"
+msgid "Sale Reporting Product"
+msgstr "品目別の販売の集計"
+
+msgctxt "model:sale.reporting.product.category,string:"
+msgid "Sale Reporting Product Category"
+msgstr "品目の分類別の販売の集計"
+
+msgctxt "model:sale.reporting.product.category.time_series,string:"
+msgid "Sale Reporting Product Category Time Series"
+msgstr "品目の分類別の販売の集計の時系列"
+
+msgctxt "model:sale.reporting.product.category.tree,string:"
+msgid "Sale Reporting Product Category Tree"
+msgstr "品目の分類別の販売の集計の階層"
+
+msgctxt "model:sale.reporting.product.time_series,string:"
+msgid "Sale Reporting Product Time Series"
+msgstr "品目別の販売の集計の時系列"
+
+msgctxt "model:sale.reporting.region.tree,string:"
+msgid "Sale Reporting Region Tree"
+msgstr "地方別の販売の集計の階層"
+
+msgctxt "model:sale.return_sale.start,string:"
+msgid "Sale Return Sale Start"
+msgstr "販売の返品の開始"
+
+msgctxt "model:sale.sale,string:"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "model:sale.sale-ignored-account.invoice,string:"
+msgid "Sale - Ignored - Account Invoice"
+msgstr "販売 - 無視した請求書"
+
+msgctxt "model:sale.sale-recreated-account.invoice,string:"
+msgid "Sale - Recreated - Account Invoice"
+msgstr "販売 - 作り直した請求書"
+
+msgctxt "report:sale.sale:"
+msgid ":"
+msgstr ":"
+
+msgctxt "report:sale.sale:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "report:sale.sale:"
+msgid "Date:"
+msgstr "日付:"
+
+msgctxt "report:sale.sale:"
+msgid "Delivery Address:"
+msgstr "納入先の住所:"
+
+msgctxt "report:sale.sale:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "report:sale.sale:"
+msgid "Description:"
+msgstr "説明:"
+
+msgctxt "report:sale.sale:"
+msgid "Draft Sale Order"
+msgstr "注文書(下書き)"
+
+msgctxt "report:sale.sale:"
+msgid "Expiration Date:"
+msgstr "有効期限:"
+
+msgctxt "report:sale.sale:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "report:sale.sale:"
+msgid "Quotation No:"
+msgstr "見積番号:"
+
+msgctxt "report:sale.sale:"
+msgid "Reference:"
+msgstr "参照:"
+
+msgctxt "report:sale.sale:"
+msgid "Sale Order No:"
+msgstr "受注番号:"
+
+msgctxt "report:sale.sale:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "report:sale.sale:"
+msgid "Taxes:"
+msgstr "税:"
+
+msgctxt "report:sale.sale:"
+msgid "Total (excl. taxes):"
+msgstr "合計(税抜):"
+
+msgctxt "report:sale.sale:"
+msgid "Total:"
+msgstr "合計:"
+
+msgctxt "report:sale.sale:"
+msgid "Unit Price"
+msgstr "単価"
+
+msgctxt "selection:account.invoice,sale_exception_state:"
+msgid "Ignored"
+msgstr "無視"
+
+msgctxt "selection:account.invoice,sale_exception_state:"
+msgid "Recreated"
+msgstr "作り直し"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Cancel Expired Sale Quotation"
+msgstr "期限切れの販売の見積を取り消す"
+
+msgctxt "selection:sale.line,type:"
+msgid "Comment"
+msgstr "コメント"
+
+msgctxt "selection:sale.line,type:"
+msgid "Line"
+msgstr "行"
+
+msgctxt "selection:sale.line,type:"
+msgid "Subtotal"
+msgstr "小計"
+
+msgctxt "selection:sale.line,type:"
+msgid "Title"
+msgstr "見出し"
+
+msgctxt "selection:sale.reporting.context,period:"
+msgid "Day"
+msgstr "日"
+
+msgctxt "selection:sale.reporting.context,period:"
+msgid "Month"
+msgstr "月"
+
+msgctxt "selection:sale.reporting.context,period:"
+msgid "Year"
+msgstr "年"
+
+msgctxt "selection:sale.sale,invoice_method:"
+msgid "Manual"
+msgstr "手動"
+
+msgctxt "selection:sale.sale,invoice_method:"
+msgid "On Fulfillment"
+msgstr "納品のとき"
+
+msgctxt "selection:sale.sale,invoice_method:"
+msgid "On Order Processed"
+msgstr "注文の処理のとき"
+
+msgctxt "selection:sale.sale,invoice_state:"
+msgid "Awaiting Payment"
+msgstr "支払待ち"
+
+msgctxt "selection:sale.sale,invoice_state:"
+msgid "Exception"
+msgstr "例外"
+
+msgctxt "selection:sale.sale,invoice_state:"
+msgid "None"
+msgstr "なし"
+
+msgctxt "selection:sale.sale,invoice_state:"
+msgid "Paid"
+msgstr "支払済み"
+
+msgctxt "selection:sale.sale,invoice_state:"
+msgid "Partially Paid"
+msgstr "一部支払済み"
+
+msgctxt "selection:sale.sale,invoice_state:"
+msgid "Pending"
+msgstr "未完了"
+
+msgctxt "selection:sale.sale,shipment_method:"
+msgid "Manual"
+msgstr "手動"
+
+msgctxt "selection:sale.sale,shipment_method:"
+msgid "On Invoice Paid"
+msgstr "請求書の支払のとき"
+
+msgctxt "selection:sale.sale,shipment_method:"
+msgid "On Order Processed"
+msgstr "注文の処理のとき"
+
+msgctxt "selection:sale.sale,shipment_state:"
+msgid "Exception"
+msgstr "例外"
+
+msgctxt "selection:sale.sale,shipment_state:"
+msgid "None"
+msgstr "なし"
+
+msgctxt "selection:sale.sale,shipment_state:"
+msgid "Partially Shipped"
+msgstr "一部出荷済み"
+
+msgctxt "selection:sale.sale,shipment_state:"
+msgid "Sent"
+msgstr "送付済み"
+
+msgctxt "selection:sale.sale,shipment_state:"
+msgid "Waiting"
+msgstr "待機中"
+
+msgctxt "selection:sale.sale,state:"
+msgid "Cancelled"
+msgstr "取消済み"
+
+msgctxt "selection:sale.sale,state:"
+msgid "Confirmed"
+msgstr "確定"
+
+msgctxt "selection:sale.sale,state:"
+msgid "Done"
+msgstr "完了"
+
+msgctxt "selection:sale.sale,state:"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "selection:sale.sale,state:"
+msgid "Processing"
+msgstr "処理中"
+
+msgctxt "selection:sale.sale,state:"
+msgid "Quotation"
+msgstr "見積"
+
+msgctxt "selection:stock.move,sale_exception_state:"
+msgid "Ignored"
+msgstr "無視"
+
+msgctxt "selection:stock.move,sale_exception_state:"
+msgid "Recreated"
+msgstr "作り直し"
+
+msgctxt "view:party.party:"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "view:product.template:"
+msgid "Customers"
+msgstr "顧客"
+
+msgctxt "view:sale.handle.invoice.exception.ask:"
+msgid "Choose cancelled invoices to ignore or recreate:"
+msgstr "無視するか作り直す取消済みの請求書を選んでください:"
+
+msgctxt "view:sale.handle.shipment.exception.ask:"
+msgid "Choose cancelled stock moves to ignore or recreate:"
+msgstr "無視するか作り直す取消済みの在庫移動を選んでください:"
+
+msgctxt "view:sale.line:"
+msgid "General"
+msgstr "全般"
+
+msgctxt "view:sale.line:"
+msgid "Invoicing"
+msgstr "請求"
+
+msgctxt "view:sale.line:"
+msgid "Notes"
+msgstr "メモ"
+
+msgctxt "view:sale.line:"
+msgid "Shipping"
+msgstr "出荷"
+
+msgctxt "view:sale.line:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "view:sale.return_sale.start:"
+msgid "Are you sure to return these/this sale(s)?"
+msgstr "この販売を返品してよろしいですか?"
+
+msgctxt "view:sale.sale:"
+msgid "Other Info"
+msgstr "その他の情報"
+
+msgctxt "view:sale.sale:"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "wizard_button:sale.handle.invoice.exception,ask,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:sale.handle.invoice.exception,ask,handle:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:sale.handle.shipment.exception,ask,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:sale.handle.shipment.exception,ask,handle:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:sale.modify_header,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:sale.modify_header,start,modify:"
+msgid "Modify"
+msgstr "変更"
+
+msgctxt "wizard_button:sale.return_sale,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:sale.return_sale,start,return_:"
+msgid "Return"
+msgstr "返品"

@@ -1,0 +1,1680 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:account.configuration,customer_payment_reference_number:"
+msgid "Customer Payment Reference Number"
+msgstr "顧客の支払参照番号"
+
+msgctxt "field:account.configuration,default_customer_payment_term:"
+msgid "Default Customer Payment Term"
+msgstr "既定の顧客の支払条件"
+
+msgctxt "field:account.configuration.default_payment_term,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt ""
+"field:account.configuration.default_payment_term,default_customer_payment_term:"
+msgid "Default Customer Payment Term"
+msgstr "既定の顧客の支払条件"
+
+msgctxt "field:account.configuration.payment_reference,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt ""
+"field:account.configuration.payment_reference,customer_payment_reference_number:"
+msgid "Customer Payment Reference Number"
+msgstr "顧客の支払参照番号"
+
+msgctxt "field:account.fiscalyear,invoice_sequences:"
+msgid "Invoice Sequences"
+msgstr "請求書の連番"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "会計年度"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,in_credit_note_sequence:"
+msgid "Supplier Credit Note Sequence"
+msgstr "仕入先の請求取消書の連番"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,in_invoice_sequence:"
+msgid "Supplier Invoice Sequence"
+msgstr "仕入請求書の連番"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,out_credit_note_sequence:"
+msgid "Customer Credit Note Sequence"
+msgstr "顧客の請求取消書の連番"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,out_invoice_sequence:"
+msgid "Customer Invoice Sequence"
+msgstr "顧客の請求書の連番"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,period:"
+msgid "Period"
+msgstr "期間"
+
+msgctxt "field:account.invoice,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.invoice,accounting_date:"
+msgid "Accounting Date"
+msgstr "計上日"
+
+msgctxt "field:account.invoice,additional_moves:"
+msgid "Additional Moves"
+msgstr "追加の仕訳"
+
+msgctxt "field:account.invoice,allow_cancel:"
+msgid "Allow Cancel Invoice"
+msgstr "請求書の取消を許可"
+
+msgctxt "field:account.invoice,alternative_payees:"
+msgid "Alternative Payee"
+msgstr "別の受取人"
+
+msgctxt "field:account.invoice,amount_to_pay:"
+msgid "Amount to Pay"
+msgstr "支払額"
+
+msgctxt "field:account.invoice,amount_to_pay_today:"
+msgid "Amount to Pay Today"
+msgstr "今日の支払額"
+
+msgctxt "field:account.invoice,cancel_move:"
+msgid "Cancel Move"
+msgstr "取消の仕訳"
+
+msgctxt "field:account.invoice,comment:"
+msgid "Comment"
+msgstr "コメント"
+
+msgctxt "field:account.invoice,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.invoice,company_party:"
+msgid "Company Party"
+msgstr "会社の取引先"
+
+msgctxt "field:account.invoice,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.invoice,currency_date:"
+msgid "Currency Date"
+msgstr "為替の日付"
+
+msgctxt "field:account.invoice,customer_payment_reference:"
+msgid "Customer Payment Reference"
+msgstr "顧客の支払参照"
+
+msgctxt "field:account.invoice,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.invoice,has_account_move:"
+msgid "Has Account Move"
+msgstr "仕訳あり"
+
+msgctxt "field:account.invoice,has_payment_method:"
+msgid "Has Payment Method"
+msgstr "支払方法あり"
+
+msgctxt "field:account.invoice,has_report_cache:"
+msgid "Has Report Cached"
+msgstr "帳票のキャッシュあり"
+
+msgctxt "field:account.invoice,invoice_address:"
+msgid "Invoice Address"
+msgstr "請求先住所"
+
+msgctxt "field:account.invoice,invoice_date:"
+msgid "Invoice Date"
+msgstr "請求日"
+
+msgctxt "field:account.invoice,invoice_report_cache:"
+msgid "Invoice Report"
+msgstr "請求書の帳票"
+
+msgctxt "field:account.invoice,invoice_report_cache_id:"
+msgid "Invoice Report ID"
+msgstr "請求書の帳票 ID"
+
+msgctxt "field:account.invoice,invoice_report_format:"
+msgid "Invoice Report Format"
+msgstr "請求書の帳票の形式"
+
+msgctxt "field:account.invoice,invoice_report_revisions:"
+msgid "Invoice Report Revisions"
+msgstr "請求書の帳票の改訂"
+
+msgctxt "field:account.invoice,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.invoice,line_lines:"
+msgid "Line - Lines"
+msgstr "行 - 行"
+
+msgctxt "field:account.invoice,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.invoice,lines_to_pay:"
+msgid "Lines to Pay"
+msgstr "支払う行"
+
+msgctxt "field:account.invoice,move:"
+msgid "Move"
+msgstr "仕訳"
+
+msgctxt "field:account.invoice,number:"
+msgid "Number"
+msgstr "番号"
+
+msgctxt "field:account.invoice,number_alnum:"
+msgid "Number Alphanumeric"
+msgstr "番号(英数字)"
+
+msgctxt "field:account.invoice,number_digit:"
+msgid "Number Digit"
+msgstr "番号(数字)"
+
+msgctxt "field:account.invoice,origin_invoices:"
+msgid "Origin Invoices"
+msgstr "元の請求書"
+
+msgctxt "field:account.invoice,origins:"
+msgid "Origins"
+msgstr "元"
+
+msgctxt "field:account.invoice,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.invoice,party_lang:"
+msgid "Party Language"
+msgstr "取引先の言語"
+
+msgctxt "field:account.invoice,party_tax_identifier:"
+msgid "Party Tax Identifier"
+msgstr "取引先の税番号"
+
+msgctxt "field:account.invoice,payment_lines:"
+msgid "Payment Lines"
+msgstr "支払の行"
+
+msgctxt "field:account.invoice,payment_means:"
+msgid "Payment Means"
+msgstr "支払手段"
+
+msgctxt "field:account.invoice,payment_term:"
+msgid "Payment Term"
+msgstr "支払条件"
+
+msgctxt "field:account.invoice,payment_term_date:"
+msgid "Payment Term Date"
+msgstr "支払条件の基準日"
+
+msgctxt "field:account.invoice,posted_by:"
+msgid "Posted By"
+msgstr "記帳した人"
+
+msgctxt "field:account.invoice,reconciled:"
+msgid "Reconciled"
+msgstr "消し込み済み"
+
+msgctxt "field:account.invoice,reconciliation_lines:"
+msgid "Payment Lines"
+msgstr "支払の行"
+
+msgctxt "field:account.invoice,reference:"
+msgid "Reference"
+msgstr "参照"
+
+msgctxt "field:account.invoice,sequence:"
+msgid "Sequence"
+msgstr "連番"
+
+msgctxt "field:account.invoice,sequence_type_cache:"
+msgid "Sequence Type Cache"
+msgstr "連番の種類のキャッシュ"
+
+msgctxt "field:account.invoice,source_tax_amount:"
+msgid "Source Tax"
+msgstr "元の税額"
+
+msgctxt "field:account.invoice,source_total_amount:"
+msgid "Source Total"
+msgstr "元の合計"
+
+msgctxt "field:account.invoice,source_untaxed_amount:"
+msgid "Source Untaxed"
+msgstr "元の税抜金額"
+
+msgctxt "field:account.invoice,state:"
+msgid "State"
+msgstr "状態"
+
+msgctxt "field:account.invoice,supplier_payment_reference:"
+msgid "Payment Reference"
+msgstr "支払参照"
+
+msgctxt "field:account.invoice,supplier_payment_reference_type:"
+msgid "Payment Reference Type"
+msgstr "支払参照の種類"
+
+msgctxt "field:account.invoice,tax_amount:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:account.invoice,tax_amount_cache:"
+msgid "Tax Cache"
+msgstr "税額のキャッシュ"
+
+msgctxt "field:account.invoice,tax_identifier:"
+msgid "Tax Identifier"
+msgstr "税番号"
+
+msgctxt "field:account.invoice,taxes:"
+msgid "Tax Lines"
+msgstr "税の行"
+
+msgctxt "field:account.invoice,total_amount:"
+msgid "Total"
+msgstr "合計"
+
+msgctxt "field:account.invoice,total_amount_cache:"
+msgid "Total Cache"
+msgstr "合計のキャッシュ"
+
+msgctxt "field:account.invoice,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.invoice,type_name:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.invoice,untaxed_amount:"
+msgid "Untaxed"
+msgstr "税抜金額"
+
+msgctxt "field:account.invoice,untaxed_amount_cache:"
+msgid "Untaxed Cache"
+msgstr "税抜金額のキャッシュ"
+
+msgctxt "field:account.invoice,validated_by:"
+msgid "Validated By"
+msgstr "確認した人"
+
+msgctxt "field:account.invoice-account.move.line,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:account.invoice-account.move.line,invoice_account:"
+msgid "Invoice Account"
+msgstr "請求書の勘定科目"
+
+msgctxt "field:account.invoice-account.move.line,invoice_alternative_payees:"
+msgid "Invoice Alternative Payees"
+msgstr "請求書の別の受取人"
+
+msgctxt "field:account.invoice-account.move.line,invoice_party:"
+msgid "Invoice Party"
+msgstr "請求書の取引先"
+
+msgctxt "field:account.invoice-account.move.line,line:"
+msgid "Payment Line"
+msgstr "支払の行"
+
+msgctxt "field:account.invoice-additional-account.move,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:account.invoice-additional-account.move,move:"
+msgid "Additional Move"
+msgstr "追加の仕訳"
+
+msgctxt "field:account.invoice.alternative_payee,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:account.invoice.alternative_payee,party:"
+msgid "Payee"
+msgstr "受取人"
+
+msgctxt "field:account.invoice.credit.start,invoice_date:"
+msgid "Invoice Date"
+msgstr "請求日"
+
+msgctxt "field:account.invoice.credit.start,with_refund:"
+msgid "With Refund"
+msgstr "返金あり"
+
+msgctxt "field:account.invoice.credit.start,with_refund_allowed:"
+msgid "With Refund Allowed"
+msgstr "返金を許可"
+
+msgctxt "field:account.invoice.edocument.result,file:"
+msgid "File"
+msgstr "ファイル"
+
+msgctxt "field:account.invoice.edocument.result,filename:"
+msgid "File Name"
+msgstr "ファイル名"
+
+msgctxt "field:account.invoice.edocument.start,format:"
+msgid "Format"
+msgstr "形式"
+
+msgctxt "field:account.invoice.edocument.start,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:account.invoice.line,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.invoice.line,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.invoice.line,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.invoice.line,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.invoice.line,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.invoice.line,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:account.invoice.line,invoice_description:"
+msgid "Invoice Description"
+msgstr "請求書の説明"
+
+msgctxt "field:account.invoice.line,invoice_party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.invoice.line,invoice_state:"
+msgid "Invoice State"
+msgstr "請求書の状態"
+
+msgctxt "field:account.invoice.line,invoice_taxes:"
+msgid "Invoice Taxes"
+msgstr "請求書の税"
+
+msgctxt "field:account.invoice.line,invoice_type:"
+msgid "Invoice Type"
+msgstr "請求書の種類"
+
+msgctxt "field:account.invoice.line,note:"
+msgid "Note"
+msgstr "メモ"
+
+msgctxt "field:account.invoice.line,origin:"
+msgid "Origin"
+msgstr "発生元"
+
+msgctxt "field:account.invoice.line,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.invoice.line,party_lang:"
+msgid "Party Language"
+msgstr "取引先の言語"
+
+msgctxt "field:account.invoice.line,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:account.invoice.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "品目の単位の分類"
+
+msgctxt "field:account.invoice.line,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:account.invoice.line,summary:"
+msgid "Summary"
+msgstr "概要"
+
+msgctxt "field:account.invoice.line,taxes:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "field:account.invoice.line,taxes_date:"
+msgid "Taxes Date"
+msgstr "税の基準日"
+
+msgctxt "field:account.invoice.line,taxes_deductible_rate:"
+msgid "Taxes Deductible Rate"
+msgstr "税の控除率"
+
+msgctxt "field:account.invoice.line,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.invoice.line,unit:"
+msgid "Unit"
+msgstr "単位"
+
+msgctxt "field:account.invoice.line,unit_price:"
+msgid "Unit Price"
+msgstr "単価"
+
+msgctxt "field:account.invoice.line-account.tax,line:"
+msgid "Invoice Line"
+msgstr "請求書の行"
+
+msgctxt "field:account.invoice.line-account.tax,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:account.invoice.pay.ask,amount:"
+msgid "Payment Amount"
+msgstr "支払額"
+
+msgctxt "field:account.invoice.pay.ask,amount_writeoff:"
+msgid "Write-Off Amount"
+msgstr "差額処理の金額"
+
+msgctxt "field:account.invoice.pay.ask,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.invoice.pay.ask,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.invoice.pay.ask,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:account.invoice.pay.ask,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.invoice.pay.ask,lines_to_pay:"
+msgid "Lines to Pay"
+msgstr "支払う行"
+
+msgctxt "field:account.invoice.pay.ask,payment_lines:"
+msgid "Payment Lines"
+msgstr "支払の行"
+
+msgctxt "field:account.invoice.pay.ask,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.invoice.pay.ask,writeoff:"
+msgid "Write Off"
+msgstr "差額処理"
+
+msgctxt "field:account.invoice.pay.start,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.invoice.pay.start,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.invoice.pay.start,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.invoice.pay.start,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.invoice.pay.start,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.invoice.pay.start,invoice_account:"
+msgid "Invoice Account"
+msgstr "請求書の勘定科目"
+
+msgctxt "field:account.invoice.pay.start,payee:"
+msgid "Payee"
+msgstr "受取人"
+
+msgctxt "field:account.invoice.pay.start,payees:"
+msgid "Payees"
+msgstr "受取人"
+
+msgctxt "field:account.invoice.pay.start,payment_method:"
+msgid "Payment Method"
+msgstr "支払方法"
+
+msgctxt "field:account.invoice.payment.mean,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.invoice.payment.mean,instrument:"
+msgid "Instrument"
+msgstr "手段"
+
+msgctxt "field:account.invoice.payment.mean,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:account.invoice.payment.mean,payees:"
+msgid "Payees"
+msgstr "受取人"
+
+msgctxt "field:account.invoice.payment.mean,payers:"
+msgid "Payers"
+msgstr "支払人"
+
+msgctxt "field:account.invoice.payment.mean.rule,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.invoice.payment.mean.rule,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.invoice.payment.mean.rule,instrument:"
+msgid "Instrument"
+msgstr "手段"
+
+msgctxt "field:account.invoice.payment.mean.rule,payee:"
+msgid "Payee"
+msgstr "受取人"
+
+msgctxt "field:account.invoice.payment.method,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.invoice.payment.method,credit_account:"
+msgid "Credit Account"
+msgstr "貸方の勘定科目"
+
+msgctxt "field:account.invoice.payment.method,debit_account:"
+msgid "Debit Account"
+msgstr "借方の勘定科目"
+
+msgctxt "field:account.invoice.payment.method,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.invoice.payment.method,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.invoice.payment_term,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.invoice.payment_term,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.invoice.payment_term,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.invoice.payment_term.line,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.invoice.payment_term.line,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.invoice.payment_term.line,divisor:"
+msgid "Divisor"
+msgstr "除数"
+
+msgctxt "field:account.invoice.payment_term.line,payment:"
+msgid "Payment Term"
+msgstr "支払条件"
+
+msgctxt "field:account.invoice.payment_term.line,ratio:"
+msgid "Ratio"
+msgstr "比率"
+
+msgctxt "field:account.invoice.payment_term.line,relativedeltas:"
+msgid "Deltas"
+msgstr "差分"
+
+msgctxt "field:account.invoice.payment_term.line,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.invoice.payment_term.line.delta,day:"
+msgid "Day of Month"
+msgstr "日"
+
+msgctxt "field:account.invoice.payment_term.line.delta,days:"
+msgid "Number of Days"
+msgstr "日数"
+
+msgctxt "field:account.invoice.payment_term.line.delta,line:"
+msgid "Payment Term Line"
+msgstr "支払条件の行"
+
+msgctxt "field:account.invoice.payment_term.line.delta,month:"
+msgid "Month"
+msgstr "月"
+
+msgctxt "field:account.invoice.payment_term.line.delta,months:"
+msgid "Number of Months"
+msgstr "月数"
+
+msgctxt "field:account.invoice.payment_term.line.delta,weekday:"
+msgid "Day of Week"
+msgstr "曜日"
+
+msgctxt "field:account.invoice.payment_term.line.delta,weeks:"
+msgid "Number of Weeks"
+msgstr "週数"
+
+msgctxt "field:account.invoice.payment_term.test,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.invoice.payment_term.test,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.invoice.payment_term.test,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.invoice.payment_term.test,payment_term:"
+msgid "Payment Term"
+msgstr "支払条件"
+
+msgctxt "field:account.invoice.payment_term.test,result:"
+msgid "Result"
+msgstr "結果"
+
+msgctxt "field:account.invoice.payment_term.test.result,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.invoice.payment_term.test.result,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.invoice.payment_term.test.result,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.invoice.report.revision,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.invoice.report.revision,filename:"
+msgid "File Name"
+msgstr "ファイル名"
+
+msgctxt "field:account.invoice.report.revision,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:account.invoice.report.revision,invoice_report_cache:"
+msgid "Invoice Report"
+msgstr "請求書の帳票"
+
+msgctxt "field:account.invoice.report.revision,invoice_report_cache_id:"
+msgid "Invoice Report ID"
+msgstr "請求書の帳票 ID"
+
+msgctxt "field:account.invoice.report.revision,invoice_report_format:"
+msgid "Invoice Report Format"
+msgstr "請求書の帳票の形式"
+
+msgctxt "field:account.invoice.tax,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.invoice.tax,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.invoice.tax,base:"
+msgid "Base"
+msgstr "課税標準額"
+
+msgctxt "field:account.invoice.tax,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.invoice.tax,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.invoice.tax,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:account.invoice.tax,invoice_state:"
+msgid "Invoice State"
+msgstr "請求書の状態"
+
+msgctxt "field:account.invoice.tax,legal_notice:"
+msgid "Legal Notice"
+msgstr "法定表示"
+
+msgctxt "field:account.invoice.tax,manual:"
+msgid "Manual"
+msgstr "手動"
+
+msgctxt "field:account.invoice.tax,sequence_number:"
+msgid "Sequence Number"
+msgstr "連番"
+
+msgctxt "field:account.invoice.tax,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:account.move.line,invoice_payment:"
+msgid "Invoice Payment"
+msgstr "請求書の支払"
+
+msgctxt "field:account.move.line,invoice_payments:"
+msgid "Invoice Payments"
+msgstr "請求書の支払"
+
+msgctxt "field:company.company,cancel_invoice_out:"
+msgid "Cancel Customer Invoice"
+msgstr "顧客の請求書の取消"
+
+msgctxt "field:company.company,purchase_taxes_expense:"
+msgid "Purchase Taxes as Expense"
+msgstr "購買の税を費用にする"
+
+msgctxt "field:party.address,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:party.contact_mechanism,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:party.party,customer_payment_term:"
+msgid "Customer Payment Term"
+msgstr "顧客の支払条件"
+
+msgctxt "field:party.party,payment_terms:"
+msgid "Payment Terms"
+msgstr "支払条件"
+
+msgctxt "field:party.party,supplier_payment_term:"
+msgid "Supplier Payment Term"
+msgstr "仕入先の支払条件"
+
+msgctxt "field:party.party.payment_term,customer_payment_term:"
+msgid "Customer Payment Term"
+msgstr "顧客の支払条件"
+
+msgctxt "field:party.party.payment_term,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.party.payment_term,supplier_payment_term:"
+msgid "Supplier Payment Term"
+msgstr "仕入先の支払条件"
+
+msgctxt "help:account.configuration,customer_payment_reference_number:"
+msgid "The number used to generate the customer payment reference."
+msgstr "顧客の支払参照を作るときに使う番号です。"
+
+msgctxt "help:account.invoice,payment_term_date:"
+msgid ""
+"The date from which the payment term is calculated.\n"
+"Leave empty to use the invoice date."
+msgstr ""
+"支払条件を計算する基準の日付です。\n"
+"空なら請求日を使います。"
+
+msgctxt "help:account.invoice.credit.start,with_refund:"
+msgid "If true, the current invoice(s) will be cancelled."
+msgstr "有効にすると、この請求書を取り消します。"
+
+msgctxt "help:account.invoice.line,product_uom_category:"
+msgid "The category of Unit of Measure for the product."
+msgstr "品目の単位の分類です。"
+
+msgctxt "help:account.invoice.line,taxes_date:"
+msgid ""
+"The date at which the taxes are computed.\n"
+"Leave empty for the accounting date."
+msgstr ""
+"税を計算する日付です。\n"
+"空なら計上日を使います。"
+
+msgctxt "help:company.company,cancel_invoice_out:"
+msgid "Allow cancelling move of customer invoice."
+msgstr "顧客の請求書の仕訳を取り消せるようにします。"
+
+msgctxt "help:company.company,purchase_taxes_expense:"
+msgid "Check to book purchase taxes as expense."
+msgstr "購買の税を費用として計上するときに有効にします。"
+
+msgctxt "model:account.configuration.default_payment_term,string:"
+msgid "Account Configuration Default Payment Term"
+msgstr "会計の設定 既定の支払条件"
+
+msgctxt "model:account.configuration.payment_reference,string:"
+msgid "Account Configuration Payment Reference"
+msgstr "会計の設定 支払参照"
+
+msgctxt "model:account.fiscalyear.invoice_sequence,string:"
+msgid "Account Fiscalyear Invoice Sequence"
+msgstr "会計年度の請求書の連番"
+
+msgctxt "model:account.invoice,string:"
+msgid "Account Invoice"
+msgstr "請求書"
+
+msgctxt "model:account.invoice-account.move.line,string:"
+msgid "Account Invoice - Account Move Line"
+msgstr "請求書 - 仕訳の行"
+
+msgctxt "model:account.invoice-additional-account.move,string:"
+msgid "Account Invoice - Additional - Account Move"
+msgstr "請求書 - 追加 - 仕訳"
+
+msgctxt "model:account.invoice.alternative_payee,string:"
+msgid "Account Invoice Alternative Payee"
+msgstr "請求書の別の受取人"
+
+msgctxt "model:account.invoice.credit.start,string:"
+msgid "Account Invoice Credit Start"
+msgstr "請求取消書の作成 開始"
+
+msgctxt "model:account.invoice.edocument.result,string:"
+msgid "Account Invoice Edocument Result"
+msgstr "電子書類 結果"
+
+msgctxt "model:account.invoice.edocument.start,string:"
+msgid "Account Invoice Edocument Start"
+msgstr "電子書類 開始"
+
+msgctxt "model:account.invoice.line,string:"
+msgid "Account Invoice Line"
+msgstr "請求書の行"
+
+msgctxt "model:account.invoice.line-account.tax,string:"
+msgid "Account Invoice Line - Account Tax"
+msgstr "請求書の行 - 税"
+
+msgctxt "model:account.invoice.pay.ask,string:"
+msgid "Account Invoice Pay Ask"
+msgstr "請求書の支払 確認"
+
+msgctxt "model:account.invoice.pay.start,string:"
+msgid "Account Invoice Pay Start"
+msgstr "請求書の支払 開始"
+
+msgctxt "model:account.invoice.payment.mean,string:"
+msgid "Account Invoice Payment Mean"
+msgstr "請求書の支払手段"
+
+msgctxt "model:account.invoice.payment.mean.rule,string:"
+msgid "Account Invoice Payment Mean Rule"
+msgstr "請求書の支払手段の規則"
+
+msgctxt "model:account.invoice.payment.method,string:"
+msgid "Account Invoice Payment Method"
+msgstr "請求書の支払方法"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_0"
+msgid "Upon Receipt"
+msgstr "受領時"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_30_eom"
+msgid "Net 30 days End of Month"
+msgstr "月末締め30日"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_60_eom"
+msgid "Net 60 days End of Month"
+msgstr "月末締め60日"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_eom"
+msgid "End of Month"
+msgstr "月末"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_eom_following"
+msgid "End of Month Following"
+msgstr "翌月末"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_net10"
+msgid "Net 10 days"
+msgstr "10日以内"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_net15"
+msgid "Net 15 days"
+msgstr "15日以内"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_net30"
+msgid "Net 30 days"
+msgstr "30日以内"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_net60"
+msgid "Net 60 days"
+msgstr "60日以内"
+
+msgctxt "model:account.invoice.payment_term,string:"
+msgid "Account Invoice Payment Term"
+msgstr "請求書の支払条件"
+
+msgctxt "model:account.invoice.payment_term.line,string:"
+msgid "Account Invoice Payment Term Line"
+msgstr "請求書の支払条件の行"
+
+msgctxt "model:account.invoice.payment_term.line.delta,string:"
+msgid "Account Invoice Payment Term Line Delta"
+msgstr "請求書の支払条件の行の差分"
+
+msgctxt "model:account.invoice.payment_term.test,string:"
+msgid "Account Invoice Payment Term Test"
+msgstr "請求書の支払条件のテスト"
+
+msgctxt "model:account.invoice.payment_term.test.result,string:"
+msgid "Account Invoice Payment Term Test Result"
+msgstr "請求書の支払条件のテスト結果"
+
+msgctxt "model:account.invoice.report.revision,string:"
+msgid "Account Invoice Report Revision"
+msgstr "請求書の帳票の改訂"
+
+msgctxt "model:account.invoice.tax,string:"
+msgid "Account Invoice Tax"
+msgstr "請求書の税"
+
+msgctxt "model:ir.action,name:act_delegate_lines_to_pay_wizard"
+msgid "Delegate Lines to Pay"
+msgstr "支払う行の移管"
+
+msgctxt "model:ir.action,name:act_invoice_form"
+msgid "Invoices"
+msgstr "請求書"
+
+msgctxt "model:ir.action,name:act_invoice_in_form"
+msgid "Supplier Invoices"
+msgstr "仕入請求書"
+
+msgctxt "model:ir.action,name:act_invoice_out_form"
+msgid "Customer Invoices"
+msgstr "顧客の請求書"
+
+msgctxt "model:ir.action,name:act_invoice_payment_mean_rule_form"
+msgid "Payment Means Rules"
+msgstr "支払手段の規則"
+
+msgctxt "model:ir.action,name:act_invoice_relate"
+msgid "Invoices"
+msgstr "請求書"
+
+msgctxt "model:ir.action,name:act_payment_method_form"
+msgid "Invoice Payment Methods"
+msgstr "請求書の支払方法"
+
+msgctxt "model:ir.action,name:act_payment_term_form"
+msgid "Payment Terms"
+msgstr "支払条件"
+
+msgctxt "model:ir.action,name:act_reschedule_lines_to_pay_wizard"
+msgid "Reschedule Lines to Pay"
+msgstr "支払う行の予定変更"
+
+msgctxt "model:ir.action,name:credit"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "model:ir.action,name:edocument"
+msgid "E-document"
+msgstr "電子書類"
+
+msgctxt "model:ir.action,name:refresh_invoice_report_wizard"
+msgid "Invoice (revised)"
+msgstr "請求書(改訂)"
+
+msgctxt "model:ir.action,name:report_invoice"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "model:ir.action,name:wizard_pay"
+msgid "Pay Invoice"
+msgstr "請求書の支払"
+
+msgctxt "model:ir.action,name:wizard_payment_term_test"
+msgid "Test Payment Term"
+msgstr "支払条件のテスト"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_in_domain_all"
+msgid "All"
+msgstr "すべて"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_in_domain_draft"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_in_domain_posted"
+msgid "Posted"
+msgstr "記帳済み"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_invoice_in_domain_validated"
+msgid "Validated"
+msgstr "確認済み"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_out_domain_all"
+msgid "All"
+msgstr "すべて"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_out_domain_draft"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_out_domain_posted"
+msgid "Posted"
+msgstr "記帳済み"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_invoice_out_domain_validated"
+msgid "Validated"
+msgstr "確認済み"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_relate_all"
+msgid "All"
+msgstr "すべて"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_relate_paid"
+msgid "Paid"
+msgstr "支払済み"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_relate_pending"
+msgid "Pending"
+msgstr "未完了"
+
+msgctxt "model:ir.message,text:msg_cancel_invoice_move"
+msgid "The moves \"%(moves)s\" have the posted invoices \"%(invoices)s\" as origin."
+msgstr "仕訳「%(moves)s」は、記帳済みの請求書「%(invoices)s」を元にしています。"
+
+msgctxt "model:ir.message,text:msg_cancel_invoice_move_description"
+msgid ""
+"Cancelling them will reconcile the move lines thus paying the invoices. You "
+"might want to cancel the invoices first."
+msgstr "取り消すと仕訳の行が消し込まれ、請求書が支払済みになります。先に請求書を取り消すことをお勧めします。"
+
+msgctxt "model:ir.message,text:msg_close_period_non_posted_invoices"
+msgid "To close the periods you must post the invoices \"%(invoices)s\"."
+msgstr "期間を締めるには、請求書「%(invoices)s」を記帳してください。"
+
+msgctxt "model:ir.message,text:msg_erase_party_pending_invoice"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have pending invoices with "
+"company \"%(company)s\"."
+msgstr "取引先「%(party)s」は会社「%(company)s」に未完了の請求書があるため、消去できません。"
+
+msgctxt "model:ir.message,text:msg_invoice_credit_refund_not_posted"
+msgid "You cannot refund invoice \"%(invoice)s\" because it is not posted."
+msgstr "請求書「%(invoice)s」は記帳されていないため、請求取消書を作れません。"
+
+msgctxt ""
+"model:ir.message,text:msg_invoice_currency_exchange_credit_account_missing"
+msgid ""
+"To post invoice \"%(invoice)s\", you must define a currency exchange credit "
+"account for \"%(company)s\"."
+msgstr "請求書「%(invoice)s」を記帳するには、「%(company)s」に為替差益の貸方の勘定科目を設定してください。"
+
+msgctxt ""
+"model:ir.message,text:msg_invoice_currency_exchange_debit_account_missing"
+msgid ""
+"To post invoice \"%(invoice)s\", you must define a currency exchange debit "
+"account for \"%(company)s\"."
+msgstr "請求書「%(invoice)s」を記帳するには、「%(company)s」に為替差損の借方の勘定科目を設定してください。"
+
+msgctxt "model:ir.message,text:msg_invoice_customer_cancel_move"
+msgid ""
+"You cannot cancel customer invoice \"%(invoice)s\" because it is posted and "
+"company setup does not allow it."
+msgstr "顧客の請求書「%(invoice)s」は記帳済みで、会社の設定で許されていないため、取り消せません。"
+
+msgctxt "model:ir.message,text:msg_invoice_date_future"
+msgid "The invoices \"%(invoices)s\" have an invoice date in the future."
+msgstr "請求書「%(invoices)s」の請求日が未来になっています。"
+
+msgctxt "model:ir.message,text:msg_invoice_default_taxes"
+msgid "The invoice \"%(invoice)s\" does not have the default taxes for %(lines)s."
+msgstr "請求書「%(invoice)s」の %(lines)s に既定の税がありません。"
+
+msgctxt "model:ir.message,text:msg_invoice_delete_cancel"
+msgid "To delete invoice \"%(invoice)s\" you must cancel it."
+msgstr "請求書「%(invoice)s」を削除するには、先に取り消してください。"
+
+msgctxt "model:ir.message,text:msg_invoice_delete_numbered"
+msgid "You cannot delete invoice \"%(invoice)s\" because it has a number."
+msgstr "請求書「%(invoice)s」は番号があるため、削除できません。"
+
+msgctxt "model:ir.message,text:msg_invoice_line_create_draft"
+msgid ""
+"You cannot add lines to invoice \"%(invoice)s\" because it is no longer in a"
+" draft state."
+msgstr "請求書「%(invoice)s」はもう下書きではないため、行を追加できません。"
+
+msgctxt "model:ir.message,text:msg_invoice_line_modify"
+msgid ""
+"You cannot modify line \"%(line)s\" because its invoice \"%(invoice)s\" is "
+"posted, paid or cancelled."
+msgstr "行「%(line)s」の請求書「%(invoice)s」は記帳済み、支払済み、または取消済みのため、変更できません。"
+
+msgctxt "model:ir.message,text:msg_invoice_line_tax_unique"
+msgid "A tax can be added only once to an invoice line."
+msgstr "1 つの税は、請求書の行に 1 回だけ追加できます。"
+
+msgctxt "model:ir.message,text:msg_invoice_modify"
+msgid ""
+"You cannot modify invoice \"%(invoice)s\" because it is posted, paid or "
+"cancelled."
+msgstr "請求書「%(invoice)s」は記帳済み、支払済み、または取消済みのため、変更できません。"
+
+msgctxt "model:ir.message,text:msg_invoice_no_sequence"
+msgid ""
+"To post invoice \"%(invoice)s\", you must define a sequence on fiscal year "
+"\"%(fiscalyear)s\"."
+msgstr "請求書「%(invoice)s」を記帳するには、会計年度「%(fiscalyear)s」に連番を設定してください。"
+
+msgctxt "model:ir.message,text:msg_invoice_number_after"
+msgid ""
+"To number the invoice \"%(invoice)s\", you must set an invoice date after "
+"\"%(date)s\" because the sequence \"%(sequence)s\" has already been used for"
+" invoice \"%(after_invoice)s\"."
+msgstr ""
+"連番「%(sequence)s」はすでに請求書「%(after_invoice)s」で使われているため、請求書「%(invoice)s」に番号を付けるには、請求日を「%(date)s」より後にしてください。"
+
+msgctxt "model:ir.message,text:msg_invoice_overpay_paid"
+msgid ""
+"You cannot overpay invoice \"%(invoice)s\" because there is no more left to "
+"pay."
+msgstr "請求書「%(invoice)s」は残りの支払額がないため、過払いにできません。"
+
+msgctxt "model:ir.message,text:msg_invoice_pay_amount_greater_amount_to_pay"
+msgid ""
+"You cannot add a partial payment on invoice \"%(invoice)s\" with an amount "
+"greater than the amount to pay \"%(amount_to_pay)s\"."
+msgstr "請求書「%(invoice)s」に、支払額「%(amount_to_pay)s」より大きい一部支払は追加できません。"
+
+msgctxt "model:ir.message,text:msg_invoice_payment_line_unique"
+msgid "A payment line can be linked to only one invoice."
+msgstr "支払の行は、1 つの請求書にだけ結び付けられます。"
+
+msgctxt "model:ir.message,text:msg_invoice_payment_lines_add_remove_paid"
+msgid "You cannot add/remove payment lines on paid invoice \"%(invoice)s\"."
+msgstr "支払済みの請求書「%(invoice)s」の支払の行は、追加も削除もできません。"
+
+msgctxt "model:ir.message,text:msg_invoice_payment_lines_greater_amount"
+msgid ""
+"Payment lines amount on invoice \"%(invoice)s\" can not be greater than the "
+"invoice amount."
+msgstr "請求書「%(invoice)s」の支払の行の金額は、請求書の金額より大きくできません。"
+
+msgctxt "model:ir.message,text:msg_invoice_payment_term_date_past"
+msgid "The invoice \"%(invoice)s\" generates a payment date \"%(date)s\" in the past."
+msgstr "請求書「%(invoice)s」の支払日「%(date)s」が過去になっています。"
+
+msgctxt "model:ir.message,text:msg_invoice_similar"
+msgid "The invoice \"%(invoice)s\" is similar to invoice \"%(similar)s\"."
+msgstr "請求書「%(invoice)s」は請求書「%(similar)s」と似ています。"
+
+msgctxt "model:ir.message,text:msg_invoice_source_mismatch"
+msgid ""
+"The \"%(field)s\" value of the invoice \"%(invoice)s\", %(value)s, must "
+"equal the source value, %(source)s."
+msgstr ""
+"請求書「%(invoice)s」の「%(field)s」の値 %(value)s は、元の値 %(source)s と同じである必要があります。"
+
+msgctxt "model:ir.message,text:msg_invoice_supplier_payment_reference_invalid"
+msgid "The %(type)s \"%(reference)s\" on invoice \"%(invoice)s\" is not valid."
+msgstr "請求書「%(invoice)s」の %(type)s「%(reference)s」は正しくありません。"
+
+msgctxt "model:ir.message,text:msg_invoice_tax_create_draft"
+msgid ""
+"You cannot add taxes to invoice \"%(invoice)s\" because it is no longer in a"
+" draft state."
+msgstr "請求書「%(invoice)s」はもう下書きではないため、税を追加できません。"
+
+msgctxt "model:ir.message,text:msg_invoice_tax_invalid"
+msgid ""
+"The taxes on invoice \"%(invoice)s\" are not valid, you must save it again "
+"to force them to be recalculated."
+msgstr "請求書「%(invoice)s」の税が正しくありません。もう一度保存して計算し直してください。"
+
+msgctxt "model:ir.message,text:msg_invoice_tax_modify"
+msgid ""
+"You cannot modify tax \"%(tax)s\" because its invoice \"%(invoice)s\" is "
+"posted, paid or cancelled."
+msgstr "税「%(tax)s」の請求書「%(invoice)s」は記帳済み、支払済み、または取消済みのため、変更できません。"
+
+msgctxt "model:ir.message,text:msg_payment_term_invalid_ratio_divisor"
+msgid "The ratio and divisor are not consistent on line \"%(line)s\"."
+msgstr "行「%(line)s」の比率と除数が合っていません。"
+
+msgctxt "model:ir.message,text:msg_payment_term_missing_last_remainder"
+msgid ""
+"To save payment term \"%(payment_term)s\", you must append a last remainder "
+"line."
+msgstr "支払条件「%(payment_term)s」を保存するには、最後に残額の行を追加してください。"
+
+msgctxt "model:ir.message,text:msg_payment_term_missing_remainder"
+msgid ""
+"To compute terms, you must append a remainder line on payment term "
+"\"%(payment_term)s\"."
+msgstr "条件を計算するには、支払条件「%(payment_term)s」に残額の行を追加してください。"
+
+msgctxt "model:ir.message,text:msg_payment_term_non_zero_ratio_divisor"
+msgid "The ratio and divisor can not be both equal to zero."
+msgstr "比率と除数を両方 0 にはできません。"
+
+msgctxt "model:ir.model.button,confirm:invoice_cancel_button"
+msgid "Are you sure you want to cancel the invoices?"
+msgstr "請求書を取り消してよろしいですか?"
+
+msgctxt "model:ir.model.button,confirm:invoice_post_button"
+msgid "Are you sure you want to post the invoices?"
+msgstr "請求書を記帳してよろしいですか?"
+
+msgctxt "model:ir.model.button,help:invoice_cancel_button"
+msgid "Cancel the invoice"
+msgstr "請求書を取り消します"
+
+msgctxt "model:ir.model.button,help:invoice_validate_button"
+msgid "Also known as Pro Forma"
+msgstr "見積請求書(プロフォーマ)とも言います"
+
+msgctxt "model:ir.model.button,string:invoice_cancel_button"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "model:ir.model.button,string:invoice_delegate_lines_to_pay_button"
+msgid "Modify Payee"
+msgstr "受取人を変更"
+
+msgctxt "model:ir.model.button,string:invoice_draft_button"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "model:ir.model.button,string:invoice_pay_button"
+msgid "Pay"
+msgstr "支払"
+
+msgctxt "model:ir.model.button,string:invoice_post_button"
+msgid "Post"
+msgstr "記帳"
+
+msgctxt "model:ir.model.button,string:invoice_process_button"
+msgid "Process"
+msgstr "処理"
+
+msgctxt "model:ir.model.button,string:invoice_reschedule_lines_to_pay_button"
+msgid "Reschedule"
+msgstr "予定変更"
+
+msgctxt "model:ir.model.button,string:invoice_validate_button"
+msgid "Validate"
+msgstr "確認"
+
+msgctxt "model:ir.rule.group,name:rule_group_invoice_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_invoice_line_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_invoice_payment_mean_rule_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_invoice_sequence_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_payment_method_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_account_invoice"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "model:ir.ui.menu,name:menu_invoice_in_form"
+msgid "Supplier Invoices"
+msgstr "仕入請求書"
+
+msgctxt "model:ir.ui.menu,name:menu_invoice_out_form"
+msgid "Customer Invoices"
+msgstr "顧客の請求書"
+
+msgctxt "model:ir.ui.menu,name:menu_invoice_payment_mean_rule"
+msgid "Payment Means Rules"
+msgstr "支払手段の規則"
+
+msgctxt "model:ir.ui.menu,name:menu_invoices"
+msgid "Invoices"
+msgstr "請求書"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_method_form"
+msgid "Invoice Payment Methods"
+msgstr "請求書の支払方法"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_term_form"
+msgid "Payment Terms"
+msgstr "支払条件"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_term_test"
+msgid "Test Payment Term"
+msgstr "支払条件のテスト"
+
+msgctxt "model:ir.ui.menu,name:menu_payments_configuration"
+msgid "Invoice Payments"
+msgstr "請求書の支払"
+
+msgctxt "model:party.party.payment_term,string:"
+msgid "Party Payment Term"
+msgstr "取引先の支払条件"
+
+msgctxt "report:account.invoice:"
+msgid ":"
+msgstr ":"
+
+msgctxt "report:account.invoice:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "report:account.invoice:"
+msgid "Base"
+msgstr "課税標準額"
+
+msgctxt "report:account.invoice:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "report:account.invoice:"
+msgid "Date:"
+msgstr "日付:"
+
+msgctxt "report:account.invoice:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "report:account.invoice:"
+msgid "Description:"
+msgstr "説明:"
+
+msgctxt "report:account.invoice:"
+msgid "Draft Invoice"
+msgstr "請求書(下書き)"
+
+msgctxt "report:account.invoice:"
+msgid "Invoice No:"
+msgstr "請求書番号:"
+
+msgctxt "report:account.invoice:"
+msgid "Payment Means"
+msgstr "支払手段"
+
+msgctxt "report:account.invoice:"
+msgid "Payment Term"
+msgstr "支払条件"
+
+msgctxt "report:account.invoice:"
+msgid "Pro forma Invoice"
+msgstr "見積請求書(プロフォーマ)"
+
+msgctxt "report:account.invoice:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "report:account.invoice:"
+msgid "Reference"
+msgstr "参照"
+
+msgctxt "report:account.invoice:"
+msgid "Reference:"
+msgstr "参照:"
+
+msgctxt "report:account.invoice:"
+msgid "Supplier Invoice No:"
+msgstr "仕入先の請求書番号:"
+
+msgctxt "report:account.invoice:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "report:account.invoice:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "report:account.invoice:"
+msgid "Taxes:"
+msgstr "税:"
+
+msgctxt "report:account.invoice:"
+msgid "Total (excl. taxes):"
+msgstr "合計(税抜):"
+
+msgctxt "report:account.invoice:"
+msgid "Total:"
+msgstr "合計:"
+
+msgctxt "report:account.invoice:"
+msgid "Unit Price"
+msgstr "単価"
+
+msgctxt ""
+"selection:account.configuration.payment_reference,customer_payment_reference_number:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt ""
+"selection:account.configuration.payment_reference,customer_payment_reference_number:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "selection:account.invoice,sequence_type_cache:"
+msgid "Credit Note"
+msgstr "請求取消書"
+
+msgctxt "selection:account.invoice,sequence_type_cache:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "selection:account.invoice,state:"
+msgid "Cancelled"
+msgstr "取消済み"
+
+msgctxt "selection:account.invoice,state:"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "selection:account.invoice,state:"
+msgid "Paid"
+msgstr "支払済み"
+
+msgctxt "selection:account.invoice,state:"
+msgid "Posted"
+msgstr "記帳済み"
+
+msgctxt "selection:account.invoice,state:"
+msgid "Validated"
+msgstr "確認済み"
+
+msgctxt "selection:account.invoice,supplier_payment_reference_type:"
+msgid "Creditor Reference"
+msgstr "債権者参照"
+
+msgctxt "selection:account.invoice,type:"
+msgid "Customer"
+msgstr "顧客"
+
+msgctxt "selection:account.invoice,type:"
+msgid "Supplier"
+msgstr "仕入先"
+
+msgctxt "selection:account.invoice.line,type:"
+msgid "Comment"
+msgstr "コメント"
+
+msgctxt "selection:account.invoice.line,type:"
+msgid "Line"
+msgstr "行"
+
+msgctxt "selection:account.invoice.line,type:"
+msgid "Subtotal"
+msgstr "小計"
+
+msgctxt "selection:account.invoice.line,type:"
+msgid "Title"
+msgstr "見出し"
+
+msgctxt "selection:account.invoice.pay.ask,type:"
+msgid "Overpayment"
+msgstr "過払い"
+
+msgctxt "selection:account.invoice.pay.ask,type:"
+msgid "Partial Payment"
+msgstr "一部支払"
+
+msgctxt "selection:account.invoice.pay.ask,type:"
+msgid "Write-Off"
+msgstr "差額処理"
+
+msgctxt "selection:account.invoice.payment_term.line,type:"
+msgid "Fixed"
+msgstr "固定"
+
+msgctxt "selection:account.invoice.payment_term.line,type:"
+msgid "Percentage on Remainder"
+msgstr "残額に対する割合"
+
+msgctxt "selection:account.invoice.payment_term.line,type:"
+msgid "Percentage on Total"
+msgstr "合計に対する割合"
+
+msgctxt "selection:account.invoice.payment_term.line,type:"
+msgid "Remainder"
+msgstr "残額"
+
+msgctxt "view:account.invoice.credit.start:"
+msgid "Are you sure to credit these/this invoice(s)?"
+msgstr "この請求書の請求取消書を作成してよろしいですか?"
+
+msgctxt "view:account.invoice.line:"
+msgid "%"
+msgstr "%"
+
+msgctxt "view:account.invoice.line:"
+msgid "General"
+msgstr "全般"
+
+msgctxt "view:account.invoice.line:"
+msgid "Notes"
+msgstr "メモ"
+
+msgctxt "view:account.invoice.payment_term.line.delta:"
+msgid "Operations are applied in this displayed order."
+msgstr "操作は表示された順に適用されます。"
+
+msgctxt "view:account.invoice.payment_term.line:"
+msgid "%"
+msgstr "%"
+
+msgctxt "view:account.invoice.report.revision:"
+msgid "Time"
+msgstr "時刻"
+
+msgctxt "view:account.invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "view:account.invoice:"
+msgid "Other Info"
+msgstr "その他の情報"
+
+msgctxt "view:account.invoice:"
+msgid "Payment"
+msgstr "支払"
+
+msgctxt "view:account.invoice:"
+msgid "Tax Identifier:"
+msgstr "税番号:"
+
+msgctxt "view:account.invoice:"
+msgid "expected"
+msgstr "予定"
+
+msgctxt "view:company.company:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "view:party.party:"
+msgid "Payment Terms"
+msgstr "支払条件"
+
+msgctxt "wizard_button:account.invoice.credit,start,credit:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "wizard_button:account.invoice.credit,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.invoice.edocument,result,end:"
+msgid "Close"
+msgstr "閉じる"
+
+msgctxt "wizard_button:account.invoice.edocument,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.invoice.edocument,start,render:"
+msgid "Render"
+msgstr "作成"
+
+msgctxt "wizard_button:account.invoice.pay,ask,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.invoice.pay,ask,pay:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:account.invoice.pay,start,choice:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:account.invoice.pay,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.invoice.payment_term.test,test,end:"
+msgid "Close"
+msgstr "閉じる"

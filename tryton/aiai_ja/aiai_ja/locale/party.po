@@ -1,0 +1,1584 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:ir.email.template,contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr "連絡先"
+
+msgctxt "field:party.address,attn:"
+msgid "Attn"
+msgstr "宛名"
+
+msgctxt "field:party.address,building_name:"
+msgid "Building Name"
+msgstr "建物名"
+
+msgctxt "field:party.address,building_number:"
+msgid "Building Number"
+msgstr "番地"
+
+msgctxt "field:party.address,city:"
+msgid "City"
+msgstr "市区町村"
+
+msgctxt "field:party.address,contact_mechanisms:"
+msgid "Contact Mechanisms"
+msgstr "連絡先"
+
+msgctxt "field:party.address,country:"
+msgid "Country"
+msgstr "国"
+
+msgctxt "field:party.address,floor_number:"
+msgid "Floor Number"
+msgstr "階"
+
+msgctxt "field:party.address,full_address:"
+msgid "Full Address"
+msgstr "住所全体"
+
+msgctxt "field:party.address,identifiers:"
+msgid "Identifiers"
+msgstr "識別子"
+
+msgctxt "field:party.address,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.address,party_name:"
+msgid "Party Name"
+msgstr "取引先名"
+
+msgctxt "field:party.address,post_box:"
+msgid "Post Box"
+msgstr "私書箱"
+
+msgctxt "field:party.address,post_office:"
+msgid "Post Office"
+msgstr "郵便局"
+
+msgctxt "field:party.address,postal_code:"
+msgid "Postal Code"
+msgstr "郵便番号"
+
+msgctxt "field:party.address,private_bag:"
+msgid "Private Bag"
+msgstr "郵便袋"
+
+msgctxt "field:party.address,room_number:"
+msgid "Room Number"
+msgstr "部屋番号"
+
+msgctxt "field:party.address,street:"
+msgid "Street"
+msgstr "番地"
+
+msgctxt "field:party.address,street_name:"
+msgid "Street Name"
+msgstr "通り名"
+
+msgctxt "field:party.address,street_single_line:"
+msgid "Street"
+msgstr "番地"
+
+msgctxt "field:party.address,street_unstructured:"
+msgid "Street"
+msgstr "番地"
+
+msgctxt "field:party.address,subdivision:"
+msgid "Subdivision"
+msgstr "地域"
+
+msgctxt "field:party.address,subdivision_types:"
+msgid "Subdivision Types"
+msgstr "地域の種類"
+
+msgctxt "field:party.address,unit_number:"
+msgid "Unit Number"
+msgstr "ユニット番号"
+
+msgctxt "field:party.address.format,building_number_format:"
+msgid "Building Number Format"
+msgstr "番地の書式"
+
+msgctxt "field:party.address.format,country_code:"
+msgid "Country Code"
+msgstr "国コード"
+
+msgctxt "field:party.address.format,floor_number_format:"
+msgid "Floor Number Format"
+msgstr "階の書式"
+
+msgctxt "field:party.address.format,format_:"
+msgid "Format"
+msgstr "形式"
+
+msgctxt "field:party.address.format,language_code:"
+msgid "Language Code"
+msgstr "言語コード"
+
+msgctxt "field:party.address.format,post_box_format:"
+msgid "Post Box Format"
+msgstr "私書箱の書式"
+
+msgctxt "field:party.address.format,post_office_format:"
+msgid "Post Office Format"
+msgstr "郵便局の書式"
+
+msgctxt "field:party.address.format,private_bag_format:"
+msgid "Private Bag Format"
+msgstr "郵便袋の書式"
+
+msgctxt "field:party.address.format,room_number_format:"
+msgid "Room Number Format"
+msgstr "部屋番号の書式"
+
+msgctxt "field:party.address.format,street_format:"
+msgid "Street Format"
+msgstr "番地の書式"
+
+msgctxt "field:party.address.format,unit_number_format:"
+msgid "Unit Number Format"
+msgstr "ユニット番号の書式"
+
+msgctxt "field:party.address.subdivision_type,country_code:"
+msgid "Country Code"
+msgstr "国コード"
+
+msgctxt "field:party.address.subdivision_type,types:"
+msgid "Subdivision Types"
+msgstr "地域の種類"
+
+msgctxt "field:party.category,childs:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:party.category,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:party.category,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:party.check_vies.result,parties_failed:"
+msgid "Parties Failed"
+msgstr "失敗した取引先"
+
+msgctxt "field:party.check_vies.result,parties_succeed:"
+msgid "Parties Succeed"
+msgstr "成功した取引先"
+
+msgctxt "field:party.configuration,identifier_types:"
+msgid "Identifier Types"
+msgstr "識別子の種類"
+
+msgctxt "field:party.configuration,party_lang:"
+msgid "Party Language"
+msgstr "取引先の言語"
+
+msgctxt "field:party.configuration,party_sequence:"
+msgid "Party Sequence"
+msgstr "取引先の連番"
+
+msgctxt "field:party.configuration.party_lang,party_lang:"
+msgid "Party Language"
+msgstr "取引先の言語"
+
+msgctxt "field:party.configuration.party_sequence,party_sequence:"
+msgid "Party Sequence"
+msgstr "取引先の連番"
+
+msgctxt "field:party.contact_mechanism,address:"
+msgid "Address"
+msgstr "住所"
+
+msgctxt "field:party.contact_mechanism,comment:"
+msgid "Comment"
+msgstr "コメント"
+
+msgctxt "field:party.contact_mechanism,email:"
+msgid "Email"
+msgstr "メール"
+
+msgctxt "field:party.contact_mechanism,language:"
+msgid "Language"
+msgstr "言語"
+
+msgctxt "field:party.contact_mechanism,languages:"
+msgid "Languages"
+msgstr "言語"
+
+msgctxt "field:party.contact_mechanism,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:party.contact_mechanism,other_value:"
+msgid "Value"
+msgstr "値"
+
+msgctxt "field:party.contact_mechanism,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.contact_mechanism,sip:"
+msgid "SIP"
+msgstr "SIP"
+
+msgctxt "field:party.contact_mechanism,skype:"
+msgid "Skype"
+msgstr "Skype"
+
+msgctxt "field:party.contact_mechanism,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:party.contact_mechanism,url:"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "field:party.contact_mechanism,value:"
+msgid "Value"
+msgstr "値"
+
+msgctxt "field:party.contact_mechanism,value_compact:"
+msgid "Value Compact"
+msgstr "値(詰めた形)"
+
+msgctxt "field:party.contact_mechanism,website:"
+msgid "Website"
+msgstr "Web サイト"
+
+msgctxt "field:party.contact_mechanism.language,contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr "連絡先"
+
+msgctxt "field:party.contact_mechanism.language,language:"
+msgid "Language"
+msgstr "言語"
+
+msgctxt "field:party.erase.ask,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.identifier,address:"
+msgid "Address"
+msgstr "住所"
+
+msgctxt "field:party.identifier,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:party.identifier,code_compact:"
+msgid "Code Compact"
+msgstr "コード(詰めた形)"
+
+msgctxt "field:party.identifier,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.identifier,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:party.identifier,type_address:"
+msgid "Type of Address"
+msgstr "住所の種類"
+
+msgctxt "field:party.party,addresses:"
+msgid "Addresses"
+msgstr "宛先"
+
+msgctxt "field:party.party,categories:"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "field:party.party,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:party.party,code_alnum:"
+msgid "Code Alphanumeric"
+msgstr "英数字のコード"
+
+msgctxt "field:party.party,code_digit:"
+msgid "Code Digit"
+msgstr "数字のコード"
+
+msgctxt "field:party.party,code_readonly:"
+msgid "Code Readonly"
+msgstr "コード(読み取り専用)"
+
+msgctxt "field:party.party,contact_mechanisms:"
+msgid "Contact Mechanisms"
+msgstr "連絡先"
+
+msgctxt "field:party.party,distance:"
+msgid "Distance"
+msgstr "距離"
+
+msgctxt "field:party.party,email:"
+msgid "Email"
+msgstr "メール"
+
+msgctxt "field:party.party,fax:"
+msgid "Fax"
+msgstr "FAX"
+
+msgctxt "field:party.party,full_name:"
+msgid "Full Name"
+msgstr "正式名"
+
+msgctxt "field:party.party,identifiers:"
+msgid "Identifiers"
+msgstr "識別子"
+
+msgctxt "field:party.party,lang:"
+msgid "Language"
+msgstr "言語"
+
+msgctxt "field:party.party,langs:"
+msgid "Languages"
+msgstr "言語"
+
+msgctxt "field:party.party,mobile:"
+msgid "Mobile"
+msgstr "携帯電話"
+
+msgctxt "field:party.party,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:party.party,phone:"
+msgid "Phone"
+msgstr "電話"
+
+msgctxt "field:party.party,replaced_by:"
+msgid "Replaced By"
+msgstr "置き換え先"
+
+msgctxt "field:party.party,tax_identifier:"
+msgid "Tax Identifier"
+msgstr "税番号"
+
+msgctxt "field:party.party,website:"
+msgid "Website"
+msgstr "Web サイト"
+
+msgctxt "field:party.party-party.category,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:party.party-party.category,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.party.lang,lang:"
+msgid "Language"
+msgstr "言語"
+
+msgctxt "field:party.party.lang,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.replace.ask,destination:"
+msgid "Destination"
+msgstr "置き換え先"
+
+msgctxt "field:party.replace.ask,source:"
+msgid "Source"
+msgstr "原文"
+
+msgctxt "help:ir.email.template,contact_mechanism:"
+msgid "Define which email address to use from the party's contact mechanisms."
+msgstr "取引先の連絡先から、どのメールアドレスを使うかを決めます。"
+
+msgctxt "help:party.address,party_name:"
+msgid "If filled, replace the name of the party for address formatting"
+msgstr "入力すると、住所の書式で取引先の名前の代わりに使います"
+
+msgctxt "help:party.address.format,building_number_format:"
+msgid "Use {} as placeholder for the building number."
+msgstr "番地のプレースホルダーには {} を使います。"
+
+msgctxt "help:party.address.format,floor_number_format:"
+msgid "Use {} as placeholder for the floor number."
+msgstr "階のプレースホルダーには {} を使います。"
+
+msgctxt "help:party.address.format,format_:"
+msgid ""
+"Available variables (also in upper case and street variables):\n"
+"- ${party_name}\n"
+"- ${attn}\n"
+"- ${street}\n"
+"- ${postal_code}\n"
+"- ${city}\n"
+"- ${subdivision}\n"
+"- ${subdivision_code}\n"
+"- ${country}\n"
+"- ${country_code}"
+msgstr ""
+"使える変数(大文字と番地の変数も使えます):\n"
+"- ${party_name}\n"
+"- ${attn}\n"
+"- ${street}\n"
+"- ${postal_code}\n"
+"- ${city}\n"
+"- ${subdivision}\n"
+"- ${subdivision_code}\n"
+"- ${country}\n"
+"- ${country_code}"
+
+msgctxt "help:party.address.format,post_box_format:"
+msgid "Use {} as placeholder for the post box."
+msgstr "私書箱のプレースホルダーには {} を使います。"
+
+msgctxt "help:party.address.format,post_office_format:"
+msgid "Use {} as placeholder for the post office."
+msgstr "郵便局のプレースホルダーには {} を使います。"
+
+msgctxt "help:party.address.format,private_bag_format:"
+msgid "Use {} as placeholder for the private bag."
+msgstr "郵便袋のプレースホルダーには {} を使います。"
+
+msgctxt "help:party.address.format,room_number_format:"
+msgid "Use {} as placeholder for the room number."
+msgstr "部屋番号のプレースホルダーには {} を使います。"
+
+msgctxt "help:party.address.format,street_format:"
+msgid ""
+"Available variables (also in upper case):\n"
+"- ${street_name}\n"
+"- ${building_name}\n"
+"- ${building_number}\n"
+"- ${unit_number}\n"
+"- ${floor_number}\n"
+"- ${room_number}\n"
+"- ${post_box}\n"
+"- ${private_bag}\n"
+"- ${post_office}\n"
+msgstr ""
+"使える変数(大文字も使えます):\n"
+"- ${street_name}\n"
+"- ${building_name}\n"
+"- ${building_number}\n"
+"- ${unit_number}\n"
+"- ${floor_number}\n"
+"- ${room_number}\n"
+"- ${post_box}\n"
+"- ${private_bag}\n"
+"- ${post_office}\n"
+
+msgctxt "help:party.address.format,unit_number_format:"
+msgid "Use {} as placeholder for the unit number."
+msgstr "ユニット番号のプレースホルダーには {} を使います。"
+
+msgctxt "help:party.category,childs:"
+msgid "Add children below the category."
+msgstr "この分類の下に子を追加します。"
+
+msgctxt "help:party.category,name:"
+msgid "The main identifier of the category."
+msgstr "分類の主な識別名です。"
+
+msgctxt "help:party.category,parent:"
+msgid "Add the category below the parent."
+msgstr "親の下に分類を追加します。"
+
+msgctxt "help:party.configuration,identifier_types:"
+msgid ""
+"Defines which identifier types are available.\n"
+"Leave empty for all of them."
+msgstr ""
+"使える識別子の種類を決めます。\n"
+"空にすると、すべて使えます。"
+
+msgctxt "help:party.configuration,party_lang:"
+msgid "The default language for new parties."
+msgstr "新しい取引先の既定の言語です。"
+
+msgctxt "help:party.configuration,party_sequence:"
+msgid "Used to generate the party code."
+msgstr "取引先コードの作成に使います。"
+
+msgctxt "help:party.configuration.party_lang,party_lang:"
+msgid "The default language for new parties."
+msgstr "新しい取引先の既定の言語です。"
+
+msgctxt "help:party.configuration.party_sequence,party_sequence:"
+msgid "Used to generate the party code."
+msgstr "取引先コードの作成に使います。"
+
+msgctxt "help:party.contact_mechanism,language:"
+msgid ""
+"Used to translate communication made using the contact mechanism.\n"
+"Leave empty for the party language."
+msgstr ""
+"この連絡先でのやり取りの翻訳に使います。\n"
+"空欄にすると取引先の言語を使います。"
+
+msgctxt "help:party.erase.ask,party:"
+msgid "The party to be erased."
+msgstr "消去する取引先です。"
+
+msgctxt "help:party.identifier,address:"
+msgid "The address identified by this record."
+msgstr "この記録が示す住所です。"
+
+msgctxt "help:party.identifier,party:"
+msgid "The party identified by this record."
+msgstr "この記録が示す取引先です。"
+
+msgctxt "help:party.party,categories:"
+msgid "The categories the party belongs to."
+msgstr "取引先が属する分類です。"
+
+msgctxt "help:party.party,code:"
+msgid "The unique identifier of the party."
+msgstr "取引先を一意に示す識別子です。"
+
+msgctxt "help:party.party,identifiers:"
+msgid "Add other identifiers of the party."
+msgstr "取引先のほかの識別子を追加します。"
+
+msgctxt "help:party.party,lang:"
+msgid "Used to translate communications with the party."
+msgstr "取引先とのやり取りの翻訳に使います。"
+
+msgctxt "help:party.party,name:"
+msgid "The main identifier of the party."
+msgstr "取引先の主な識別子です。"
+
+msgctxt "help:party.party,replaced_by:"
+msgid "The party replacing this one."
+msgstr "この取引先に代わる取引先です。"
+
+msgctxt "help:party.party,tax_identifier:"
+msgid "The identifier used for tax report."
+msgstr "税の報告に使う識別子です。"
+
+msgctxt "help:party.replace.ask,destination:"
+msgid "The party that replaces."
+msgstr "置き換え先の取引先です。"
+
+msgctxt "help:party.replace.ask,source:"
+msgid "The party to be replaced."
+msgstr "置き換えられる取引先です。"
+
+msgctxt "model:ir.action,name:act_address_form"
+msgid "Addresses"
+msgstr "宛先"
+
+msgctxt "model:ir.action,name:act_address_format_form"
+msgid "Address Formats"
+msgstr "住所の書式"
+
+msgctxt "model:ir.action,name:act_address_subdivision_type_form"
+msgid "Address Subdivision Types"
+msgstr "住所の地域の種類"
+
+msgctxt "model:ir.action,name:act_category_list"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "model:ir.action,name:act_category_tree"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "model:ir.action,name:act_contact_mechanism_form"
+msgid "Contact Mechanisms"
+msgstr "連絡先"
+
+msgctxt "model:ir.action,name:act_identifier_form"
+msgid "Identifiers"
+msgstr "識別子"
+
+msgctxt "model:ir.action,name:act_party_by_category"
+msgid "Parties by Category"
+msgstr "分類別の取引先"
+
+msgctxt "model:ir.action,name:act_party_configuration_form"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.action,name:act_party_form"
+msgid "Parties"
+msgstr "取引先"
+
+msgctxt "model:ir.action,name:report_label"
+msgid "Labels"
+msgstr "ラベル"
+
+msgctxt "model:ir.action,name:wizard_check_vies"
+msgid "Check VIES"
+msgstr "VIES で確認"
+
+msgctxt "model:ir.action,name:wizard_erase"
+msgid "Erase"
+msgstr "消去"
+
+msgctxt "model:ir.action,name:wizard_replace"
+msgid "Replace"
+msgstr "置き換え"
+
+msgctxt "model:ir.message,text:msg_address_change_party"
+msgid "You cannot change the party of address \"%(address)s\"."
+msgstr "住所「%(address)s」の取引先は変更できません。"
+
+msgctxt "model:ir.message,text:msg_address_subdivision_country_code_unique"
+msgid "The country code on subdivision type must be unique."
+msgstr "地域の種類の国コードは一意にしてください。"
+
+msgctxt "model:ir.message,text:msg_category_name_unique"
+msgid "The name of party category must be unique by parent."
+msgstr "取引先の分類の名前は、同じ親の中で一意にしてください。"
+
+msgctxt "model:ir.message,text:msg_contact_mechanism_change_party"
+msgid "You cannot change the party of contact mechanism \"%(contact)s\"."
+msgstr "連絡先「%(contact)s」の取引先は変更できません。"
+
+msgctxt "model:ir.message,text:msg_different_name"
+msgid "Parties have different names: \"%(source_name)s\" vs \"%(destination_name)s\"."
+msgstr "取引先の名前が違います:「%(source_name)s」と「%(destination_name)s」。"
+
+msgctxt "model:ir.message,text:msg_different_tax_identifier"
+msgid ""
+"Parties have different tax identifiers: \"%(source_code)s\" vs "
+"\"%(destination_code)s\"."
+msgstr "取引先の税の識別子が違います:「%(source_code)s」と「%(destination_code)s」。"
+
+msgctxt "model:ir.message,text:msg_email_invalid"
+msgid "The email address \"%(email)s\" for party \"%(party)s\" is not valid."
+msgstr "取引先「%(party)s」のメールアドレス「%(email)s」は正しくありません。"
+
+msgctxt "model:ir.message,text:msg_erase_active_party"
+msgid "Party \"%(party)s\" cannot be erased because they are still active."
+msgstr "取引先「%(party)s」はまだ有効なので消去できません。"
+
+msgctxt "model:ir.message,text:msg_identifier_type_remove"
+msgid ""
+"To remove the identifier type \"%(type)s\" from the configuration, you must "
+"change it on \"%(identifier)s\"."
+msgstr "識別子の種類「%(type)s」を設定から外すには、「%(identifier)s」の種類を変えてください。"
+
+msgctxt "model:ir.message,text:msg_invalid_code"
+msgid "The %(type)s \"%(code)s\" for party \"%(party)s\" is not valid."
+msgstr "取引先「%(party)s」の%(type)s「%(code)s」は正しくありません。"
+
+msgctxt "model:ir.message,text:msg_invalid_format"
+msgid "Invalid format \"%(format)s\" with exception \"%(exception)s\"."
+msgstr "書式「%(format)s」が正しくありません(例外「%(exception)s」)。"
+
+msgctxt "model:ir.message,text:msg_invalid_phone_number"
+msgid "The phone number \"%(phone)s\" for party \"%(party)s\" is not valid."
+msgstr "取引先「%(party)s」の電話番号「%(phone)s」は正しくありません。"
+
+msgctxt "model:ir.message,text:msg_party_code_unique"
+msgid "The code on party must be unique."
+msgstr "取引先のコードは一意にしてください。"
+
+msgctxt "model:ir.message,text:msg_party_contact_mechanism_duplicate"
+msgid "The party \"%(party)s\" has the same %(type)s \"%(value)s\"."
+msgstr "取引先「%(party)s」に同じ%(type)s「%(value)s」があります。"
+
+msgctxt "model:ir.message,text:msg_party_identifier_duplicate"
+msgid "The party \"%(party)s\" has the same %(type)s \"%(code)s\"."
+msgstr "取引先「%(party)s」に同じ%(type)s「%(code)s」があります。"
+
+msgctxt "model:ir.message,text:msg_party_set_contact_mechanism"
+msgid ""
+"To change the \"%(field)s\" for party \"%(party)s\", you must edit their "
+"contact mechanisms."
+msgstr "取引先「%(party)s」の「%(field)s」を変えるには、連絡先を編集してください。"
+
+msgctxt "model:ir.message,text:msg_vies_unavailable"
+msgid "The VIES service is unavailable, try again later."
+msgstr "VIES のサービスが使えません。後でもう一度試してください。"
+
+msgctxt "model:ir.sequence,name:sequence_party"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_party"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "model:ir.ui.menu,name:menu_address_form"
+msgid "Addresses"
+msgstr "宛先"
+
+msgctxt "model:ir.ui.menu,name:menu_address_format_form"
+msgid "Address Formats"
+msgstr "住所の書式"
+
+msgctxt "model:ir.ui.menu,name:menu_address_subdivision_type_form"
+msgid "Address Subdivision Types"
+msgstr "住所の地域の種類"
+
+msgctxt "model:ir.ui.menu,name:menu_category_list"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "model:ir.ui.menu,name:menu_category_tree"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.ui.menu,name:menu_contact_mechanism_form"
+msgid "Contact Mechanisms"
+msgstr "連絡先"
+
+msgctxt "model:ir.ui.menu,name:menu_identifier_form"
+msgid "Identifiers"
+msgstr "識別子"
+
+msgctxt "model:ir.ui.menu,name:menu_party"
+msgid "Parties"
+msgstr "取引先"
+
+msgctxt "model:ir.ui.menu,name:menu_party_configuration"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.ui.menu,name:menu_party_form"
+msgid "Parties"
+msgstr "取引先"
+
+msgctxt "model:party.address,string:"
+msgid "Party Address"
+msgstr "取引先の住所"
+
+msgctxt "model:party.address.format,string:"
+msgid "Party Address Format"
+msgstr "取引先の住所の書式"
+
+msgctxt "model:party.address.subdivision_type,string:"
+msgid "Party Address Subdivision Type"
+msgstr "取引先の住所の地域の種類"
+
+msgctxt "model:party.category,string:"
+msgid "Party Category"
+msgstr "取引先の分類"
+
+msgctxt "model:party.check_vies.result,string:"
+msgid "Party Check Vies Result"
+msgstr "取引先の VIES 確認の結果"
+
+msgctxt "model:party.configuration,string:"
+msgid "Party Configuration"
+msgstr "取引先の設定"
+
+msgctxt "model:party.configuration.party_lang,string:"
+msgid "Party Configuration Party Lang"
+msgstr "取引先の設定(取引先の言語)"
+
+msgctxt "model:party.configuration.party_sequence,string:"
+msgid "Party Configuration Party Sequence"
+msgstr "取引先の設定(取引先の連番)"
+
+msgctxt "model:party.contact_mechanism,string:"
+msgid "Party Contact Mechanism"
+msgstr "取引先の連絡先"
+
+msgctxt "model:party.contact_mechanism.language,string:"
+msgid "Party Contact Mechanism Language"
+msgstr "取引先の連絡先の言語"
+
+msgctxt "model:party.erase.ask,string:"
+msgid "Party Erase Ask"
+msgstr "取引先の消去の確認"
+
+msgctxt "model:party.identifier,string:"
+msgid "Party Identifier"
+msgstr "取引先の識別子"
+
+msgctxt "model:party.party,string:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "model:party.party-party.category,string:"
+msgid "Party - Party Category"
+msgstr "取引先 - 取引先の分類"
+
+msgctxt "model:party.party.lang,string:"
+msgid "Party Lang"
+msgstr "取引先の言語"
+
+msgctxt "model:party.replace.ask,string:"
+msgid "Party Replace Ask"
+msgstr "取引先の置き換えの確認"
+
+msgctxt "model:res.group,name:group_party_admin"
+msgid "Party Administration"
+msgstr "取引先の管理"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Albanian VAT Number"
+msgstr "アルバニアの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Algerian Tax Number"
+msgstr "アルジェリアの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Andorra Tax Number"
+msgstr "アンドラの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Argentinian National Identity Number"
+msgstr "アルゼンチンの国民識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Argentinian Tax Number"
+msgstr "アルゼンチンの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Australian Business Number"
+msgstr "オーストラリアの事業者番号(ABN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Australian Company Number"
+msgstr "オーストラリアの会社番号(ACN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Australian Tax File Number"
+msgstr "オーストラリアの納税者番号(TFN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Austrian Company Register"
+msgstr "オーストリアの商業登記番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Austrian Social Security Number"
+msgstr "オーストリアの社会保障番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Austrian Tax Identification"
+msgstr "オーストリアの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Austrian Umsatzsteuer-Identifikationsnummer"
+msgstr "オーストリアの付加価値税識別番号(UID)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Azerbaijan Tax Number"
+msgstr "アゼルバイジャンの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belarus VAT Number"
+msgstr "ベラルーシの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belgian BIS Number"
+msgstr "ベルギーの BIS 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belgian Company Number"
+msgstr "ベルギーの企業番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belgian National Number"
+msgstr "ベルギーの国民番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belgian Social Security Number"
+msgstr "ベルギーの社会保障番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belgian VAT Number"
+msgstr "ベルギーの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Brazillian Company Identifier"
+msgstr "ブラジルの法人番号(CNPJ)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Brazillian National Identifier"
+msgstr "ブラジルの個人番号(CPF)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Bulgarian Number of a Foreigner"
+msgstr "ブルガリアの外国人番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Bulgarian Personal Identity Codes"
+msgstr "ブルガリアの個人識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Bulgarian VAT Number"
+msgstr "ブルガリアの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Canadian Business Number"
+msgstr "カナダの事業者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Canadian Social Insurance Number"
+msgstr "カナダの社会保険番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Chilean National Tax Number"
+msgstr "チリの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Chinese Resident Identity Card Number"
+msgstr "中国の居民身分証番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Chinese Unified Social Credit Code"
+msgstr "中国の統一社会信用コード"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Colombian Identity Code"
+msgstr "コロンビアの身分証番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Costa Rica Foreigners ID Number"
+msgstr "コスタリカの外国人 ID 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Costa Rica Physical Person ID Number"
+msgstr "コスタリカの個人 ID 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Costa Rica Tax Number"
+msgstr "コスタリカの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Croatian Identification Number"
+msgstr "クロアチアの識別番号(OIB)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Cuban Identity Card Number"
+msgstr "キューバの身分証番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Cypriot VAT Number"
+msgstr "キプロスの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Czech National Identifier"
+msgstr "チェコの国民識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Czech VAT Number"
+msgstr "チェコの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Danish Citizen Number"
+msgstr "デンマークの個人番号(CPR)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Danish VAT Number"
+msgstr "デンマークの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dominican Republic National Identification Number"
+msgstr "ドミニカ共和国の国民識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dominican Republic Tax"
+msgstr "ドミニカ共和国の納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dutch Citizen Identification Number"
+msgstr "オランダの市民識別番号(BSN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dutch School Identification Number"
+msgstr "オランダの学校識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dutch Student Identification Number"
+msgstr "オランダの学生識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dutch VAT Number"
+msgstr "オランダの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Ecuadorian Personal Identity Code"
+msgstr "エクアドルの個人識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Ecuadorian Tax Identification"
+msgstr "エクアドルの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Egyptian Tax Registration Number"
+msgstr "エジプトの税務登録番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "El Salvador Tax Number"
+msgstr "エルサルバドルの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "English Unique Pupil Number"
+msgstr "イングランドの生徒番号(UPN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Estonian Organisation Registration Code"
+msgstr "エストニアの法人登録番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Estonian Personal ID Number"
+msgstr "エストニアの個人 ID 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Estonian VAT Number"
+msgstr "エストニアの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "European VAT Number"
+msgstr "欧州の VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "European VAT on e-Commerce - One Stop Shop"
+msgstr "欧州の電子商取引 VAT(ワンストップショップ)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Faroese Tax Number"
+msgstr "フェロー諸島の納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Finnish Association Identifier"
+msgstr "フィンランドの団体識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Finnish Business Identifier"
+msgstr "フィンランドの事業者識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Finnish Individual Tax Number"
+msgstr "フィンランドの個人納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Finnish Personal Identity Code"
+msgstr "フィンランドの個人識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Finnish VAT Number"
+msgstr "フィンランドの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French Company Establishment Identification Number"
+msgstr "フランスの事業所識別番号(SIRET)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French Company Identification Number"
+msgstr "フランスの企業識別番号(SIREN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French Personal Identification Number"
+msgstr "フランスの個人識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French Tax Identification Number"
+msgstr "フランスの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French Trade Registration Number"
+msgstr "フランスの商業登記番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French VAT Number"
+msgstr "フランスの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "German Company Register Number"
+msgstr "ドイツの商業登記番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "German Personal Tax Number"
+msgstr "ドイツの個人納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "German Tax Number"
+msgstr "ドイツの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "German VAT Number"
+msgstr "ドイツの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Ghanaian Taxpayer Identification Number"
+msgstr "ガーナの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Greek Social Security Number"
+msgstr "ギリシャの社会保障番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Greek VAT Number"
+msgstr "ギリシャの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Guatemala Tax Number"
+msgstr "グアテマラの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Guinean Tax Number"
+msgstr "ギニアの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Hungarian VAT Number"
+msgstr "ハンガリーの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Icelandic Personal and Organisation Identity Code"
+msgstr "アイスランドの個人・法人識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Icelandic VAT Number"
+msgstr "アイスランドの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Indian Digital Resident Personal Identity Number"
+msgstr "インドの個人識別番号(Aadhaar)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Indian Income Tax Identifier"
+msgstr "インドの所得税識別番号(PAN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Indian VAT number"
+msgstr "インドの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Indian Voter ID"
+msgstr "インドの有権者 ID"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Indonesian VAT Number"
+msgstr "インドネシアの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Irish Personal Number"
+msgstr "アイルランドの個人番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Irish VAT Number"
+msgstr "アイルランドの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Israeli Company Number"
+msgstr "イスラエルの会社番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Israeli Identity Number"
+msgstr "イスラエルの身分証番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Italian Tax Code for Individuals"
+msgstr "イタリアの個人の納税者コード"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Italian VAT Number"
+msgstr "イタリアの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Japanese Corporate Number"
+msgstr "日本の法人番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Kenya Tax Number"
+msgstr "ケニアの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Latvian VAT Number"
+msgstr "ラトビアの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Lithuanian Legal Entities"
+msgstr "リトアニアの法人番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Lithuanian Personal Number"
+msgstr "リトアニアの個人番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Lithuanian VAT Number"
+msgstr "リトアニアの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Luxembourgian VAT Number"
+msgstr "ルクセンブルクの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Macedonian Tax Number"
+msgstr "北マケドニアの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Malaysian National Registration Identity Card Number"
+msgstr "マレーシアの国民登録身分証番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Maltese VAT Number"
+msgstr "マルタの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Mauritian National Identifier"
+msgstr "モーリシャスの国民識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Mexican Tax Number"
+msgstr "メキシコの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Moldavian Company Identification Number"
+msgstr "モルドバの企業識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Monacan VAT Number"
+msgstr "モナコの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Montenegro Tax Number"
+msgstr "モンテネグロの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Moroccan Tax Number"
+msgstr "モロッコの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Mozambique Tax Number"
+msgstr "モザンビークの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "New Zealand Inland Revenue Department Number"
+msgstr "ニュージーランドの内国歳入庁番号(IRD)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Norwegian Birth Number, the National Identity Number"
+msgstr "ノルウェーの出生番号(国民識別番号)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Norwegian Organisation Number"
+msgstr "ノルウェーの組織番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Norwegian VAT Number"
+msgstr "ノルウェーの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Pakistani Computerised National Identity Card Number"
+msgstr "パキスタンの国民身分証番号(CNIC)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Paraguay Tax Number"
+msgstr "パラグアイの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Peruvian Company Tax Number"
+msgstr "ペルーの法人納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Peruvian Identity Number"
+msgstr "ペルーの身分証番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Polish National Identification Number"
+msgstr "ポーランドの国民識別番号(PESEL)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Polish Register of Economic Units"
+msgstr "ポーランドの経済単位登録番号(REGON)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Polish VAT Number"
+msgstr "ポーランドの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Portuguese Identity Number"
+msgstr "ポルトガルの身分証番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Portuguese VAT Number"
+msgstr "ポルトガルの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Romanian Numerical Personal Code"
+msgstr "ルーマニアの個人番号(CNP)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Romanian ONRC Number"
+msgstr "ルーマニアの ONRC 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Romanian VAT Number"
+msgstr "ルーマニアの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Russian Primary State Registration Number"
+msgstr "ロシアの主国家登録番号(OGRN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Russian Tax identifier"
+msgstr "ロシアの納税者番号(INN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "SEPA Identifier of the Creditor (AT-02)"
+msgstr "SEPA の債権者識別子(AT-02)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "San Marino National Tax Number"
+msgstr "サンマリノの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Senegal Tax Number"
+msgstr "セネガルの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Serbian Tax Identification"
+msgstr "セルビアの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Singapore's Unique Entity Number"
+msgstr "シンガポールの固有事業体番号(UEN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Slovak Birth Number"
+msgstr "スロバキアの出生番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Slovak VAT Number"
+msgstr "スロバキアの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Slovenian Corporate Registration Number"
+msgstr "スロベニアの法人登録番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Slovenian Unique Master Citizen Number"
+msgstr "スロベニアの個人番号(EMŠO)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Slovenian VAT Number"
+msgstr "スロベニアの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "South African Identity Document Number"
+msgstr "南アフリカの身分証番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "South African Tax Identification Number"
+msgstr "南アフリカの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "South Korea Business Registration Number"
+msgstr "韓国の事業者登録番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "South Korean Resident Registration Number"
+msgstr "韓国の住民登録番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Spanish Activity Establishment Code"
+msgstr "スペインの事業所コード(CAE)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Spanish Company Tax"
+msgstr "スペインの法人納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Spanish Foreigner Number"
+msgstr "スペインの外国人番号(NIE)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Spanish Personal Identity Codes"
+msgstr "スペインの個人識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Spanish VAT Number"
+msgstr "スペインの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swedish Company Number"
+msgstr "スウェーデンの会社番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swedish Personal Number"
+msgstr "スウェーデンの個人番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swedish VAT Number"
+msgstr "スウェーデンの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swiss Business Identifier"
+msgstr "スイスの事業者識別番号(UID)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swiss Social Security Number"
+msgstr "スイスの社会保障番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swiss VAT Number"
+msgstr "スイスの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Taiwanese Tax Number"
+msgstr "台湾の納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Thai Memorandum of Association Number"
+msgstr "タイの基本定款番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Thai Personal Identification Number"
+msgstr "タイの個人識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Thai Taxpayer Identification Number"
+msgstr "タイの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Tunisian Tax Number"
+msgstr "チュニジアの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Turkish Personal Identification Number"
+msgstr "トルコの個人識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Turkish Tax Identification Number"
+msgstr "トルコの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Adoption Taxpayer Identification Number"
+msgstr "米国の養子用納税者番号(ATIN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Employer Identification Number"
+msgstr "米国の雇用者番号(EIN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Individual Taxpayer Identification Number"
+msgstr "米国の個人納税者番号(ITIN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Preparer Tax Identification Number"
+msgstr "米国の税務申告代理人番号(PTIN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Social Security Number"
+msgstr "米国の社会保障番号(SSN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Taxpayer Identification Number"
+msgstr "米国の納税者番号(TIN)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Ukrainian Identifier for Enterprises and Organizations"
+msgstr "ウクライナの企業・団体識別番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Ukrainian Individual Taxpayer Registration Number"
+msgstr "ウクライナの個人納税者登録番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "United Kingdom (and Isle of Man) VAT Number"
+msgstr "英国(マン島を含む)の VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "United Kingdom National Health Service Patient Identifier"
+msgstr "英国の NHS 患者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "United Kingdom Unique Taxpayer Reference"
+msgstr "英国の納税者番号(UTR)"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Uruguay Tax Number"
+msgstr "ウルグアイの納税者番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Venezuelan VAT Number"
+msgstr "ベネズエラの VAT 番号"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Vietnam Tax Number"
+msgstr "ベトナムの納税者番号"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Email"
+msgstr "メール"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Fax"
+msgstr "FAX"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "IRC"
+msgstr "IRC"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Jabber"
+msgstr "Jabber"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Mobile"
+msgstr "携帯電話"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Other"
+msgstr "その他"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Phone"
+msgstr "電話"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "SIP"
+msgstr "SIP"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Skype"
+msgstr "Skype"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Website"
+msgstr "Web サイト"
+
+msgctxt "view:party.address:"
+msgid "General"
+msgstr "全般"
+
+msgctxt "view:party.party:"
+msgid "General"
+msgstr "全般"
+
+msgctxt "view:party.replace.ask:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "view:party.replace.ask:"
+msgid "Replaced By"
+msgstr "置き換え先"
+
+msgctxt "wizard_button:party.check_vies,result,end:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:party.erase,ask,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:party.erase,ask,erase:"
+msgid "Erase"
+msgstr "消去"
+
+msgctxt "wizard_button:party.replace,ask,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:party.replace,ask,replace:"
+msgid "Replace"
+msgstr "置き換え"

@@ -1,0 +1,1151 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:ir.configuration,product_price_decimal:"
+msgid "Product Price Decimal"
+msgstr "品目の価格の小数桁数"
+
+msgctxt "field:product.category,childs:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:product.category,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:product.category,code_readonly:"
+msgid "Code Readonly"
+msgstr "コード(読み取り専用)"
+
+msgctxt "field:product.category,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:product.category,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:product.category,templates:"
+msgid "Products"
+msgstr "品目"
+
+msgctxt "field:product.configuration,category_sequence:"
+msgid "Category Sequence"
+msgstr "分類の連番"
+
+msgctxt "field:product.configuration,default_cost_price_method:"
+msgid "Default Cost Method"
+msgstr "既定の原価の計算方法"
+
+msgctxt "field:product.configuration,product_sequence:"
+msgid "Variant Sequence"
+msgstr "バリエーションの連番"
+
+msgctxt "field:product.configuration,template_sequence:"
+msgid "Product Sequence"
+msgstr "品目の連番"
+
+msgctxt ""
+"field:product.configuration.default_cost_price_method,default_cost_price_method:"
+msgid "Default Cost Method"
+msgstr "既定の原価の計算方法"
+
+msgctxt "field:product.cost_price,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:product.cost_price,cost_price:"
+msgid "Cost Price"
+msgstr "原価"
+
+msgctxt "field:product.cost_price,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:product.cost_price_method,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:product.cost_price_method,cost_price_method:"
+msgid "Cost Price Method"
+msgstr "原価の計算方法"
+
+msgctxt "field:product.cost_price_method,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:product.identifier,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:product.identifier,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:product.identifier,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:product.list_price,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:product.list_price,list_price:"
+msgid "List Price"
+msgstr "定価"
+
+msgctxt "field:product.list_price,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:product.list_price,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:product.product,categories:"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "field:product.product,categories_all:"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "field:product.product,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:product.product,code_readonly:"
+msgid "Code Readonly"
+msgstr "コード(読み取り専用)"
+
+msgctxt "field:product.product,consumable:"
+msgid "Consumable"
+msgstr "消耗品"
+
+msgctxt "field:product.product,cost_price:"
+msgid "Cost Price"
+msgstr "原価"
+
+msgctxt "field:product.product,cost_price_method:"
+msgid "Cost Price Method"
+msgstr "原価の計算方法"
+
+msgctxt "field:product.product,cost_price_methods:"
+msgid "Cost Price Methods"
+msgstr "原価の計算方法"
+
+msgctxt "field:product.product,cost_price_uom:"
+msgid "Cost Price"
+msgstr "原価"
+
+msgctxt "field:product.product,cost_prices:"
+msgid "Cost Prices"
+msgstr "原価"
+
+msgctxt "field:product.product,default_uom:"
+msgid "Default UoM"
+msgstr "既定の単位"
+
+msgctxt "field:product.product,default_uom_category:"
+msgid "Default UoM Category"
+msgstr "既定の単位の分類"
+
+msgctxt "field:product.product,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:product.product,identifiers:"
+msgid "Identifiers"
+msgstr "識別子"
+
+msgctxt "field:product.product,list_price:"
+msgid "List Price"
+msgstr "定価"
+
+msgctxt "field:product.product,list_price_uom:"
+msgid "List Price"
+msgstr "定価"
+
+msgctxt "field:product.product,list_price_used:"
+msgid "List Price"
+msgstr "定価"
+
+msgctxt "field:product.product,list_prices:"
+msgid "List Prices"
+msgstr "定価"
+
+msgctxt "field:product.product,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:product.product,position:"
+msgid "Position"
+msgstr "並び順"
+
+msgctxt "field:product.product,prefix_code:"
+msgid "Prefix Code"
+msgstr "前の部分のコード"
+
+msgctxt "field:product.product,replaced_by:"
+msgid "Replaced By"
+msgstr "置き換え先"
+
+msgctxt "field:product.product,replacing:"
+msgid "Replacing"
+msgstr "置き換え元"
+
+msgctxt "field:product.product,suffix_code:"
+msgid "Suffix Code"
+msgstr "後ろの部分のコード"
+
+msgctxt "field:product.product,template:"
+msgid "Product Template"
+msgstr "品目のひな形"
+
+msgctxt "field:product.product,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:product.product.replace.ask,destination:"
+msgid "Destination"
+msgstr "置き換え先"
+
+msgctxt "field:product.product.replace.ask,source:"
+msgid "Source"
+msgstr "原文"
+
+msgctxt "field:product.product.replace.ask,source_default_uom_category:"
+msgid "Source Default UoM Category"
+msgstr "置き換え元の既定の単位の分類"
+
+msgctxt "field:product.product.replace.ask,source_type:"
+msgid "Source Type"
+msgstr "置き換え元の種類"
+
+msgctxt "field:product.template,categories:"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "field:product.template,categories_all:"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "field:product.template,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:product.template,code_readonly:"
+msgid "Code Readonly"
+msgstr "コード(読み取り専用)"
+
+msgctxt "field:product.template,consumable:"
+msgid "Consumable"
+msgstr "消耗品"
+
+msgctxt "field:product.template,cost_price:"
+msgid "Cost Price"
+msgstr "原価"
+
+msgctxt "field:product.template,cost_price_method:"
+msgid "Cost Price Method"
+msgstr "原価の計算方法"
+
+msgctxt "field:product.template,cost_price_methods:"
+msgid "Cost Price Methods"
+msgstr "原価の計算方法"
+
+msgctxt "field:product.template,default_uom:"
+msgid "Default UoM"
+msgstr "既定の単位"
+
+msgctxt "field:product.template,default_uom_category:"
+msgid "Default UoM Category"
+msgstr "既定の単位の分類"
+
+msgctxt "field:product.template,list_price:"
+msgid "List Price"
+msgstr "定価"
+
+msgctxt "field:product.template,list_prices:"
+msgid "List Prices"
+msgstr "定価"
+
+msgctxt "field:product.template,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:product.template,products:"
+msgid "Variants"
+msgstr "バリエーション"
+
+msgctxt "field:product.template,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:product.template-product.category,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:product.template-product.category,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:product.template-product.category.all,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:product.template-product.category.all,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:product.uom,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:product.uom,digits:"
+msgid "Display Digits"
+msgstr "表示の桁数"
+
+msgctxt "field:product.uom,factor:"
+msgid "Factor"
+msgstr "係数"
+
+msgctxt "field:product.uom,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:product.uom,rate:"
+msgid "Rate"
+msgstr "税率"
+
+msgctxt "field:product.uom,rounding:"
+msgid "Rounding Precision"
+msgstr "丸めの精度"
+
+msgctxt "field:product.uom,symbol:"
+msgid "Symbol"
+msgstr "記号"
+
+msgctxt "field:product.uom.category,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:product.uom.category,uoms:"
+msgid "Units of Measure"
+msgstr "単位"
+
+msgctxt "help:product.category,childs:"
+msgid "Used to add structure below the category."
+msgstr "この分類の下に階層を作るときに使います。"
+
+msgctxt "help:product.category,parent:"
+msgid "Used to add structure above the category."
+msgstr "この分類の上に階層を作るときに使います。"
+
+msgctxt "help:product.configuration,category_sequence:"
+msgid "Used to generate the category code."
+msgstr "分類のコードの作成に使います。"
+
+msgctxt "help:product.configuration,default_cost_price_method:"
+msgid "The default cost price method for new products."
+msgstr "新しい品目の既定の原価の計算方法です。"
+
+msgctxt "help:product.configuration,product_sequence:"
+msgid "Used to generate the last part of the product code."
+msgstr "品目コードの後ろの部分の作成に使います。"
+
+msgctxt "help:product.configuration,template_sequence:"
+msgid "Used to generate the first part of the product code."
+msgstr "品目コードの前の部分の作成に使います。"
+
+msgctxt ""
+"help:product.configuration.default_cost_price_method,default_cost_price_method:"
+msgid "The default cost price method for new products."
+msgstr "新しい品目の既定の原価の計算方法です。"
+
+msgctxt "help:product.identifier,product:"
+msgid "The product identified by the code."
+msgstr "このコードが示す品目です。"
+
+msgctxt "help:product.product,categories:"
+msgid ""
+"The categories that the product is in.\n"
+"Used to group similar products together."
+msgstr ""
+"品目が属する分類です。\n"
+"似た品目をまとめるのに使います。"
+
+msgctxt "help:product.product,code:"
+msgid "A unique identifier for the variant."
+msgstr "バリエーションを一意に示す識別子です。"
+
+msgctxt "help:product.product,consumable:"
+msgid "Check to allow stock moves to be assigned regardless of stock level."
+msgstr "在庫の量にかかわらず、在庫の移動を割り当てられるようにするときに選びます。"
+
+msgctxt "help:product.product,cost_price:"
+msgid ""
+"The amount it costs to purchase or make the variant, or carry out the "
+"service."
+msgstr "バリエーションの仕入れや製造、またはサービスの提供にかかる金額です。"
+
+msgctxt "help:product.product,cost_price_method:"
+msgid "The method used to calculate the cost price."
+msgstr "原価の計算に使う方法です。"
+
+msgctxt "help:product.product,default_uom:"
+msgid ""
+"The standard Unit of Measure for the product.\n"
+"Used internally when calculating the stock levels of goods and assets."
+msgstr ""
+"品目の標準の単位です。\n"
+"品物や資産の在庫量の計算に内部で使います。"
+
+msgctxt "help:product.product,default_uom_category:"
+msgid "The category of the default Unit of Measure."
+msgstr "既定の単位の分類です。"
+
+msgctxt "help:product.product,identifiers:"
+msgid "Other identifiers associated with the variant."
+msgstr "バリエーションに関連するほかの識別子です。"
+
+msgctxt "help:product.product,list_price:"
+msgid ""
+"The standard price the variant is sold at.\n"
+"Leave empty to use the list price of the product."
+msgstr ""
+"バリエーションの標準の販売価格です。\n"
+"空欄にすると品目の定価を使います。"
+
+msgctxt "help:product.product,list_price_used:"
+msgid "The standard price the variant is sold at."
+msgstr "バリエーションの標準の販売価格です。"
+
+msgctxt "help:product.product,position:"
+msgid "The order of the variant in the list of variants on product."
+msgstr "品目のバリエーションの一覧での、このバリエーションの順番です。"
+
+msgctxt "help:product.product,replaced_by:"
+msgid "The product replacing this one."
+msgstr "この品目に代わる品目です。"
+
+msgctxt "help:product.product,replacing:"
+msgid "The products that this one is replacing."
+msgstr "この品目が置き換える品目です。"
+
+msgctxt "help:product.product,suffix_code:"
+msgid "The unique identifier for the product (aka SKU)."
+msgstr "品目を一意に示す識別子(SKU)です。"
+
+msgctxt "help:product.product,template:"
+msgid ""
+"The product that defines the common properties inherited by the variant."
+msgstr "バリエーションが受け継ぐ共通の属性を決める品目です。"
+
+msgctxt "help:product.product.replace.ask,destination:"
+msgid "The product that replaces."
+msgstr "置き換え先の品目です。"
+
+msgctxt "help:product.product.replace.ask,source:"
+msgid "The product to be replaced."
+msgstr "置き換えられる品目です。"
+
+msgctxt "help:product.template,categories:"
+msgid ""
+"The categories that the product is in.\n"
+"Used to group similar products together."
+msgstr ""
+"品目が属する分類です。\n"
+"似た品目をまとめるのに使います。"
+
+msgctxt "help:product.template,consumable:"
+msgid "Check to allow stock moves to be assigned regardless of stock level."
+msgstr "在庫の量にかかわらず、在庫の移動を割り当てられるようにするときに選びます。"
+
+msgctxt "help:product.template,cost_price:"
+msgid ""
+"The amount it costs to purchase or make the product, or carry out the "
+"service."
+msgstr "品目の仕入れや製造、またはサービスの提供にかかる金額です。"
+
+msgctxt "help:product.template,cost_price_method:"
+msgid "The method used to calculate the cost price."
+msgstr "原価の計算に使う方法です。"
+
+msgctxt "help:product.template,default_uom:"
+msgid ""
+"The standard Unit of Measure for the product.\n"
+"Used internally when calculating the stock levels of goods and assets."
+msgstr ""
+"品目の標準の単位です。\n"
+"品物や資産の在庫量の計算に内部で使います。"
+
+msgctxt "help:product.template,default_uom_category:"
+msgid "The category of the default Unit of Measure."
+msgstr "既定の単位の分類です。"
+
+msgctxt "help:product.template,list_price:"
+msgid "The standard price the product is sold at."
+msgstr "品目の標準の販売価格です。"
+
+msgctxt "help:product.template,products:"
+msgid "The different variants the product comes in."
+msgstr "この品目のバリエーションです。"
+
+msgctxt "help:product.uom,category:"
+msgid ""
+"The category that contains the unit of measure.\n"
+"Conversions between different units of measure can be done if they are in the same category."
+msgstr ""
+"この単位が属する分類です。\n"
+"同じ分類の単位どうしで換算できます。"
+
+msgctxt "help:product.uom,digits:"
+msgid "The number of digits to display after the decimal separator."
+msgstr "小数点以下に表示する桁数です。"
+
+msgctxt "help:product.uom,factor:"
+msgid ""
+"The coefficient for the formula:\n"
+"coefficient (base unit) = 1 (this unit)"
+msgstr ""
+"次の式の係数です:\n"
+"係数(基準の単位) = 1(この単位)"
+
+msgctxt "help:product.uom,rate:"
+msgid ""
+"The coefficient for the formula:\n"
+"1 (base unit) = coef (this unit)"
+msgstr ""
+"次の式の係数です:\n"
+"1(基準の単位) = 係数(この単位)"
+
+msgctxt "help:product.uom,rounding:"
+msgid "The accuracy to which values are rounded."
+msgstr "値を丸めるときの精度です。"
+
+msgctxt "help:product.uom,symbol:"
+msgid "The symbol that represents the unit of measure."
+msgstr "単位を表す記号です。"
+
+msgctxt "model:ir.action,name:act_category_list"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "model:ir.action,name:act_category_product"
+msgid "Add products"
+msgstr "品目を追加"
+
+msgctxt "model:ir.action,name:act_category_tree"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "model:ir.action,name:act_product_configuration_form"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.action,name:act_product_form"
+msgid "Variants"
+msgstr "バリエーション"
+
+msgctxt "model:ir.action,name:act_product_from_template"
+msgid "Variants"
+msgstr "バリエーション"
+
+msgctxt "model:ir.action,name:act_template_by_category"
+msgid "Product by Category"
+msgstr "分類別の品目"
+
+msgctxt "model:ir.action,name:act_template_form"
+msgid "Products"
+msgstr "品目"
+
+msgctxt "model:ir.action,name:act_uom_category_form"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "model:ir.action,name:act_uom_form"
+msgid "Units of Measure"
+msgstr "単位"
+
+msgctxt "model:ir.action,name:wizard_product_replace"
+msgid "Replace"
+msgstr "置き換え"
+
+msgctxt "model:ir.message,text:msg_category_code_unique"
+msgid "The code on product category must be unique."
+msgstr "品目の分類のコードは一意にしてください。"
+
+msgctxt "model:ir.message,text:msg_invalid_code"
+msgid "The %(type)s \"%(code)s\" for product \"%(product)s\" is not valid."
+msgstr "品目「%(product)s」の%(type)s「%(code)s」は正しくありません。"
+
+msgctxt "model:ir.message,text:msg_product_change_template"
+msgid "You cannot change the template of the product \"%(product)s\"."
+msgstr "品目「%(product)s」のひな形は変更できません。"
+
+msgctxt "model:ir.message,text:msg_product_code_unique"
+msgid "Code of active product must be unique."
+msgstr "有効な品目のコードは一意にしてください。"
+
+msgctxt "model:ir.message,text:msg_uom_decrease_digits"
+msgid "You cannot decrease the digits of the unit of measure \"%(uom)s\"."
+msgstr "単位「%(uom)s」の桁数は減らせません。"
+
+msgctxt "model:ir.message,text:msg_uom_incompatible_factor_rate"
+msgid "Incompatible factor and rate values on unit of measure\"%(uom)s\"."
+msgstr "単位「%(uom)s」の係数と比率の値が合いません。"
+
+msgctxt "model:ir.message,text:msg_uom_modify_category"
+msgid "You cannot modify the category of the unit of measure \"%(uom)s\"."
+msgstr "単位「%(uom)s」の分類は変更できません。"
+
+msgctxt "model:ir.message,text:msg_uom_modify_factor"
+msgid "You cannot modify the factor of the unit of measure \"%(uom)s\"."
+msgstr "単位「%(uom)s」の係数は変更できません。"
+
+msgctxt "model:ir.message,text:msg_uom_modify_options"
+msgid ""
+"If the unit of measure is still not used, you can delete it otherwise you "
+"can deactivate it and create a new one."
+msgstr "単位がまだ使われていなければ削除できます。使われているときは無効にして、新しい単位を作ってください。"
+
+msgctxt "model:ir.message,text:msg_uom_modify_rate"
+msgid "You cannot modify the rate of the unit of measure\"%(uom)s\"."
+msgstr "単位「%(uom)s」の比率は変更できません。"
+
+msgctxt "model:ir.message,text:msg_uom_no_zero_factor_rate"
+msgid "Rate and factor can not be both equal to zero."
+msgstr "比率と係数の両方を 0 にはできません。"
+
+msgctxt "model:ir.model.button,string:category_add_products_button"
+msgid "Add products"
+msgstr "品目を追加"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_category"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_product"
+msgid "Variant"
+msgstr "バリエーション"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_template"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "model:ir.ui.menu,name:menu_category_list"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "model:ir.ui.menu,name:menu_category_tree"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.ui.menu,name:menu_main_product"
+msgid "Products"
+msgstr "品目"
+
+msgctxt "model:ir.ui.menu,name:menu_product"
+msgid "Variants"
+msgstr "バリエーション"
+
+msgctxt "model:ir.ui.menu,name:menu_product_configuration"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.ui.menu,name:menu_reporting"
+msgid "Reporting"
+msgstr "帳票"
+
+msgctxt "model:ir.ui.menu,name:menu_template"
+msgid "Products"
+msgstr "品目"
+
+msgctxt "model:ir.ui.menu,name:menu_uom_category_form"
+msgid "Categories"
+msgstr "分類"
+
+msgctxt "model:ir.ui.menu,name:menu_uom_form"
+msgid "Units of Measure"
+msgstr "単位"
+
+msgctxt "model:product.category,string:"
+msgid "Product Category"
+msgstr "品目の分類"
+
+msgctxt "model:product.configuration,string:"
+msgid "Product Configuration"
+msgstr "品目の設定"
+
+msgctxt "model:product.configuration.default_cost_price_method,string:"
+msgid "Product Configuration Default Cost Price Method"
+msgstr "品目の設定(既定の原価の計算方法)"
+
+msgctxt "model:product.cost_price,string:"
+msgid "Product Cost Price"
+msgstr "品目の原価"
+
+msgctxt "model:product.cost_price_method,string:"
+msgid "Product Cost Price Method"
+msgstr "品目の原価の計算方法"
+
+msgctxt "model:product.identifier,string:"
+msgid "Product Identifier"
+msgstr "品目の識別子"
+
+msgctxt "model:product.list_price,string:"
+msgid "Product List Price"
+msgstr "品目の定価"
+
+msgctxt "model:product.product,string:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "model:product.product.replace.ask,string:"
+msgid "Product Replace Ask"
+msgstr "品目の置き換えの確認"
+
+msgctxt "model:product.template,string:"
+msgid "Product Template"
+msgstr "品目のひな形"
+
+msgctxt "model:product.template-product.category,string:"
+msgid "Product Template - Product Category"
+msgstr "品目のひな形 - 品目の分類"
+
+msgctxt "model:product.template-product.category.all,string:"
+msgid "Product Template - Product Category All"
+msgstr "品目のひな形 - 品目の分類(すべて)"
+
+msgctxt "model:product.uom,name:uom_are"
+msgid "Are"
+msgstr "アール"
+
+msgctxt "model:product.uom,name:uom_carat"
+msgid "Carat"
+msgstr "カラット"
+
+msgctxt "model:product.uom,name:uom_centimeter"
+msgid "Centimeter"
+msgstr "センチメートル"
+
+msgctxt "model:product.uom,name:uom_cubic_centimeter"
+msgid "Cubic centimeter"
+msgstr "立方センチメートル"
+
+msgctxt "model:product.uom,name:uom_cubic_foot"
+msgid "Cubic foot"
+msgstr "立方フィート"
+
+msgctxt "model:product.uom,name:uom_cubic_inch"
+msgid "Cubic inch"
+msgstr "立方インチ"
+
+msgctxt "model:product.uom,name:uom_cubic_meter"
+msgid "Cubic meter"
+msgstr "立方メートル"
+
+msgctxt "model:product.uom,name:uom_day"
+msgid "Day"
+msgstr "日"
+
+msgctxt "model:product.uom,name:uom_energy_joule"
+msgid "Joule"
+msgstr "ジュール"
+
+msgctxt "model:product.uom,name:uom_energy_kwh"
+msgid "Kilowatt-hour"
+msgstr "キロワット時"
+
+msgctxt "model:product.uom,name:uom_energy_megajoule"
+msgid "Megajoule"
+msgstr "メガジュール"
+
+msgctxt "model:product.uom,name:uom_energy_mwh"
+msgid "Megawatt-hour"
+msgstr "メガワット時"
+
+msgctxt "model:product.uom,name:uom_foot"
+msgid "Foot"
+msgstr "フィート"
+
+msgctxt "model:product.uom,name:uom_gallon"
+msgid "Gallon"
+msgstr "ガロン"
+
+msgctxt "model:product.uom,name:uom_gram"
+msgid "Gram"
+msgstr "グラム"
+
+msgctxt "model:product.uom,name:uom_hectare"
+msgid "Hectare"
+msgstr "ヘクタール"
+
+msgctxt "model:product.uom,name:uom_hour"
+msgid "Hour"
+msgstr "時"
+
+msgctxt "model:product.uom,name:uom_inch"
+msgid "Inch"
+msgstr "インチ"
+
+msgctxt "model:product.uom,name:uom_kilogram"
+msgid "Kilogram"
+msgstr "キログラム"
+
+msgctxt "model:product.uom,name:uom_kilometer"
+msgid "Kilometer"
+msgstr "キロメートル"
+
+msgctxt "model:product.uom,name:uom_liter"
+msgid "Liter"
+msgstr "リットル"
+
+msgctxt "model:product.uom,name:uom_meter"
+msgid "Meter"
+msgstr "メートル"
+
+msgctxt "model:product.uom,name:uom_mile"
+msgid "Mile"
+msgstr "マイル"
+
+msgctxt "model:product.uom,name:uom_millimeter"
+msgid "Millimeter"
+msgstr "ミリメートル"
+
+msgctxt "model:product.uom,name:uom_minute"
+msgid "Minute"
+msgstr "分"
+
+msgctxt "model:product.uom,name:uom_ounce"
+msgid "Ounce"
+msgstr "オンス"
+
+msgctxt "model:product.uom,name:uom_pound"
+msgid "Pound"
+msgstr "ポンド"
+
+msgctxt "model:product.uom,name:uom_second"
+msgid "Second"
+msgstr "秒"
+
+msgctxt "model:product.uom,name:uom_square_centimeter"
+msgid "Square centimeter"
+msgstr "平方センチメートル"
+
+msgctxt "model:product.uom,name:uom_square_foot"
+msgid "Square foot"
+msgstr "平方フィート"
+
+msgctxt "model:product.uom,name:uom_square_inch"
+msgid "Square inch"
+msgstr "平方インチ"
+
+msgctxt "model:product.uom,name:uom_square_meter"
+msgid "Square meter"
+msgstr "平方メートル"
+
+msgctxt "model:product.uom,name:uom_square_yard"
+msgid "Square yard"
+msgstr "平方ヤード"
+
+msgctxt "model:product.uom,name:uom_unit"
+msgid "Unit"
+msgstr "単位"
+
+msgctxt "model:product.uom,name:uom_yard"
+msgid "Yard"
+msgstr "ヤード"
+
+msgctxt "model:product.uom,string:"
+msgid "Product Uom"
+msgstr "品目の単位"
+
+msgctxt "model:product.uom,symbol:uom_are"
+msgid "a"
+msgstr "a"
+
+msgctxt "model:product.uom,symbol:uom_carat"
+msgid "c"
+msgstr "c"
+
+msgctxt "model:product.uom,symbol:uom_centimeter"
+msgid "cm"
+msgstr "cm"
+
+msgctxt "model:product.uom,symbol:uom_cubic_centimeter"
+msgid "cm³"
+msgstr "cm³"
+
+msgctxt "model:product.uom,symbol:uom_cubic_foot"
+msgid "ft³"
+msgstr "ft³"
+
+msgctxt "model:product.uom,symbol:uom_cubic_inch"
+msgid "in³"
+msgstr "in³"
+
+msgctxt "model:product.uom,symbol:uom_cubic_meter"
+msgid "m³"
+msgstr "m³"
+
+msgctxt "model:product.uom,symbol:uom_day"
+msgid "d"
+msgstr "日"
+
+msgctxt "model:product.uom,symbol:uom_energy_joule"
+msgid "J"
+msgstr "J"
+
+msgctxt "model:product.uom,symbol:uom_energy_kwh"
+msgid "kW⋅h"
+msgstr "kW⋅h"
+
+msgctxt "model:product.uom,symbol:uom_energy_megajoule"
+msgid "MJ"
+msgstr "MJ"
+
+msgctxt "model:product.uom,symbol:uom_energy_mwh"
+msgid "MW⋅h"
+msgstr "MW⋅h"
+
+msgctxt "model:product.uom,symbol:uom_foot"
+msgid "ft"
+msgstr "ft"
+
+msgctxt "model:product.uom,symbol:uom_gallon"
+msgid "gal"
+msgstr "gal"
+
+msgctxt "model:product.uom,symbol:uom_gram"
+msgid "g"
+msgstr "g"
+
+msgctxt "model:product.uom,symbol:uom_hectare"
+msgid "ha"
+msgstr "ha"
+
+msgctxt "model:product.uom,symbol:uom_hour"
+msgid "h"
+msgstr "時"
+
+msgctxt "model:product.uom,symbol:uom_inch"
+msgid "in"
+msgstr "in"
+
+msgctxt "model:product.uom,symbol:uom_kilogram"
+msgid "kg"
+msgstr "kg"
+
+msgctxt "model:product.uom,symbol:uom_kilometer"
+msgid "km"
+msgstr "km"
+
+msgctxt "model:product.uom,symbol:uom_liter"
+msgid "l"
+msgstr "l"
+
+msgctxt "model:product.uom,symbol:uom_meter"
+msgid "m"
+msgstr "分"
+
+msgctxt "model:product.uom,symbol:uom_mile"
+msgid "mi"
+msgstr "mi"
+
+msgctxt "model:product.uom,symbol:uom_millimeter"
+msgid "mm"
+msgstr "mm"
+
+msgctxt "model:product.uom,symbol:uom_minute"
+msgid "min"
+msgstr "min"
+
+msgctxt "model:product.uom,symbol:uom_ounce"
+msgid "oz"
+msgstr "oz"
+
+msgctxt "model:product.uom,symbol:uom_pound"
+msgid "lb"
+msgstr "lb"
+
+msgctxt "model:product.uom,symbol:uom_second"
+msgid "s"
+msgstr "秒"
+
+msgctxt "model:product.uom,symbol:uom_square_centimeter"
+msgid "cm²"
+msgstr "cm²"
+
+msgctxt "model:product.uom,symbol:uom_square_foot"
+msgid "ft²"
+msgstr "ft²"
+
+msgctxt "model:product.uom,symbol:uom_square_inch"
+msgid "in²"
+msgstr "in²"
+
+msgctxt "model:product.uom,symbol:uom_square_meter"
+msgid "m²"
+msgstr "m²"
+
+msgctxt "model:product.uom,symbol:uom_square_yard"
+msgid "yd²"
+msgstr "yd²"
+
+msgctxt "model:product.uom,symbol:uom_unit"
+msgid "u"
+msgstr "u"
+
+msgctxt "model:product.uom,symbol:uom_yard"
+msgid "yd"
+msgstr "yd"
+
+msgctxt "model:product.uom.category,name:uom_cat_energy"
+msgid "Energy"
+msgstr "エネルギー"
+
+msgctxt "model:product.uom.category,name:uom_cat_length"
+msgid "Length"
+msgstr "長さ"
+
+msgctxt "model:product.uom.category,name:uom_cat_surface"
+msgid "Surface"
+msgstr "面積"
+
+msgctxt "model:product.uom.category,name:uom_cat_time"
+msgid "Time"
+msgstr "時刻"
+
+msgctxt "model:product.uom.category,name:uom_cat_unit"
+msgid "Units"
+msgstr "個数"
+
+msgctxt "model:product.uom.category,name:uom_cat_volume"
+msgid "Volume"
+msgstr "体積"
+
+msgctxt "model:product.uom.category,name:uom_cat_weight"
+msgid "Weight"
+msgstr "重さ"
+
+msgctxt "model:product.uom.category,string:"
+msgid "Product Uom Category"
+msgstr "品目の単位の分類"
+
+msgctxt "model:res.group,name:group_product_admin"
+msgid "Product Administration"
+msgstr "品目の管理"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Deactivate Replaced Products"
+msgstr "置き換えた品目を無効にする"
+
+msgctxt "selection:product.identifier,type:"
+msgid "Brand"
+msgstr "ブランド"
+
+msgctxt "selection:product.identifier,type:"
+msgid "International Article Number"
+msgstr "JAN/EAN コード"
+
+msgctxt "selection:product.identifier,type:"
+msgid "International Securities Identification Number"
+msgstr "国際証券識別番号(ISIN)"
+
+msgctxt "selection:product.identifier,type:"
+msgid "International Standard Audiovisual Number"
+msgstr "国際標準視聴覚資料番号(ISAN)"
+
+msgctxt "selection:product.identifier,type:"
+msgid "International Standard Book Number"
+msgstr "国際標準図書番号(ISBN)"
+
+msgctxt "selection:product.identifier,type:"
+msgid "International Standard Identifier for Libraries"
+msgstr "国際標準図書館識別番号(ISIL)"
+
+msgctxt "selection:product.identifier,type:"
+msgid "International Standard Music Number"
+msgstr "国際標準楽譜番号(ISMN)"
+
+msgctxt "selection:product.identifier,type:"
+msgid "Manufacturer Part Number"
+msgstr "製造元の品番"
+
+msgctxt "selection:product.product,cost_price_method:"
+msgid "Average"
+msgstr "平均"
+
+msgctxt "selection:product.product,cost_price_method:"
+msgid "Fixed"
+msgstr "固定"
+
+msgctxt "selection:product.product,type:"
+msgid "Assets"
+msgstr "資産"
+
+msgctxt "selection:product.product,type:"
+msgid "Goods"
+msgstr "物品"
+
+msgctxt "selection:product.product,type:"
+msgid "Service"
+msgstr "サービス"
+
+msgctxt "selection:product.template,cost_price_method:"
+msgid "Average"
+msgstr "平均"
+
+msgctxt "selection:product.template,cost_price_method:"
+msgid "Fixed"
+msgstr "固定"
+
+msgctxt "selection:product.template,type:"
+msgid "Assets"
+msgstr "資産"
+
+msgctxt "selection:product.template,type:"
+msgid "Goods"
+msgstr "物品"
+
+msgctxt "selection:product.template,type:"
+msgid "Service"
+msgstr "サービス"
+
+msgctxt "view:product.category:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "view:product.configuration:"
+msgid "Sequences"
+msgstr "連番"
+
+msgctxt "view:product.product.replace.ask:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "view:product.product.replace.ask:"
+msgid "Replaced By"
+msgstr "置き換え先"
+
+msgctxt "view:product.template:"
+msgid "General"
+msgstr "全般"
+
+msgctxt "wizard_button:product.product.replace,ask,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:product.product.replace,ask,replace:"
+msgid "Replace"
+msgstr "置き換え"

@@ -1,0 +1,1462 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:account.invoice,purchase_exception_state:"
+msgid "Exception State"
+msgstr "例外の状態"
+
+msgctxt "field:account.invoice,purchases:"
+msgid "Purchases"
+msgstr "購買"
+
+msgctxt "field:party.party,customer_code:"
+msgid "Customer Code"
+msgstr "顧客コード"
+
+msgctxt "field:party.party,customer_codes:"
+msgid "Customer Codes"
+msgstr "顧客コード"
+
+msgctxt "field:party.party,supplier_currencies:"
+msgid "Supplier Currencies"
+msgstr "仕入先の通貨"
+
+msgctxt "field:party.party,supplier_currency:"
+msgid "Supplier Currency"
+msgstr "仕入先の通貨"
+
+msgctxt "field:party.party,supplier_lead_time:"
+msgid "Lead Time"
+msgstr "リードタイム"
+
+msgctxt "field:party.party,supplier_lead_times:"
+msgid "Lead Times"
+msgstr "リードタイム"
+
+msgctxt "field:party.party.customer_code,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:party.party.customer_code,customer_code:"
+msgid "Customer Code"
+msgstr "顧客コード"
+
+msgctxt "field:party.party.customer_code,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.party.supplier_currency,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.party.supplier_currency,supplier_currency:"
+msgid "Supplier Currency"
+msgstr "仕入先の通貨"
+
+msgctxt "field:party.party.supplier_lead_time,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:party.party.supplier_lead_time,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.party.supplier_lead_time,supplier_lead_time:"
+msgid "Lead Time"
+msgstr "リードタイム"
+
+msgctxt "field:product.product,last_purchase_price_uom:"
+msgid "Last Purchase Price"
+msgstr "前回の購買価格"
+
+msgctxt "field:product.product,product_suppliers:"
+msgid "Suppliers"
+msgstr "仕入先"
+
+msgctxt "field:product.product,purchasable:"
+msgid "Purchasable"
+msgstr "購買可"
+
+msgctxt "field:product.product,purchase_price_uom:"
+msgid "Purchase Price"
+msgstr "購買価格"
+
+msgctxt "field:product.product,purchase_uom:"
+msgid "Purchase UoM"
+msgstr "購買の単位"
+
+msgctxt "field:product.template,product_suppliers:"
+msgid "Suppliers"
+msgstr "仕入先"
+
+msgctxt "field:product.template,purchasable:"
+msgid "Purchasable"
+msgstr "購買可"
+
+msgctxt "field:product.template,purchase_uom:"
+msgid "Purchase UoM"
+msgstr "購買の単位"
+
+msgctxt "field:purchase.configuration,purchase_invoice_method:"
+msgid "Invoice Method"
+msgstr "請求の方法"
+
+msgctxt "field:purchase.configuration,purchase_process_after:"
+msgid "Process Purchase after"
+msgstr "購買を処理するまでの時間"
+
+msgctxt "field:purchase.configuration,purchase_sequence:"
+msgid "Purchase Sequence"
+msgstr "購買の連番"
+
+msgctxt ""
+"field:purchase.configuration.purchase_method,purchase_invoice_method:"
+msgid "Invoice Method"
+msgstr "請求の方法"
+
+msgctxt "field:purchase.configuration.sequence,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:purchase.configuration.sequence,purchase_sequence:"
+msgid "Purchase Sequence"
+msgstr "購買の連番"
+
+msgctxt "field:purchase.handle.invoice.exception.ask,domain_invoices:"
+msgid "Domain Invoices"
+msgstr "対象の請求書"
+
+msgctxt "field:purchase.handle.invoice.exception.ask,ignore_invoices:"
+msgid "Invoices to Ignore"
+msgstr "無視する請求書"
+
+msgctxt "field:purchase.handle.invoice.exception.ask,recreate_invoices:"
+msgid "Invoices to Recreate"
+msgstr "作り直す請求書"
+
+msgctxt "field:purchase.handle.shipment.exception.ask,domain_moves:"
+msgid "Domain Stock Moves"
+msgstr "対象の在庫移動"
+
+msgctxt "field:purchase.handle.shipment.exception.ask,ignore_moves:"
+msgid "Stock Moves to Ignore"
+msgstr "無視する在庫移動"
+
+msgctxt "field:purchase.handle.shipment.exception.ask,recreate_moves:"
+msgid "Stock Moves to Recreate"
+msgstr "作り直す在庫移動"
+
+msgctxt "field:purchase.line,actual_quantity:"
+msgid "Actual Quantity"
+msgstr "実際の数量"
+
+msgctxt "field:purchase.line,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:purchase.line,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:purchase.line,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:purchase.line,delivery_date:"
+msgid "Delivery Date"
+msgstr "納期"
+
+msgctxt "field:purchase.line,delivery_date_edit:"
+msgid "Edit Delivery Date"
+msgstr "納期を編集"
+
+msgctxt "field:purchase.line,delivery_date_store:"
+msgid "Delivery Date"
+msgstr "納期"
+
+msgctxt "field:purchase.line,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:purchase.line,from_location:"
+msgid "From Location"
+msgstr "移動元"
+
+msgctxt "field:purchase.line,invoice_lines:"
+msgid "Invoice Lines"
+msgstr "請求書の行"
+
+msgctxt "field:purchase.line,invoice_progress:"
+msgid "Invoice Progress"
+msgstr "請求の進み具合"
+
+msgctxt "field:purchase.line,movable:"
+msgid "Movable"
+msgstr "移動可"
+
+msgctxt "field:purchase.line,moves:"
+msgid "Stock Moves"
+msgstr "在庫の移動"
+
+msgctxt "field:purchase.line,moves_exception:"
+msgid "Moves Exception"
+msgstr "移動の例外"
+
+msgctxt "field:purchase.line,moves_ignored:"
+msgid "Ignored Stock Moves"
+msgstr "無視した在庫移動"
+
+msgctxt "field:purchase.line,moves_progress:"
+msgid "Moves Progress"
+msgstr "移動の進み具合"
+
+msgctxt "field:purchase.line,moves_recreated:"
+msgid "Recreated Moves"
+msgstr "作り直した移動"
+
+msgctxt "field:purchase.line,note:"
+msgid "Note"
+msgstr "メモ"
+
+msgctxt "field:purchase.line,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:purchase.line,product_supplier:"
+msgid "Supplier's Product"
+msgstr "仕入先の品目"
+
+msgctxt "field:purchase.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "品目の単位の分類"
+
+msgctxt "field:purchase.line,purchase:"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "field:purchase.line,purchase_date:"
+msgid "Purchase Date"
+msgstr "購買日"
+
+msgctxt "field:purchase.line,purchase_state:"
+msgid "Purchase State"
+msgstr "購買の状態"
+
+msgctxt "field:purchase.line,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:purchase.line,quantity_to_invoice:"
+msgid "Quantity to Invoice"
+msgstr "請求する数量"
+
+msgctxt "field:purchase.line,summary:"
+msgid "Summary"
+msgstr "概要"
+
+msgctxt "field:purchase.line,supplier:"
+msgid "Supplier"
+msgstr "仕入先"
+
+msgctxt "field:purchase.line,taxes:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "field:purchase.line,to_location:"
+msgid "To Location"
+msgstr "移動先"
+
+msgctxt "field:purchase.line,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:purchase.line,unit:"
+msgid "Unit"
+msgstr "単位"
+
+msgctxt "field:purchase.line,unit_price:"
+msgid "Unit Price"
+msgstr "単価"
+
+msgctxt "field:purchase.line,warehouse:"
+msgid "Warehouse"
+msgstr "倉庫"
+
+msgctxt "field:purchase.line-account.tax,line:"
+msgid "Purchase Line"
+msgstr "購買の行"
+
+msgctxt "field:purchase.line-account.tax,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:purchase.line-ignored-stock.move,move:"
+msgid "Stock Move"
+msgstr "在庫の移動"
+
+msgctxt "field:purchase.line-ignored-stock.move,purchase_line:"
+msgid "Purchase Line"
+msgstr "購買の行"
+
+msgctxt "field:purchase.line-recreated-stock.move,move:"
+msgid "Stock Move"
+msgstr "在庫の移動"
+
+msgctxt "field:purchase.line-recreated-stock.move,purchase_line:"
+msgid "Purchase Line"
+msgstr "購買の行"
+
+msgctxt "field:purchase.product_supplier,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:purchase.product_supplier,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:purchase.product_supplier,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:purchase.product_supplier,lead_time:"
+msgid "Lead Time"
+msgstr "リードタイム"
+
+msgctxt "field:purchase.product_supplier,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:purchase.product_supplier,party:"
+msgid "Supplier"
+msgstr "仕入先"
+
+msgctxt "field:purchase.product_supplier,prices:"
+msgid "Prices"
+msgstr "価格"
+
+msgctxt "field:purchase.product_supplier,product:"
+msgid "Variant"
+msgstr "バリエーション"
+
+msgctxt "field:purchase.product_supplier,template:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:purchase.product_supplier,unit:"
+msgid "Unit"
+msgstr "単位"
+
+msgctxt "field:purchase.product_supplier.price,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:purchase.product_supplier.price,product_supplier:"
+msgid "Supplier"
+msgstr "仕入先"
+
+msgctxt "field:purchase.product_supplier.price,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:purchase.product_supplier.price,unit:"
+msgid "Unit"
+msgstr "単位"
+
+msgctxt "field:purchase.product_supplier.price,unit_price:"
+msgid "Unit Price"
+msgstr "単価"
+
+msgctxt "field:purchase.purchase,comment:"
+msgid "Comment"
+msgstr "コメント"
+
+msgctxt "field:purchase.purchase,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:purchase.purchase,confirmed_by:"
+msgid "Confirmed By"
+msgstr "確定した人"
+
+msgctxt "field:purchase.purchase,contact:"
+msgid "Contact"
+msgstr "担当者"
+
+msgctxt "field:purchase.purchase,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:purchase.purchase,delivery_date:"
+msgid "Delivery Date"
+msgstr "納期"
+
+msgctxt "field:purchase.purchase,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:purchase.purchase,invoice_address:"
+msgid "Invoice Address"
+msgstr "請求先住所"
+
+msgctxt "field:purchase.purchase,invoice_method:"
+msgid "Invoice Method"
+msgstr "請求の方法"
+
+msgctxt "field:purchase.purchase,invoice_party:"
+msgid "Invoice Party"
+msgstr "請求書の取引先"
+
+msgctxt "field:purchase.purchase,invoice_state:"
+msgid "Invoice State"
+msgstr "請求書の状態"
+
+msgctxt "field:purchase.purchase,invoices:"
+msgid "Invoices"
+msgstr "請求書"
+
+msgctxt "field:purchase.purchase,invoices_ignored:"
+msgid "Ignored Invoices"
+msgstr "無視した請求書"
+
+msgctxt "field:purchase.purchase,invoices_recreated:"
+msgid "Recreated Invoices"
+msgstr "作り直した請求書"
+
+msgctxt "field:purchase.purchase,line_lines:"
+msgid "Line - Lines"
+msgstr "行 - 行"
+
+msgctxt "field:purchase.purchase,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:purchase.purchase,moves:"
+msgid "Stock Moves"
+msgstr "在庫の移動"
+
+msgctxt "field:purchase.purchase,number:"
+msgid "Number"
+msgstr "番号"
+
+msgctxt "field:purchase.purchase,origin:"
+msgid "Origin"
+msgstr "発生元"
+
+msgctxt "field:purchase.purchase,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:purchase.purchase,party_lang:"
+msgid "Party Language"
+msgstr "取引先の言語"
+
+msgctxt "field:purchase.purchase,payment_term:"
+msgid "Payment Term"
+msgstr "支払条件"
+
+msgctxt "field:purchase.purchase,purchase_date:"
+msgid "Purchase Date"
+msgstr "購買日"
+
+msgctxt "field:purchase.purchase,quotation_expire:"
+msgid "Quotation Expire"
+msgstr "見積の有効期限"
+
+msgctxt "field:purchase.purchase,quoted_by:"
+msgid "Quoted By"
+msgstr "見積した人"
+
+msgctxt "field:purchase.purchase,reference:"
+msgid "Reference"
+msgstr "参照"
+
+msgctxt "field:purchase.purchase,shipment_returns:"
+msgid "Shipment Returns"
+msgstr "返品"
+
+msgctxt "field:purchase.purchase,shipment_state:"
+msgid "Shipment State"
+msgstr "出荷の状態"
+
+msgctxt "field:purchase.purchase,shipments:"
+msgid "Shipments"
+msgstr "出荷"
+
+msgctxt "field:purchase.purchase,state:"
+msgid "State"
+msgstr "状態"
+
+msgctxt "field:purchase.purchase,tax_amount:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:purchase.purchase,tax_amount_cache:"
+msgid "Tax Cache"
+msgstr "税額のキャッシュ"
+
+msgctxt "field:purchase.purchase,to_invoice:"
+msgid "To Invoice"
+msgstr "請求する"
+
+msgctxt "field:purchase.purchase,total_amount:"
+msgid "Total"
+msgstr "合計"
+
+msgctxt "field:purchase.purchase,total_amount_cache:"
+msgid "Total Cache"
+msgstr "合計のキャッシュ"
+
+msgctxt "field:purchase.purchase,untaxed_amount:"
+msgid "Untaxed"
+msgstr "税抜金額"
+
+msgctxt "field:purchase.purchase,untaxed_amount_cache:"
+msgid "Untaxed Cache"
+msgstr "税抜金額のキャッシュ"
+
+msgctxt "field:purchase.purchase,warehouse:"
+msgid "Warehouse"
+msgstr "倉庫"
+
+msgctxt "field:purchase.purchase-ignored-account.invoice,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:purchase.purchase-ignored-account.invoice,purchase:"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "field:purchase.purchase-recreated-account.invoice,invoice:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "field:purchase.purchase-recreated-account.invoice,purchase:"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "field:purchase.reporting.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:purchase.reporting.context,from_date:"
+msgid "From Date"
+msgstr "開始日"
+
+msgctxt "field:purchase.reporting.context,period:"
+msgid "Period"
+msgstr "期間"
+
+msgctxt "field:purchase.reporting.context,to_date:"
+msgid "To Date"
+msgstr "終了日"
+
+msgctxt "field:purchase.reporting.context,warehouse:"
+msgid "Warehouse"
+msgstr "倉庫"
+
+msgctxt "field:purchase.reporting.product,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:purchase.reporting.product,product_supplier:"
+msgid "Supplier's Product"
+msgstr "仕入先の品目"
+
+msgctxt "field:purchase.reporting.product.time_series,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:purchase.reporting.product.time_series,product_currency:"
+msgid "Product - Currency"
+msgstr "品目 - 通貨"
+
+msgctxt "field:purchase.reporting.product.time_series,product_supplier:"
+msgid "Supplier's Product"
+msgstr "仕入先の品目"
+
+msgctxt "field:purchase.reporting.supplier,supplier:"
+msgid "Supplier"
+msgstr "仕入先"
+
+msgctxt "field:purchase.reporting.supplier.time_series,supplier:"
+msgid "Supplier"
+msgstr "仕入先"
+
+msgctxt "field:purchase.reporting.supplier.time_series,supplier_currency:"
+msgid "Supplier - Currency"
+msgstr "仕入先 - 通貨"
+
+msgctxt "field:stock.location,supplier_return_location:"
+msgid "Supplier Return"
+msgstr "仕入先への返品"
+
+msgctxt "field:stock.move,purchase:"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "field:stock.move,purchase_exception_state:"
+msgid "Exception State"
+msgstr "例外の状態"
+
+msgctxt "field:stock.move,supplier:"
+msgid "Supplier"
+msgstr "仕入先"
+
+msgctxt "help:party.party,customer_code:"
+msgid ""
+"The code the party as supplier has assigned to the company as customer."
+msgstr "仕入先としての取引先が、顧客としての自社に付けたコードです。"
+
+msgctxt "help:party.party,supplier_currency:"
+msgid "Default currency for purchases from this party."
+msgstr "この取引先からの購買の既定の通貨です。"
+
+msgctxt "help:party.party,supplier_lead_time:"
+msgid ""
+"The time from confirming the purchase order to receiving the goods from the party when used as a supplier.\n"
+"Used if no lead time is set on the product supplier."
+msgstr ""
+"仕入先としての取引先について、発注を確定してから品物を受け取るまでの時間です。\n"
+"品目の仕入先にリードタイムがないときに使います。"
+
+msgctxt "help:party.party.supplier_currency,supplier_currency:"
+msgid "Default currency for purchases from this party."
+msgstr "この取引先からの購買の既定の通貨です。"
+
+msgctxt "help:party.party.supplier_lead_time,supplier_lead_time:"
+msgid ""
+"The time from confirming the purchase order to receiving the goods from the party when used as a supplier.\n"
+"Used if no lead time is set on the product supplier."
+msgstr ""
+"仕入先としての取引先について、発注を確定してから品物を受け取るまでの時間です。\n"
+"品目の仕入先にリードタイムがないときに使います。"
+
+msgctxt "help:product.product,purchase_uom:"
+msgid "The default Unit of Measure for purchases."
+msgstr "購買の既定の単位です。"
+
+msgctxt "help:product.template,purchase_uom:"
+msgid "The default Unit of Measure for purchases."
+msgstr "購買の既定の単位です。"
+
+msgctxt "help:purchase.configuration,purchase_process_after:"
+msgid ""
+"The grace period during which confirmed purchase can still be reset to draft.\n"
+"Applied only if a worker queue is activated."
+msgstr ""
+"確定した購買を、まだ下書きに戻せる猶予の時間です。\n"
+"ワーカーのキューが有効なときだけ使います。"
+
+msgctxt "help:purchase.handle.invoice.exception.ask,ignore_invoices:"
+msgid "The selected cancelled invoices will be ignored."
+msgstr "選んだ取消済みの請求書は無視します。"
+
+msgctxt "help:purchase.handle.invoice.exception.ask,recreate_invoices:"
+msgid "The selected cancelled invoices will be recreated."
+msgstr "選んだ取消済みの請求書は作り直します。"
+
+msgctxt "help:purchase.handle.shipment.exception.ask,ignore_moves:"
+msgid "The selected cancelled stock moves will be ignored."
+msgstr "選んだ取消済みの在庫移動は無視します。"
+
+msgctxt "help:purchase.handle.shipment.exception.ask,recreate_moves:"
+msgid "The selected cancelled stock moves will be recreated."
+msgstr "選んだ取消済みの在庫移動は作り直します。"
+
+msgctxt "help:purchase.line,delivery_date_edit:"
+msgid "Check to edit the delivery date."
+msgstr "納期を編集するときはチェックします。"
+
+msgctxt "help:purchase.line,product_uom_category:"
+msgid "The category of Unit of Measure for the product."
+msgstr "品目の単位の分類です。"
+
+msgctxt "help:purchase.product_supplier,lead_time:"
+msgid ""
+"The time from confirming the purchase order to receiving the products.\n"
+"If empty the lead time of the supplier is used."
+msgstr ""
+"発注を確定してから品目を受け取るまでの時間です。\n"
+"空のときは仕入先のリードタイムを使います。"
+
+msgctxt "help:purchase.product_supplier,prices:"
+msgid ""
+"Add price for different criteria.\n"
+"The last matching line is used."
+msgstr ""
+"条件ごとの価格を追加します。\n"
+"最後に当てはまった行を使います。"
+
+msgctxt "help:purchase.product_supplier.price,quantity:"
+msgid "Minimal quantity."
+msgstr "最小の数量です。"
+
+msgctxt "help:purchase.product_supplier.price,unit:"
+msgid "The unit in which the quantity is specified."
+msgstr "数量を表す単位です。"
+
+msgctxt "help:purchase.purchase,delivery_date:"
+msgid "The default delivery date for each line."
+msgstr "各行の既定の納期です。"
+
+msgctxt "help:stock.location,supplier_return_location:"
+msgid "If empty the Storage location is used."
+msgstr "空のときは保管の場所を使います。"
+
+msgctxt "model:ir.action,name:act_invoice_form"
+msgid "Invoices"
+msgstr "請求書"
+
+msgctxt "model:ir.action,name:act_invoice_line_form"
+msgid "Invoice Lines"
+msgstr "請求書の行"
+
+msgctxt "model:ir.action,name:act_product_supplier_form"
+msgid "Suppliers"
+msgstr "仕入先"
+
+msgctxt "model:ir.action,name:act_product_supplier_price_form"
+msgid "Prices"
+msgstr "価格"
+
+msgctxt "model:ir.action,name:act_purchase_configuration_form"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.action,name:act_purchase_form"
+msgid "Purchases"
+msgstr "購買"
+
+msgctxt "model:ir.action,name:act_purchase_invoice_relate"
+msgid "Purchases"
+msgstr "購買"
+
+msgctxt "model:ir.action,name:act_purchase_line_relate"
+msgid "Purchase Lines"
+msgstr "購買の行"
+
+msgctxt "model:ir.action,name:act_purchase_move_relate"
+msgid "Stock Moves"
+msgstr "在庫の移動"
+
+msgctxt "model:ir.action,name:act_purchase_relate"
+msgid "Purchases"
+msgstr "購買"
+
+msgctxt "model:ir.action,name:act_purchase_relate_simple"
+msgid "Purchases"
+msgstr "購買"
+
+msgctxt "model:ir.action,name:act_reporting_main"
+msgid "Purchases"
+msgstr "購買"
+
+msgctxt "model:ir.action,name:act_reporting_main_time_series"
+msgid "Purchases"
+msgstr "購買"
+
+msgctxt "model:ir.action,name:act_reporting_product"
+msgid "Purchases per Product"
+msgstr "品目別の購買"
+
+msgctxt "model:ir.action,name:act_reporting_product_time_series"
+msgid "Purchases per Product"
+msgstr "品目別の購買"
+
+msgctxt "model:ir.action,name:act_reporting_supplier"
+msgid "Purchases per Supplier"
+msgstr "仕入先別の購買"
+
+msgctxt "model:ir.action,name:act_reporting_supplier_time_series"
+msgid "Purchases per Supplier"
+msgstr "仕入先別の購買"
+
+msgctxt "model:ir.action,name:act_return_form"
+msgid "Returns"
+msgstr "返品"
+
+msgctxt "model:ir.action,name:act_shipment_form"
+msgid "Shipments"
+msgstr "出荷"
+
+msgctxt "model:ir.action,name:report_purchase"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "model:ir.action,name:wizard_invoice_handle_exception"
+msgid "Handle Invoice Exception"
+msgstr "請求書の例外を処理"
+
+msgctxt "model:ir.action,name:wizard_modify_header"
+msgid "Modify Header"
+msgstr "見出しを変更"
+
+msgctxt "model:ir.action,name:wizard_return_purchase"
+msgid "Return Purchase"
+msgstr "購買を返品"
+
+msgctxt "model:ir.action,name:wizard_shipment_handle_exception"
+msgid "Handle Shipment Exception"
+msgstr "出荷の例外を処理"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_form_domain_all"
+msgid "All"
+msgstr "すべて"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_confirmed"
+msgid "Confirmed"
+msgstr "確定"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_draft"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_exception"
+msgid "Exception"
+msgstr "例外"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_processing"
+msgid "Processing"
+msgstr "処理中"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_quotation"
+msgid "Quotation"
+msgstr "見積"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_line_relate_all"
+msgid "All"
+msgstr "すべて"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_line_relate_done"
+msgid "Done"
+msgstr "完了"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_line_relate_pending"
+msgid "Pending"
+msgstr "未完了"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_relate_all"
+msgid "All"
+msgstr "すべて"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_relate_done"
+msgid "Done"
+msgstr "完了"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_relate_pending"
+msgid "Pending"
+msgstr "未完了"
+
+msgctxt "model:ir.message,text:msg_change_purchase_uom"
+msgid ""
+"You are trying to change the purchase unit of measure on which the purchase "
+"prices are based."
+msgstr "購買価格のもとになる購買の単位を変えようとしています。"
+
+msgctxt "model:ir.message,text:msg_erase_party_pending_purchase"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have pending purchases with "
+"company \"%(company)s\"."
+msgstr "取引先「%(party)s」は、会社「%(company)s」との未完了の購買があるため、消去できません。"
+
+msgctxt "model:ir.message,text:msg_purchase_delete_cancel"
+msgid "To delete purchase \"%(purchase)s\" you must cancel it."
+msgstr "購買「%(purchase)s」を削除するには、取り消してください。"
+
+msgctxt "model:ir.message,text:msg_purchase_invoice_reset_draft"
+msgid ""
+"You cannot reset invoice \"%(invoice)s\" to draft because it was generated "
+"by a purchase."
+msgstr "請求書「%(invoice)s」は購買から作られたため、下書きに戻せません。"
+
+msgctxt "model:ir.message,text:msg_purchase_line_create_draft"
+msgid ""
+"You cannot add lines to purchase \"%(purchase)s\" because it is no longer in"
+" a draft state."
+msgstr "購買「%(purchase)s」はもう下書きではないため、行を追加できません。"
+
+msgctxt "model:ir.message,text:msg_purchase_line_delete_cancel_draft"
+msgid ""
+"To delete line \"%(line)s\" you must cancel or reset to draft purchase "
+"\"%(purchase)s\"."
+msgstr "行「%(line)s」を削除するには、購買「%(purchase)s」を取り消すか下書きに戻してください。"
+
+msgctxt "model:ir.message,text:msg_purchase_line_move_quantity"
+msgid ""
+"The purchase line \"%(line)s\" is moving %(extra)s in addition to the "
+"%(quantity)s ordered."
+msgstr "購買の行「%(line)s」は、発注した %(quantity)s に加えて %(extra)s を移動しています。"
+
+msgctxt "model:ir.message,text:msg_purchase_line_tax_unique"
+msgid "A tax can be added only once to a purchase line."
+msgstr "税は購買の行に 1 度だけ追加できます。"
+
+msgctxt "model:ir.message,text:msg_purchase_missing_account_expense"
+msgid ""
+"To invoice purchase \"%(purchase)s\" you must configure a default account "
+"expense."
+msgstr "購買「%(purchase)s」の請求をするには、既定の費用の勘定科目を設定してください。"
+
+msgctxt "model:ir.message,text:msg_purchase_modify_header_draft"
+msgid ""
+"To modify the header of purchase \"%(purchase)s\", it must be in draft "
+"state."
+msgstr "購買「%(purchase)s」の見出しを変更するには、下書きの状態にしてください。"
+
+msgctxt "model:ir.message,text:msg_purchase_move_reset_draft"
+msgid ""
+"You cannot reset move \"%(move)s\" to draft because it was generated by a "
+"purchase."
+msgstr "移動「%(move)s」は購買から作られたため、下書きに戻せません。"
+
+msgctxt "model:ir.message,text:msg_purchase_product_missing_account_expense"
+msgid ""
+"To invoice purchase \"%(purchase)s\" you must define an account expense for "
+"product \"%(product)s\"."
+msgstr "購買「%(purchase)s」の請求をするには、品目「%(product)s」に費用の勘定科目を設定してください。"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_company"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_currency"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_date"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_expense"
+msgid "Expense"
+msgstr "費用"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_expense_trend"
+msgid "Expense Trend"
+msgstr "費用の推移"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_number"
+msgid "#"
+msgstr "#"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_number_help"
+msgid "Number of purchases."
+msgstr "購買の件数です。"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_time_series"
+msgid "Time Series"
+msgstr "時系列"
+
+msgctxt "model:ir.message,text:msg_purchase_supplier_location_required"
+msgid ""
+"To process purchase \"%(purchase)s\" you must set a supplier location on "
+"party \"%(party)s\"."
+msgstr "購買「%(purchase)s」を処理するには、取引先「%(party)s」に仕入先の場所を設定してください。"
+
+msgctxt "model:ir.message,text:msg_warehouse_required_for_quotation"
+msgid ""
+"To get a quote for the purchase \"%(purchase)s\" you must enter a warehouse "
+"for the line \"%(line)s\"."
+msgstr "購買「%(purchase)s」の見積をとるには、行「%(line)s」に倉庫を入力してください。"
+
+msgctxt "model:ir.model.button,string:purchase_cancel_button"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "model:ir.model.button,string:purchase_confirm_button"
+msgid "Confirm"
+msgstr "確定"
+
+msgctxt "model:ir.model.button,string:purchase_draft_button"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "model:ir.model.button,string:purchase_hande_invoice_exception_button"
+msgid "Handle Invoice Exception"
+msgstr "請求書の例外を処理"
+
+msgctxt ""
+"model:ir.model.button,string:purchase_hande_shipment_exception_button"
+msgid "Handle Shipment Exception"
+msgstr "出荷の例外を処理"
+
+msgctxt "model:ir.model.button,string:purchase_manual_invoice_button"
+msgid "Create Invoice"
+msgstr "請求書を作成"
+
+msgctxt "model:ir.model.button,string:purchase_modify_header_button"
+msgid "Modify Header"
+msgstr "見出しを変更"
+
+msgctxt "model:ir.model.button,string:purchase_process_button"
+msgid "Process"
+msgstr "処理"
+
+msgctxt "model:ir.model.button,string:purchase_quote_button"
+msgid "Quote"
+msgstr "見積"
+
+msgctxt "model:ir.rule.group,name:rule_group_product_supplier_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_purchase_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_main_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_main_time_series_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_product_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_product_time_series_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_supplier_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_supplier_time_series_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.sequence,name:sequence_purchase"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_purchase"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.ui.menu,name:menu_product_supplier"
+msgid "Suppliers"
+msgstr "仕入先"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase"
+msgid "Purchases"
+msgstr "購買"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase_configuration"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase_form"
+msgid "Purchases"
+msgstr "購買"
+
+msgctxt "model:ir.ui.menu,name:menu_reporting"
+msgid "Reporting"
+msgstr "帳票"
+
+msgctxt "model:ir.ui.menu,name:menu_reporting_purchase"
+msgid "Purchases"
+msgstr "購買"
+
+msgctxt "model:party.party.customer_code,string:"
+msgid "Party Customer Code"
+msgstr "取引先の顧客コード"
+
+msgctxt "model:party.party.supplier_currency,string:"
+msgid "Party Supplier Currency"
+msgstr "取引先の仕入先の通貨"
+
+msgctxt "model:party.party.supplier_lead_time,string:"
+msgid "Party Supplier Lead Time"
+msgstr "取引先の仕入先のリードタイム"
+
+msgctxt "model:purchase.configuration,string:"
+msgid "Purchase Configuration"
+msgstr "購買の設定"
+
+msgctxt "model:purchase.configuration.purchase_method,string:"
+msgid "Purchase Configuration Purchase Method"
+msgstr "購買の設定 - 購買の方法"
+
+msgctxt "model:purchase.configuration.sequence,string:"
+msgid "Purchase Configuration Sequence"
+msgstr "購買の設定 - 連番"
+
+msgctxt "model:purchase.handle.invoice.exception.ask,string:"
+msgid "Purchase Handle Invoice Exception Ask"
+msgstr "購買 - 請求書の例外の処理"
+
+msgctxt "model:purchase.handle.shipment.exception.ask,string:"
+msgid "Purchase Handle Shipment Exception Ask"
+msgstr "購買 - 出荷の例外の処理"
+
+msgctxt "model:purchase.line,string:"
+msgid "Purchase Line"
+msgstr "購買の行"
+
+msgctxt "model:purchase.line-account.tax,string:"
+msgid "Purchase Line - Account Tax"
+msgstr "購買の行 - 税"
+
+msgctxt "model:purchase.line-ignored-stock.move,string:"
+msgid "Purchase Line - Ignored - Stock Move"
+msgstr "購買の行 - 無視した在庫移動"
+
+msgctxt "model:purchase.line-recreated-stock.move,string:"
+msgid "Purchase Line - Recreated - Stock Move"
+msgstr "購買の行 - 作り直した在庫移動"
+
+msgctxt "model:purchase.product_supplier,string:"
+msgid "Purchase Product Supplier"
+msgstr "購買の品目の仕入先"
+
+msgctxt "model:purchase.product_supplier.price,string:"
+msgid "Purchase Product Supplier Price"
+msgstr "購買の品目の仕入先の価格"
+
+msgctxt "model:purchase.purchase,string:"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "model:purchase.purchase-ignored-account.invoice,string:"
+msgid "Purchase - Ignored - Account Invoice"
+msgstr "購買 - 無視した請求書"
+
+msgctxt "model:purchase.purchase-recreated-account.invoice,string:"
+msgid "Purchase - Recreated - Account Invoice"
+msgstr "購買 - 作り直した請求書"
+
+msgctxt "model:purchase.reporting.context,string:"
+msgid "Purchase Reporting Context"
+msgstr "購買の集計の条件"
+
+msgctxt "model:purchase.reporting.main,string:"
+msgid "Purchase Reporting Main"
+msgstr "購買の集計"
+
+msgctxt "model:purchase.reporting.main.time_series,string:"
+msgid "Purchase Reporting Main Time Series"
+msgstr "購買の集計の時系列"
+
+msgctxt "model:purchase.reporting.product,string:"
+msgid "Purchase Reporting Product"
+msgstr "品目別の購買の集計"
+
+msgctxt "model:purchase.reporting.product.time_series,string:"
+msgid "Purchase Reporting Product Time Series"
+msgstr "品目別の購買の集計の時系列"
+
+msgctxt "model:purchase.reporting.supplier,string:"
+msgid "Purchase Reporting Supplier"
+msgstr "仕入先別の購買の集計"
+
+msgctxt "model:purchase.reporting.supplier.time_series,string:"
+msgid "Purchase Reporting Supplier Time Series"
+msgstr "仕入先別の購買の集計の時系列"
+
+msgctxt "model:purchase.return_purchase.start,string:"
+msgid "Purchase Return Purchase Start"
+msgstr "購買の返品の開始"
+
+msgctxt "model:res.group,name:group_purchase"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "model:res.group,name:group_purchase_admin"
+msgid "Purchase Administrator"
+msgstr "購買の管理者"
+
+msgctxt "report:purchase.purchase:"
+msgid ":"
+msgstr ":"
+
+msgctxt "report:purchase.purchase:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "report:purchase.purchase:"
+msgid "Customer Code:"
+msgstr "顧客コード:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Date:"
+msgstr "日付:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Delivery Address:"
+msgstr "納入先の住所:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "report:purchase.purchase:"
+msgid "Description:"
+msgstr "説明:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Draft Purchase Order"
+msgstr "発注書(下書き)"
+
+msgctxt "report:purchase.purchase:"
+msgid "Purchase Order No:"
+msgstr "発注番号:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "report:purchase.purchase:"
+msgid "Reference:"
+msgstr "参照:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Request for Quotation No:"
+msgstr "見積依頼番号:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "report:purchase.purchase:"
+msgid "Taxes:"
+msgstr "税:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Total (excl. taxes):"
+msgstr "合計(税抜):"
+
+msgctxt "report:purchase.purchase:"
+msgid "Total:"
+msgstr "合計:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Unit Price"
+msgstr "単価"
+
+msgctxt "selection:account.invoice,purchase_exception_state:"
+msgid "Ignored"
+msgstr "無視"
+
+msgctxt "selection:account.invoice,purchase_exception_state:"
+msgid "Recreated"
+msgstr "作り直し"
+
+msgctxt "selection:purchase.line,type:"
+msgid "Comment"
+msgstr "コメント"
+
+msgctxt "selection:purchase.line,type:"
+msgid "Line"
+msgstr "行"
+
+msgctxt "selection:purchase.line,type:"
+msgid "Subtotal"
+msgstr "小計"
+
+msgctxt "selection:purchase.line,type:"
+msgid "Title"
+msgstr "見出し"
+
+msgctxt "selection:purchase.purchase,invoice_method:"
+msgid "Manual"
+msgstr "手動"
+
+msgctxt "selection:purchase.purchase,invoice_method:"
+msgid "On Fulfillment"
+msgstr "納品のとき"
+
+msgctxt "selection:purchase.purchase,invoice_method:"
+msgid "On Order"
+msgstr "発注のとき"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "Awaiting Payment"
+msgstr "支払待ち"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "Exception"
+msgstr "例外"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "None"
+msgstr "なし"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "Paid"
+msgstr "支払済み"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "Partially Paid"
+msgstr "一部支払済み"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "Pending"
+msgstr "未完了"
+
+msgctxt "selection:purchase.purchase,shipment_state:"
+msgid "Exception"
+msgstr "例外"
+
+msgctxt "selection:purchase.purchase,shipment_state:"
+msgid "None"
+msgstr "なし"
+
+msgctxt "selection:purchase.purchase,shipment_state:"
+msgid "Partially Shipped"
+msgstr "一部出荷済み"
+
+msgctxt "selection:purchase.purchase,shipment_state:"
+msgid "Received"
+msgstr "受領済み"
+
+msgctxt "selection:purchase.purchase,shipment_state:"
+msgid "Waiting"
+msgstr "待機中"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Cancelled"
+msgstr "取消済み"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Confirmed"
+msgstr "確定"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Done"
+msgstr "完了"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Processing"
+msgstr "処理中"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Quotation"
+msgstr "見積"
+
+msgctxt "selection:purchase.reporting.context,period:"
+msgid "Day"
+msgstr "日"
+
+msgctxt "selection:purchase.reporting.context,period:"
+msgid "Month"
+msgstr "月"
+
+msgctxt "selection:purchase.reporting.context,period:"
+msgid "Year"
+msgstr "年"
+
+msgctxt "selection:stock.move,purchase_exception_state:"
+msgid "Ignored"
+msgstr "無視"
+
+msgctxt "selection:stock.move,purchase_exception_state:"
+msgid "Recreated"
+msgstr "作り直し"
+
+msgctxt "view:party.party:"
+msgid "Supplier"
+msgstr "仕入先"
+
+msgctxt "view:product.template:"
+msgid "Suppliers"
+msgstr "仕入先"
+
+msgctxt "view:purchase.handle.invoice.exception.ask:"
+msgid "Choose cancelled invoices to ignore or recreate:"
+msgstr "無視するか作り直す取消済みの請求書を選んでください:"
+
+msgctxt "view:purchase.handle.shipment.exception.ask:"
+msgid "Choose cancelled stock moves to ignore or recreate:"
+msgstr "無視するか作り直す取消済みの在庫移動を選んでください:"
+
+msgctxt "view:purchase.line:"
+msgid "Delivery Date:"
+msgstr "納期:"
+
+msgctxt "view:purchase.line:"
+msgid "General"
+msgstr "全般"
+
+msgctxt "view:purchase.line:"
+msgid "Invoicing"
+msgstr "請求"
+
+msgctxt "view:purchase.line:"
+msgid "Notes"
+msgstr "メモ"
+
+msgctxt "view:purchase.line:"
+msgid "Shipping"
+msgstr "出荷"
+
+msgctxt "view:purchase.line:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "view:purchase.purchase:"
+msgid "Other Info"
+msgstr "その他の情報"
+
+msgctxt "view:purchase.purchase:"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "view:purchase.return_purchase.start:"
+msgid "Are you sure to return these/this purchase(s)?"
+msgstr "この購買を返品してよろしいですか?"
+
+msgctxt "wizard_button:purchase.handle.invoice.exception,ask,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:purchase.handle.invoice.exception,ask,handle:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:purchase.handle.shipment.exception,ask,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:purchase.handle.shipment.exception,ask,handle:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:purchase.modify_header,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:purchase.modify_header,start,modify:"
+msgid "Modify"
+msgstr "変更"
+
+msgctxt "wizard_button:purchase.return_purchase,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:purchase.return_purchase,start,return_:"
+msgid "Return"
+msgstr "返品"

@@ -140,9 +140,17 @@ Tryton が使えるデータベースは PostgreSQL と SQLite だけで、Maria
      (Revenue の下)、費用 Merchandise, Material, Parts And Supplies です。ブラウザーが
      サインインの名前(admin)を自動で入れることがあるので、消してから選びます。既定は後で
      Financial → Configuration → Configuration で変えられます
-7. 1 件通します(まだ確かめていない): 会計年度、お客さん、品目を作り、販売 → 出荷 → 請求書と
+7. 日本語にします([aiai_ja](aiai_ja/README.md))。読み込んで trytond を動かし直し、利用者の
+   言語を「日本語」にします
+
+   ```
+   pip install /リポジトリの場所/tryton/aiai_ja
+   trytond_import_ja -c ~/apps/tryton/trytond.conf -d tryton --sao ~/apps/tryton/sao
+   ```
+
+8. 1 件通します(まだ確かめていない): 会計年度、お客さん、品目を作り、販売 → 出荷 → 請求書と
    進め、請求書を記帳して、仕訳ができたことを見ます
-8. バックアップは PostgreSQL の `pg_dump` と、`files` のフォルダーの写しです
+9. バックアップは PostgreSQL の `pg_dump` と、`files` のフォルダーの写しです
 
    ```
    pg_dump -Fc tryton > tryton.dump
@@ -165,10 +173,8 @@ Tryton には日本語の訳がありません(訳がある言葉は 24 で、�
    * 弥生と freee の仕訳帳の CSV を読み込む道具
    * 銀行の明細の CSV を読み込み、決まり(`account_statement_rule`)で仕訳にする道具。freee の
      口座連携と自動の仕訳の代わりで、決まりは AI が下書きし、人が確かめます
-3. 日本語(`aiai_ja`): 言語 `ja` を足し(本体の言語の一覧にないので、データとして書きます)、
-   モジュールごとの訳を `locale/` の PO ファイルに書きます。言葉は、ERPNext で作った用語集
-   ([erpnext/aiai_ja/yougo.csv](../erpnext/aiai_ja/yougo.csv))にそろえます。訳の無い文と、
-   差し込み(`%s` など)の数が合うかを確かめる道具も作ります
+3. 日本語([aiai_ja](aiai_ja/)、2026-10-12 にできた): 言語 `ja` を作り、14 のモジュールと sao の
+   すべての文を訳しました。訳は AI の下書きで、使いながら直します
 4. 消費税と請求書(`account_jp` に足す): 10% と軽減の 8%、簡易課税と 2 割特例の計算、適格
    請求書に要る項目(登録番号など)。フランスの `account_fr` の作りを手本にします
 5. 減価償却: 日本の定額法と耐用年数に合わせます(`account_asset` を受け継ぎます)

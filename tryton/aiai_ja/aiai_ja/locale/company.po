@@ -1,0 +1,466 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:company.company,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:company.company,employees:"
+msgid "Employees"
+msgstr "従業員"
+
+msgctxt "field:company.company,footer:"
+msgid "Footer"
+msgstr "フッター"
+
+msgctxt "field:company.company,header:"
+msgid "Header"
+msgstr "見出し行"
+
+msgctxt "field:company.company,logo:"
+msgid "Logo"
+msgstr "ロゴ"
+
+msgctxt "field:company.company,logo_cache:"
+msgid "Cache"
+msgstr "キャッシュ"
+
+msgctxt "field:company.company,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:company.company,tax_identifiers:"
+msgid "Tax Identifiers"
+msgstr "税番号"
+
+msgctxt "field:company.company,timezone:"
+msgid "Timezone"
+msgstr "タイムゾーン"
+
+msgctxt "field:company.company.logo.cache,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:company.company.logo.cache,height:"
+msgid "Height"
+msgstr "高さ"
+
+msgctxt "field:company.company.logo.cache,image:"
+msgid "Image"
+msgstr "画像"
+
+msgctxt "field:company.company.logo.cache,width:"
+msgid "Width"
+msgstr "幅"
+
+msgctxt "field:company.company.tax_identifier,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:company.company.tax_identifier,company_party:"
+msgid "Company Party"
+msgstr "会社の取引先"
+
+msgctxt "field:company.company.tax_identifier,country:"
+msgid "Country"
+msgstr "国"
+
+msgctxt "field:company.company.tax_identifier,organization:"
+msgid "Organization"
+msgstr "組織"
+
+msgctxt "field:company.company.tax_identifier,tax_identifier:"
+msgid "Tax Identifier"
+msgstr "税番号"
+
+msgctxt "field:company.employee,active:"
+msgid "Active"
+msgstr "有効"
+
+msgctxt "field:company.employee,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:company.employee,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:company.employee,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:company.employee,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:company.employee,subordinates:"
+msgid "Subordinates"
+msgstr "部下"
+
+msgctxt "field:company.employee,supervisor:"
+msgid "Supervisor"
+msgstr "上司"
+
+msgctxt "field:ir.cron,companies:"
+msgid "Companies"
+msgstr "会社"
+
+msgctxt "field:ir.cron-company.company,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:ir.cron-company.company,cron:"
+msgid "Cron"
+msgstr "定期実行"
+
+msgctxt "field:ir.sequence,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:ir.sequence.strict,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:party.configuration.party_lang,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:party.contact_mechanism.language,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:party.party.lang,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:res.user,companies:"
+msgid "Companies"
+msgstr "会社"
+
+msgctxt "field:res.user,company:"
+msgid "Current Company"
+msgstr "現在の会社"
+
+msgctxt "field:res.user,company_filter:"
+msgid "Company Filter"
+msgstr "会社の絞り込み"
+
+msgctxt "field:res.user,employee:"
+msgid "Current Employee"
+msgstr "現在の従業員"
+
+msgctxt "field:res.user,employees:"
+msgid "Employees"
+msgstr "従業員"
+
+msgctxt "field:res.user-company.company,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:res.user-company.company,user:"
+msgid "User"
+msgstr "利用者"
+
+msgctxt "field:res.user-company.employee,employee:"
+msgid "Employee"
+msgstr "従業員"
+
+msgctxt "field:res.user-company.employee,user:"
+msgid "User"
+msgstr "利用者"
+
+msgctxt "help:company.company,currency:"
+msgid "The main currency for the company."
+msgstr "会社の主な通貨です。"
+
+msgctxt "help:company.company,employees:"
+msgid "Add employees to the company."
+msgstr "会社に従業員を追加します。"
+
+msgctxt "help:company.company,footer:"
+msgid ""
+"The text to display on report footers.\n"
+"The following placeholders can be used:\n"
+"- ${name}\n"
+"- ${phone}\n"
+"- ${mobile}\n"
+"- ${fax}\n"
+"- ${email}\n"
+"- ${website}\n"
+"- ${address}\n"
+"- ${tax_identifier}\n"
+msgstr ""
+"帳票のフッターに表示する文です。\n"
+"次のプレースホルダーを使えます:\n"
+"- ${name}\n"
+"- ${phone}\n"
+"- ${mobile}\n"
+"- ${fax}\n"
+"- ${email}\n"
+"- ${website}\n"
+"- ${address}\n"
+"- ${tax_identifier}\n"
+
+msgctxt "help:company.company,header:"
+msgid ""
+"The text to display on report headers.\n"
+"The following placeholders can be used:\n"
+"- ${name}\n"
+"- ${phone}\n"
+"- ${mobile}\n"
+"- ${fax}\n"
+"- ${email}\n"
+"- ${website}\n"
+"- ${address}\n"
+"- ${tax_identifier}\n"
+msgstr ""
+"帳票のヘッダーに表示する文です。\n"
+"次のプレースホルダーを使えます:\n"
+"- ${name}\n"
+"- ${phone}\n"
+"- ${mobile}\n"
+"- ${fax}\n"
+"- ${email}\n"
+"- ${website}\n"
+"- ${address}\n"
+"- ${tax_identifier}\n"
+
+msgctxt "help:company.company,tax_identifiers:"
+msgid ""
+"Uses the first identifier that matches the criteria.\n"
+"If none match, uses the party's tax identifier."
+msgstr ""
+"条件に合う最初の識別子を使います。\n"
+"どれも合わないときは、取引先の税の識別子を使います。"
+
+msgctxt "help:company.company,timezone:"
+msgid "Used to compute the today date."
+msgstr "今日の日付を求めるのに使います。"
+
+msgctxt "help:company.company.tax_identifier,country:"
+msgid "Applies only to addresses in this country."
+msgstr "この国の住所にだけ適用します。"
+
+msgctxt "help:company.company.tax_identifier,organization:"
+msgid "Applies only to addresses in this organization."
+msgstr "この組織の住所にだけ適用します。"
+
+msgctxt "help:company.company.tax_identifier,tax_identifier:"
+msgid "The identifier used for tax report."
+msgstr "税の報告に使う識別子です。"
+
+msgctxt "help:company.employee,company:"
+msgid "The company to which the employee belongs."
+msgstr "従業員が所属する会社です。"
+
+msgctxt "help:company.employee,end_date:"
+msgid "When the employee leaves the company."
+msgstr "従業員が会社を離れる日です。"
+
+msgctxt "help:company.employee,party:"
+msgid "The party which represents the employee."
+msgstr "従業員を表す取引先です。"
+
+msgctxt "help:company.employee,start_date:"
+msgid "When the employee joins the company."
+msgstr "従業員が会社に入る日です。"
+
+msgctxt "help:company.employee,subordinates:"
+msgid "The employees to be overseen by this employee."
+msgstr "この従業員が監督する従業員です。"
+
+msgctxt "help:company.employee,supervisor:"
+msgid "The employee who oversees this employee."
+msgstr "この従業員を監督する従業員です。"
+
+msgctxt "help:ir.cron,companies:"
+msgid "Companies registered for this cron."
+msgstr "この定期実行に登録された会社です。"
+
+msgctxt "help:ir.rule,domain:"
+msgid ""
+"\n"
+"- \"companies\" as list of ids from the current user"
+msgstr ""
+"\n"
+"- \"companies\" は現在の利用者の会社の ID の一覧"
+
+msgctxt "help:ir.sequence,company:"
+msgid "Restricts the sequence usage to the company."
+msgstr "連番を使えるのをこの会社に限ります。"
+
+msgctxt "help:ir.sequence.strict,company:"
+msgid "Restricts the sequence usage to the company."
+msgstr "連番を使えるのをこの会社に限ります。"
+
+msgctxt "help:res.user,companies:"
+msgid "The companies that the user has access to."
+msgstr "利用者がアクセスできる会社です。"
+
+msgctxt "help:res.user,company:"
+msgid "Select the company to work for."
+msgstr "作業する会社を選びます。"
+
+msgctxt "help:res.user,company_filter:"
+msgid "Define records of which companies are shown."
+msgstr "どの会社の記録を表示するかを決めます。"
+
+msgctxt "help:res.user,employee:"
+msgid "Select the employee to make the user behave as such."
+msgstr "利用者をその従業員として扱うために、従業員を選びます。"
+
+msgctxt "help:res.user,employees:"
+msgid "Add employees to grant the user access to them."
+msgstr "利用者にアクセスを許す従業員を追加します。"
+
+msgctxt "model:company.company,string:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "model:company.company.config.start,string:"
+msgid "Company Config Start"
+msgstr "会社の設定の開始"
+
+msgctxt "model:company.company.logo.cache,string:"
+msgid "Company Logo Cache"
+msgstr "会社のロゴのキャッシュ"
+
+msgctxt "model:company.company.tax_identifier,string:"
+msgid "Company Tax Identifier"
+msgstr "会社の税の識別子"
+
+msgctxt "model:company.employee,string:"
+msgid "Company Employee"
+msgstr "会社の従業員"
+
+msgctxt "model:ir.action,name:act_company_config"
+msgid "Configure Company"
+msgstr "会社の設定"
+
+msgctxt "model:ir.action,name:act_company_list"
+msgid "Companies"
+msgstr "会社"
+
+msgctxt "model:ir.action,name:act_employee_form"
+msgid "Employees"
+msgstr "従業員"
+
+msgctxt "model:ir.action,name:act_employee_subordinates"
+msgid "Supervised by"
+msgstr "監督者"
+
+msgctxt "model:ir.action,name:report_letter"
+msgid "Letter"
+msgstr "レター"
+
+msgctxt "model:ir.cron-company.company,string:"
+msgid "Cron - Company"
+msgstr "定期実行 - 会社"
+
+msgctxt "model:ir.message,text:msg_company_logo_cache_size_unique"
+msgid "The size of cached company logo must be unique."
+msgstr "会社のロゴのキャッシュの大きさは重複できません。"
+
+msgctxt "model:ir.message,text:msg_company_logo_error"
+msgid "Can not open or identify the image set for the company logo."
+msgstr "会社のロゴに設定した画像を開けないか、識別できません。"
+
+msgctxt "model:ir.message,text:msg_company_party_unique"
+msgid "A party can only be assigned to one company."
+msgstr "取引先は 1 つの会社にだけ割り当てられます。"
+
+msgctxt "model:ir.rule.group,name:rule_group_sequence_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_sequence_strict_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.ui.menu,name:menu_company"
+msgid "Companies"
+msgstr "会社"
+
+msgctxt "model:ir.ui.menu,name:menu_company_list"
+msgid "Companies"
+msgstr "会社"
+
+msgctxt "model:ir.ui.menu,name:menu_employee_form"
+msgid "Employees"
+msgstr "従業員"
+
+msgctxt "model:res.group,name:group_company_admin"
+msgid "Company Administration"
+msgstr "会社の管理"
+
+msgctxt "model:res.group,name:group_employee_admin"
+msgid "Employee Administration"
+msgstr "従業員の管理"
+
+msgctxt "model:res.user-company.company,string:"
+msgid "User - Company"
+msgstr "利用者 - 会社"
+
+msgctxt "model:res.user-company.employee,string:"
+msgid "User - Company Employee"
+msgstr "利用者 - 会社の従業員"
+
+msgctxt "report:party.letter:"
+msgid "Best Regards,"
+msgstr "敬具"
+
+msgctxt "report:party.letter:"
+msgid "Date:"
+msgstr "日付:"
+
+msgctxt "report:party.letter:"
+msgid "Dear Madams and Sirs,"
+msgstr "拝啓"
+
+msgctxt "report:party.letter:"
+msgid "Subject:"
+msgstr "件名:"
+
+msgctxt "selection:res.user,company_filter:"
+msgid "All"
+msgstr "すべて"
+
+msgctxt "selection:res.user,company_filter:"
+msgid "Current"
+msgstr "現在"
+
+msgctxt "view:company.company.config.start:"
+msgid "You can now add your company into the system."
+msgstr "会社をシステムに追加できます。"
+
+msgctxt "view:company.company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "view:company.company:"
+msgid "Reports"
+msgstr "帳票"
+
+msgctxt "view:company.employee:"
+msgid "Employee"
+msgstr "従業員"
+
+msgctxt "wizard_button:company.company.config,company,add:"
+msgid "Add"
+msgstr "追加"
+
+msgctxt "wizard_button:company.company.config,company,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:company.company.config,start,company:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:company.company.config,start,end:"
+msgid "Cancel"
+msgstr "取消"

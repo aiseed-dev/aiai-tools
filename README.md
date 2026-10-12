@@ -128,5 +128,5 @@ analytics.aiseed.dev で動き、天気のサイト weather.time-j.net で使っ
 ## ライセンス
 
 コード(`.py`、`.js`、`.css`、`.toml`)は AGPL-3.0-or-later(全文は [COPYING](COPYING))、それ以外(文書、
-設定の見本、画像)は CC BY 4.0 です。詳しくは [LICENSE](LICENSE) にあります。aiai と同じ決まりです。aiseed.dev の文章(CC BY 4.0)を元にした所は、この README と各フォルダーの
+設定の見本、画像)は CC BY 4.0 です。詳しくは [LICENSE](LICENSE) にあります。Tryton の日本語の訳([tryton/aiai_ja](tryton/aiai_ja/))だけは、Tryton と同じ GPL-3.0-or-later です。aiai と同じ決まりです。aiseed.dev の文章(CC BY 4.0)を元にした所は、この README と各フォルダーの
 `SKILL.md` に出典を書いています。

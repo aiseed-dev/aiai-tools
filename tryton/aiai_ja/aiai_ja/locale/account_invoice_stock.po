@@ -1,0 +1,54 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:account.invoice,shipments:"
+msgid "Shipments"
+msgstr "出荷"
+
+msgctxt "field:account.invoice.line,correction:"
+msgid "Correction"
+msgstr "訂正"
+
+msgctxt "field:account.invoice.line,shipments:"
+msgid "Shipments"
+msgstr "出荷"
+
+msgctxt "field:account.invoice.line,stock_moves:"
+msgid "Stock Moves"
+msgstr "在庫の移動"
+
+msgctxt "field:account.invoice.line,warehouse:"
+msgid "Warehouse"
+msgstr "倉庫"
+
+msgctxt "field:account.invoice.line-stock.move,invoice_line:"
+msgid "Invoice Line"
+msgstr "請求書の行"
+
+msgctxt "field:account.invoice.line-stock.move,stock_move:"
+msgid "Stock Move"
+msgstr "在庫の移動"
+
+msgctxt "field:stock.move,invoice_lines:"
+msgid "Invoice Lines"
+msgstr "請求書の行"
+
+msgctxt "field:stock.move,invoice_types:"
+msgid "Invoice Types"
+msgstr "請求書の種類"
+
+msgctxt "help:account.invoice.line,correction:"
+msgid "Check to correct price of already posted invoice."
+msgstr "記帳済みの請求書の価格を訂正するときに有効にします。"
+
+msgctxt "model:account.invoice.line-stock.move,string:"
+msgid "Account Invoice Line - Stock Move"
+msgstr "請求書の行 - 在庫の移動"
+
+msgctxt "view:account.invoice.line:"
+msgid "Stock"
+msgstr "在庫"

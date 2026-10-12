@@ -1,0 +1,220 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:account.configuration,default_category_account_expense:"
+msgid "Default Account Expense"
+msgstr "既定の費用の勘定科目"
+
+msgctxt "field:account.configuration,default_category_account_revenue:"
+msgid "Default Account Revenue"
+msgstr "既定の収益の勘定科目"
+
+msgctxt ""
+"field:account.configuration.default_account,default_category_account_expense:"
+msgid "Default Account Expense"
+msgstr "既定の費用の勘定科目"
+
+msgctxt ""
+"field:account.configuration.default_account,default_category_account_revenue:"
+msgid "Default Account Revenue"
+msgstr "既定の収益の勘定科目"
+
+msgctxt "field:account.create_chart.properties,category_account_expense:"
+msgid "Default Expense Account"
+msgstr "既定の費用の勘定科目"
+
+msgctxt "field:account.create_chart.properties,category_account_revenue:"
+msgid "Default Revenue Account"
+msgstr "既定の収益の勘定科目"
+
+msgctxt "field:analytic_account.rule,product:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "field:analytic_account.rule,product_category:"
+msgid "Product Category"
+msgstr "品目の分類"
+
+msgctxt "field:product.category,account_expense:"
+msgid "Account Expense"
+msgstr "費用の勘定科目"
+
+msgctxt "field:product.category,account_parent:"
+msgid "Use Parent's accounts"
+msgstr "親の勘定科目を使う"
+
+msgctxt "field:product.category,account_revenue:"
+msgid "Account Revenue"
+msgstr "収益の勘定科目"
+
+msgctxt "field:product.category,accounting:"
+msgid "Accounting"
+msgstr "会計"
+
+msgctxt "field:product.category,accounting_templates:"
+msgid "Accounting Products"
+msgstr "会計の品目"
+
+msgctxt "field:product.category,accounts:"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "field:product.category,customer_taxes:"
+msgid "Customer Taxes"
+msgstr "顧客の税"
+
+msgctxt "field:product.category,customer_taxes_used:"
+msgid "Customer Taxes Used"
+msgstr "使われる顧客の税"
+
+msgctxt "field:product.category,supplier_taxes:"
+msgid "Supplier Taxes"
+msgstr "仕入先の税"
+
+msgctxt "field:product.category,supplier_taxes_deductible_rate:"
+msgid "Supplier Taxes Deductible Rate"
+msgstr "仕入先の税の控除率"
+
+msgctxt "field:product.category,supplier_taxes_used:"
+msgid "Supplier Taxes Used"
+msgstr "使われる仕入先の税"
+
+msgctxt "field:product.category,taxes_parent:"
+msgid "Use the Parent's Taxes"
+msgstr "親の税を使う"
+
+msgctxt "field:product.category-customer-account.tax,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:product.category-customer-account.tax,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:product.category-supplier-account.tax,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:product.category-supplier-account.tax,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:product.category.account,account_expense:"
+msgid "Account Expense"
+msgstr "費用の勘定科目"
+
+msgctxt "field:product.category.account,account_revenue:"
+msgid "Account Revenue"
+msgstr "収益の勘定科目"
+
+msgctxt "field:product.category.account,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:product.category.account,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:product.product,account_category:"
+msgid "Account Category"
+msgstr "会計の分類"
+
+msgctxt "field:product.template,account_category:"
+msgid "Account Category"
+msgstr "会計の分類"
+
+msgctxt "field:product.template-product.category.account,category:"
+msgid "Category"
+msgstr "分類"
+
+msgctxt "field:product.template-product.category.account,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "help:product.category,account_parent:"
+msgid "Use the accounts defined on the parent category."
+msgstr "親の分類に設定した勘定科目を使います。"
+
+msgctxt "help:product.category,accounting:"
+msgid "Check to indicate the category is used for accounting."
+msgstr "この分類を会計に使うときに有効にします。"
+
+msgctxt "help:product.category,accounting_templates:"
+msgid "The products for which the accounting category applies."
+msgstr "この会計の分類を適用する品目です。"
+
+msgctxt "help:product.category,customer_taxes:"
+msgid "The taxes to apply when selling products of this category."
+msgstr "この分類の品目を販売するときにかける税です。"
+
+msgctxt "help:product.category,supplier_taxes:"
+msgid "The taxes to apply when purchasing products of this category."
+msgstr "この分類の品目を購買するときにかける税です。"
+
+msgctxt "help:product.category,taxes_parent:"
+msgid "Use the taxes defined on the parent category."
+msgstr "親の分類に設定した税を使います。"
+
+msgctxt "model:ir.message,text:msg_missing_account"
+msgid "There is no \"%(field)s\" defined for \"%(name)s\"."
+msgstr "「%(name)s」に「%(field)s」が設定されていません。"
+
+msgctxt "model:ir.message,text:msg_missing_taxes"
+msgid "There is no account category defined on product \"%(name)s\"."
+msgstr "品目「%(name)s」に会計の分類が設定されていません。"
+
+msgctxt "model:ir.rule.group,name:rule_group_category_accounting"
+msgid "Any category"
+msgstr "すべての分類"
+
+msgctxt "model:ir.rule.group,name:rule_group_category_default"
+msgid "Not accounting category"
+msgstr "会計以外の分類"
+
+msgctxt "model:product.category-customer-account.tax,string:"
+msgid "Product Category - Customer - Account Tax"
+msgstr "品目の分類 - 顧客 - 税"
+
+msgctxt "model:product.category-supplier-account.tax,string:"
+msgid "Product Category - Supplier - Account Tax"
+msgstr "品目の分類 - 仕入先 - 税"
+
+msgctxt "model:product.category.account,string:"
+msgid "Product Category Account"
+msgstr "品目の分類の勘定科目"
+
+msgctxt "model:product.template-product.category.account,string:"
+msgid "Product Template - Product Category Account"
+msgstr "品目のひな形 - 品目の分類の勘定科目"
+
+msgctxt "model:res.group,name:group_account_product_admin"
+msgid "Account Product Administration"
+msgstr "会計の品目の管理"
+
+msgctxt "view:account.configuration:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "view:account.create_chart.properties:"
+msgid "Product"
+msgstr "品目"
+
+msgctxt "view:product.category:"
+msgid "Accounting"
+msgstr "会計"
+
+msgctxt "view:product.category:"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "view:product.category:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "view:product.template:"
+msgid "Accounting"
+msgstr "会計"

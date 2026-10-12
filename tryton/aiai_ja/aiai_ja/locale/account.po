@@ -1,0 +1,4892 @@
+#
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:account.account,active:"
+msgid "Active"
+msgstr "有効"
+
+msgctxt "field:account.account,amount_second_currency:"
+msgid "Amount Second Currency"
+msgstr "第2通貨の金額"
+
+msgctxt "field:account.account,balance:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "field:account.account,childs:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:account.account,closed:"
+msgid "Closed"
+msgstr "閉鎖"
+
+msgctxt "field:account.account,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:account.account,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.account,context_company:"
+msgid "Context Company"
+msgstr "コンテキストの会社"
+
+msgctxt "field:account.account,credit:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "field:account.account,credit_type:"
+msgid "Credit Type"
+msgstr "貸方の種類"
+
+msgctxt "field:account.account,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.account,debit:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "field:account.account,debit_type:"
+msgid "Debit Type"
+msgstr "借方の種類"
+
+msgctxt "field:account.account,deferral:"
+msgid "Deferral"
+msgstr "繰越"
+
+msgctxt "field:account.account,deferrals:"
+msgid "Deferrals"
+msgstr "繰越"
+
+msgctxt "field:account.account,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.account,general_ledger_balance:"
+msgid "General Ledger Balance"
+msgstr "総勘定元帳の残高"
+
+msgctxt "field:account.account,left:"
+msgid "Left"
+msgstr "左"
+
+msgctxt "field:account.account,line_count:"
+msgid "Line Count"
+msgstr "行数"
+
+msgctxt "field:account.account,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.account,note:"
+msgid "Note"
+msgstr "メモ"
+
+msgctxt "field:account.account,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:account.account,party_required:"
+msgid "Party Required"
+msgstr "取引先が必要"
+
+msgctxt "field:account.account,reconcile:"
+msgid "Reconcile"
+msgstr "消し込み"
+
+msgctxt "field:account.account,replaced_by:"
+msgid "Replaced By"
+msgstr "置き換え先"
+
+msgctxt "field:account.account,right:"
+msgid "Right"
+msgstr "右"
+
+msgctxt "field:account.account,second_currency:"
+msgid "Second Currency"
+msgstr "第2通貨"
+
+msgctxt "field:account.account,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.account,taxes:"
+msgid "Default Taxes"
+msgstr "既定の税"
+
+msgctxt "field:account.account,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:account.account,template_override:"
+msgid "Override Template"
+msgstr "ひな形を上書き"
+
+msgctxt "field:account.account,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.account-account.tax,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.account-account.tax,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:account.account.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.account.context,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "会計年度"
+
+msgctxt "field:account.account.context,posted:"
+msgid "Posted Moves"
+msgstr "記帳済みの仕訳"
+
+msgctxt "field:account.account.deferral,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.account.deferral,amount_second_currency:"
+msgid "Amount Second Currency"
+msgstr "第2通貨の金額"
+
+msgctxt "field:account.account.deferral,balance:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "field:account.account.deferral,credit:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "field:account.account.deferral,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.account.deferral,debit:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "field:account.account.deferral,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "会計年度"
+
+msgctxt "field:account.account.deferral,line_count:"
+msgid "Line Count"
+msgstr "行数"
+
+msgctxt "field:account.account.deferral,second_currency:"
+msgid "Second Currency"
+msgstr "第2通貨"
+
+msgctxt "field:account.account.party,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.account.party,active:"
+msgid "Active"
+msgstr "有効"
+
+msgctxt "field:account.account.party,amount_second_currency:"
+msgid "Amount Second Currency"
+msgstr "第2通貨の金額"
+
+msgctxt "field:account.account.party,balance:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "field:account.account.party,closed:"
+msgid "Closed"
+msgstr "閉鎖"
+
+msgctxt "field:account.account.party,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:account.account.party,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.account.party,credit:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "field:account.account.party,credit_type:"
+msgid "Credit Type"
+msgstr "貸方の種類"
+
+msgctxt "field:account.account.party,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.account.party,debit:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "field:account.account.party,debit_type:"
+msgid "Debit Type"
+msgstr "借方の種類"
+
+msgctxt "field:account.account.party,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.account.party,line_count:"
+msgid "Line Count"
+msgstr "行数"
+
+msgctxt "field:account.account.party,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.account.party,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.account.party,second_currency:"
+msgid "Secondary Currency"
+msgstr "第二通貨"
+
+msgctxt "field:account.account.party,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.account.party,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.account.template,childs:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:account.account.template,closed:"
+msgid "Closed"
+msgstr "閉鎖"
+
+msgctxt "field:account.account.template,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:account.account.template,credit_type:"
+msgid "Credit Type"
+msgstr "貸方の種類"
+
+msgctxt "field:account.account.template,debit_type:"
+msgid "Debit Type"
+msgstr "借方の種類"
+
+msgctxt "field:account.account.template,deferral:"
+msgid "Deferral"
+msgstr "繰越"
+
+msgctxt "field:account.account.template,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.account.template,general_ledger_balance:"
+msgid "General Ledger Balance"
+msgstr "総勘定元帳の残高"
+
+msgctxt "field:account.account.template,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.account.template,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:account.account.template,party_required:"
+msgid "Party Required"
+msgstr "取引先が必要"
+
+msgctxt "field:account.account.template,reconcile:"
+msgid "Reconcile"
+msgstr "消し込み"
+
+msgctxt "field:account.account.template,replaced_by:"
+msgid "Replaced By"
+msgstr "置き換え先"
+
+msgctxt "field:account.account.template,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.account.template,taxes:"
+msgid "Default Taxes"
+msgstr "既定の税"
+
+msgctxt "field:account.account.template,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.account.template-account.tax.template,account:"
+msgid "Account Template"
+msgstr "勘定科目のひな形"
+
+msgctxt "field:account.account.template-account.tax.template,tax:"
+msgid "Tax Template"
+msgstr "税のひな形"
+
+msgctxt "field:account.account.type,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.account.type,amount_cmp:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.account.type,assets:"
+msgid "Assets"
+msgstr "資産"
+
+msgctxt "field:account.account.type,childs:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:account.account.type,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.account.type,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.account.type,debt:"
+msgid "Debt"
+msgstr "負債"
+
+msgctxt "field:account.account.type,expense:"
+msgid "Expense"
+msgstr "費用"
+
+msgctxt "field:account.account.type,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.account.type,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:account.account.type,payable:"
+msgid "Payable"
+msgstr "買掛金"
+
+msgctxt "field:account.account.type,receivable:"
+msgid "Receivable"
+msgstr "売掛金"
+
+msgctxt "field:account.account.type,revenue:"
+msgid "Revenue"
+msgstr "収益"
+
+msgctxt "field:account.account.type,statement:"
+msgid "Statement"
+msgstr "財務諸表"
+
+msgctxt "field:account.account.type,stock:"
+msgid "Stock"
+msgstr "在庫"
+
+msgctxt "field:account.account.type,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:account.account.type,template_override:"
+msgid "Override Template"
+msgstr "ひな形を上書き"
+
+msgctxt "field:account.account.type.template,assets:"
+msgid "Assets"
+msgstr "資産"
+
+msgctxt "field:account.account.type.template,childs:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:account.account.type.template,debt:"
+msgid "Debt"
+msgstr "負債"
+
+msgctxt "field:account.account.type.template,expense:"
+msgid "Expense"
+msgstr "費用"
+
+msgctxt "field:account.account.type.template,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.account.type.template,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:account.account.type.template,payable:"
+msgid "Payable"
+msgstr "買掛金"
+
+msgctxt "field:account.account.type.template,receivable:"
+msgid "Receivable"
+msgstr "売掛金"
+
+msgctxt "field:account.account.type.template,revenue:"
+msgid "Revenue"
+msgstr "収益"
+
+msgctxt "field:account.account.type.template,statement:"
+msgid "Statement"
+msgstr "財務諸表"
+
+msgctxt "field:account.account.type.template,stock:"
+msgid "Stock"
+msgstr "在庫"
+
+msgctxt "field:account.aged_balance,balance:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "field:account.aged_balance,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.aged_balance,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.aged_balance,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.aged_balance,term0:"
+msgid "Now"
+msgstr "現在"
+
+msgctxt "field:account.aged_balance,term1:"
+msgid "First Term"
+msgstr "第1期間"
+
+msgctxt "field:account.aged_balance,term2:"
+msgid "Second Term"
+msgstr "第2期間"
+
+msgctxt "field:account.aged_balance,term3:"
+msgid "Third Term"
+msgstr "第3期間"
+
+msgctxt "field:account.aged_balance.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.aged_balance.context,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.aged_balance.context,posted:"
+msgid "Posted Move"
+msgstr "記帳済みの仕訳"
+
+msgctxt "field:account.aged_balance.context,term1:"
+msgid "First Term"
+msgstr "第1期間"
+
+msgctxt "field:account.aged_balance.context,term2:"
+msgid "Second Term"
+msgstr "第2期間"
+
+msgctxt "field:account.aged_balance.context,term3:"
+msgid "Third Term"
+msgstr "第3期間"
+
+msgctxt "field:account.aged_balance.context,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.aged_balance.context,unit:"
+msgid "Unit"
+msgstr "単位"
+
+msgctxt "field:account.balance_sheet.comparison.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.balance_sheet.comparison.context,comparison:"
+msgid "Comparison"
+msgstr "比較"
+
+msgctxt "field:account.balance_sheet.comparison.context,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.balance_sheet.comparison.context,date_cmp:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.balance_sheet.comparison.context,posted:"
+msgid "Posted Moves"
+msgstr "記帳済みの仕訳"
+
+msgctxt "field:account.balance_sheet.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.balance_sheet.context,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.balance_sheet.context,posted:"
+msgid "Posted Moves"
+msgstr "記帳済みの仕訳"
+
+msgctxt "field:account.configuration,currency_exchange_credit_account:"
+msgid "Currency Exchange Credit Account"
+msgstr "為替差益の勘定科目"
+
+msgctxt "field:account.configuration,currency_exchange_debit_account:"
+msgid "Currency Exchange Debit Account"
+msgstr "為替差損の勘定科目"
+
+msgctxt "field:account.configuration,currency_exchange_journal:"
+msgid "Currency Exchange Journal"
+msgstr "為替差損益の仕訳帳"
+
+msgctxt "field:account.configuration,default_account_payable:"
+msgid "Default Account Payable"
+msgstr "既定の買掛金勘定"
+
+msgctxt "field:account.configuration,default_account_receivable:"
+msgid "Default Account Receivable"
+msgstr "既定の売掛金勘定"
+
+msgctxt "field:account.configuration,default_customer_tax_rule:"
+msgid "Default Customer Tax Rule"
+msgstr "既定の顧客の税の規則"
+
+msgctxt "field:account.configuration,default_supplier_tax_rule:"
+msgid "Default Supplier Tax Rule"
+msgstr "既定の仕入先の税の規則"
+
+msgctxt "field:account.configuration,reconciliation_sequence:"
+msgid "Reconciliation Sequence"
+msgstr "消し込みの連番"
+
+msgctxt "field:account.configuration,tax_rounding:"
+msgid "Tax Rounding"
+msgstr "税の端数処理"
+
+msgctxt "field:account.configuration.default_account,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt ""
+"field:account.configuration.default_account,currency_exchange_credit_account:"
+msgid "Currency Exchange Credit Account"
+msgstr "為替差益の勘定科目"
+
+msgctxt ""
+"field:account.configuration.default_account,currency_exchange_debit_account:"
+msgid "Currency Exchange Debit Account"
+msgstr "為替差損の勘定科目"
+
+msgctxt "field:account.configuration.default_account,default_account_payable:"
+msgid "Default Account Payable"
+msgstr "既定の買掛金勘定"
+
+msgctxt ""
+"field:account.configuration.default_account,default_account_receivable:"
+msgid "Default Account Receivable"
+msgstr "既定の売掛金勘定"
+
+msgctxt "field:account.configuration.default_tax_rule,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt ""
+"field:account.configuration.default_tax_rule,default_customer_tax_rule:"
+msgid "Default Customer Tax Rule"
+msgstr "既定の顧客の税の規則"
+
+msgctxt ""
+"field:account.configuration.default_tax_rule,default_supplier_tax_rule:"
+msgid "Default Supplier Tax Rule"
+msgstr "既定の仕入先の税の規則"
+
+msgctxt "field:account.configuration.journal,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.configuration.journal,currency_exchange_journal:"
+msgid "Currency Exchange Journal"
+msgstr "為替差損益の仕訳帳"
+
+msgctxt "field:account.configuration.sequence,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.configuration.sequence,reconciliation_sequence:"
+msgid "Reconciliation Sequence"
+msgstr "消し込みの連番"
+
+msgctxt "field:account.configuration.tax_rounding,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.configuration.tax_rounding,configuration:"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "field:account.configuration.tax_rounding,tax_rounding:"
+msgid "Method"
+msgstr "メソッド"
+
+msgctxt "field:account.create_chart.account,account_template:"
+msgid "Account Template"
+msgstr "勘定科目のひな形"
+
+msgctxt "field:account.create_chart.account,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.create_chart.properties,account_payable:"
+msgid "Default Payable Account"
+msgstr "既定の買掛金勘定"
+
+msgctxt "field:account.create_chart.properties,account_receivable:"
+msgid "Default Receivable Account"
+msgstr "既定の売掛金勘定"
+
+msgctxt "field:account.create_chart.properties,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.fiscalyear,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.fiscalyear,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.fiscalyear,icon:"
+msgid "Icon"
+msgstr "アイコン"
+
+msgctxt "field:account.fiscalyear,move_sequence:"
+msgid "Move Sequence"
+msgstr "仕訳の連番"
+
+msgctxt "field:account.fiscalyear,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.fiscalyear,periods:"
+msgid "Periods"
+msgstr "期間"
+
+msgctxt "field:account.fiscalyear,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.fiscalyear,state:"
+msgid "State"
+msgstr "状態"
+
+msgctxt "field:account.fiscalyear.balance_non_deferral.start,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.fiscalyear.balance_non_deferral.start,credit_account:"
+msgid "Credit Account"
+msgstr "貸方の勘定科目"
+
+msgctxt "field:account.fiscalyear.balance_non_deferral.start,debit_account:"
+msgid "Debit Account"
+msgstr "借方の勘定科目"
+
+msgctxt "field:account.fiscalyear.balance_non_deferral.start,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "会計年度"
+
+msgctxt "field:account.fiscalyear.balance_non_deferral.start,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.fiscalyear.balance_non_deferral.start,period:"
+msgid "Period"
+msgstr "期間"
+
+msgctxt "field:account.fiscalyear.create_periods.start,end_day:"
+msgid "End Day"
+msgstr "締め日"
+
+msgctxt "field:account.fiscalyear.create_periods.start,frequency:"
+msgid "Frequency"
+msgstr "頻度"
+
+msgctxt "field:account.fiscalyear.create_periods.start,interval:"
+msgid "Interval"
+msgstr "間隔"
+
+msgctxt "field:account.fiscalyear.renew.start,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.fiscalyear.renew.start,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.fiscalyear.renew.start,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.fiscalyear.renew.start,previous_fiscalyear:"
+msgid "Previous Fiscalyear"
+msgstr "前の会計年度"
+
+msgctxt "field:account.fiscalyear.renew.start,reset_sequences:"
+msgid "Reset Sequences"
+msgstr "連番を初期化"
+
+msgctxt "field:account.fiscalyear.renew.start,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.general_ledger.account,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.general_ledger.account,active:"
+msgid "Active"
+msgstr "有効"
+
+msgctxt "field:account.general_ledger.account,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.general_ledger.account,credit:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "field:account.general_ledger.account,credit_type:"
+msgid "Credit Type"
+msgstr "貸方の種類"
+
+msgctxt "field:account.general_ledger.account,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.general_ledger.account,debit:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "field:account.general_ledger.account,debit_type:"
+msgid "Debit Type"
+msgstr "借方の種類"
+
+msgctxt "field:account.general_ledger.account,end_balance:"
+msgid "End Balance"
+msgstr "期末残高"
+
+msgctxt "field:account.general_ledger.account,end_credit:"
+msgid "End Credit"
+msgstr "期末貸方"
+
+msgctxt "field:account.general_ledger.account,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.general_ledger.account,end_debit:"
+msgid "End Debit"
+msgstr "期末借方"
+
+msgctxt "field:account.general_ledger.account,general_ledger_balance:"
+msgid "General Ledger Balance"
+msgstr "総勘定元帳の残高"
+
+msgctxt "field:account.general_ledger.account,line_count:"
+msgid "Line Count"
+msgstr "行数"
+
+msgctxt "field:account.general_ledger.account,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.general_ledger.account,start_balance:"
+msgid "Start Balance"
+msgstr "期首残高"
+
+msgctxt "field:account.general_ledger.account,start_credit:"
+msgid "Start Credit"
+msgstr "期首貸方"
+
+msgctxt "field:account.general_ledger.account,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.general_ledger.account,start_debit:"
+msgid "Start Debit"
+msgstr "期首借方"
+
+msgctxt "field:account.general_ledger.account,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.general_ledger.account.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.general_ledger.account.context,end_period:"
+msgid "End Period"
+msgstr "終了期間"
+
+msgctxt "field:account.general_ledger.account.context,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "会計年度"
+
+msgctxt "field:account.general_ledger.account.context,from_date:"
+msgid "From Date"
+msgstr "開始日"
+
+msgctxt "field:account.general_ledger.account.context,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.general_ledger.account.context,posted:"
+msgid "Posted Moves"
+msgstr "記帳済みの仕訳"
+
+msgctxt "field:account.general_ledger.account.context,start_period:"
+msgid "Start Period"
+msgstr "開始期間"
+
+msgctxt "field:account.general_ledger.account.context,to_date:"
+msgid "To Date"
+msgstr "終了日"
+
+msgctxt "field:account.general_ledger.account.party,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.general_ledger.account.party,active:"
+msgid "Active"
+msgstr "有効"
+
+msgctxt "field:account.general_ledger.account.party,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.general_ledger.account.party,credit:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "field:account.general_ledger.account.party,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.general_ledger.account.party,debit:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "field:account.general_ledger.account.party,end_balance:"
+msgid "End Balance"
+msgstr "期末残高"
+
+msgctxt "field:account.general_ledger.account.party,end_credit:"
+msgid "End Credit"
+msgstr "期末貸方"
+
+msgctxt "field:account.general_ledger.account.party,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.general_ledger.account.party,end_debit:"
+msgid "End Debit"
+msgstr "期末借方"
+
+msgctxt "field:account.general_ledger.account.party,line_count:"
+msgid "Line Count"
+msgstr "行数"
+
+msgctxt "field:account.general_ledger.account.party,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.general_ledger.account.party,start_balance:"
+msgid "Start Balance"
+msgstr "期首残高"
+
+msgctxt "field:account.general_ledger.account.party,start_credit:"
+msgid "Start Credit"
+msgstr "期首貸方"
+
+msgctxt "field:account.general_ledger.account.party,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.general_ledger.account.party,start_debit:"
+msgid "Start Debit"
+msgstr "期首借方"
+
+msgctxt "field:account.general_ledger.line,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.general_ledger.line,account_party:"
+msgid "Account Party"
+msgstr "勘定科目の取引先"
+
+msgctxt "field:account.general_ledger.line,amount_second_currency:"
+msgid "Amount Second Currency"
+msgstr "第2通貨の金額"
+
+msgctxt "field:account.general_ledger.line,balance:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "field:account.general_ledger.line,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.general_ledger.line,credit:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "field:account.general_ledger.line,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.general_ledger.line,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.general_ledger.line,debit:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "field:account.general_ledger.line,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.general_ledger.line,description_used:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.general_ledger.line,internal_balance:"
+msgid "Internal Balance"
+msgstr "内部残高"
+
+msgctxt "field:account.general_ledger.line,move:"
+msgid "Move"
+msgstr "仕訳"
+
+msgctxt "field:account.general_ledger.line,origin:"
+msgid "Origin"
+msgstr "発生元"
+
+msgctxt "field:account.general_ledger.line,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.general_ledger.line,party_required:"
+msgid "Party Required"
+msgstr "取引先が必要"
+
+msgctxt "field:account.general_ledger.line,reconciliation:"
+msgid "Reconciliation"
+msgstr "消し込み"
+
+msgctxt "field:account.general_ledger.line,second_currency:"
+msgid "Second Currency"
+msgstr "第2通貨"
+
+msgctxt "field:account.general_ledger.line,state:"
+msgid "State"
+msgstr "状態"
+
+msgctxt "field:account.general_ledger.line.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.general_ledger.line.context,end_period:"
+msgid "End Period"
+msgstr "終了期間"
+
+msgctxt "field:account.general_ledger.line.context,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "会計年度"
+
+msgctxt "field:account.general_ledger.line.context,from_date:"
+msgid "From Date"
+msgstr "開始日"
+
+msgctxt "field:account.general_ledger.line.context,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.general_ledger.line.context,party_cumulate:"
+msgid "Cumulate per Party"
+msgstr "取引先ごとに累計"
+
+msgctxt "field:account.general_ledger.line.context,posted:"
+msgid "Posted Moves"
+msgstr "記帳済みの仕訳"
+
+msgctxt "field:account.general_ledger.line.context,start_period:"
+msgid "Start Period"
+msgstr "開始期間"
+
+msgctxt "field:account.general_ledger.line.context,to_date:"
+msgid "To Date"
+msgstr "終了日"
+
+msgctxt "field:account.income_statement.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.income_statement.context,comparison:"
+msgid "Comparison"
+msgstr "比較"
+
+msgctxt "field:account.income_statement.context,end_period:"
+msgid "End Period"
+msgstr "終了期間"
+
+msgctxt "field:account.income_statement.context,end_period_cmp:"
+msgid "End Period"
+msgstr "終了期間"
+
+msgctxt "field:account.income_statement.context,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "会計年度"
+
+msgctxt "field:account.income_statement.context,fiscalyear_cmp:"
+msgid "Fiscal Year"
+msgstr "会計年度"
+
+msgctxt "field:account.income_statement.context,from_date:"
+msgid "From Date"
+msgstr "開始日"
+
+msgctxt "field:account.income_statement.context,from_date_cmp:"
+msgid "From Date"
+msgstr "開始日"
+
+msgctxt "field:account.income_statement.context,posted:"
+msgid "Posted Move"
+msgstr "記帳済みの仕訳"
+
+msgctxt "field:account.income_statement.context,start_period:"
+msgid "Start Period"
+msgstr "開始期間"
+
+msgctxt "field:account.income_statement.context,start_period_cmp:"
+msgid "Start Period"
+msgstr "開始期間"
+
+msgctxt "field:account.income_statement.context,to_date:"
+msgid "To Date"
+msgstr "終了日"
+
+msgctxt "field:account.income_statement.context,to_date_cmp:"
+msgid "To Date"
+msgstr "終了日"
+
+msgctxt "field:account.journal,balance:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "field:account.journal,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:account.journal,credit:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "field:account.journal,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.journal,debit:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "field:account.journal,matching_sequence:"
+msgid "Matching Sequence"
+msgstr "照合の連番"
+
+msgctxt "field:account.journal,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.journal,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.journal.open_cash.context,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.journal.open_cash.context,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.journal.period,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.journal.period,icon:"
+msgid "Icon"
+msgstr "アイコン"
+
+msgctxt "field:account.journal.period,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.journal.period,period:"
+msgid "Period"
+msgstr "期間"
+
+msgctxt "field:account.journal.period,state:"
+msgid "State"
+msgstr "状態"
+
+msgctxt "field:account.move,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.move,date:"
+msgid "Effective Date"
+msgstr "計上日"
+
+msgctxt "field:account.move,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move,description_used:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.move,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.move,number:"
+msgid "Number"
+msgstr "番号"
+
+msgctxt "field:account.move,origin:"
+msgid "Origin"
+msgstr "発生元"
+
+msgctxt "field:account.move,period:"
+msgid "Period"
+msgstr "期間"
+
+msgctxt "field:account.move,post_date:"
+msgid "Post Date"
+msgstr "記帳日"
+
+msgctxt "field:account.move,state:"
+msgid "State"
+msgstr "状態"
+
+msgctxt "field:account.move.cancel.default,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move.cancel.default,reversal:"
+msgid "Reversal"
+msgstr "反対仕訳"
+
+msgctxt "field:account.move.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.move.line,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.move.line,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.move.line,amount_currency:"
+msgid "Amount Currency"
+msgstr "外貨金額"
+
+msgctxt "field:account.move.line,amount_second_currency:"
+msgid "Amount Second Currency"
+msgstr "第2通貨の金額"
+
+msgctxt "field:account.move.line,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.move.line,credit:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "field:account.move.line,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.move.line,date:"
+msgid "Effective Date"
+msgstr "計上日"
+
+msgctxt "field:account.move.line,debit:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "field:account.move.line,delegated_amount:"
+msgid "Delegated Amount"
+msgstr "委任した金額"
+
+msgctxt "field:account.move.line,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move.line,description_used:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move.line,has_maturity_date:"
+msgid "Has Maturity Date"
+msgstr "期日あり"
+
+msgctxt "field:account.move.line,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.move.line,maturity_date:"
+msgid "Maturity Date"
+msgstr "期日"
+
+msgctxt "field:account.move.line,move:"
+msgid "Move"
+msgstr "仕訳"
+
+msgctxt "field:account.move.line,move_description_used:"
+msgid "Move Description"
+msgstr "仕訳の説明"
+
+msgctxt "field:account.move.line,move_origin:"
+msgid "Move Origin"
+msgstr "仕訳の元"
+
+msgctxt "field:account.move.line,move_state:"
+msgid "Move State"
+msgstr "仕訳の状態"
+
+msgctxt "field:account.move.line,origin:"
+msgid "Origin"
+msgstr "発生元"
+
+msgctxt "field:account.move.line,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.move.line,party_required:"
+msgid "Party Required"
+msgstr "取引先が必要"
+
+msgctxt "field:account.move.line,payable_receivable_balance:"
+msgid "Payable/Receivable Balance"
+msgstr "売掛金・買掛金の残高"
+
+msgctxt "field:account.move.line,payable_receivable_date:"
+msgid "Payable/Receivable Date"
+msgstr "売掛金・買掛金の日付"
+
+msgctxt "field:account.move.line,period:"
+msgid "Period"
+msgstr "期間"
+
+msgctxt "field:account.move.line,reconciliation:"
+msgid "Reconciliation"
+msgstr "消し込み"
+
+msgctxt "field:account.move.line,reconciliations_delegated:"
+msgid "Reconciliations Delegated"
+msgstr "委任した消し込み"
+
+msgctxt "field:account.move.line,second_currency:"
+msgid "Second Currency"
+msgstr "第2通貨"
+
+msgctxt "field:account.move.line,second_currency_required:"
+msgid "Second Currency Required"
+msgstr "第二通貨が必須"
+
+msgctxt "field:account.move.line,state:"
+msgid "State"
+msgstr "状態"
+
+msgctxt "field:account.move.line,tax_lines:"
+msgid "Tax Lines"
+msgstr "税の行"
+
+msgctxt "field:account.move.line.delegate.start,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move.line.delegate.start,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.move.line.delegate.start,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.move.line.group.start,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move.line.group.start,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.move.line.receivable_payable.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.move.line.receivable_payable.context,payable:"
+msgid "Payable"
+msgstr "買掛金"
+
+msgctxt "field:account.move.line.receivable_payable.context,receivable:"
+msgid "Receivable"
+msgstr "売掛金"
+
+msgctxt "field:account.move.line.receivable_payable.context,reconciled:"
+msgid "Reconciled"
+msgstr "消し込み済み"
+
+msgctxt "field:account.move.line.reschedule.preview,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.move.line.reschedule.preview,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move.line.reschedule.preview,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.move.line.reschedule.preview,terms:"
+msgid "Terms"
+msgstr "分割条件"
+
+msgctxt "field:account.move.line.reschedule.start,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.move.line.reschedule.start,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.move.line.reschedule.start,frequency:"
+msgid "Frequency"
+msgstr "頻度"
+
+msgctxt "field:account.move.line.reschedule.start,interval:"
+msgid "Interval"
+msgstr "間隔"
+
+msgctxt "field:account.move.line.reschedule.start,number:"
+msgid "Number"
+msgstr "番号"
+
+msgctxt "field:account.move.line.reschedule.start,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.move.line.reschedule.start,total_amount:"
+msgid "Total Amount"
+msgstr "合計"
+
+msgctxt "field:account.move.line.reschedule.term,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.move.line.reschedule.term,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.move.line.reschedule.term,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.move.line.template,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.move.line.template,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.move.line.template,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move.line.template,move:"
+msgid "Move"
+msgstr "仕訳"
+
+msgctxt "field:account.move.line.template,operation:"
+msgid "Operation"
+msgstr "操作"
+
+msgctxt "field:account.move.line.template,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.move.line.template,party_required:"
+msgid "Party Required"
+msgstr "取引先が必要"
+
+msgctxt "field:account.move.line.template,taxes:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "field:account.move.open_journal.ask,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.move.open_journal.ask,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.move.open_journal.ask,period:"
+msgid "Period"
+msgstr "期間"
+
+msgctxt "field:account.move.reconcile.write_off,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.move.reconcile.write_off,credit_account:"
+msgid "Credit Account"
+msgstr "貸方の勘定科目"
+
+msgctxt "field:account.move.reconcile.write_off,debit_account:"
+msgid "Debit Account"
+msgstr "借方の勘定科目"
+
+msgctxt "field:account.move.reconcile.write_off,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.move.reconcile.write_off,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.move.reconcile_lines.writeoff,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.move.reconcile_lines.writeoff,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.move.reconcile_lines.writeoff,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.move.reconcile_lines.writeoff,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.move.reconcile_lines.writeoff,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move.reconcile_lines.writeoff,writeoff:"
+msgid "Write Off"
+msgstr "差額処理"
+
+msgctxt "field:account.move.reconciliation,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.move.reconciliation,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.move.reconciliation,delegate_to:"
+msgid "Delegate To"
+msgstr "委任先"
+
+msgctxt "field:account.move.reconciliation,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.move.reconciliation,number:"
+msgid "Number"
+msgstr "番号"
+
+msgctxt "field:account.move.template,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.move.template,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.move.template,journal:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "field:account.move.template,keywords:"
+msgid "Keywords"
+msgstr "キーワード"
+
+msgctxt "field:account.move.template,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.move.template,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.move.template.create.template,date:"
+msgid "Effective Date"
+msgstr "計上日"
+
+msgctxt "field:account.move.template.create.template,period:"
+msgid "Period"
+msgstr "期間"
+
+msgctxt "field:account.move.template.create.template,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:account.move.template.keyword,digits:"
+msgid "Digits"
+msgstr "桁数"
+
+msgctxt "field:account.move.template.keyword,move:"
+msgid "Move"
+msgstr "仕訳"
+
+msgctxt "field:account.move.template.keyword,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.move.template.keyword,required:"
+msgid "Required"
+msgstr "必須"
+
+msgctxt "field:account.move.template.keyword,string:"
+msgid "String"
+msgstr "文字列"
+
+msgctxt "field:account.move.template.keyword,type_:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.period,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.period,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.period,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "会計年度"
+
+msgctxt "field:account.period,icon:"
+msgid "Icon"
+msgstr "アイコン"
+
+msgctxt "field:account.period,move_sequence:"
+msgid "Move Sequence"
+msgstr "仕訳の連番"
+
+msgctxt "field:account.period,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.period,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.period,state:"
+msgid "State"
+msgstr "状態"
+
+msgctxt "field:account.period,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.reconcile.show,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.reconcile.show,accounts:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.reconcile.show,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.reconcile.show,currencies:"
+msgid "Currencies"
+msgstr "通貨"
+
+msgctxt "field:account.reconcile.show,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.reconcile.show,date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.reconcile.show,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.reconcile.show,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.reconcile.show,parties:"
+msgid "Parties"
+msgstr "取引先"
+
+msgctxt "field:account.reconcile.show,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:account.reconcile.show,write_off:"
+msgid "Write Off"
+msgstr "差額処理"
+
+msgctxt "field:account.reconcile.show,write_off_amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.reconcile.start,automatic:"
+msgid "Automatic"
+msgstr "自動"
+
+msgctxt "field:account.reconcile.start,only_balanced:"
+msgid "Only Balanced"
+msgstr "貸借一致のみ"
+
+msgctxt "field:account.tax,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.tax,childs:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:account.tax,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.tax,credit_base_amount:"
+msgid "Credit Base Amount"
+msgstr "貸方の課税標準額"
+
+msgctxt "field:account.tax,credit_note_account:"
+msgid "Credit Note Account"
+msgstr "請求取消書の勘定科目"
+
+msgctxt "field:account.tax,credit_tax_amount:"
+msgid "Credit Tax Amount"
+msgstr "貸方の税額"
+
+msgctxt "field:account.tax,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.tax,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.tax,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.tax,group:"
+msgid "Group"
+msgstr "グループ"
+
+msgctxt "field:account.tax,invoice_account:"
+msgid "Invoice Account"
+msgstr "請求書の勘定科目"
+
+msgctxt "field:account.tax,invoice_base_amount:"
+msgid "Invoice Base Amount"
+msgstr "請求書の課税標準額"
+
+msgctxt "field:account.tax,invoice_tax_amount:"
+msgid "Invoice Tax Amount"
+msgstr "請求書の税額"
+
+msgctxt "field:account.tax,legal_notice:"
+msgid "Legal Notice"
+msgstr "法定表示"
+
+msgctxt "field:account.tax,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.tax,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:account.tax,rate:"
+msgid "Rate"
+msgstr "税率"
+
+msgctxt "field:account.tax,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.tax,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:account.tax,template_override:"
+msgid "Override Template"
+msgstr "ひな形を上書き"
+
+msgctxt "field:account.tax,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.tax,update_unit_price:"
+msgid "Update Unit Price"
+msgstr "単価を更新"
+
+msgctxt "field:account.tax.code,active:"
+msgid "Active"
+msgstr "有効"
+
+msgctxt "field:account.tax.code,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.tax.code,childs:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:account.tax.code,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:account.tax.code,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.tax.code,context_company:"
+msgid "Context Company"
+msgstr "コンテキストの会社"
+
+msgctxt "field:account.tax.code,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.tax.code,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.tax.code,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.tax.code,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.tax.code,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.tax.code,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:account.tax.code,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.tax.code,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:account.tax.code,template_override:"
+msgid "Override Template"
+msgstr "ひな形を上書き"
+
+msgctxt "field:account.tax.code.context,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.tax.code.context,end_period:"
+msgid "End Period"
+msgstr "終了期間"
+
+msgctxt "field:account.tax.code.context,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "会計年度"
+
+msgctxt "field:account.tax.code.context,method:"
+msgid "Method"
+msgstr "メソッド"
+
+msgctxt "field:account.tax.code.context,period:"
+msgid "Period"
+msgstr "期間"
+
+msgctxt "field:account.tax.code.context,periods:"
+msgid "Periods"
+msgstr "期間"
+
+msgctxt "field:account.tax.code.context,start_period:"
+msgid "Start Period"
+msgstr "開始期間"
+
+msgctxt "field:account.tax.code.line,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.tax.code.line,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:account.tax.code.line,operator:"
+msgid "Operator"
+msgstr "演算子"
+
+msgctxt "field:account.tax.code.line,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:account.tax.code.line,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:account.tax.code.line,template_override:"
+msgid "Override Template"
+msgstr "ひな形を上書き"
+
+msgctxt "field:account.tax.code.line,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.tax.code.line.template,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.tax.code.line.template,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:account.tax.code.line.template,operator:"
+msgid "Operator"
+msgstr "演算子"
+
+msgctxt "field:account.tax.code.line.template,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:account.tax.code.line.template,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.tax.code.template,account:"
+msgid "Account Template"
+msgstr "勘定科目のひな形"
+
+msgctxt "field:account.tax.code.template,childs:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:account.tax.code.template,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:account.tax.code.template,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.tax.code.template,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.tax.code.template,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.tax.code.template,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.tax.code.template,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:account.tax.code.template,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.tax.group,code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:account.tax.group,kind:"
+msgid "Kind"
+msgstr "区分"
+
+msgctxt "field:account.tax.group,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.tax.line,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.tax.line,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.tax.line,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.tax.line,move_line:"
+msgid "Move Line"
+msgstr "仕訳の行"
+
+msgctxt "field:account.tax.line,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:account.tax.line,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.tax.line.template,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.tax.line.template,line:"
+msgid "Line"
+msgstr "行"
+
+msgctxt "field:account.tax.line.template,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:account.tax.line.template,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.tax.rule,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:account.tax.rule,kind:"
+msgid "Kind"
+msgstr "区分"
+
+msgctxt "field:account.tax.rule,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.tax.rule,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.tax.rule,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:account.tax.rule,template_override:"
+msgid "Override Template"
+msgstr "ひな形を上書き"
+
+msgctxt "field:account.tax.rule.line,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.tax.rule.line,group:"
+msgid "Tax Group"
+msgstr "税のグループ"
+
+msgctxt "field:account.tax.rule.line,keep_origin:"
+msgid "Keep Origin"
+msgstr "元の税を残す"
+
+msgctxt "field:account.tax.rule.line,origin_tax:"
+msgid "Original Tax"
+msgstr "元の税"
+
+msgctxt "field:account.tax.rule.line,rule:"
+msgid "Rule"
+msgstr "規則"
+
+msgctxt "field:account.tax.rule.line,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.tax.rule.line,tax:"
+msgid "Substitution Tax"
+msgstr "置き換える税"
+
+msgctxt "field:account.tax.rule.line,template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "field:account.tax.rule.line,template_override:"
+msgid "Override Template"
+msgstr "ひな形を上書き"
+
+msgctxt "field:account.tax.rule.line.template,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.tax.rule.line.template,group:"
+msgid "Tax Group"
+msgstr "税のグループ"
+
+msgctxt "field:account.tax.rule.line.template,keep_origin:"
+msgid "Keep Origin"
+msgstr "元の税を残す"
+
+msgctxt "field:account.tax.rule.line.template,origin_tax:"
+msgid "Original Tax"
+msgstr "元の税"
+
+msgctxt "field:account.tax.rule.line.template,rule:"
+msgid "Rule"
+msgstr "規則"
+
+msgctxt "field:account.tax.rule.line.template,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.tax.rule.line.template,tax:"
+msgid "Substitution Tax"
+msgstr "置き換える税"
+
+msgctxt "field:account.tax.rule.template,account:"
+msgid "Account Template"
+msgstr "勘定科目のひな形"
+
+msgctxt "field:account.tax.rule.template,kind:"
+msgid "Kind"
+msgstr "区分"
+
+msgctxt "field:account.tax.rule.template,lines:"
+msgid "Lines"
+msgstr "行"
+
+msgctxt "field:account.tax.rule.template,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.tax.template,account:"
+msgid "Account Template"
+msgstr "勘定科目のひな形"
+
+msgctxt "field:account.tax.template,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.tax.template,childs:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "field:account.tax.template,credit_note_account:"
+msgid "Credit Note Account"
+msgstr "請求取消書の勘定科目"
+
+msgctxt "field:account.tax.template,description:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "field:account.tax.template,end_date:"
+msgid "End Date"
+msgstr "終了日"
+
+msgctxt "field:account.tax.template,group:"
+msgid "Group"
+msgstr "グループ"
+
+msgctxt "field:account.tax.template,invoice_account:"
+msgid "Invoice Account"
+msgstr "請求書の勘定科目"
+
+msgctxt "field:account.tax.template,legal_notice:"
+msgid "Legal Notice"
+msgstr "法定表示"
+
+msgctxt "field:account.tax.template,name:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "field:account.tax.template,parent:"
+msgid "Parent"
+msgstr "親"
+
+msgctxt "field:account.tax.template,rate:"
+msgid "Rate"
+msgstr "税率"
+
+msgctxt "field:account.tax.template,start_date:"
+msgid "Start Date"
+msgstr "開始日"
+
+msgctxt "field:account.tax.template,type:"
+msgid "Type"
+msgstr "種類"
+
+msgctxt "field:account.tax.template,update_unit_price:"
+msgid "Update Unit Price"
+msgstr "単価を更新"
+
+msgctxt "field:account.tax.test,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:account.tax.test,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:account.tax.test,result:"
+msgid "Result"
+msgstr "結果"
+
+msgctxt "field:account.tax.test,tax_date:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "field:account.tax.test,taxes:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "field:account.tax.test,unit_price:"
+msgid "Unit Price"
+msgstr "単価"
+
+msgctxt "field:account.tax.test.result,account:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "field:account.tax.test.result,amount:"
+msgid "Amount"
+msgstr "金額"
+
+msgctxt "field:account.tax.test.result,base:"
+msgid "Base"
+msgstr "課税標準額"
+
+msgctxt "field:account.tax.test.result,tax:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "field:account.update_chart.start,account:"
+msgid "Root Account"
+msgstr "最上位の勘定科目"
+
+msgctxt "field:company.company,payable:"
+msgid "Payable"
+msgstr "買掛金"
+
+msgctxt "field:company.company,payable_today:"
+msgid "Payable Today"
+msgstr "本日の買掛金"
+
+msgctxt "field:company.company,receivable:"
+msgid "Receivable"
+msgstr "売掛金"
+
+msgctxt "field:company.company,receivable_today:"
+msgid "Receivable Today"
+msgstr "本日の売掛金"
+
+msgctxt "field:party.party,account_payable:"
+msgid "Account Payable"
+msgstr "買掛金勘定"
+
+msgctxt "field:party.party,account_receivable:"
+msgid "Account Receivable"
+msgstr "売掛金勘定"
+
+msgctxt "field:party.party,accounts:"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "field:party.party,currency:"
+msgid "Currency"
+msgstr "通貨"
+
+msgctxt "field:party.party,customer_tax_rule:"
+msgid "Customer Tax Rule"
+msgstr "顧客の税の規則"
+
+msgctxt "field:party.party,payable:"
+msgid "Payable"
+msgstr "買掛金"
+
+msgctxt "field:party.party,payable_today:"
+msgid "Payable Today"
+msgstr "本日の買掛金"
+
+msgctxt "field:party.party,receivable:"
+msgid "Receivable"
+msgstr "売掛金"
+
+msgctxt "field:party.party,receivable_today:"
+msgid "Receivable Today"
+msgstr "本日の売掛金"
+
+msgctxt "field:party.party,supplier_tax_rule:"
+msgid "Supplier Tax Rule"
+msgstr "仕入先の税の規則"
+
+msgctxt "field:party.party.account,account_payable:"
+msgid "Account Payable"
+msgstr "買掛金勘定"
+
+msgctxt "field:party.party.account,account_receivable:"
+msgid "Account Receivable"
+msgstr "売掛金勘定"
+
+msgctxt "field:party.party.account,company:"
+msgid "Company"
+msgstr "会社"
+
+msgctxt "field:party.party.account,customer_tax_rule:"
+msgid "Customer Tax Rule"
+msgstr "顧客の税の規則"
+
+msgctxt "field:party.party.account,party:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "field:party.party.account,supplier_tax_rule:"
+msgid "Supplier Tax Rule"
+msgstr "仕入先の税の規則"
+
+msgctxt "help:account.account,closed:"
+msgid "Check to prevent posting move on the account."
+msgstr "この勘定科目への記帳を止めるときにチェックします。"
+
+msgctxt "help:account.account,credit_type:"
+msgid "The type used if not empty and debit < credit."
+msgstr "空でなく、借方 < 貸方のときに使う種類です。"
+
+msgctxt "help:account.account,debit_type:"
+msgid "The type used if not empty and debit > credit."
+msgstr "空でなく、借方 > 貸方のときに使う種類です。"
+
+msgctxt "help:account.account,general_ledger_balance:"
+msgid "Display only the balance in the general ledger report."
+msgstr "総勘定元帳には残高だけを表示します。"
+
+msgctxt "help:account.account,reconcile:"
+msgid "Allow move lines of this account to be reconciled."
+msgstr "この勘定科目の仕訳の行を消し込めるようにします。"
+
+msgctxt "help:account.account,second_currency:"
+msgid "Force all moves for this account to have this second currency."
+msgstr "この勘定科目のすべての仕訳に、この第二通貨を使わせます。"
+
+msgctxt "help:account.account,taxes:"
+msgid ""
+"Default taxes for documents to be applied when there is no other source."
+msgstr "ほかに元がないときに書類に使う、既定の税です。"
+
+msgctxt "help:account.account,template_override:"
+msgid "Check to override template definition"
+msgstr "ひな形の定義を上書きするときにチェックします"
+
+msgctxt "help:account.account.context,fiscalyear:"
+msgid "Leave empty for all open fiscal year."
+msgstr "空のときは、開いているすべての会計年度が対象です。"
+
+msgctxt "help:account.account.context,posted:"
+msgid "Only include posted moves."
+msgstr "記帳済みの仕訳だけを含めます。"
+
+msgctxt "help:account.account.template,closed:"
+msgid "Check to prevent posting move on the account."
+msgstr "この勘定科目への記帳を止めるときにチェックします。"
+
+msgctxt "help:account.account.template,general_ledger_balance:"
+msgid "Display only the balance in the general ledger report."
+msgstr "総勘定元帳には残高だけを表示します。"
+
+msgctxt "help:account.account.template,reconcile:"
+msgid "Allow move lines of this account to be reconciled."
+msgstr "この勘定科目の仕訳の行を消し込めるようにします。"
+
+msgctxt "help:account.account.type,debt:"
+msgid "Check to allow booking debt via supplier invoice."
+msgstr "仕入請求書で負債を計上できるようにするときにチェックします。"
+
+msgctxt "help:account.account.type,template_override:"
+msgid "Check to override template definition"
+msgstr "ひな形の定義を上書きするときにチェックします"
+
+msgctxt "help:account.account.type.template,debt:"
+msgid "Check to allow booking debt via supplier invoice."
+msgstr "仕入請求書で負債を計上できるようにするときにチェックします。"
+
+msgctxt "help:account.aged_balance.context,posted:"
+msgid "Only include posted moves."
+msgstr "記帳済みの仕訳だけを含めます。"
+
+msgctxt "help:account.balance_sheet.comparison.context,posted:"
+msgid "Only include posted moves."
+msgstr "記帳済みの仕訳だけを含めます。"
+
+msgctxt "help:account.balance_sheet.context,posted:"
+msgid "Only include posted moves."
+msgstr "記帳済みの仕訳だけを含めます。"
+
+msgctxt "help:account.configuration,default_customer_tax_rule:"
+msgid "Default customer tax rule for new parties."
+msgstr "新しい取引先に使う、既定の顧客の税の規則です。"
+
+msgctxt "help:account.configuration,default_supplier_tax_rule:"
+msgid "Default supplier tax rule for new parties."
+msgstr "新しい取引先に使う、既定の仕入先の税の規則です。"
+
+msgctxt "help:account.fiscalyear,move_sequence:"
+msgid ""
+"Used to generate the move number when posting if the period has no sequence."
+msgstr "期間に連番がないとき、記帳時に仕訳の番号を作るのに使います。"
+
+msgctxt "help:account.fiscalyear.create_periods.start,end_day:"
+msgid ""
+"The day of the month on which periods end.\n"
+"Months with fewer days will end on the last day."
+msgstr ""
+"期間が終わる、月の日です。\n"
+"日数が少ない月は、月末で終わります。"
+
+msgctxt "help:account.fiscalyear.create_periods.start,interval:"
+msgid "The length of each period, in months."
+msgstr "各期間の長さ(月数)です。"
+
+msgctxt "help:account.fiscalyear.renew.start,previous_fiscalyear:"
+msgid "Used as reference for fiscalyear configuration."
+msgstr "会計年度の設定の参考にします。"
+
+msgctxt "help:account.fiscalyear.renew.start,reset_sequences:"
+msgid "If checked, new sequences will be created."
+msgstr "チェックすると、新しい連番を作ります。"
+
+msgctxt "help:account.general_ledger.account.context,journal:"
+msgid "Only include moves from the journal."
+msgstr "この仕訳帳の仕訳だけを含めます。"
+
+msgctxt "help:account.general_ledger.account.context,posted:"
+msgid "Only include posted moves."
+msgstr "記帳済みの仕訳だけを含めます。"
+
+msgctxt "help:account.general_ledger.line.context,journal:"
+msgid "Only include moves from the journal."
+msgstr "この仕訳帳の仕訳だけを含めます。"
+
+msgctxt "help:account.general_ledger.line.context,posted:"
+msgid "Only include posted moves."
+msgstr "記帳済みの仕訳だけを含めます。"
+
+msgctxt "help:account.income_statement.context,posted:"
+msgid "Only include posted moves."
+msgstr "記帳済みの仕訳だけを含めます。"
+
+msgctxt "help:account.move,number:"
+msgid "Also known as Folio Number."
+msgstr "仕訳番号とも呼びます。"
+
+msgctxt "help:account.move.cancel.default,reversal:"
+msgid "Reverse debit and credit."
+msgstr "借方と貸方を入れ替えます。"
+
+msgctxt "help:account.move.line,amount_second_currency:"
+msgid "The amount expressed in a second currency."
+msgstr "第二通貨で表した金額です。"
+
+msgctxt "help:account.move.line,maturity_date:"
+msgid "Set a date to make the line payable or receivable."
+msgstr "日付を入れると、その行が売掛金・買掛金になります。"
+
+msgctxt "help:account.move.line,second_currency:"
+msgid "The second currency."
+msgstr "第二通貨です。"
+
+msgctxt "help:account.move.line.reschedule.start,interval:"
+msgid "The length of each period, in months."
+msgstr "各期間の長さ(月数)です。"
+
+msgctxt "help:account.move.line.template,amount:"
+msgid "A python expression that will be evaluated with the keywords."
+msgstr "キーワードを使って評価する Python の式です。"
+
+msgctxt "help:account.move.line.template,description:"
+msgid "Keyword value substitutions are identified by braces ('{' and '}')."
+msgstr "キーワードの値を置き換える所は、波かっこ({ と })で示します。"
+
+msgctxt "help:account.move.line.template,party:"
+msgid "The name of the 'Party' keyword."
+msgstr "「取引先」のキーワードの名前です。"
+
+msgctxt "help:account.move.reconciliation,date:"
+msgid "Highest date of the reconciled lines."
+msgstr "消し込んだ行の最も新しい日付です。"
+
+msgctxt "help:account.move.reconciliation,delegate_to:"
+msgid "The line to which the reconciliation status is delegated."
+msgstr "消し込みの状態を委任する行です。"
+
+msgctxt "help:account.move.template,description:"
+msgid "Keyword value substitutions are identified by braces ('{' and '}')."
+msgstr "キーワードの値を置き換える所は、波かっこ({ と })で示します。"
+
+msgctxt "help:account.period,move_sequence:"
+msgid ""
+"Used to generate the move number when posting.\n"
+"Leave empty to use the fiscal year sequence."
+msgstr ""
+"記帳時に仕訳の番号を作るのに使います。\n"
+"空のときは、会計年度の連番を使います。"
+
+msgctxt "help:account.reconcile.start,automatic:"
+msgid "Automatically reconcile suggestions."
+msgstr "候補を自動で消し込みます。"
+
+msgctxt "help:account.reconcile.start,only_balanced:"
+msgid "Skip suggestion with write-off."
+msgstr "差額処理が要る候補を飛ばします。"
+
+msgctxt "help:account.tax,amount:"
+msgid "In company's currency."
+msgstr "会社の通貨での額です。"
+
+msgctxt "help:account.tax,description:"
+msgid "The name that will be used in reports."
+msgstr "帳票で使う名前です。"
+
+msgctxt "help:account.tax,template_override:"
+msgid "Check to override template definition"
+msgstr "ひな形の定義を上書きするときにチェックします"
+
+msgctxt "help:account.tax,update_unit_price:"
+msgid ""
+"If checked then the unit price for further tax computation will be modified "
+"by this tax."
+msgstr "チェックすると、この税で、後の税の計算に使う単価を変えます。"
+
+msgctxt "help:account.tax.code,template_override:"
+msgid "Check to override template definition"
+msgstr "ひな形の定義を上書きするときにチェックします"
+
+msgctxt "help:account.tax.code.line,template_override:"
+msgid "Check to override template definition"
+msgstr "ひな形の定義を上書きするときにチェックします"
+
+msgctxt "help:account.tax.line.template,amount:"
+msgid "A python expression that will be evaluated with the keywords."
+msgstr "キーワードを使って評価する Python の式です。"
+
+msgctxt "help:account.tax.rule,template_override:"
+msgid "Check to override template definition"
+msgstr "ひな形の定義を上書きするときにチェックします"
+
+msgctxt "help:account.tax.rule.line,keep_origin:"
+msgid "Check to append the original tax to substituted tax."
+msgstr "置き換えた税に、元の税を加えるときにチェックします。"
+
+msgctxt "help:account.tax.rule.line,origin_tax:"
+msgid ""
+"If the original tax is filled, the rule will be applied only for this tax."
+msgstr "元の税を入れると、この税にだけ規則を当てはめます。"
+
+msgctxt "help:account.tax.rule.line,template_override:"
+msgid "Check to override template definition"
+msgstr "ひな形の定義を上書きするときにチェックします"
+
+msgctxt "help:account.tax.rule.line.template,keep_origin:"
+msgid "Check to append the original tax to substituted tax."
+msgstr "置き換えた税に、元の税を加えるときにチェックします。"
+
+msgctxt "help:account.tax.rule.line.template,origin_tax:"
+msgid ""
+"If the original tax template is filled, the rule will be applied only for "
+"this tax template."
+msgstr "元の税のひな形を入れると、この税のひな形にだけ規則を当てはめます。"
+
+msgctxt "help:party.party,customer_tax_rule:"
+msgid "Apply this rule on taxes when party is customer."
+msgstr "取引先が顧客のとき、この規則を税に当てはめます。"
+
+msgctxt "help:party.party,supplier_tax_rule:"
+msgid "Apply this rule on taxes when party is supplier."
+msgstr "取引先が仕入先のとき、この規則を税に当てはめます。"
+
+msgctxt "model:account.account,string:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "model:account.account-account.tax,string:"
+msgid "Account - Account Tax"
+msgstr "勘定科目 - 勘定科目の税"
+
+msgctxt "model:account.account.context,string:"
+msgid "Account Context"
+msgstr "勘定科目のコンテキスト"
+
+msgctxt "model:account.account.deferral,string:"
+msgid "Account Deferral"
+msgstr "勘定科目の繰越"
+
+msgctxt "model:account.account.party,string:"
+msgid "Account Party"
+msgstr "勘定科目の取引先"
+
+msgctxt "model:account.account.template,string:"
+msgid "Account Template"
+msgstr "勘定科目のひな形"
+
+msgctxt "model:account.account.template-account.tax.template,string:"
+msgid "Account Template - Account Tax Template"
+msgstr "勘定科目のひな形 - 税のひな形"
+
+msgctxt "model:account.account.type,string:"
+msgid "Account Type"
+msgstr "勘定科目の種類"
+
+msgctxt "model:account.account.type.template,string:"
+msgid "Account Type Template"
+msgstr "勘定科目の種類のひな形"
+
+msgctxt "model:account.aged_balance,string:"
+msgid "Account Aged Balance"
+msgstr "年齢別残高"
+
+msgctxt "model:account.aged_balance.context,string:"
+msgid "Account Aged Balance Context"
+msgstr "年齢別残高のコンテキスト"
+
+msgctxt "model:account.balance_sheet.comparison.context,string:"
+msgid "Account Balance Sheet Comparison Context"
+msgstr "貸借対照表の比較のコンテキスト"
+
+msgctxt "model:account.balance_sheet.context,string:"
+msgid "Account Balance Sheet Context"
+msgstr "貸借対照表のコンテキスト"
+
+msgctxt "model:account.configuration,string:"
+msgid "Account Configuration"
+msgstr "会計の設定"
+
+msgctxt "model:account.configuration.default_account,string:"
+msgid "Account Configuration Default Account"
+msgstr "会計の設定 既定の勘定科目"
+
+msgctxt "model:account.configuration.default_tax_rule,string:"
+msgid "Account Configuration Default Tax Rule"
+msgstr "会計の設定 既定の税の規則"
+
+msgctxt "model:account.configuration.journal,string:"
+msgid "Account Configuration Journal"
+msgstr "会計の設定 仕訳帳"
+
+msgctxt "model:account.configuration.sequence,string:"
+msgid "Account Configuration Sequence"
+msgstr "会計の設定 連番"
+
+msgctxt "model:account.configuration.tax_rounding,string:"
+msgid "Account Configuration Tax Rounding"
+msgstr "会計の設定 税の端数処理"
+
+msgctxt "model:account.create_chart.account,string:"
+msgid "Account Create Chart Account"
+msgstr "勘定科目表の作成 勘定科目"
+
+msgctxt "model:account.create_chart.properties,string:"
+msgid "Account Create Chart Properties"
+msgstr "勘定科目表の作成 プロパティ"
+
+msgctxt "model:account.create_chart.start,string:"
+msgid "Account Create Chart Start"
+msgstr "勘定科目表の作成 開始"
+
+msgctxt "model:account.fiscalyear,string:"
+msgid "Account Fiscalyear"
+msgstr "会計年度"
+
+msgctxt "model:account.fiscalyear.balance_non_deferral.start,string:"
+msgid "Account Fiscalyear Balance Non Deferral Start"
+msgstr "会計年度 繰り越さない残高の振替 開始"
+
+msgctxt "model:account.fiscalyear.create_periods.start,string:"
+msgid "Account Fiscalyear Create Periods Start"
+msgstr "会計年度 期間の作成 開始"
+
+msgctxt "model:account.fiscalyear.renew.start,string:"
+msgid "Account Fiscalyear Renew Start"
+msgstr "会計年度 更新 開始"
+
+msgctxt "model:account.general_ledger.account,string:"
+msgid "Account General Ledger Account"
+msgstr "総勘定元帳 勘定科目"
+
+msgctxt "model:account.general_ledger.account.context,string:"
+msgid "Account General Ledger Account Context"
+msgstr "総勘定元帳 勘定科目のコンテキスト"
+
+msgctxt "model:account.general_ledger.account.party,string:"
+msgid "Account General Ledger Account Party"
+msgstr "総勘定元帳 勘定科目の取引先"
+
+msgctxt "model:account.general_ledger.line,string:"
+msgid "Account General Ledger Line"
+msgstr "総勘定元帳の行"
+
+msgctxt "model:account.general_ledger.line.context,string:"
+msgid "Account General Ledger Line Context"
+msgstr "総勘定元帳の行のコンテキスト"
+
+msgctxt "model:account.income_statement.context,string:"
+msgid "Account Income Statement Context"
+msgstr "損益計算書のコンテキスト"
+
+msgctxt "model:account.journal,name:journal_cash"
+msgid "Cash"
+msgstr "現金"
+
+msgctxt "model:account.journal,name:journal_currency_exchange"
+msgid "Currency Exchange"
+msgstr "為替差損益"
+
+msgctxt "model:account.journal,name:journal_expense"
+msgid "Expense"
+msgstr "費用"
+
+msgctxt "model:account.journal,name:journal_miscellaneous"
+msgid "Miscellaneous"
+msgstr "雑"
+
+msgctxt "model:account.journal,name:journal_revenue"
+msgid "Revenue"
+msgstr "収益"
+
+msgctxt "model:account.journal,name:journal_stock"
+msgid "Stock"
+msgstr "在庫"
+
+msgctxt "model:account.journal,string:"
+msgid "Account Journal"
+msgstr "仕訳帳"
+
+msgctxt "model:account.journal.open_cash.context,string:"
+msgid "Account Journal Open Cash Context"
+msgstr "仕訳帳 現金を開く コンテキスト"
+
+msgctxt "model:account.journal.period,string:"
+msgid "Account Journal Period"
+msgstr "仕訳帳の期間"
+
+msgctxt "model:account.move,string:"
+msgid "Account Move"
+msgstr "仕訳"
+
+msgctxt "model:account.move.cancel.default,string:"
+msgid "Account Move Cancel Default"
+msgstr "仕訳の取消 既定値"
+
+msgctxt "model:account.move.context,string:"
+msgid "Account Move Context"
+msgstr "仕訳のコンテキスト"
+
+msgctxt "model:account.move.line,string:"
+msgid "Account Move Line"
+msgstr "仕訳の行"
+
+msgctxt "model:account.move.line.delegate.start,string:"
+msgid "Account Move Line Delegate Start"
+msgstr "仕訳の行の委任 開始"
+
+msgctxt "model:account.move.line.group.start,string:"
+msgid "Account Move Line Group Start"
+msgstr "仕訳の行のまとめ 開始"
+
+msgctxt "model:account.move.line.receivable_payable.context,string:"
+msgid "Account Move Line Receivable Payable Context"
+msgstr "仕訳の行 売掛金・買掛金のコンテキスト"
+
+msgctxt "model:account.move.line.reschedule.preview,string:"
+msgid "Account Move Line Reschedule Preview"
+msgstr "仕訳の行の分割 プレビュー"
+
+msgctxt "model:account.move.line.reschedule.start,string:"
+msgid "Account Move Line Reschedule Start"
+msgstr "仕訳の行の分割 開始"
+
+msgctxt "model:account.move.line.reschedule.term,string:"
+msgid "Account Move Line Reschedule Term"
+msgstr "仕訳の行の分割 条件"
+
+msgctxt "model:account.move.line.template,string:"
+msgid "Account Move Line Template"
+msgstr "仕訳の行のひな形"
+
+msgctxt "model:account.move.open_journal.ask,string:"
+msgid "Account Move Open Journal Ask"
+msgstr "仕訳 仕訳帳を開く 確認"
+
+msgctxt "model:account.move.reconcile.write_off,string:"
+msgid "Account Move Reconcile Write Off"
+msgstr "仕訳の消し込み 差額処理"
+
+msgctxt "model:account.move.reconcile_lines.writeoff,string:"
+msgid "Account Move Reconcile Lines Writeoff"
+msgstr "仕訳の行の消し込み 差額処理"
+
+msgctxt "model:account.move.reconciliation,string:"
+msgid "Account Move Reconciliation"
+msgstr "仕訳の消し込み"
+
+msgctxt "model:account.move.template,string:"
+msgid "Account Move Template"
+msgstr "仕訳のひな形"
+
+msgctxt "model:account.move.template.create.keywords,string:"
+msgid "Account Move Template Create Keywords"
+msgstr "仕訳のひな形から作成 キーワード"
+
+msgctxt "model:account.move.template.create.template,string:"
+msgid "Account Move Template Create Template"
+msgstr "仕訳のひな形から作成 ひな形"
+
+msgctxt "model:account.move.template.keyword,string:"
+msgid "Account Move Template Keyword"
+msgstr "仕訳のひな形のキーワード"
+
+msgctxt "model:account.period,string:"
+msgid "Account Period"
+msgstr "会計期間"
+
+msgctxt "model:account.reconcile.show,string:"
+msgid "Account Reconcile Show"
+msgstr "消し込み 表示"
+
+msgctxt "model:account.reconcile.start,string:"
+msgid "Account Reconcile Start"
+msgstr "消し込み 開始"
+
+msgctxt "model:account.tax,string:"
+msgid "Account Tax"
+msgstr "税"
+
+msgctxt "model:account.tax.code,string:"
+msgid "Account Tax Code"
+msgstr "税コード"
+
+msgctxt "model:account.tax.code.context,string:"
+msgid "Account Tax Code Context"
+msgstr "税コードのコンテキスト"
+
+msgctxt "model:account.tax.code.line,string:"
+msgid "Account Tax Code Line"
+msgstr "税コードの行"
+
+msgctxt "model:account.tax.code.line.template,string:"
+msgid "Account Tax Code Line Template"
+msgstr "税コードの行のひな形"
+
+msgctxt "model:account.tax.code.template,string:"
+msgid "Account Tax Code Template"
+msgstr "税コードのひな形"
+
+msgctxt "model:account.tax.group,string:"
+msgid "Account Tax Group"
+msgstr "税のグループ"
+
+msgctxt "model:account.tax.line,string:"
+msgid "Account Tax Line"
+msgstr "税の行"
+
+msgctxt "model:account.tax.line.template,string:"
+msgid "Account Tax Line Template"
+msgstr "税の行のひな形"
+
+msgctxt "model:account.tax.rule,string:"
+msgid "Account Tax Rule"
+msgstr "税の規則"
+
+msgctxt "model:account.tax.rule.line,string:"
+msgid "Account Tax Rule Line"
+msgstr "税の規則の行"
+
+msgctxt "model:account.tax.rule.line.template,string:"
+msgid "Account Tax Rule Line Template"
+msgstr "税の規則の行のひな形"
+
+msgctxt "model:account.tax.rule.template,string:"
+msgid "Account Tax Rule Template"
+msgstr "税の規則のひな形"
+
+msgctxt "model:account.tax.template,string:"
+msgid "Account Tax Template"
+msgstr "税のひな形"
+
+msgctxt "model:account.tax.test,string:"
+msgid "Account Tax Test"
+msgstr "税の試算"
+
+msgctxt "model:account.tax.test.result,string:"
+msgid "Account Tax Test Result"
+msgstr "税の試算の結果"
+
+msgctxt "model:account.update_chart.start,string:"
+msgid "Account Update Chart Start"
+msgstr "勘定科目表の更新 開始"
+
+msgctxt "model:account.update_chart.succeed,string:"
+msgid "Account Update Chart Succeed"
+msgstr "勘定科目表の更新 完了"
+
+msgctxt "model:ir.action,name:act_account_balance_sheet"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "model:ir.action,name:act_account_balance_sheet_tree"
+msgid "Balance Sheet"
+msgstr "貸借対照表"
+
+msgctxt "model:ir.action,name:act_account_general_ledger"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "model:ir.action,name:act_account_income_statement_tree"
+msgid "Income Statement"
+msgstr "損益計算書"
+
+msgctxt "model:ir.action,name:act_account_list"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "model:ir.action,name:act_account_template_tree"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "model:ir.action,name:act_account_tree"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "model:ir.action,name:act_account_tree_chart"
+msgid "Chart of Accounts"
+msgstr "勘定科目表"
+
+msgctxt "model:ir.action,name:act_account_type_list"
+msgid "Account Types"
+msgstr "勘定科目の種類"
+
+msgctxt "model:ir.action,name:act_account_type_template_tree"
+msgid "Account Types"
+msgstr "勘定科目の種類"
+
+msgctxt "model:ir.action,name:act_account_type_tree"
+msgid "Account Types"
+msgstr "勘定科目の種類"
+
+msgctxt "model:ir.action,name:act_aged_balance_list"
+msgid "Aged Balance"
+msgstr "年齢別残高"
+
+msgctxt "model:ir.action,name:act_balance_non_deferral"
+msgid "Balance Non-Deferral"
+msgstr "繰り越さない残高の振替"
+
+msgctxt "model:ir.action,name:act_cancel_moves"
+msgid "Cancel Moves"
+msgstr "仕訳を取消"
+
+msgctxt "model:ir.action,name:act_configuration_form"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.action,name:act_create_periods"
+msgid "Create Periods"
+msgstr "期間を作成"
+
+msgctxt "model:ir.action,name:act_delegate_lines_wizard"
+msgid "Delegate Lines"
+msgstr "行を委任"
+
+msgctxt "model:ir.action,name:act_fiscalyear_form"
+msgid "Fiscal Years"
+msgstr "会計年度"
+
+msgctxt "model:ir.action,name:act_fiscalyear_form_close"
+msgid "Close Fiscal Years"
+msgstr "会計年度を締める"
+
+msgctxt "model:ir.action,name:act_general_ledger_account_form"
+msgid "General Ledger - Accounts"
+msgstr "総勘定元帳 - 勘定科目"
+
+msgctxt "model:ir.action,name:act_general_ledger_account_party_form"
+msgid "General Ledger - Account Parties"
+msgstr "総勘定元帳 - 勘定科目の取引先"
+
+msgctxt "model:ir.action,name:act_general_ledger_account_party_form_party"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "model:ir.action,name:act_general_ledger_account_party_open"
+msgid "Open General Ledger Account Parties"
+msgstr "総勘定元帳の勘定科目の取引先を開く"
+
+msgctxt "model:ir.action,name:act_general_ledger_line_form"
+msgid "General Ledger - Lines"
+msgstr "総勘定元帳 - 行"
+
+msgctxt "model:ir.action,name:act_group_lines_wizard"
+msgid "Group Lines"
+msgstr "行をまとめる"
+
+msgctxt "model:ir.action,name:act_journal_form"
+msgid "Journals"
+msgstr "仕訳帳"
+
+msgctxt "model:ir.action,name:act_journal_open_cash"
+msgid "Journals Cash"
+msgstr "現金の仕訳帳"
+
+msgctxt "model:ir.action,name:act_journal_period_form_close"
+msgid "Close Journals - Periods"
+msgstr "仕訳帳の期間を締める"
+
+msgctxt "model:ir.action,name:act_journal_period_tree"
+msgid "Journals - Periods"
+msgstr "仕訳帳 - 期間"
+
+msgctxt "model:ir.action,name:act_journal_period_tree2"
+msgid "Journals - Periods"
+msgstr "仕訳帳 - 期間"
+
+msgctxt "model:ir.action,name:act_move_form"
+msgid "Account Moves"
+msgstr "仕訳"
+
+msgctxt "model:ir.action,name:act_move_form_delegate"
+msgid "Delegate Account Move"
+msgstr "仕訳を委任"
+
+msgctxt "model:ir.action,name:act_move_form_grouping"
+msgid "Grouped Account Move"
+msgstr "仕訳をまとめる"
+
+msgctxt "model:ir.action,name:act_move_form_rescheduling"
+msgid "Reschedule Account Move"
+msgstr "仕訳を分割"
+
+msgctxt "model:ir.action,name:act_move_from_template"
+msgid "Account Move"
+msgstr "仕訳"
+
+msgctxt "model:ir.action,name:act_move_line_form"
+msgid "Account Move Lines"
+msgstr "仕訳の行"
+
+msgctxt "model:ir.action,name:act_move_line_payable_receivable"
+msgid "Payable/Receivable Lines"
+msgstr "売掛金・買掛金の行"
+
+msgctxt "model:ir.action,name:act_move_reconciliation_lines"
+msgid "Reconciliation Lines"
+msgstr "消し込みの行"
+
+msgctxt "model:ir.action,name:act_move_template_create"
+msgid "Create Move from Template"
+msgstr "ひな形から仕訳を作成"
+
+msgctxt "model:ir.action,name:act_move_template_form"
+msgid "Moves"
+msgstr "仕訳"
+
+msgctxt "model:ir.action,name:act_open_account"
+msgid "Open Move Account"
+msgstr "仕訳の勘定科目を開く"
+
+msgctxt "model:ir.action,name:act_open_journal"
+msgid "Open Journal"
+msgstr "仕訳帳を開く"
+
+msgctxt "model:ir.action,name:act_open_tax_code"
+msgid "Open Tax Code"
+msgstr "税コードを開く"
+
+msgctxt "model:ir.action,name:act_open_type"
+msgid "Open Type"
+msgstr "種類を開く"
+
+msgctxt "model:ir.action,name:act_period_form"
+msgid "Periods"
+msgstr "期間"
+
+msgctxt "model:ir.action,name:act_period_form_close"
+msgid "Close Periods"
+msgstr "期間を締める"
+
+msgctxt "model:ir.action,name:act_reconcile"
+msgid "Reconcile Accounts"
+msgstr "勘定科目を消し込む"
+
+msgctxt "model:ir.action,name:act_reconcile_lines"
+msgid "Reconcile Lines"
+msgstr "行を消し込む"
+
+msgctxt "model:ir.action,name:act_reconcile_writeoff_form"
+msgid "Write-off Methods"
+msgstr "差額処理の方法"
+
+msgctxt "model:ir.action,name:act_renew_fiscalyear"
+msgid "Renew Fiscal Year"
+msgstr "会計年度を更新"
+
+msgctxt "model:ir.action,name:act_reschedule_lines_wizard"
+msgid "Reschedule Lines"
+msgstr "行を分割"
+
+msgctxt "model:ir.action,name:act_tax_code_list"
+msgid "Codes"
+msgstr "コード"
+
+msgctxt "model:ir.action,name:act_tax_code_template_tree"
+msgid "Tax Codes"
+msgstr "税コード"
+
+msgctxt "model:ir.action,name:act_tax_code_tree"
+msgid "Codes"
+msgstr "コード"
+
+msgctxt "model:ir.action,name:act_tax_code_tree_chart"
+msgid "Chart of Tax Codes"
+msgstr "税コード表"
+
+msgctxt "model:ir.action,name:act_tax_group_form"
+msgid "Groups"
+msgstr "グループ"
+
+msgctxt "model:ir.action,name:act_tax_line_form"
+msgid "Tax Lines"
+msgstr "税の行"
+
+msgctxt "model:ir.action,name:act_tax_list"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "model:ir.action,name:act_tax_rule_form"
+msgid "Rules"
+msgstr "規則"
+
+msgctxt "model:ir.action,name:act_tax_rule_template_form"
+msgid "Tax Rules"
+msgstr "税の規則"
+
+msgctxt "model:ir.action,name:act_tax_template_list"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "model:ir.action,name:act_unreconcile_lines"
+msgid "Unreconcile Lines"
+msgstr "行の消し込みを解除"
+
+msgctxt "model:ir.action,name:report_account_type_statement"
+msgid "Statement"
+msgstr "財務諸表"
+
+msgctxt "model:ir.action,name:report_aged_balance"
+msgid "Aged Balance"
+msgstr "年齢別残高"
+
+msgctxt "model:ir.action,name:report_general_journal"
+msgid "General Journal"
+msgstr "仕訳日記帳"
+
+msgctxt "model:ir.action,name:report_general_ledger"
+msgid "General Ledger"
+msgstr "総勘定元帳"
+
+msgctxt "model:ir.action,name:report_trial_balance"
+msgid "Trial Balance"
+msgstr "試算表"
+
+msgctxt "model:ir.action,name:wizard_create_chart"
+msgid "Create Chart of Accounts from Template"
+msgstr "ひな形から勘定科目表を作成"
+
+msgctxt "model:ir.action,name:wizard_tax_test"
+msgid "Test Tax"
+msgstr "税を試算"
+
+msgctxt "model:ir.action,name:wizard_update_chart"
+msgid "Update Chart of Accounts from Template"
+msgstr "ひな形から勘定科目表を更新"
+
+msgctxt "model:ir.message,text:msg_account_chart_exists"
+msgid "A chart of accounts already exists for company \"%(company)s\"."
+msgstr "会社「%(company)s」の勘定科目表はすでにあります。"
+
+msgctxt "model:ir.message,text:msg_account_closed_lines"
+msgid "You cannot close account \"%(account)s\" because it has move lines."
+msgstr "勘定科目「%(account)s」には仕訳の行があるので、閉じられません。"
+
+msgctxt "model:ir.message,text:msg_account_invalid_deferral_second_currency"
+msgid "To set a second currency for account \"%(account)s\", it must be deferral."
+msgstr "勘定科目「%(account)s」に第二通貨を設定するには、繰越にする必要があります。"
+
+msgctxt "model:ir.message,text:msg_account_invalid_lines_second_currency"
+msgid ""
+"To set a second currency for account \"%(account)s\", its lines must have "
+"the same second currency \"%(currency)s\"."
+msgstr "勘定科目「%(account)s」に第二通貨を設定するには、その行の第二通貨がすべて「%(currency)s」である必要があります。"
+
+msgctxt "model:ir.message,text:msg_account_invalid_type_second_currency"
+msgid ""
+"To set a second currency for account \"%(account)s\", it must not have a "
+"type \"payable\", \"revenue\", \"receivable\" nor \"expense\"."
+msgstr "勘定科目「%(account)s」に第二通貨を設定するには、種類が「買掛金」「収益」「売掛金」「費用」のどれでもない必要があります。"
+
+msgctxt "model:ir.message,text:msg_account_no_type_lines"
+msgid ""
+"You cannot remove type of account \"%(account)s\" because it has move lines."
+msgstr "勘定科目「%(account)s」には仕訳の行があるので、種類を外せません。"
+
+msgctxt "model:ir.message,text:msg_cancel_line_delegated"
+msgid ""
+"The moves \"%(moves)s\" contain grouped lines, cancelling them will ungroup "
+"the lines."
+msgstr "仕訳「%(moves)s」にはまとめた行があります。取り消すと、行のまとめも解除されます。"
+
+msgctxt "model:ir.message,text:msg_change_fiscalyear_move_sequence"
+msgid ""
+"You cannot change the move sequence on fiscal year \"%(fiscalyear)s\" "
+"because it contains posted moves."
+msgstr "会計年度「%(fiscalyear)s」には記帳済みの仕訳があるので、仕訳の連番を変えられません。"
+
+msgctxt "model:ir.message,text:msg_change_period_move_sequence"
+msgid ""
+"You cannot change the move sequence in period \"%(period)s\" because it has "
+"posted moves."
+msgstr "期間「%(period)s」には記帳済みの仕訳があるので、仕訳の連番を変えられません。"
+
+msgctxt "model:ir.message,text:msg_close_fiscalyear_account_balance_not_zero"
+msgid ""
+"To close the fiscal year, the balance of account \"%(account)s\" must be "
+"zero."
+msgstr "会計年度を締めるには、勘定科目「%(account)s」の残高が 0 である必要があります。"
+
+msgctxt "model:ir.message,text:msg_close_fiscalyear_earlier"
+msgid ""
+"To close fiscal year \"%(fiscalyear)s\", you must close all earlier fiscal "
+"years."
+msgstr "会計年度「%(fiscalyear)s」を締めるには、それより前の会計年度をすべて締めてください。"
+
+msgctxt "model:ir.message,text:msg_close_period_inactive_accounts"
+msgid ""
+"To close period \"%(period)s\", you must balance the inactive account "
+"\"%(account)s\"."
+msgstr "期間「%(period)s」を締めるには、無効の勘定科目「%(account)s」の残高を 0 にしてください。"
+
+msgctxt "model:ir.message,text:msg_close_period_non_posted_moves"
+msgid "To close period \"%(period)s\" you must post the moves \"%(moves)s\"."
+msgstr "期間「%(period)s」を締めるには、仕訳「%(moves)s」を記帳してください。"
+
+msgctxt "model:ir.message,text:msg_company_change_currency"
+msgid ""
+"You cannot change the currency of a company which is associated with account"
+" moves."
+msgstr "仕訳がある会社の通貨は変えられません。"
+
+msgctxt "model:ir.message,text:msg_create_journal_period_closed_period"
+msgid "You cannot create a journal-period in closed period \"%(period)s\"."
+msgstr "締めた期間「%(period)s」には、仕訳帳の期間を作れません。"
+
+msgctxt "model:ir.message,text:msg_create_period_closed_fiscalyear"
+msgid ""
+"You cannot create a period in fiscal year \"%(fiscalyear)s\" because it is "
+"closed."
+msgstr "会計年度「%(fiscalyear)s」は締めてあるので、期間を作れません。"
+
+msgctxt "model:ir.message,text:msg_deferral_unique"
+msgid "Deferral must be unique by account and fiscal year."
+msgstr "繰越は、勘定科目と会計年度ごとに 1 つだけです。"
+
+msgctxt "model:ir.message,text:msg_delegate_line_same_company"
+msgid "You cannot delegate together lines of different companies."
+msgstr "会社の違う行をまとめて委任することはできません。"
+
+msgctxt "model:ir.message,text:msg_delegate_line_same_origins"
+msgid "You cannot delegate together lines with different origins."
+msgstr "元の違う行をまとめて委任することはできません。"
+
+msgctxt "model:ir.message,text:msg_delete_line_reconciled"
+msgid ""
+"In order to delete the reconciled line \"%(line)s\", you must first "
+"unreconcile it."
+msgstr "消し込んだ行「%(line)s」を削除するには、先に消し込みを解除してください。"
+
+msgctxt "model:ir.message,text:msg_erase_party_receivable_payable"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have pending "
+"receivable/payable with company \"%(company)s\"."
+msgstr "取引先「%(party)s」は会社「%(company)s」との売掛金・買掛金が残っているので、消去できません。"
+
+msgctxt "model:ir.message,text:msg_fiscalyear_move_sequence_unique"
+msgid "The move sequence of fiscal years must be unique."
+msgstr "会計年度の仕訳の連番は、重複できません。"
+
+msgctxt "model:ir.message,text:msg_fiscalyear_overlap"
+msgid "The dates of fiscal years of the same company can not overlap."
+msgstr "同じ会社の会計年度の日付は、重ねられません。"
+
+msgctxt "model:ir.message,text:msg_group_line"
+msgid "Line \"%(line)s\" can not be grouped."
+msgstr "行「%(line)s」はまとめられません。"
+
+msgctxt "model:ir.message,text:msg_group_line_many_parties"
+msgid "You cannot group lines with different parties."
+msgstr "取引先の違う行はまとめられません。"
+
+msgctxt "model:ir.message,text:msg_group_line_maximum_account"
+msgid "You cannot group lines from more than 2 different accounts."
+msgstr "3 つ以上の勘定科目の行はまとめられません。"
+
+msgctxt "model:ir.message,text:msg_group_line_same_company"
+msgid "You cannot group lines of different companies."
+msgstr "会社の違う行はまとめられません。"
+
+msgctxt "model:ir.message,text:msg_group_line_same_second_currency"
+msgid "You cannot group lines of different second currencies."
+msgstr "第二通貨の違う行はまとめられません。"
+
+msgctxt "model:ir.message,text:msg_group_line_single"
+msgid "You cannot group a single line."
+msgstr "1 行だけではまとめられません。"
+
+msgctxt "model:ir.message,text:msg_journal_account_moves"
+msgid ""
+"You cannot change the type of journal \"%(journal)s\" because it has posted "
+"moves."
+msgstr "仕訳帳「%(journal)s」には記帳済みの仕訳があるので、種類を変えられません。"
+
+msgctxt "model:ir.message,text:msg_journal_period_unique"
+msgid "You can create only one journal per period."
+msgstr "仕訳帳は、期間ごとに 1 つだけ作れます。"
+
+msgctxt "model:ir.message,text:msg_line_already_reconciled"
+msgid "You cannot reconcile already reconciled line \"%(line)s\"."
+msgstr "行「%(line)s」はすでに消し込んであります。"
+
+msgctxt "model:ir.message,text:msg_line_closed_account"
+msgid ""
+"To create a line on account \"%(account)s\", you must set a type or unclose "
+"it."
+msgstr "勘定科目「%(account)s」に行を作るには、種類を設定するか、閉じた状態を解除してください。"
+
+msgctxt "model:ir.message,text:msg_line_debit_credit"
+msgid "You cannot set both debit and credit on the line."
+msgstr "1 つの行に借方と貸方の両方は入れられません。"
+
+msgctxt "model:ir.message,text:msg_line_party_required"
+msgid ""
+"To create a line on account \"%(account)s\", you must set a party on line "
+"\"%(line)s\"."
+msgstr "勘定科目「%(account)s」に行を作るには、行「%(line)s」に取引先を設定してください。"
+
+msgctxt "model:ir.message,text:msg_line_party_set"
+msgid ""
+"To create a line on account \"%(account)s\", you must remove the party on "
+"line \"%(line)s\"."
+msgstr "勘定科目「%(account)s」に行を作るには、行「%(line)s」から取引先を外してください。"
+
+msgctxt "model:ir.message,text:msg_line_second_currency_sign"
+msgid ""
+"You must set the sign for second currency to match the sign of debit - "
+"credit."
+msgstr "第二通貨の符号は、借方 - 貸方の符号に合わせてください。"
+
+msgctxt "model:ir.message,text:msg_modify_delete_journal_period_moves"
+msgid ""
+"You cannot modify or delete journal-period \"%(journal_period)s\" because it"
+" contains moves."
+msgstr "仕訳帳の期間「%(journal_period)s」には仕訳があるので、変更も削除もできません。"
+
+msgctxt "model:ir.message,text:msg_modify_line_closed_journal_period"
+msgid ""
+"You cannot add/modify/delete lines on closed journal-period "
+"\"%(journal_period)s\"."
+msgstr "締めた仕訳帳の期間「%(journal_period)s」では、行の追加、変更、削除はできません。"
+
+msgctxt "model:ir.message,text:msg_modify_line_posted_move"
+msgid "You cannot modify line \"%(line)s\" from posted move \"%(move)s\"."
+msgstr "記帳済みの仕訳「%(move)s」の行「%(line)s」は変更できません。"
+
+msgctxt "model:ir.message,text:msg_modify_line_reconciled"
+msgid ""
+"In order to modify the reconciled line \"%(line)s\", you must first "
+"unreconcile it."
+msgstr "消し込んだ行「%(line)s」を変更するには、先に消し込みを解除してください。"
+
+msgctxt "model:ir.message,text:msg_modify_posted_moved"
+msgid "You cannot modify posted move \"%(move)s\"."
+msgstr "記帳済みの仕訳「%(move)s」は変更できません。"
+
+msgctxt "model:ir.message,text:msg_modify_tax_line_closed_period"
+msgid "You cannot add/modify/delete tax lines in closed period \"%(period)s\"."
+msgstr "締めた期間「%(period)s」では、税の行の追加、変更、削除はできません。"
+
+msgctxt "model:ir.message,text:msg_move_cancel_closed_period"
+msgid ""
+"The period of move \"%(move)s\" is closed.\n"
+"If you cancel the move, the current period will be used."
+msgstr ""
+"仕訳「%(move)s」の期間は締めてあります。\n"
+"仕訳を取り消すと、今の期間を使います。"
+
+msgctxt "model:ir.message,text:msg_move_copy_closed_period"
+msgid ""
+"The period of move \"%(move)s\" is closed.\n"
+"If you copy the move, the current period will be used."
+msgstr ""
+"仕訳「%(move)s」の期間は締めてあります。\n"
+"仕訳を複製すると、今の期間を使います。"
+
+msgctxt "model:ir.message,text:msg_move_template_expression_not_number"
+msgid ""
+"The value \"%(value)s\" of \"%(expression)s\" from template \"%(template)s\""
+" is not a number."
+msgstr "ひな形「%(template)s」の「%(expression)s」の値「%(value)s」は数ではありません。"
+
+msgctxt "model:ir.message,text:msg_move_template_invalid_description"
+msgid ""
+"Failed to evaluate the description \"%(description)s\" from template "
+"\"%(template)s\" with error: \"%(error)s\""
+msgstr "ひな形「%(template)s」の説明「%(description)s」を評価できませんでした。エラー: 「%(error)s」"
+
+msgctxt "model:ir.message,text:msg_move_template_invalid_expression"
+msgid ""
+"Failed to evaluate expression \"%(expression)s\" from template \"%(template)s\" with error:\n"
+"\"%(error)s\""
+msgstr ""
+"ひな形「%(template)s」の式「%(expression)s」を評価できませんでした。エラー:\n"
+"「%(error)s」"
+
+msgctxt "model:ir.message,text:msg_move_template_keyword_name_not_identifier"
+msgid "The keyword name \"%(name)s\" is not a valid identifier."
+msgstr "キーワードの名前「%(name)s」は、識別子として使えません。"
+
+msgctxt "model:ir.message,text:msg_no_fiscalyear_date"
+msgid ""
+"To continue, you must create a fiscal year for the date \"%(date)s\" and "
+"company \"%(company)s\"."
+msgstr "続けるには、日付「%(date)s」と会社「%(company)s」の会計年度を作ってください。"
+
+msgctxt "model:ir.message,text:msg_no_open_fiscalyear_date"
+msgid ""
+"To continue, you must reopen the fiscal year \"%(fiscalyear)s\" of company "
+"\"%(company)s\" for the date \"%(date)s\"."
+msgstr ""
+"続けるには、日付「%(date)s」のために、会社「%(company)s」の会計年度「%(fiscalyear)s」を開き直してください。"
+
+msgctxt "model:ir.message,text:msg_no_open_period_date"
+msgid ""
+"To continue, you must reopen the period \"%(period)s\" of company "
+"\"%(company)s\" for the date \"%(date)s\"."
+msgstr "続けるには、日付「%(date)s」のために、会社「%(company)s」の期間「%(period)s」を開き直してください。"
+
+msgctxt "model:ir.message,text:msg_no_period_date"
+msgid ""
+"To continue, you must create a period for the date \"%(date)s\" and company "
+"\"%(company)s\"."
+msgstr "続けるには、日付「%(date)s」と会社「%(company)s」の期間を作ってください。"
+
+msgctxt "model:ir.message,text:msg_only_one_debit_credit_types"
+msgid "Account can have only one of the debit or credit type set."
+msgstr "勘定科目に設定できるのは、借方の種類か貸方の種類のどちらか 1 つだけです。"
+
+msgctxt "model:ir.message,text:msg_open_fiscalyear_earlier"
+msgid "Open fiscal years can not be before closed fiscal years."
+msgstr "開いている会計年度は、締めた会計年度より前にできません。"
+
+msgctxt "model:ir.message,text:msg_open_journal_period_closed_period"
+msgid ""
+"You cannot reopen journal-period \"%(journal_period)s\" in closed period "
+"\"%(period)s\"."
+msgstr "締めた期間「%(period)s」の仕訳帳の期間「%(journal_period)s」は、開き直せません。"
+
+msgctxt "model:ir.message,text:msg_open_period_closed_fiscalyear"
+msgid ""
+"You cannot reopen period \"%(period)s\" because its fiscal year "
+"\"%(fiscalyear)s\" is closed."
+msgstr "期間「%(period)s」は、会計年度「%(fiscalyear)s」が締めてあるので、開き直せません。"
+
+msgctxt "model:ir.message,text:msg_party_missing_payable_account"
+msgid "To continue, you must define a payable account for party \"%(party)s\"."
+msgstr "続けるには、取引先「%(party)s」の買掛金勘定を設定してください。"
+
+msgctxt "model:ir.message,text:msg_party_missing_receivable_account"
+msgid "To continue, you must define a receivable account for party \"%(party)s\"."
+msgstr "続けるには、取引先「%(party)s」の売掛金勘定を設定してください。"
+
+msgctxt "model:ir.message,text:msg_period_fiscalyear_dates"
+msgid ""
+"The dates for period \"%(period)s\" must be between the dates of its fiscal "
+"year \"%(fiscalyear)s\"."
+msgstr "期間「%(period)s」の日付は、その会計年度「%(fiscalyear)s」の日付の中にしてください。"
+
+msgctxt "model:ir.message,text:msg_period_move_dates"
+msgid ""
+"The dates for period \"%(period)s\" must include the date \"%(move_date)s\" "
+"of move \"%(move)s\"."
+msgstr "期間「%(period)s」の日付には、仕訳「%(move)s」の日付「%(move_date)s」を含めてください。"
+
+msgctxt "model:ir.message,text:msg_period_move_sequence_unique"
+msgid "A move sequence can be reused only by periods in the same fiscal year."
+msgstr "仕訳の連番を使い回せるのは、同じ会計年度の期間だけです。"
+
+msgctxt "model:ir.message,text:msg_period_standard_overlap"
+msgid "The dates of standard period of the same fiscal year can not overlap."
+msgstr "同じ会計年度の通常の期間の日付は、重ねられません。"
+
+msgctxt "model:ir.message,text:msg_post_empty_move"
+msgid "To post move \"%(move)s\", you must fill in its lines."
+msgstr "仕訳「%(move)s」を記帳するには、行を入れてください。"
+
+msgctxt "model:ir.message,text:msg_post_unbalanced_move"
+msgid ""
+"To post move \"%(move)s\", you must balance all its lines debits and "
+"credits."
+msgstr "仕訳「%(move)s」を記帳するには、すべての行の借方と貸方を一致させてください。"
+
+msgctxt "model:ir.message,text:msg_reconciliation_account_not_reconcile"
+msgid ""
+"To reconcile line \"%(line)s\", you must set its account \"%(account)s\" as "
+"reconcilable."
+msgstr "行「%(line)s」を消し込むには、勘定科目「%(account)s」を消し込み可能にしてください。"
+
+msgctxt ""
+"model:ir.message,text:msg_reconciliation_currency_exchange_credit_account_missing"
+msgid ""
+"To reconcile lines, you must define a currency exchange credit account for "
+"\"%(company)s\"."
+msgstr "行を消し込むには、「%(company)s」の為替差益の勘定科目を設定してください。"
+
+msgctxt ""
+"model:ir.message,text:msg_reconciliation_currency_exchange_debit_account_missing"
+msgid ""
+"To reconcile lines, you must define a currency exchange debit account for "
+"\"%(company)s\"."
+msgstr "行を消し込むには、「%(company)s」の為替差損の勘定科目を設定してください。"
+
+msgctxt ""
+"model:ir.message,text:msg_reconciliation_currency_exchange_journal_missing"
+msgid ""
+"To reconcile lines, you must define a currency exchange journal for "
+"\"%(company)s\"."
+msgstr "行を消し込むには、「%(company)s」の為替差損益の仕訳帳を設定してください。"
+
+msgctxt "model:ir.message,text:msg_reconciliation_delete_delegated"
+msgid ""
+"The reconciliation \"%(reconciliation)s\" is delegated to the line \"%(line)s\".\n"
+"You may need to cancel its move \"%(move)s\"."
+msgstr ""
+"消し込み「%(reconciliation)s」は、行「%(line)s」に委任されています。\n"
+"その仕訳「%(move)s」を取り消す必要があるかもしれません。"
+
+msgctxt "model:ir.message,text:msg_reconciliation_delete_write_off"
+msgid ""
+"The reconciliation \"%(reconciliation)s\" is linked to the write-off line \"%(line)s\".\n"
+"You may need to cancel its move \"%(move)s\"."
+msgstr ""
+"消し込み「%(reconciliation)s」は、差額処理の行「%(line)s」とつながっています。\n"
+"その仕訳「%(move)s」を取り消す必要があるかもしれません。"
+
+msgctxt "model:ir.message,text:msg_reconciliation_different_accounts"
+msgid ""
+"You cannot reconcile line \"%(line)s\" with others because its account "
+"\"%(account1)s\" is different from \"%(account2)s\"."
+msgstr "行「%(line)s」は勘定科目「%(account1)s」が「%(account2)s」と異なるため、他の行と消し込みできません。"
+
+msgctxt "model:ir.message,text:msg_reconciliation_different_parties"
+msgid ""
+"You cannot reconcile line \"%(line)s\" with others because its party "
+"\"%(party1)s\" is different from \"%(party2)s\"."
+msgstr "行「%(line)s」は取引先「%(party1)s」が「%(party2)s」と異なるため、他の行と消し込みできません。"
+
+msgctxt "model:ir.message,text:msg_reconciliation_line_not_valid"
+msgid "You cannot reconcile non-valid line \"%(line)s\"."
+msgstr "有効でない行「%(line)s」は消し込みできません。"
+
+msgctxt "model:ir.message,text:msg_reconciliation_unbalanced"
+msgid ""
+"To reconcile lines, they must have the same debit \"%(debit)s\" and credit "
+"\"%(credit)s\"."
+msgstr "行を消し込むには、借方「%(debit)s」と貸方「%(credit)s」が同じである必要があります。"
+
+msgctxt "model:ir.message,text:msg_reconciliation_write_off_missing"
+msgid ""
+"To reconcile lines with \"%(amount)s\" write-off, you must select a write-"
+"off method."
+msgstr "差額「%(amount)s」を処理して行を消し込むには、差額処理の方法を選んでください。"
+
+msgctxt "model:ir.message,text:msg_reconciliation_write_off_same_account"
+msgid ""
+"You cannot reconcile lines using the write-off \"%(write_off)s\" with the "
+"same \"%(account)s\"."
+msgstr "差額処理「%(write_off)s」を使って、同じ「%(account)s」の行を消し込むことはできません。"
+
+msgctxt "model:ir.message,text:msg_reopen_fiscalyear_later"
+msgid ""
+"To reopen fiscal year \"%(fiscalyear)s\", you must reopen all later fiscal "
+"years."
+msgstr "会計年度「%(fiscalyear)s」を再開するには、それより後の会計年度をすべて再開してください。"
+
+msgctxt "model:ir.message,text:msg_reschedule_line_same_account"
+msgid "You cannot reschedule lines with different accounts."
+msgstr "勘定科目が異なる行の支払予定は変更できません。"
+
+msgctxt "model:ir.message,text:msg_reschedule_line_same_currency"
+msgid "You cannot reschedule lines with different currencies."
+msgstr "通貨が異なる行の支払予定は変更できません。"
+
+msgctxt "model:ir.message,text:msg_reschedule_line_same_origins"
+msgid "You cannot reschedule lines with different origins."
+msgstr "元が異なる行の支払予定は変更できません。"
+
+msgctxt "model:ir.message,text:msg_reschedule_line_same_party"
+msgid "You cannot reschedule lines with different parties."
+msgstr "取引先が異なる行の支払予定は変更できません。"
+
+msgctxt "model:ir.message,text:msg_reschedule_line_wrong_amount"
+msgid ""
+"To reschedule the lines you must change the terms to have a total amount of "
+"%(total_amount)s instead of %(amount)s."
+msgstr "行の支払予定を変更するには、条件の合計を %(amount)s ではなく %(total_amount)s にしてください。"
+
+msgctxt "model:ir.message,text:msg_tax_update_unit_price_with_parent"
+msgid "You cannot set \"Update Unit Price\" on child tax \"%(tax)s\"."
+msgstr "子の税「%(tax)s」に「単価を更新」は設定できません。"
+
+msgctxt "model:ir.message,text:msg_write_deferral"
+msgid "You cannot modify any account deferrals."
+msgstr "勘定科目の繰延は変更できません。"
+
+msgctxt "model:ir.message,text:msg_write_reconciliation"
+msgid "You cannot modify any reconciliation."
+msgstr "消し込みは変更できません。"
+
+msgctxt "model:ir.model.button,confirm:fiscalyear_lock_button"
+msgid "Are you sure you want to lock the fiscal year?"
+msgstr "会計年度をロックしてよろしいですか?"
+
+msgctxt "model:ir.model.button,confirm:period_lock_button"
+msgid "Are you sure you want to lock the period?"
+msgstr "期間をロックしてよろしいですか?"
+
+msgctxt "model:ir.model.button,string:fiscalyear_close_button"
+msgid "Close"
+msgstr "閉じる"
+
+msgctxt "model:ir.model.button,string:fiscalyear_create_periods_button"
+msgid "Create Periods"
+msgstr "期間を作成"
+
+msgctxt "model:ir.model.button,string:fiscalyear_lock_button"
+msgid "Lock"
+msgstr "ロック"
+
+msgctxt "model:ir.model.button,string:fiscalyear_reopen_button"
+msgid "Reopen"
+msgstr "再開"
+
+msgctxt "model:ir.model.button,string:journal_period_close_button"
+msgid "Close"
+msgstr "閉じる"
+
+msgctxt "model:ir.model.button,string:journal_period_reopen_button"
+msgid "Reopen"
+msgstr "再開"
+
+msgctxt "model:ir.model.button,string:move_post_button"
+msgid "Post"
+msgstr "記帳"
+
+msgctxt "model:ir.model.button,string:period_close_button"
+msgid "Close"
+msgstr "閉じる"
+
+msgctxt "model:ir.model.button,string:period_lock_button"
+msgid "Lock"
+msgstr "ロック"
+
+msgctxt "model:ir.model.button,string:period_reopen_button"
+msgid "Reopen"
+msgstr "再開"
+
+msgctxt "model:ir.rule.group,name:rule_group_account_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_account_type_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_aged_balance_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_fiscalyear_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_general_ledger_account_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_general_ledger_account_party_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_general_ledger_line_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_journal_period_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_move_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_move_reconciliation_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_move_template_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_period_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_reconcile_writeoff_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_tax_code_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_tax_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.rule.group,name:rule_group_tax_rule_companies"
+msgid "User in companies"
+msgstr "所属する会社の利用者"
+
+msgctxt "model:ir.sequence,name:sequence_account_move_reconciliation"
+msgid "Default Account Move Reconciliation"
+msgstr "既定の仕訳の消し込み"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_account_move"
+msgid "Account Move"
+msgstr "仕訳"
+
+msgctxt ""
+"model:ir.sequence.type,name:sequence_type_account_move_reconciliation"
+msgid "Account Move Reconciliation"
+msgstr "仕訳の消し込み"
+
+msgctxt "model:ir.ui.menu,name:menu_account"
+msgid "Financial"
+msgstr "財務"
+
+msgctxt "model:ir.ui.menu,name:menu_account_configuration"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:ir.ui.menu,name:menu_account_list"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "model:ir.ui.menu,name:menu_account_template_tree"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "model:ir.ui.menu,name:menu_account_tree"
+msgid "Accounts"
+msgstr "勘定科目"
+
+msgctxt "model:ir.ui.menu,name:menu_account_tree_chart"
+msgid "Chart of Accounts"
+msgstr "勘定科目表"
+
+msgctxt "model:ir.ui.menu,name:menu_account_type_list"
+msgid "Account Types"
+msgstr "勘定科目の種類"
+
+msgctxt "model:ir.ui.menu,name:menu_account_type_template_tree"
+msgid "Account Types"
+msgstr "勘定科目の種類"
+
+msgctxt "model:ir.ui.menu,name:menu_account_type_tree"
+msgid "Account Types"
+msgstr "勘定科目の種類"
+
+msgctxt "model:ir.ui.menu,name:menu_aged_balance"
+msgid "Aged Balance"
+msgstr "年齢別残高"
+
+msgctxt "model:ir.ui.menu,name:menu_balance_non_deferral"
+msgid "Balance Non-Deferral"
+msgstr "繰り越さない残高の振替"
+
+msgctxt "model:ir.ui.menu,name:menu_close_fiscalyear"
+msgid "Close Fiscal Years"
+msgstr "会計年度を締める"
+
+msgctxt "model:ir.ui.menu,name:menu_close_journal_period"
+msgid "Close Journals - Periods"
+msgstr "仕訳帳の期間を締める"
+
+msgctxt "model:ir.ui.menu,name:menu_close_period"
+msgid "Close Periods"
+msgstr "期間を締める"
+
+msgctxt "model:ir.ui.menu,name:menu_create_chart"
+msgid "Create Chart of Accounts from Template"
+msgstr "ひな形から勘定科目表を作成"
+
+msgctxt "model:ir.ui.menu,name:menu_entries"
+msgid "Entries"
+msgstr "仕訳"
+
+msgctxt "model:ir.ui.menu,name:menu_fiscalyear_configuration"
+msgid "Fiscal Years"
+msgstr "会計年度"
+
+msgctxt "model:ir.ui.menu,name:menu_fiscalyear_form"
+msgid "Fiscal Years"
+msgstr "会計年度"
+
+msgctxt "model:ir.ui.menu,name:menu_general_account_configuration"
+msgid "General Account"
+msgstr "総勘定"
+
+msgctxt "model:ir.ui.menu,name:menu_general_ledger"
+msgid "General Ledger"
+msgstr "総勘定元帳"
+
+msgctxt "model:ir.ui.menu,name:menu_journal_configuration"
+msgid "Journals"
+msgstr "仕訳帳"
+
+msgctxt "model:ir.ui.menu,name:menu_journal_form"
+msgid "Journals"
+msgstr "仕訳帳"
+
+msgctxt "model:ir.ui.menu,name:menu_journal_open_cash"
+msgid "Journals Cash"
+msgstr "現金の仕訳帳"
+
+msgctxt "model:ir.ui.menu,name:menu_journal_period_tree"
+msgid "Journals - Periods"
+msgstr "仕訳帳 - 期間"
+
+msgctxt "model:ir.ui.menu,name:menu_journal_period_tree2"
+msgid "Journals - Periods"
+msgstr "仕訳帳 - 期間"
+
+msgctxt "model:ir.ui.menu,name:menu_move_form"
+msgid "Account Moves"
+msgstr "仕訳"
+
+msgctxt "model:ir.ui.menu,name:menu_move_template_create"
+msgid "Create Move from Template"
+msgstr "ひな形から仕訳を作成"
+
+msgctxt "model:ir.ui.menu,name:menu_move_template_form"
+msgid "Moves"
+msgstr "仕訳"
+
+msgctxt "model:ir.ui.menu,name:menu_open_balance_sheet"
+msgid "Balance Sheet"
+msgstr "貸借対照表"
+
+msgctxt "model:ir.ui.menu,name:menu_open_income_statement"
+msgid "Income Statement"
+msgstr "損益計算書"
+
+msgctxt "model:ir.ui.menu,name:menu_open_journal"
+msgid "Open Journal"
+msgstr "仕訳帳を開く"
+
+msgctxt "model:ir.ui.menu,name:menu_period_form"
+msgid "Periods"
+msgstr "期間"
+
+msgctxt "model:ir.ui.menu,name:menu_processing"
+msgid "Processing"
+msgstr "処理中"
+
+msgctxt "model:ir.ui.menu,name:menu_reconcile"
+msgid "Reconcile Accounts"
+msgstr "勘定科目を消し込む"
+
+msgctxt "model:ir.ui.menu,name:menu_reconcile_writeoff_form"
+msgid "Write-off Methods"
+msgstr "差額処理の方法"
+
+msgctxt "model:ir.ui.menu,name:menu_renew_fiscalyear"
+msgid "Renew Fiscal Year"
+msgstr "会計年度を更新"
+
+msgctxt "model:ir.ui.menu,name:menu_reporting"
+msgid "Reporting"
+msgstr "帳票"
+
+msgctxt "model:ir.ui.menu,name:menu_tax_code_list"
+msgid "Codes"
+msgstr "コード"
+
+msgctxt "model:ir.ui.menu,name:menu_tax_code_template_tree"
+msgid "Tax Codes"
+msgstr "税コード"
+
+msgctxt "model:ir.ui.menu,name:menu_tax_code_tree"
+msgid "Codes"
+msgstr "コード"
+
+msgctxt "model:ir.ui.menu,name:menu_tax_code_tree_chart"
+msgid "Chart of Tax Codes"
+msgstr "税コード表"
+
+msgctxt "model:ir.ui.menu,name:menu_tax_group_form"
+msgid "Groups"
+msgstr "グループ"
+
+msgctxt "model:ir.ui.menu,name:menu_tax_list"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "model:ir.ui.menu,name:menu_tax_rule_form"
+msgid "Rules"
+msgstr "規則"
+
+msgctxt "model:ir.ui.menu,name:menu_tax_rule_template_form"
+msgid "Tax Rules"
+msgstr "税の規則"
+
+msgctxt "model:ir.ui.menu,name:menu_tax_template_list"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "model:ir.ui.menu,name:menu_tax_test"
+msgid "Test Tax"
+msgstr "税を試算"
+
+msgctxt "model:ir.ui.menu,name:menu_taxes"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "model:ir.ui.menu,name:menu_templates"
+msgid "Templates"
+msgstr "ひな形"
+
+msgctxt "model:ir.ui.menu,name:menu_update_chart"
+msgid "Update Chart of Accounts from Template"
+msgstr "ひな形から勘定科目表を更新"
+
+msgctxt "model:ir.ui.menu,name:menuitem_account_configuration"
+msgid "Configuration"
+msgstr "設定"
+
+msgctxt "model:party.party.account,string:"
+msgid "Party Account"
+msgstr "取引先の勘定科目"
+
+msgctxt "model:res.group,name:group_account"
+msgid "Accounting"
+msgstr "会計"
+
+msgctxt "model:res.group,name:group_account_admin"
+msgid "Accounting Administration"
+msgstr "会計の管理"
+
+msgctxt "report:account.account.type.statement:"
+msgid "/"
+msgstr "/"
+
+msgctxt "report:account.account.type.statement:"
+msgid ":"
+msgstr ":"
+
+msgctxt "report:account.account.type.statement:"
+msgid "Balance Sheet"
+msgstr "貸借対照表"
+
+msgctxt "report:account.account.type.statement:"
+msgid "Company:"
+msgstr "会社:"
+
+msgctxt "report:account.account.type.statement:"
+msgid "Date:"
+msgstr "日付:"
+
+msgctxt "report:account.account.type.statement:"
+msgid "Fiscal Year:"
+msgstr "会計年度:"
+
+msgctxt "report:account.account.type.statement:"
+msgid "From Date:"
+msgstr "開始日:"
+
+msgctxt "report:account.account.type.statement:"
+msgid "From Period"
+msgstr "開始期間"
+
+msgctxt "report:account.account.type.statement:"
+msgid "Income Statement"
+msgstr "損益計算書"
+
+msgctxt "report:account.account.type.statement:"
+msgid "Print Date:"
+msgstr "印刷日:"
+
+msgctxt "report:account.account.type.statement:"
+msgid "Statement"
+msgstr "財務諸表"
+
+msgctxt "report:account.account.type.statement:"
+msgid "To"
+msgstr "終了"
+
+msgctxt "report:account.account.type.statement:"
+msgid "User:"
+msgstr "利用者:"
+
+msgctxt "report:account.account.type.statement:"
+msgid "at"
+msgstr "日時"
+
+msgctxt "report:account.aged_balance:"
+msgid "+"
+msgstr "+"
+
+msgctxt "report:account.aged_balance:"
+msgid "/"
+msgstr "/"
+
+msgctxt "report:account.aged_balance:"
+msgid "Aged Balance for"
+msgstr "年齢別残高:"
+
+msgctxt "report:account.aged_balance:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "report:account.aged_balance:"
+msgid "Company:"
+msgstr "会社:"
+
+msgctxt "report:account.aged_balance:"
+msgid "Date:"
+msgstr "日付:"
+
+msgctxt "report:account.aged_balance:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "report:account.aged_balance:"
+msgid "Print Date:"
+msgstr "印刷日:"
+
+msgctxt "report:account.aged_balance:"
+msgid "Total"
+msgstr "合計"
+
+msgctxt "report:account.aged_balance:"
+msgid "User:"
+msgstr "利用者:"
+
+msgctxt "report:account.aged_balance:"
+msgid "at"
+msgstr "日時"
+
+msgctxt "report:account.general_ledger:"
+msgid "/"
+msgstr "/"
+
+msgctxt "report:account.general_ledger:"
+msgid ":"
+msgstr ":"
+
+msgctxt "report:account.general_ledger:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "report:account.general_ledger:"
+msgid "Company:"
+msgstr "会社:"
+
+msgctxt "report:account.general_ledger:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "report:account.general_ledger:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "report:account.general_ledger:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "report:account.general_ledger:"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "report:account.general_ledger:"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "report:account.general_ledger:"
+msgid "Fiscal Year:"
+msgstr "会計年度:"
+
+msgctxt "report:account.general_ledger:"
+msgid "From Date:"
+msgstr "開始日:"
+
+msgctxt "report:account.general_ledger:"
+msgid "From Period"
+msgstr "開始期間"
+
+msgctxt "report:account.general_ledger:"
+msgid "General Ledger"
+msgstr "総勘定元帳"
+
+msgctxt "report:account.general_ledger:"
+msgid "Move"
+msgstr "仕訳"
+
+msgctxt "report:account.general_ledger:"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "report:account.general_ledger:"
+msgid "Origin"
+msgstr "発生元"
+
+msgctxt "report:account.general_ledger:"
+msgid "Print Date:"
+msgstr "印刷日:"
+
+msgctxt "report:account.general_ledger:"
+msgid "To"
+msgstr "終了"
+
+msgctxt "report:account.general_ledger:"
+msgid "Total"
+msgstr "合計"
+
+msgctxt "report:account.general_ledger:"
+msgid "User:"
+msgstr "利用者:"
+
+msgctxt "report:account.general_ledger:"
+msgid "at"
+msgstr "日時"
+
+msgctxt "report:account.move.general_journal:"
+msgid "/"
+msgstr "/"
+
+msgctxt "report:account.move.general_journal:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "report:account.move.general_journal:"
+msgid "Company:"
+msgstr "会社:"
+
+msgctxt "report:account.move.general_journal:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "report:account.move.general_journal:"
+msgid "Date:"
+msgstr "日付:"
+
+msgctxt "report:account.move.general_journal:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "report:account.move.general_journal:"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "report:account.move.general_journal:"
+msgid "General Journal"
+msgstr "仕訳日記帳"
+
+msgctxt "report:account.move.general_journal:"
+msgid "Journal Entry:"
+msgstr "仕訳:"
+
+msgctxt "report:account.move.general_journal:"
+msgid "Origin:"
+msgstr "元:"
+
+msgctxt "report:account.move.general_journal:"
+msgid "Posted"
+msgstr "記帳済み"
+
+msgctxt "report:account.move.general_journal:"
+msgid "Print Date:"
+msgstr "印刷日:"
+
+msgctxt "report:account.move.general_journal:"
+msgid "User:"
+msgstr "利用者:"
+
+msgctxt "report:account.move.general_journal:"
+msgid "at"
+msgstr "日時"
+
+msgctxt "report:account.trial_balance:"
+msgid "/"
+msgstr "/"
+
+msgctxt "report:account.trial_balance:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "report:account.trial_balance:"
+msgid "Company:"
+msgstr "会社:"
+
+msgctxt "report:account.trial_balance:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "report:account.trial_balance:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "report:account.trial_balance:"
+msgid "End Balance"
+msgstr "期末残高"
+
+msgctxt "report:account.trial_balance:"
+msgid "Fiscal Year:"
+msgstr "会計年度:"
+
+msgctxt "report:account.trial_balance:"
+msgid "From Date:"
+msgstr "開始日:"
+
+msgctxt "report:account.trial_balance:"
+msgid "From Period:"
+msgstr "開始期間:"
+
+msgctxt "report:account.trial_balance:"
+msgid "Print Date:"
+msgstr "印刷日:"
+
+msgctxt "report:account.trial_balance:"
+msgid "Start Balance"
+msgstr "期首残高"
+
+msgctxt "report:account.trial_balance:"
+msgid "To"
+msgstr "終了"
+
+msgctxt "report:account.trial_balance:"
+msgid "Total"
+msgstr "合計"
+
+msgctxt "report:account.trial_balance:"
+msgid "Trial Balance"
+msgstr "試算表"
+
+msgctxt "report:account.trial_balance:"
+msgid "User:"
+msgstr "利用者:"
+
+msgctxt "report:account.trial_balance:"
+msgid "at"
+msgstr "日時"
+
+msgctxt "selection:account.account.type,statement:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "selection:account.account.type,statement:"
+msgid "Income"
+msgstr "損益"
+
+msgctxt "selection:account.account.type,statement:"
+msgid "Off-Balance"
+msgstr "オフバランス"
+
+msgctxt "selection:account.account.type.template,statement:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "selection:account.account.type.template,statement:"
+msgid "Income"
+msgstr "損益"
+
+msgctxt "selection:account.account.type.template,statement:"
+msgid "Off-Balance"
+msgstr "オフバランス"
+
+msgctxt "selection:account.aged_balance.context,type:"
+msgid "Customers"
+msgstr "顧客"
+
+msgctxt "selection:account.aged_balance.context,type:"
+msgid "Customers and Suppliers"
+msgstr "顧客と仕入先"
+
+msgctxt "selection:account.aged_balance.context,type:"
+msgid "Suppliers"
+msgstr "仕入先"
+
+msgctxt "selection:account.aged_balance.context,unit:"
+msgid "Days"
+msgstr "日"
+
+msgctxt "selection:account.aged_balance.context,unit:"
+msgid "Months"
+msgstr "月"
+
+msgctxt "selection:account.aged_balance.context,unit:"
+msgid "Weeks"
+msgstr "週"
+
+msgctxt "selection:account.aged_balance.context,unit:"
+msgid "Years"
+msgstr "年"
+
+msgctxt "selection:account.configuration,tax_rounding:"
+msgid "Per Document"
+msgstr "書類ごと"
+
+msgctxt "selection:account.configuration,tax_rounding:"
+msgid "Per Line"
+msgstr "行ごと"
+
+msgctxt "selection:account.configuration.tax_rounding,tax_rounding:"
+msgid "Per Document"
+msgstr "書類ごと"
+
+msgctxt "selection:account.configuration.tax_rounding,tax_rounding:"
+msgid "Per Line"
+msgstr "行ごと"
+
+msgctxt "selection:account.fiscalyear,state:"
+msgid "Closed"
+msgstr "閉鎖"
+
+msgctxt "selection:account.fiscalyear,state:"
+msgid "Locked"
+msgstr "ロック済み"
+
+msgctxt "selection:account.fiscalyear,state:"
+msgid "Open"
+msgstr "未処理"
+
+msgctxt "selection:account.fiscalyear.create_periods.start,frequency:"
+msgid "Monthly"
+msgstr "毎月"
+
+msgctxt "selection:account.fiscalyear.create_periods.start,frequency:"
+msgid "Other"
+msgstr "その他"
+
+msgctxt "selection:account.fiscalyear.create_periods.start,frequency:"
+msgid "Quarterly"
+msgstr "四半期ごと"
+
+msgctxt "selection:account.general_ledger.line,state:"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "selection:account.general_ledger.line,state:"
+msgid "Posted"
+msgstr "記帳済み"
+
+msgctxt "selection:account.journal,type:"
+msgid "Cash"
+msgstr "現金"
+
+msgctxt "selection:account.journal,type:"
+msgid "Expense"
+msgstr "費用"
+
+msgctxt "selection:account.journal,type:"
+msgid "General"
+msgstr "全般"
+
+msgctxt "selection:account.journal,type:"
+msgid "Revenue"
+msgstr "収益"
+
+msgctxt "selection:account.journal,type:"
+msgid "Situation"
+msgstr "開始残高"
+
+msgctxt "selection:account.journal,type:"
+msgid "Write-Off"
+msgstr "差額処理"
+
+msgctxt "selection:account.journal.period,state:"
+msgid "Closed"
+msgstr "閉鎖"
+
+msgctxt "selection:account.journal.period,state:"
+msgid "Open"
+msgstr "未処理"
+
+msgctxt "selection:account.move,state:"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "selection:account.move,state:"
+msgid "Posted"
+msgstr "記帳済み"
+
+msgctxt "selection:account.move.line,state:"
+msgid "Draft"
+msgstr "下書き"
+
+msgctxt "selection:account.move.line,state:"
+msgid "Valid"
+msgstr "有効"
+
+msgctxt "selection:account.move.line.reschedule.start,frequency:"
+msgid "Monthly"
+msgstr "毎月"
+
+msgctxt "selection:account.move.line.reschedule.start,frequency:"
+msgid "Other"
+msgstr "その他"
+
+msgctxt "selection:account.move.line.reschedule.start,frequency:"
+msgid "Quarterly"
+msgstr "四半期ごと"
+
+msgctxt "selection:account.move.line.template,operation:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "selection:account.move.line.template,operation:"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "selection:account.move.template.keyword,type_:"
+msgid "Char"
+msgstr "文字列"
+
+msgctxt "selection:account.move.template.keyword,type_:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "selection:account.move.template.keyword,type_:"
+msgid "Numeric"
+msgstr "数値"
+
+msgctxt "selection:account.move.template.keyword,type_:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "selection:account.period,state:"
+msgid "Closed"
+msgstr "閉鎖"
+
+msgctxt "selection:account.period,state:"
+msgid "Locked"
+msgstr "ロック済み"
+
+msgctxt "selection:account.period,state:"
+msgid "Open"
+msgstr "未処理"
+
+msgctxt "selection:account.period,type:"
+msgid "Adjustment"
+msgstr "調整"
+
+msgctxt "selection:account.period,type:"
+msgid "Standard"
+msgstr "標準"
+
+msgctxt "selection:account.tax,type:"
+msgid "Fixed"
+msgstr "固定"
+
+msgctxt "selection:account.tax,type:"
+msgid "None"
+msgstr "なし"
+
+msgctxt "selection:account.tax,type:"
+msgid "Percentage"
+msgstr "割合"
+
+msgctxt "selection:account.tax.code.context,method:"
+msgid "By Fiscal Year"
+msgstr "会計年度ごと"
+
+msgctxt "selection:account.tax.code.context,method:"
+msgid "By Period"
+msgstr "期間ごと"
+
+msgctxt "selection:account.tax.code.context,method:"
+msgid "Over Periods"
+msgstr "期間の範囲"
+
+msgctxt "selection:account.tax.code.line,amount:"
+msgid "Base"
+msgstr "課税標準額"
+
+msgctxt "selection:account.tax.code.line,amount:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "selection:account.tax.code.line,operator:"
+msgid "+"
+msgstr "+"
+
+msgctxt "selection:account.tax.code.line,operator:"
+msgid "-"
+msgstr "-"
+
+msgctxt "selection:account.tax.code.line,type:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "selection:account.tax.code.line,type:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "selection:account.tax.code.line.template,amount:"
+msgid "Base"
+msgstr "課税標準額"
+
+msgctxt "selection:account.tax.code.line.template,amount:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "selection:account.tax.code.line.template,operator:"
+msgid "+"
+msgstr "+"
+
+msgctxt "selection:account.tax.code.line.template,operator:"
+msgid "-"
+msgstr "-"
+
+msgctxt "selection:account.tax.code.line.template,type:"
+msgid "Credit"
+msgstr "貸方"
+
+msgctxt "selection:account.tax.code.line.template,type:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "selection:account.tax.group,kind:"
+msgid "Both"
+msgstr "両方"
+
+msgctxt "selection:account.tax.group,kind:"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "selection:account.tax.group,kind:"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "selection:account.tax.line,type:"
+msgid "Base"
+msgstr "課税標準額"
+
+msgctxt "selection:account.tax.line,type:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "selection:account.tax.line.template,type:"
+msgid "Base"
+msgstr "課税標準額"
+
+msgctxt "selection:account.tax.line.template,type:"
+msgid "Tax"
+msgstr "税"
+
+msgctxt "selection:account.tax.rule,kind:"
+msgid "Both"
+msgstr "両方"
+
+msgctxt "selection:account.tax.rule,kind:"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "selection:account.tax.rule,kind:"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "selection:account.tax.rule.template,kind:"
+msgid "Both"
+msgstr "両方"
+
+msgctxt "selection:account.tax.rule.template,kind:"
+msgid "Purchase"
+msgstr "購買"
+
+msgctxt "selection:account.tax.rule.template,kind:"
+msgid "Sale"
+msgstr "販売"
+
+msgctxt "selection:account.tax.template,type:"
+msgid "Fixed"
+msgstr "固定"
+
+msgctxt "selection:account.tax.template,type:"
+msgid "None"
+msgstr "なし"
+
+msgctxt "selection:account.tax.template,type:"
+msgid "Percentage"
+msgstr "割合"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Reconcile Move Lines Automatically"
+msgstr "仕訳の行を自動で消し込む"
+
+msgctxt "view:account.account.type:"
+msgid "Comparison"
+msgstr "比較"
+
+msgctxt "view:account.account:"
+msgid "Children"
+msgstr "子"
+
+msgctxt "view:account.account:"
+msgid "General Information"
+msgstr "基本情報"
+
+msgctxt "view:account.account:"
+msgid "General Ledger"
+msgstr "総勘定元帳"
+
+msgctxt "view:account.aged_balance.context:"
+msgid "Terms"
+msgstr "分割条件"
+
+msgctxt "view:account.configuration:"
+msgid "Credit Account"
+msgstr "貸方の勘定科目"
+
+msgctxt "view:account.configuration:"
+msgid "Currency Exchange"
+msgstr "為替差損益"
+
+msgctxt "view:account.configuration:"
+msgid "Debit Account"
+msgstr "借方の勘定科目"
+
+msgctxt "view:account.configuration:"
+msgid "Invoice"
+msgstr "請求書"
+
+msgctxt "view:account.configuration:"
+msgid "Journal"
+msgstr "仕訳帳"
+
+msgctxt "view:account.configuration:"
+msgid "Move"
+msgstr "仕訳"
+
+msgctxt "view:account.configuration:"
+msgid "Party"
+msgstr "取引先"
+
+msgctxt "view:account.create_chart.start:"
+msgid ""
+"You can now create a chart of account for your company by selecting a chart "
+"of account template."
+msgstr "勘定科目表のひな形を選んで、会社の勘定科目表を作成できます。"
+
+msgctxt "view:account.fiscalyear.create_periods.start:"
+msgid "every"
+msgstr "間隔"
+
+msgctxt "view:account.fiscalyear.create_periods.start:"
+msgid "months"
+msgstr "か月"
+
+msgctxt "view:account.fiscalyear:"
+msgid "Periods"
+msgstr "期間"
+
+msgctxt "view:account.fiscalyear:"
+msgid "Sequences"
+msgstr "連番"
+
+msgctxt "view:account.move.line.reschedule.start:"
+msgid "every"
+msgstr "間隔"
+
+msgctxt "view:account.move.line.reschedule.start:"
+msgid "months"
+msgstr "か月"
+
+msgctxt "view:account.move.line.template:"
+msgid "Other Info"
+msgstr "その他の情報"
+
+msgctxt "view:account.move.line:"
+msgid "Balance"
+msgstr "残高"
+
+msgctxt "view:account.move.line:"
+msgid "Date"
+msgstr "日付"
+
+msgctxt "view:account.move.line:"
+msgid "Other Info"
+msgstr "その他の情報"
+
+msgctxt "view:account.move.template:"
+msgid "Template"
+msgstr "ひな形"
+
+msgctxt "view:account.tax.template:"
+msgid "%"
+msgstr "%"
+
+msgctxt "view:account.tax.template:"
+msgid "General Information"
+msgstr "基本情報"
+
+msgctxt "view:account.tax:"
+msgid "%"
+msgstr "%"
+
+msgctxt "view:account.tax:"
+msgid "General Information"
+msgstr "基本情報"
+
+msgctxt "view:account.update_chart.succeed:"
+msgid "Chart of accounts updated successfully."
+msgstr "勘定科目表を更新しました。"
+
+msgctxt "view:company.company:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "view:company.company:"
+msgid "Accounting"
+msgstr "会計"
+
+msgctxt "view:party.party:"
+msgid "Account"
+msgstr "勘定科目"
+
+msgctxt "view:party.party:"
+msgid "Accounting"
+msgstr "会計"
+
+msgctxt "view:party.party:"
+msgid "Taxes"
+msgstr "税"
+
+msgctxt "wizard_button:account.create_chart,account,create_account:"
+msgid "Create"
+msgstr "作成"
+
+msgctxt "wizard_button:account.create_chart,account,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.create_chart,properties,create_properties:"
+msgid "Create"
+msgstr "作成"
+
+msgctxt "wizard_button:account.create_chart,properties,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.create_chart,start,account:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:account.create_chart,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.fiscalyear.balance_non_deferral,start,balance:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:account.fiscalyear.balance_non_deferral,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt ""
+"wizard_button:account.fiscalyear.create_periods,start,create_periods:"
+msgid "Create"
+msgstr "作成"
+
+msgctxt "wizard_button:account.fiscalyear.create_periods,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.fiscalyear.renew,start,create_:"
+msgid "Create"
+msgstr "作成"
+
+msgctxt "wizard_button:account.fiscalyear.renew,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.move.cancel,default,cancel:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:account.move.cancel,default,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.move.line.delegate,start,delegate:"
+msgid "Delegate"
+msgstr "移管"
+
+msgctxt "wizard_button:account.move.line.delegate,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.move.line.group,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.move.line.group,start,group:"
+msgid "Group"
+msgstr "グループ"
+
+msgctxt "wizard_button:account.move.line.reschedule,preview,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.move.line.reschedule,preview,reschedule:"
+msgid "Reschedule"
+msgstr "予定変更"
+
+msgctxt "wizard_button:account.move.line.reschedule,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.move.line.reschedule,start,preview:"
+msgid "Preview"
+msgstr "プレビュー"
+
+msgctxt "wizard_button:account.move.open_journal,ask,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.move.open_journal,ask,open_:"
+msgid "Open"
+msgstr "未処理"
+
+msgctxt "wizard_button:account.move.reconcile_lines,writeoff,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.move.reconcile_lines,writeoff,reconcile:"
+msgid "Reconcile"
+msgstr "消し込み"
+
+msgctxt "wizard_button:account.move.template.create,keywords,create_:"
+msgid "Create"
+msgstr "作成"
+
+msgctxt "wizard_button:account.move.template.create,keywords,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.move.template.create,template,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.move.template.create,template,keywords:"
+msgid "Next"
+msgstr "次へ"
+
+msgctxt "wizard_button:account.reconcile,show,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.reconcile,show,next_:"
+msgid "Skip"
+msgstr "飛ばす"
+
+msgctxt "wizard_button:account.reconcile,show,reconcile:"
+msgid "Reconcile"
+msgstr "消し込み"
+
+msgctxt "wizard_button:account.reconcile,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.reconcile,start,setup:"
+msgid "Reconcile"
+msgstr "消し込み"
+
+msgctxt "wizard_button:account.tax.test,test,end:"
+msgid "Close"
+msgstr "閉じる"
+
+msgctxt "wizard_button:account.update_chart,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:account.update_chart,start,update:"
+msgid "Update"
+msgstr "更新"
+
+msgctxt "wizard_button:account.update_chart,succeed,end:"
+msgid "OK"
+msgstr "OK"
