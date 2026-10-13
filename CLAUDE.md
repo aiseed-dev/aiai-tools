@@ -61,6 +61,7 @@ OSS と AI で自分の側に置くためのスキルを置くリポジトリで
 | `kaiin/`、`tsuuchi/`、`renraku/`、`honnin/`、`kagi/`、`minpaku/`、`kanshi/`、`kaiseki/`、`network/` | 事業用のアプリの部品(会員、通知、メッセージ、本人確認、鍵、民泊の受付、VLM 監視、解析、ネットワーク)。`kaiseki/` に解析の受け口(Python、SQLite)とページのスクリプトとテスト。`kaiseki/d1/` は先に作った Cloudflare D1 の広告の見本。認証は `ninshou/` に書き足した |
 | `tryton/` | ERP とは何かと、Tryton 8.0 を自分の PC で動かす手順と、日本の会計(`account_jp`)の計画。`aiai_ja/` は Tryton の日本語(GPL-3.0-or-later、訳は `yaku.csv`、`tsukuru.py` で PO を作る、`trytond_import_ja` で読み込む) |
 | `erpnext/` | ERPNext を自分の PC で動かした手順(設計を読む元)。`aiai_ja/` は訳の追加と修正の Frappe アプリ。`README.md` にライセンスの決まり |
+| `packages/` | ほかのアプリでも使える部品のパッケージ(MIT、パッケージごとに PyPI に出す。タグは `<名前>-v<版>`)。`flet-gpumap` は weather の flet-gpufield が元 |
 | `tools/kakunin.py` | 出典の URL と確かめた日を集め、確かめ直す物を出す。aiai と同じ |
 | `HOUKOKU.md`、`.github/ISSUE_TEMPLATE/` | 報告のしかたと Issue のひな形 |
 
