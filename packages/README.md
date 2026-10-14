@@ -7,3 +7,4 @@ aiai tools のスキルで作った物のうち、ほかのアプリでも使え
 | パッケージ | 中身 |
 |---|---|
 | [flet-gpumap](flet-gpumap/) | GPU で格子データ(気象の予報など)を地図に描く Flet の拡張。地図とグラフに広げる |
+| [nc4rs](nc4rs/) | NetCDF-4 と classic を C を使わずに読み書きする(netCDF4 に近い使い方と xarray)。Rust の netcdf-rust を使う |
