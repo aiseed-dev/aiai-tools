@@ -105,17 +105,19 @@ def to_netcdf(ds, path, encoding=None, unlimited_dims=None, format="NETCDF4"):
     encoding is per variable, as for Dataset.to_netcdf: dtype, scale_factor,
     add_offset, _FillValue, units, zlib, complevel, shuffle, chunksizes.
     """
-    from xarray.conventions import cf_encoder
+    from xarray.conventions import cf_encoder, encode_dataset_coordinates
 
     encoding = encoding or {}
     if unlimited_dims is None:
         unlimited_dims = ds.encoding.get("unlimited_dims", set())
-    variables = {}
-    for name, var in ds.variables.items():
+    # As xarray's own writers do: first the "coordinates" attributes, so that
+    # scalar coordinates (time, step, a level) stay coordinates when read back
+    variables, attrs = encode_dataset_coordinates(ds)
+    for name, var in variables.items():
         var = var.copy(deep=False)
         var.encoding = {**var.encoding, **encoding.get(name, {})}
         variables[name] = var
-    variables, attrs = cf_encoder(variables, dict(ds.attrs))
+    variables, attrs = cf_encoder(variables, dict(attrs))
     with nc4rs.Dataset(path, "w", format=format) as out:
         for k, v in attrs.items():
             out.setncattr(k, v)

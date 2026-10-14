@@ -139,6 +139,24 @@ class Nc4rs(unittest.TestCase):
                     np.testing.assert_array_equal(np.ma.getmaskarray(got), raw == fill, err_msg=msg)
                     np.testing.assert_array_equal(np.ma.getdata(got), raw, err_msg=msg)
 
+    def test_xarray_scalar_coordinates_stay_coordinates(self):
+        """Written by nc4rs.to_netcdf, the file reads back as the same as one by netCDF4."""
+        ds0 = xr.Dataset(
+            {"t2m": (("lat", "lon"), RNG.normal(280, 10, (3, 4)))},
+            coords={"lat": [30.0, 31.0, 32.0], "lon": [130.0, 131.0, 132.0, 133.0],
+                    "time": np.datetime64("2026-10-13T00:00"), "step": np.timedelta64(72, "h"),
+                    "heightAboveGround": 2.0},
+        )
+        enc = {"t2m": {"dtype": "i2", "scale_factor": 0.01, "add_offset": 280.0,
+                       "_FillValue": -32767, "zlib": True}}
+        ds0.to_netcdf(self.path("ref.nc"), engine="netcdf4", encoding=enc)
+        nc4rs.to_netcdf(ds0, self.path("ours.nc"), encoding=enc)
+        for mask_and_scale in (False, True):
+            a = xr.open_dataset(self.path("ref.nc"), engine="netcdf4", mask_and_scale=mask_and_scale).load()
+            b = xr.open_dataset(self.path("ours.nc"), engine="netcdf4", mask_and_scale=mask_and_scale).load()
+            self.assertEqual(list(b.data_vars), ["t2m"])
+            xr.testing.assert_identical(a, b)
+
     def test_classic_format(self):
         p = self.path("e.nc")
         with nc4rs.Dataset(p, "w", format="NETCDF3_CLASSIC") as ds:
