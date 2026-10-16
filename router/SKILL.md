@@ -69,8 +69,30 @@ AI が下書きし、コマンドは会社の人が動かします。決める�
 | 管理のサインイン | sshd の記録(journal) |
 | 設定の変更 | etckeeper(GPL-2+)で `/etc` を git に置き、記録の機械へ push する。apt で入れ替えるときにも自動で残る |
 | 更新 | apt の記録(`/var/log/apt/history.log`) |
-| VPN の接続 | WireGuard は、既定で接続を記録に出すとは説明書に書かれていない。`wg show <口> latest-handshakes` で相手ごとの最後のハンドシェイクの時刻が分かるので、それを毎分記録に書く timer を置く |
+| VPN の接続 | `wg show <口> dump` を毎分読み、変わったときに記録に書く timer を置く(下の「WireGuard の接続の記録」) |
 | 止めた通信 | nftables の規則に `log`(`prefix` と `level` を付ける)を足す |
+
+#### WireGuard の接続の記録
+
+Linux の WireGuard は、ハンドシェイクも接続も切断も、ふだんは記録に書きません。カーネルの中の接続に
+関わる文は、どれもデバッグの出力(dynamic debug を有効にしたときだけ出る物)です。それも、ネットワーク全体で
+共有する回数の制限を受けて取りこぼし、相手を公開鍵ではなく中の番号と IP で示すので、記録には向きません。
+ハンドシェイクを知らせる仕組み(netlink の通知)も、提案はあったものの、カーネルには入っていません。
+
+記録の元にするのは `wg show <口> dump` です。相手ごとに、公開鍵、相手の IP とポート、最後のハンドシェイクの
+時刻(1970 年からの秒、まだ無ければ 0)、受けた量と送った量が出ます。これを毎分読み、次のことを記録に書きます。
+
+- つながった: 最後のハンドシェイクが 0 から変わったか、180 秒より長く空いた後に新しくなったとき。公開鍵で
+  誰かが分かります
+- どこから: 相手の IP とポート。最後に正しく認証できたパケットの送り元で、NAT の外側のアドレスです。変わったら
+  書きます(前の値は WireGuard には残りません)
+- 切れた: 知らせはありません。最後のハンドシェイクが 180 秒より古くなると、その鍵ではもう送れないので、
+  そこを切れたとみなします
+
+使っている間は、約 2 分ごとにハンドシェイクし直すので、誤差は約 2 分と読む間隔です。通信も keepalive も
+無い相手はハンドシェイクしないので、「つながっているが黙っている」と「切れた」は見分けられません。
+試みたが認証できなかった接続は、記録に残せません。接続をふだんから記録に残したいなら、IPsec の strongSwan は
+SA の確立と終わりを、既定で syslog に書きます。
 
 その代わり、更新と守りは会社が自分でします([network](../network/) の手順 6)。MAP-E(v6プラスなど)と
 ひかり電話の回線では、Linux の箱はホームゲートウェイの後ろに置きます([network](../network/) の表)。
@@ -124,7 +146,12 @@ AI が下書きし、コマンドは会社の人が動かします。決める�
 - systemd「systemd-journal-remote.service」
   (https://github.com/systemd/systemd/blob/main/man/systemd-journal-remote.service.xml)
 - WireGuard(https://www.wireguard.com/ 、Quick Start の Debug Info https://www.wireguard.com/quickstart/)、
-  wg(8)(https://git.zx2c4.com/wireguard-tools/plain/src/man/wg.8)
+  wg(8)(https://git.zx2c4.com/wireguard-tools/plain/src/man/wg.8)、ホワイトペーパー 2.1 と 6.1〜6.5
+  (https://www.wireguard.com/papers/wireguard.pdf)
+- Linux の drivers/net/wireguard(receive.c、send.c、noise.c、timers.c、netlink.c)と
+  include/uapi/linux/wireguard.h(https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireguard)。
+  netlink の通知の提案(https://lists.zx2c4.com/pipermail/wireguard/2023-December/008285.html)
+- strongSwan「Logging」(https://docs.strongswan.org/docs/latest/config/logging.html)
 - nftables「Logging traffic」(https://wiki.nftables.org/wiki-nftables/index.php/Logging_traffic)
 - etckeeper(https://etckeeper.branchable.com/)、ライセンスは Debian の copyright
   (https://sources.debian.org/data/main/e/etckeeper/1.18.23-2/debian/copyright)
