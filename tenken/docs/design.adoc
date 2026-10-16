@@ -1,0 +1,82 @@
+= 毎日の点検(tenken)設計書
+:toc:
+:toc-title: 目次
+
+== 目的と完成の基準
+
+会社のネットワークの機器に当たる弱点の知らせが出ていないかと、機器の記録が記録の機械に届いているかを、
+毎朝 1 つの知らせで読めるようにします。新しく当たる物が無く、記録も届いていれば、1 行で済みます。
+
+== 全体の仕組み
+
+`tenken.py`(標準ライブラリだけの Python、3.10 以上)を、記録の機械の上で、利用者の systemd の
+timer(`tenken.timer`)が毎日 6 時(Asia/Tokyo)に動かします。root は要りません。機器にはつなぎません。
+外へ出る通信は、CISA と JVN から知らせを取る HTTPS と、AI を使うときの AI の呼び出しだけです。
+
+置き場所は `~/tenken/`(`TENKEN_DIR` で変えられる)で、そこに次の物を置きます。
+
+* `kiki.csv`: 機器の一覧(利用者が書く)
+* `tenken.env`: 設定(利用者が書く。秘密の値は書かない)
+* `YYYY-MM-DD.json`、`YYYY-MM-DD.adoc`: その日の知らせ(アプリが書く)
+
+== 処理の順
+
+. `kiki.csv` を読みます。「名前」「メーカー」「製品」の列が無ければ止まります。セルの `|` は、名前の区切りです
+. CISA KEV の JSON(`https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json`)を取り、
+  `vendorProject` と `product` が、機器のメーカーと製品の名前のどれかと当たる物を拾います。当て方は、
+  大文字と小文字、空白と記号を除いて、片方がもう片方を含むかです。空の名前は当てません。知らないフィールドが
+  増えても読み飛ばします
+. JVN iPedia を、MyJVN API の `getVulnOverviewList`(`feed=hnd`、`lang=ja`)で、製品の名前ごとに、
+  この 30 日に公表された物を探します。`rangeDatePublic`、`rangeDatePublished`、`rangeDateFirstPublished` は、
+  どれも既定が「この 1 週間」なので、3 つとも `n` にし、`datePublishedStart` で始まりを決めます。返事の
+  `sec:cpe` のメーカーと製品、または題に、機器の名前のどれかがある物を拾います。`status:Status` の `retCd` が
+  0 でなければ、取れなかったものとして扱います
+. CISA に同じ CVE がある JVN の項目は、CISA の方だけを残します
+. 前の日までの json を読み、知らせた (機器, 番号) の組と、最後の知らせの日を集めます。拾った物を次の 3 つに分けます
+** 新しい: 前に知らせておらず、最後の知らせの日の後(初めての点検なら 7 日前の後)に一覧に載った物
+** 初めて: 前に知らせていないが、前から一覧に載っていた物(初めての点検や、機器を足したとき)
+** 前から: 前に知らせた物
+. 機器の一覧の「記録」のファイルが、この 24 時間に書き換わっているかを見ます(ファイルの更新の時刻)。
+  ファイルが無ければ「無い」です
+. 新しい物も初めての物も無く、取れなかった知らせも無く、記録が全部届いていれば、1 行の知らせにします。
+  そうでなければ、AI に所見を書かせ(設定があるとき)、知らせを組みます
+. json と adoc を書きます。`TENKEN_MAILTO` があれば、adoc の中身を localhost の 25 番からメールで送ります
+
+== 知らせの形
+
+* 1 行のとき: 「新しく当たる知らせはありません。記録は全部届いています。」。前に知らせた物があれば、その件数を添えます
+* そうでないとき: 題、AI の所見、新しく当たった知らせ(機器、版、番号、名前、載った日、CISA なら対応の期限と
+  すること、出典の URL)、前から載っていて初めて当たった知らせ(1 行ずつ)、前から知らせている物の件数、
+  取れなかった知らせ、記録が届いているか
+
+当たるのはメーカーと製品の名前までで、版は当てません。CISA の一覧には版の範囲が無く、JVN の版の書き方は
+項目ごとに違うからです。知らせごとに、版は知らせで確かめるよう書きます。
+
+== AI
+
+AI は読んで書くだけで、機器にも記録の機械にも何もしません。渡すのは、その日の当たった知らせ(公表された物)、
+機器の名前、メーカー、製品、版と、記録が届いているかだけです。記録の中身は渡しません。急ぐ順と、担当の人が
+することを 8 行以内で書かせ、超えたらプログラムで 8 行に切ります。AI が答えないときは、所見の欄にそう書いて、
+知らせはそのまま出します。
+
+* `TENKEN_AI=gemini`: Google Cloud の VM のサービスアカウントの札を、メタデータサーバーから受け取り、
+  Vertex AI の Gemini(既定は `gemini-2.5-flash`、`asia-northeast1`)を呼びます。鍵は機械に置きません
+* `TENKEN_AI=ollama`: 手元の Ollama(既定は `http://127.0.0.1:11434`)を呼びます([ai](../../ai/))
+* `TENKEN_AI=none`(既定): AI を使いません
+
+== 守り
+
+* 知らせの中身(題、名前)は、文字としてだけ扱い、命令として動かしません
+* 秘密の値は使いません。CISA と JVN は鍵の要らない公開の物です
+* 取れなかった知らせは、1 行の知らせにせず、取れなかったと書きます(静かな日と見分けるため)
+
+== 出典
+
+* CISA「Known Exploited Vulnerabilities Catalog」(https://www.cisa.gov/known-exploited-vulnerabilities-catalog)、
+  JSON のスキーマ(https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities_schema.json)、
+  ライセンスは CC0 1.0(https://www.cisa.gov/sites/default/files/licenses/kev/license.txt)
+* JVN iPedia「getVulnOverviewList」(https://jvndb.jvn.jp/apis/getVulnOverviewList_api_hnd.html)、
+  利用規約(https://jvndb.jvn.jp/apis/termsofuse.html)。MyJVN は 2027 年 2 月以降に新しい仕組みに移る予定と
+  書かれているので、そのときに確かめ直します(https://jvndb.jvn.jp/apis/myjvn/index.html)
+
+2026-10-16 に確かめました。

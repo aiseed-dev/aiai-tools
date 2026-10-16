@@ -58,7 +58,7 @@ OSS と AI で自分の側に置くためのスキルを置くリポジトリで
 |---|---|
 | `server/`、`dodai/`、`ninshou/`、`code/`、`bunsho/`、`mail/`、`kaigi/`、`web/`、`api/`、`jouhou/`、`ai/` | aiseed.dev の自立編の順のスキル。見本の設定と `api/sample/main.py` |
 | `bunseki/` | 表のデータから予測する(Polars、scikit-learn、LightGBM、SHAP)。`yosoku.py` |
-| `kaiin/`、`tsuuchi/`、`renraku/`、`honnin/`、`kagi/`、`minpaku/`、`kanshi/`、`kaiseki/`、`network/` | 事業用のアプリの部品(会員、通知、メッセージ、本人確認、鍵、民泊の受付、VLM 監視、解析、ネットワーク)。`kaiseki/` に解析の受け口(Python、SQLite)とページのスクリプトとテスト。`kaiseki/d1/` は先に作った Cloudflare D1 の広告の見本。認証は `ninshou/` に書き足した |
+| `kaiin/`、`tsuuchi/`、`renraku/`、`honnin/`、`kagi/`、`minpaku/`、`kanshi/`、`kaiseki/`、`network/`、`router/`、`tenken/` | 事業用のアプリの部品(会員、通知、メッセージ、本人確認、鍵、民泊の受付、VLM 監視、解析、ネットワーク、ルーターと記録、毎日の点検)。`tenken/` は aiai の kougeki と同じ形のアプリ(SKILL.md、docs/ の設計書とマニュアルと試験の手順、標準ライブラリの Python)。`kaiseki/` に解析の受け口(Python、SQLite)とページのスクリプトとテスト。`kaiseki/d1/` は先に作った Cloudflare D1 の広告の見本。認証は `ninshou/` に書き足した |
 | `tryton/` | ERP とは何かと、Tryton 8.0 を自分の PC で動かす手順と、日本の会計(`account_jp`)の計画。`aiai_ja/` は Tryton の日本語(GPL-3.0-or-later、訳は `yaku.csv`、`tsukuru.py` で PO を作る、`trytond_import_ja` で読み込む) |
 | `erpnext/` | ERPNext を自分の PC で動かした手順(設計を読む元)。`aiai_ja/` は訳の追加と修正の Frappe アプリ。`README.md` にライセンスの決まり |
 | `packages/` | ほかのアプリでも使える部品のパッケージ(MIT、パッケージごとに PyPI に出す。タグは `<名前>-v<版>`)。`flet-gpumap` は weather の flet-gpufield が元。`nc4rs` は netcdf-rust を PyO3 でつないだ netCDF4 の代わり(試験は netCDF4 と比べる) |

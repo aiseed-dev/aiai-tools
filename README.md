@@ -104,6 +104,8 @@ aiseed.dev の自立編の順です。1 つ終わってから次に進みます�
 | [kanshi](kanshi/) | 住宅と空き家の VLM 監視と顔認識 | Frigate、Ollama、OpenCV Zoo |
 | [kaiseki](kaiseki/) | 解析を自分のサーバーで(Google Analytics と同じ程度。ID は受け入れた人だけで、自分のサイトどうしで引き継ぎ、会員とひもづける。関心は集計と決まりで出す) | Python の標準ライブラリと SQLite |
 | [network](network/) | Linux の PC をルーターにする | systemd-networkd、nftables、dnsmasq、Unbound、WireGuard、hostapd |
+| [router](router/) | 会社のルーターを選び(記録を送れるかが第一)、区画ごとに止められる形に組み、記録を別の機械に置く | syslog(rsyslog)、WireGuard |
+| [tenken](tenken/) | 毎朝、機器に当たる弱点の知らせ(CISA、JVN)と、記録が届いているかを知らせるアプリ | Python の標準ライブラリ、systemd の timer |
 
 部品は、次のようにつながります。各フォルダーの `README.md` に、何ができるか、誰が使うか、何を
 決めるかを書いています(`SKILL.md` は AI が読む物です)。
@@ -113,6 +115,8 @@ aiseed.dev の自立編の順です。1 つ終わってから次に進みます�
   ([kaiseki](kaiseki/))
 - 民泊: 予約と受付([minpaku](minpaku/))→ 本人確認と宿泊者名簿([honnin](honnin/))→ 鍵
   ([kagi](kagi/))→ 知らせ([tsuuchi](tsuuchi/))
+- 会社のネットワーク: ルーターを選んで組み、記録を置く([router](router/))→ Linux の箱にするなら
+  ([network](network/))→ 毎日の点検([tenken](tenken/))
 - 家と建物: ネットワーク([network](network/))→ 見守り([kanshi](kanshi/))→ 知らせ
   ([tsuuchi](tsuuchi/))
 

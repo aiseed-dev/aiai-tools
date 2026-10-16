@@ -1,0 +1,4 @@
+名前,メーカー,製品,版,記録
+本社の境界のルーター,Yamaha,RTX1300,Rev.23.01.02,/var/log/remote/rtx1300.log
+VPN の機器,Fortinet,FortiOS,7.4.5,/var/log/remote/fortigate.log
+2 階の無線の親機,Example,AP-1000,,

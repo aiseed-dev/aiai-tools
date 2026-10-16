@@ -1,0 +1,10 @@
+# ~/.config/systemd/user/tenken.service  (a user unit: no root, nothing on the devices)
+[Unit]
+Description=The daily check of the network devices
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=-%h/tenken/tenken.env
+ExecStart=/usr/bin/python3 %h/tenken/tenken.py

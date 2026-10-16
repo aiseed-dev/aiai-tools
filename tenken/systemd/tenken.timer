@@ -1,0 +1,10 @@
+# ~/.config/systemd/user/tenken.timer
+[Unit]
+Description=The daily check of the network devices, every morning at 6:00 (JST)
+
+[Timer]
+OnCalendar=*-*-* 06:00:00 Asia/Tokyo
+Persistent=true
+
+[Install]
+WantedBy=timers.target
