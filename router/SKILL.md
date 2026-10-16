@@ -58,6 +58,23 @@ AI が下書きし、コマンドは会社の人が動かします。決める�
 | OpenWrt を入れたルーター | 更新は自分で入れる。記録は syslog で送れる。入れられる機種は限られる |
 | Linux の箱を境界のルーターにする([network](../network/)) | 記録と設定を全部自分で持つ。更新も守りも自分でする。市販の機器は無線と転送だけにする |
 
+### 記録を全部残せるのは Linux の箱
+
+残す物(下の「記録を別の機械に置く」の 5 つ)を全部出せると確かめられたのは、Linux の箱だけです。
+業務用のルーターでも、ヤマハ RTX では、管理画面へのサインインとファームウェアの入れ替えの記録を、
+説明書の中で確かめられませんでした。Linux の箱では、次の所から出し、rsyslog で記録の機械へ送ります。
+
+| 残す物 | Linux の箱で出す所 |
+|---|---|
+| 管理のサインイン | sshd の記録(journal) |
+| 設定の変更 | etckeeper(GPL-2+)で `/etc` を git に置き、記録の機械へ push する。apt で入れ替えるときにも自動で残る |
+| 更新 | apt の記録(`/var/log/apt/history.log`) |
+| VPN の接続 | WireGuard は、既定で接続を記録に出すとは説明書に書かれていない。`wg show <口> latest-handshakes` で相手ごとの最後のハンドシェイクの時刻が分かるので、それを毎分記録に書く timer を置く |
+| 止めた通信 | nftables の規則に `log`(`prefix` と `level` を付ける)を足す |
+
+その代わり、更新と守りは会社が自分でします([network](../network/) の手順 6)。MAP-E(v6プラスなど)と
+ひかり電話の回線では、Linux の箱はホームゲートウェイの後ろに置きます([network](../network/) の表)。
+
 今の機器が記録を送れないときは、すぐに入れ替えず、通り道に Linux の箱をブリッジ(通信を素通しする
 つなぎ方)として置き、通る通信を数えて記録を送ります。この手順は [network](../network/) にまだ無いので、
 その時点の systemd-networkd と nftables の説明書で下書きします。次の入れ替えで、記録を送れる物にします。
@@ -106,6 +123,10 @@ AI が下書きし、コマンドは会社の人が動かします。決める�
   https://docs.rsyslog.com/doc/configuration/templates.html 、https://docs.rsyslog.com/doc/licensing.html)
 - systemd「systemd-journal-remote.service」
   (https://github.com/systemd/systemd/blob/main/man/systemd-journal-remote.service.xml)
-- WireGuard(https://www.wireguard.com/)
+- WireGuard(https://www.wireguard.com/ 、Quick Start の Debug Info https://www.wireguard.com/quickstart/)、
+  wg(8)(https://git.zx2c4.com/wireguard-tools/plain/src/man/wg.8)
+- nftables「Logging traffic」(https://wiki.nftables.org/wiki-nftables/index.php/Logging_traffic)
+- etckeeper(https://etckeeper.branchable.com/)、ライセンスは Debian の copyright
+  (https://sources.debian.org/data/main/e/etckeeper/1.18.23-2/debian/copyright)
 
 2026-10-16 に確かめました。
