@@ -135,6 +135,21 @@ class Store:
             ).fetchall()
         return [dict(zip(("day", "path", "views", "people"), r)) for r in rows]
 
+    def app_report(self, site, start, end):
+        """App starts per day and per version, OS and channel."""
+        with self.lock:
+            rows = self.db.execute(
+                """SELECT day, value, COUNT(*) FROM hits
+                   WHERE site = ? AND event = 'app_start' AND day BETWEEN ? AND ?
+                   GROUP BY day, value ORDER BY day, COUNT(*) DESC""",
+                (site, start, end),
+            ).fetchall()
+        out = []
+        for day, value, n in rows:
+            version, os_name, channel = (value.split(" ") + ["", "", ""])[:3]
+            out.append({"day": day, "version": version, "os": os_name, "channel": channel, "starts": n})
+        return out
+
 
 FIELDS = ("site", "path", "event", "seconds", "title", "referrer", "utm", "lang", "tz", "screen", "ua", "sid", "vid",
           "scroll", "value")
@@ -193,9 +208,34 @@ def clean_hit(body, sites, origin=""):
 
 
 MEMBER = re.compile(r"^[A-Za-z0-9_-]{1,64}$")
+APP_VERSION = re.compile(r"^[0-9A-Za-z][0-9A-Za-z.+-]{0,31}$")
+APP_WORD = re.compile(r"^[a-z0-9][a-z0-9_-]{0,19}$")
 
 
-def make_handler(store, sites, token, link_token="", extra_origins=()):
+def clean_app(body, apps):
+    """The start of a desktop app, or None.
+
+    An app sends no Origin, so only the sites listed in apps are taken, and only
+    four fields: site, version, os, channel. Nothing that tells people apart is
+    kept. Anyone can send this, so the counts are a guide that may run high.
+    """
+    try:
+        d = json.loads(body)
+    except ValueError:
+        return None
+    if not isinstance(d, dict):
+        return None
+    site = text(d, "site", 253).lower()
+    version, os_name, channel = text(d, "version", 33), text(d, "os", 21).lower(), text(d, "channel", 21).lower()
+    if site not in apps or not APP_VERSION.match(version) or not APP_WORD.match(os_name) or not APP_WORD.match(channel):
+        return None
+    hit = {k: "" for k in FIELDS}
+    hit.update({"site": site, "path": "/app/start", "event": "app_start", "value": f"{version} {os_name} {channel}",
+                "seconds": None, "scroll": None, "sid": None, "vid": None})
+    return hit
+
+
+def make_handler(store, sites, token, link_token="", extra_origins=(), apps=()):
     # Pages are served over HTTPS; extra origins (KAISEKI_ORIGINS) are for trying it on one's own PC
     origins = {f"https://{s}" for s in sites} | set(extra_origins)
 
@@ -242,6 +282,11 @@ def make_handler(store, sites, token, link_token="", extra_origins=()):
                 if hit:
                     store.add(hit)
                 return self.reply(204)
+            if path == "/v1/app":
+                hit = clean_app(body or b"", apps)
+                if hit:
+                    store.add(hit)
+                return self.reply(204)
             try:
                 d = json.loads(body or b"{}")
                 d = d if isinstance(d, dict) else {}
@@ -279,14 +324,17 @@ def make_handler(store, sites, token, link_token="", extra_origins=()):
                     m = q.get("member", "")
                     return self.reply(200, {"hits": store.member(m) if MEMBER.match(m) else []})
                 today = now().date().isoformat()
-                return self.reply(200, {"rows": store.report(q.get("site", ""), q.get("from", today), q.get("to", today))})
+                args = (q.get("site", ""), q.get("from", today), q.get("to", today))
+                if q.get("event") == "app_start":
+                    return self.reply(200, {"rows": store.app_report(*args)})
+                return self.reply(200, {"rows": store.report(*args)})
             self.reply(404, {"error": "not found"})
 
     return Handler
 
 
-def serve(port, db, sites, token, link_token="", host="127.0.0.1", extra_origins=()):
-    return ThreadingHTTPServer((host, port), make_handler(Store(db), sites, token, link_token, extra_origins))
+def serve(port, db, sites, token, link_token="", host="127.0.0.1", extra_origins=(), apps=()):
+    return ThreadingHTTPServer((host, port), make_handler(Store(db), sites, token, link_token, extra_origins, apps))
 
 
 if __name__ == "__main__":
@@ -302,4 +350,6 @@ if __name__ == "__main__":
         os.environ.get("KAISEKI_TOKEN", ""),
         os.environ.get("KAISEKI_LINK_TOKEN", ""),
         extra_origins=os.environ.get("KAISEKI_ORIGINS", "").split(),
+        # Sites whose desktop apps may send their starts to /v1/app
+        apps={s.strip().lower() for s in os.environ.get("KAISEKI_APPS", "").split() if s.strip()},
     ).serve_forever()

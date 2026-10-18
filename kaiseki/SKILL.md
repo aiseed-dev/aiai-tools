@@ -56,9 +56,10 @@ description: 自分のサイトのアクセス解析を、Google Analytics と A
 | 口 | 誰が | すること |
 |---|---|---|
 | `POST /v1/hit` | ページ | 記録を 1 つ足す |
+| `POST /v1/app` | デスクトップのアプリ(`KAISEKI_APPS` に載ったサイトの物) | 起動を 1 つ足す。受けるのはサイト、版、OS、配布の種類だけで、人を見分ける物は持たない |
 | `GET /v1/mine?vid=`、`POST /v1/forget` | 本人 | 自分の記録を見る、消す |
 | `POST /v1/link`、`POST /v1/forget-member` | 会員のサーバー(`KAISEKI_LINK_TOKEN`) | ID を会員にひもづける、退会した会員を消す |
-| `GET /v1/report`、`GET /v1/member` | 会社の人(`KAISEKI_TOKEN`) | ページごとの集計、会員ごとの記録 |
+| `GET /v1/report`、`GET /v1/member` | 会社の人(`KAISEKI_TOKEN`) | ページごとの集計(`event=app_start` でアプリの起動の数)、会員ごとの記録 |
 
 ## 手順
 
@@ -66,7 +67,9 @@ description: 自分のサイトのアクセス解析を、Google Analytics と A
    `analytics.aiseed.dev` で出します([server](../server/))。`KAISEKI_SITES` を空にすると、
    HTTPS のどのサイトからでも受けます(記録のサイトが、ブラウザーの送り元と同じときだけ)。書くと、
    そのサイトに限ります。報告はサイトごとに分かれます。手元で試すときだけ、`KAISEKI_ORIGINS` に `http://127.0.0.1:8001` のような
-   送り元を足すと、ページから自分の記録を読めます
+   送り元を足すと、ページから自分の記録を読めます。デスクトップのアプリの起動を数えるなら、`KAISEKI_APPS` に
+   そのサイトを書きます。アプリは送り元(Origin)を持たず、鍵も無いので、誰でも送れます。数は、多めにもなりうる
+   目安として読みます
 2. 各ページに置きます。`data-own` には、ID を引き継ぐ自分のサイトのドメインを書きます
 
    ```

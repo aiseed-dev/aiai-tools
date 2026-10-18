@@ -22,7 +22,8 @@ SID = "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee"
 class Kaiseki(unittest.TestCase):
     def setUp(self):
         self.dir = tempfile.TemporaryDirectory()
-        self.srv = server.serve(0, os.path.join(self.dir.name, "k.db"), {"weather.time-j.net"}, "report-secret", "link-secret")
+        self.srv = server.serve(0, os.path.join(self.dir.name, "k.db"), {"weather.time-j.net"}, "report-secret", "link-secret",
+                                apps={"weather.time-j.net"})
         self.base = f"http://127.0.0.1:{self.srv.server_address[1]}"
         threading.Thread(target=self.srv.serve_forever, daemon=True).start()
 
@@ -180,6 +181,34 @@ class Kaiseki(unittest.TestCase):
         finally:
             anyw.shutdown()
             anyw.server_close()
+
+    def test_an_app_start_is_counted_without_origin_and_without_ids(self):
+        app = {"site": "weather.time-j.net", "version": "0.1.1", "os": "windows", "channel": "release",
+               "vid": VID, "sid": SID, "ua": "AIseed Weather/0.1.1"}
+        self.hit(vid=VID)  # a page view the same day, which the app report must leave out
+        for _ in range(2):
+            status, _, _ = self.call("POST", "/v1/app", app)  # no Origin
+            self.assertEqual(status, 204)
+        self.call("POST", "/v1/app", {**app, "os": "linux"})
+        _, rep, _ = self.call("GET", "/v1/report?site=weather.time-j.net&event=app_start&from=2000-01-01&to=2999-12-31",
+                              token="report-secret")
+        self.assertEqual([(r["version"], r["os"], r["channel"], r["starts"]) for r in rep["rows"]],
+                         [("0.1.1", "windows", "release", 2), ("0.1.1", "linux", "release", 1)])
+        _, mine, _ = self.call("GET", f"/v1/mine?vid={VID}")
+        self.assertEqual([h["event"] for h in mine["hits"]], ["view"])  # the ids sent along were not kept
+        _, views, _ = self.call("GET", "/v1/report?site=weather.time-j.net&from=2000-01-01&to=2999-12-31",
+                                token="report-secret")
+        self.assertEqual(sum(r["views"] for r in views["rows"]), 1)  # app starts are not page views
+
+    def test_an_app_start_from_an_unlisted_site_or_with_bad_fields_is_dropped(self):
+        ok = {"site": "weather.time-j.net", "version": "0.1.1", "os": "windows", "channel": "release"}
+        for bad in ({**ok, "site": "evil.example.jp"}, {**ok, "version": "1 2"}, {**ok, "os": "Win;drop"},
+                    {**ok, "channel": ""}, ["not", "a", "dict"]):
+            self.call("POST", "/v1/app", bad)
+        for site in ("weather.time-j.net", "evil.example.jp"):
+            _, rep, _ = self.call("GET", f"/v1/report?site={site}&event=app_start&from=2000-01-01&to=2999-12-31",
+                                  token="report-secret")
+            self.assertEqual(rep["rows"], [], site)
 
     def test_report_needs_its_token(self):
         self.assertEqual(self.call("GET", "/v1/report?site=weather.time-j.net")[0], 403)
